@@ -1,0 +1,81 @@
+<main [ngClass] = "expendReviews? 'blur':'' "  >
+    <div (click)=viewLess() class="blurBack"></div>
+    <img class="BG" src="assets/images/bg.jpg" alt="">
+    <div class="landing">
+        
+        <p>Get your <b>Education</b> today!</p>
+        <div class="cards">
+            <div class="card" *ngFor = 'let item of landingCards'>
+                <i [ngClass]="item.icon"></i>
+                <p>{{item.name}}</p>
+                <h6>view more</h6>
+            </div>
+        </div>
+    </div>
+    <div class="courses">
+        <p class="heading" >Popular Courses</p>
+        <div class="cards">
+            <div class="card" *ngFor= 'let item of coursesCards' >
+                <img class="courseImg" [src]=item.img alt="">
+                <h1>{{item.name}}</h1>
+                <p>{{item.about}}</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <div class="register ">
+            <h1>Register now and get a discount <b>50%</b> discount until 1 January</h1>
+            <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempo.</p>
+            <button class="button" >REGISTER NOW</button>
+        </div>
+        <div class="search">
+            <img class="bg" src="/assets/images/searchBG.jpg" alt="">
+            <h1>Search for your course</h1>
+            <input type="text" placeholder="Course Name">
+            <input type="text" placeholder="Category">
+            <input type="text" placeholder="Degree">
+            <p class="button" >SEARCH COURSE</p>
+        </div>
+    </div>
+    <div class="services">
+        <p class="heading" >Our Services</p>
+        <div class="cards">
+            <div class="card" *ngFor= 'let item of servicesCards' >
+                <img [src]= "item.img" alt="">
+                <h2>{{item.name}}</h2>
+                <p>{{item.about}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial">
+        <p class="heading">What our students say</p>
+        <div  class="cards" [ngClass] = "expendReviews? 'viewMore':'' "  >
+            <i (click)=viewLess() class="far fa-times-circle"></i>
+            <div class="card" *ngFor= 'let item of reviewCards' [ngClass] = "item.id==selectedMessage? 'open':'' "  >
+                <img [src]="item.img" alt="">
+                <h4>{{item.name}}</h4>
+                <p >{{item.message}}</p>
+                <h5 *ngIf= 'item.id!=selectedMessage'  (click)=readMore(item.id) >read more</h5>
+            </div>
+
+        </div>
+        <h4 id="view" (click)=viewMore() >view more</h4>
+    </div>
+    <div class="upcoming">
+        <p class="heading">Upcoming Courses</p>
+        <div class="cards">
+            <div class="card" *ngFor= 'let item of upcomingCourses' >
+                <div class="date">
+                    <h1>{{item.date}}</h1>
+                    <h2>{{item.month}}</h2>
+                </div>
+                <div class="about">
+                    <h1>{{item.name}}</h1>
+                    <h2>{{item.about}}</h2>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</main>

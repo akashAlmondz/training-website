@@ -1,0 +1,454 @@
+
+main{position: relative;}
+main .blur{
+    display: none;
+}
+.BG{width: 100%;
+    height: 100vh;
+    filter: brightness(30%);
+    position: absolute;
+    z-index: -1;
+}
+.blur .blurBack{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    top: 0;
+    position: absolute;
+}
+
+
+.landing{width: 100%;
+   min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    flex-direction: column;
+    padding-bottom:10vh ;
+}
+
+.landing p{
+    margin-bottom: 100px;
+    width: 100%;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.landing p b{
+    background-color: #FFB606;
+    padding: 10px;
+
+}
+.landing .cards{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.landing .card{
+    width: 300px;
+    margin: 20px;
+    transition: .4s;
+    position: relative;
+    background-color: black;
+    display: flex;
+    padding: 2%;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* margin: auto; */
+}
+.card i{
+    color: #FFB606;
+    font-size:50px;
+    font-weight: 100;
+    width:70px;
+}
+.landing .cards .card p{
+    color: white;
+    font-size: 25px;font-weight: 600;
+    margin: 0;
+
+}
+.landing .card h6{
+    position: absolute;
+    color: white;
+    font-size: 12px;font-weight: 100;
+    right: 10px;bottom: 10px;
+
+}
+.landing .card:hover{
+     background-color: #FFB606;
+}
+.landing .card:hover i{
+    color: white;
+}
+.landing .card h6:hover{
+    cursor: pointer;
+    transform: scale(105%);
+    
+}
+.courses{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5%;
+}
+.heading{
+    margin-bottom: 30px;
+    font-size: 6vh;
+    position: relative;
+    
+}
+.heading::after{
+    content: '';position: absolute;
+    background-color: #FFB606;
+    top:-20%;left:10%;
+    height: .3vw; width: 80%;
+}
+.courses .cards{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.courses .card{
+    width: 300px;
+    margin: 60px 20px 0 20px;
+    background-color: rgb(248, 248, 248);
+}
+.courseImg{
+    width: 100%;
+}
+
+.courses .cards .card h1{
+    font-size: 20px;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+
+.courses .cards .card p{
+    font-size: 15px;
+    font-weight: 100;
+    color: rgb(148, 148, 148);
+    width: 100%;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+
+.form{
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.register{
+    width: 50%;
+    height:600px;
+    background-color: #FFB606;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6% 5%;
+}
+.register h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+}
+.register h1 b{
+    color: black;
+}
+.register p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+    line-height: 40px;
+}
+.register button{
+    background-color: black;
+    color: white;
+    padding: 3% 5%;
+    font-size: 20px;
+    transition: .4s;
+}
+.button:hover{
+    box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.418);
+    cursor: pointer;
+}
+.search{
+    width: 50%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.63);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6% 8%;
+}
+.bg{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+.search h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.search input{
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    padding-left: 5%;
+
+}
+.search input:focus{
+    outline-color: #FFB606;
+}
+.search p{
+    background-color: #FFB606;
+    color: white;
+    padding: 3% 5%;
+    font-size: 20px;
+    transition: .4s;
+    width: 100%;
+    text-align: center;
+}
+
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7% 0 0 0; 
+}
+
+.services .cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding: 5%;
+    
+}
+
+.services .cards .card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    margin:1%;
+    padding: 3%;
+}
+.services .cards .card img{
+    width: 20%;
+}
+.services .cards .card h2{
+    font-weight: 100;
+}
+.services .cards .card p{
+    color: gray;    
+}
+
+.testimonial{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0 150px 0 ;
+}
+.testimonial .cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    justify-content:center;
+    align-items: center;
+    padding: 5% 10%;
+    transition: .2s;
+}
+.testimonial .cards .card{
+    z-index: 20;
+    position: relative;
+    border: 1px solid #FFB606;
+    width:350px;
+    padding:5px 6px 7px 120px;
+    margin: 100px 50px;
+}
+
+.testimonial .cards .card img{
+    width: 100px;
+    position: absolute;
+    border-radius: 100px;
+    top: -30%;
+    left: 2%;
+}
+.testimonial .cards .card p{
+    max-height: 60px;
+    overflow: hidden;
+    transition: .4s;
+    color: rgb(119, 119, 119);
+}
+.open{
+    box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.479);
+}
+.testimonial .cards .open p{
+    max-height: 150px;
+    color: rgb(43, 43, 43);
+}
+.testimonial .cards .card h5{
+    cursor: pointer;
+    color: rgb(151, 151, 151);
+    font: 100;
+    width: fit-content;
+}
+.testimonial .viewMore{
+    height:70vh;
+    width: 70%;
+    overflow: auto;
+    position: fixed;
+    top: 20%;
+    padding: 20px 0 0 0;
+    box-shadow: 30px 40px 150px rgba(0, 0, 0, 0.411);
+    border: 2px solid rgb(238, 238, 238);
+    z-index: 30;
+    background-color: rgb(255, 255, 255);
+    transition: .2s;
+
+}
+.testimonial .viewMore .card{
+    margin: 50px 20px;
+}
+#view{
+    cursor: pointer;
+    color: gray;
+}
+#view::after{
+    content: '';
+    background-color: #FFB606;
+    width: 30px;
+}
+::-webkit-scrollbar{
+    width: 5px;
+    background: #e7e7e7;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #ffce5db7;
+    width: 5px;
+    border-radius: 2px;
+}
+.testimonial .cards i{
+    display: none;
+}
+
+.testimonial .viewMore i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display:block;
+    font-size: 20px;
+    font-weight: 100;
+    color: #FFB606;
+    transition: .1s;
+}
+.testimonial .viewMore i:hover{
+    cursor: pointer;
+    transform: scale(102%);
+    filter: drop-shadow(2px 3px 5px rgba(128, 128, 128, 0.247));
+}
+.upcoming{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.upcoming .cards{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%
+}
+
+.upcoming .cards .card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2%;
+}
+.upcoming .cards .card .date{
+    padding: 2%;
+    border: 2px solid #FFB606;
+    display: flex;align-items: center;flex-direction: column;
+}
+.upcoming .cards .card .date h2{
+    font-size: 20px;
+}
+.upcoming .cards .card .about{
+    padding: 2%;
+}
+.upcoming .cards .card .about h1{
+    font-size: 25px;
+    margin:10px 0;
+}
+.upcoming .cards .card .about h2{
+    font-size: 15px;
+    color: gray;
+    line-height: 30px;
+}
+
+@media (max-width: 960px){
+    .landing{padding: 0 0  0 0 ;}
+    .landing p{
+        margin: 10px 0 20px 0;
+        font-size: 30px;
+    }
+    .landing .cards .card{padding: 20px 5px;}
+    .form .register{
+        width: 100%;
+    }
+    .search{
+        width: 100%;
+    }
+    .bg{
+        height: auto;
+        width: 100%;
+        min-height: 100%;
+    }
+    .heading{
+        font-size: 4vh;
+    }
+    .services .cards .card{height: 200px;margin-top: 40px;} 
+    .services .cards .card h2{
+        font-size: 20px;
+    }
+    .testimonial{padding: 100px 0 100px 0;}
+    .testimonial .viewMore{ width: 90%;padding: 0 10px;}
+    .testimonial .cards{max-height:500px ;}
+    .testimonial .cards .card{}
+}

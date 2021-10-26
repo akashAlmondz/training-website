@@ -1,0 +1,85 @@
+nav {
+    z-index: 1;
+    margin-top: 5vh;
+    width: 100%;
+    padding: 0 3%;
+    position: fixed;
+    transition: .4s;
+}
+main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.541);
+    backdrop-filter: blur(10px);
+    /* border-bottom: 0.1px solid white; */
+    /* border-left: 0.1px solid white; */
+    /* border-radius: 5px; */
+}
+main:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+main i {
+    padding: 1% 2%;
+    width:10%;
+    font-size:50px;
+    /* text-align: center; */
+}
+
+.navigation{
+    padding: 0 5% ;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.navigation p{
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    transition: .4s;
+}
+
+.navigation p:hover{
+    cursor: pointer;
+    color: #FFB606;
+    /* font-size: 22px; */
+    transform: scale(110%);
+}
+.phoneNo{
+    padding: 21px 60px ;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #FFB606;
+}
+.phoneNo i{font-size: 30px;color: honeydew;}
+.phoneNo i:hover{cursor: text call us now;}
+.phoneNo p{font-size: 25px; color: honeydew;}
+
+.sticky{padding: 0;margin-top: 0; z-index: 50; background-color:rgba(255, 255, 255, 0.548);box-shadow: 0 3px 8px rgba(157, 157,157,0.2);}
+.allCourses:hover ~  .A{height:auto;padding: 20px;}
+.training:hover ~  .hiddenB{height:auto;}
+.company:hover ~  .hiddenC{height:auto;}
+.hiddenB{position: absolute;top: 80px;height:0;overflow: hidden; }
+.hiddenB p, .hiddenC p{margin: 2px;background-color: white;padding: 10px 5px;}
+.hiddenC{position: absolute;top: 80px;height:0;overflow: hidden;}
+.hidden{ height: 0;overflow: hidden; padding: 0; position: absolute; top:80px;right: 0px; display:flex; background-color:rgb(255, 255, 255) ;justify-content: space-between;width: 100%;}
+.hidden div h1{background-color: #ffe07c;padding: 7px 5px;}
+.hidden div .sub{margin: 20px 0 0 0;}
+.hidden div .sub p{margin: 10px 0 0 0;}
+
+@media (max-width: 960px){
+    .navigation{
+        display: none;
+    }
+    .phoneNo{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+}

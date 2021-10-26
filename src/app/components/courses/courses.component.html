@@ -1,0 +1,17 @@
+<main>
+    <img class="BG" src="/assets/images/coursesBG.jpg" alt="">
+    <div class="landing">
+       <h1>Courses</h1>
+    </div>
+    <div class="courses">
+        <p class="heading" >Popular Courses</p>
+        <div class="cards">
+            <div class="card" *ngFor= 'let item of coursesCards' >
+                <img class="courseImg" [src]=item.img alt="">
+                <h1>{{item.name}}</h1>
+                <p>{{item.about}}</p>
+
+            </div>
+        </div>
+    </div>
+</main>
