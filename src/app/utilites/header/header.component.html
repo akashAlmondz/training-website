@@ -2,42 +2,47 @@
     <main>
         <i class="fas fa-book-reader"></i>
         <div class="navigation">
-            <p [routerLink]="['']" >Home</p>
-            <div>
-                <p class="allCourses" [routerLink]="['courses']" >All Courses</p>
-                <div class="hidden A">
-                        <div class="python">
-                            <h1>Popular Courses</h1>
+            <p [routerLink]="['']" class="link" >Home</p>
+            <div class="allCourses link" [routerLink]="['courses']" >
+                <p>All Courses</p>
+                <div class="hidden">
+                        <div class="python category">
+                            <p class="heading" >Popular Courses</p>
                             <div class="sub">
                                 <p>Python training</p>
                                 <p>Data Science training</p>
                                 <p>Machine Learning training</p>
                                 <p>Deep Learning training</p>
                                 <p>Artificial Inteligence training</p>
-                                <p>RPA(Robotic Process Automation) training</p>
+                                <p>RPA training</p>
+                                <p>Java training</p>
+                                <p>.Net training</p>
+                                <p>VBA training</p>
                             </div>
                         </div>
-                        <div class="webDev">
-                            <h1>Web Development</h1>
+                        <div class="webDev category">
+                            <p class="heading" >Web Development</p>
                             <div class="sub">
                                 <p>PHP</p>
-                                <p>HTML5/CSS3/JavaScript</p>
+                                <p>HTML5/CSS3/JS</p>
                                 <p>Angular</p>
                                 <p>Node</p>
                                 <p>React</p>
                                 <p>Python Django/Flask</p>
                             </div>
                         </div>
-                        <div class="database">
-                            <h1>Database</h1>
+                        <div class="database category">
+                            <p class="heading" >Database & Analytics Tools</p>
                             <div class="sub">
                                 <p>MongoDB</p>
                                 <p>SQL</p>
                                 <p>Oracle</p>
+                                <p>Power Bi</p>
+                                <p>Tablue</p>
                             </div>
                         </div>
-                        <div class="digitelMarketing">
-                            <h1>Digital Marketing</h1>
+                        <div class="digitelMarketing category">
+                            <p class="heading" >Digital Marketing</p>
                             <div class="sub">
                             <p>SMO(Social media optimization)</p>
                             <p>PPC(Pay-per-click)</p>
@@ -48,8 +53,8 @@
                             <p>E-mail Marketing</p>
                             </div>
                         </div>
-                        <div class="special">
-                            <h1>Specialization Courses</h1>
+                        <div class="special category">
+                            <p class="heading" >Specialization Courses</p>
                             <div class="sub">
                             <p>Diploma in Data Science</p>
                             <p>Diploma in Machine Learning</p>
@@ -60,26 +65,29 @@
                 </div>
             </div>
             
-            <p>Certification</p>
-            <div>
-                <p class="training" >Training Programs</p>
-                <div class="hiddenB">
+            <p class="link" >Certification</p>
+            <div class="training link" >
+                <p >Training Programs</p>
+                <div class="hidden">
                     <p>Corporate Training</p>
                     <p>Industrial Training</p>
                     <p>Online/Classroom Training</p>
-                </div>
+                </div>   
             </div>
-            <p>Placements</p>
-            <div>
-                <p class="company" >Company</p>
-                <div class="hiddenC">
+            <div class="company link" >
+                <p>Company</p>
+                <div class="hidden">
                     <p>About Us</p>
                     <p>Our Team</p>
                     <p>Contact Us</p>
                     <p>Blogs</p>
                 </div>
             </div>
+            <p class="link" >Placements</p>
             
+        </div>
+        <div class="menu">
+            <i class="fas fa-bars"></i>
         </div>
         
     </main>

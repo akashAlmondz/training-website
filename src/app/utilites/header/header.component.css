@@ -6,6 +6,7 @@ nav {
     position: fixed;
     transition: .4s;
 }
+.menu{display: none;}
 main {
     width: 100%;
     display: flex;
@@ -29,12 +30,13 @@ main i {
 }
 
 .navigation{
-    padding: 0 5% ;
-    width: 80%;
+    padding: 0;
+    
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:center;
 }
+.navigation .link{margin:0 2vw ;}
 .navigation p{
     font-weight: 300;
     font-size: 20px;
@@ -46,7 +48,7 @@ main i {
     cursor: pointer;
     color: #FFB606;
     /* font-size: 22px; */
-    transform: scale(110%);
+    transform: scale(102%);
 }
 .phoneNo{
     padding: 21px 60px ;
@@ -61,25 +63,21 @@ main i {
 .phoneNo p{font-size: 25px; color: honeydew;}
 
 .sticky{padding: 0;margin-top: 0; z-index: 50; background-color:rgba(255, 255, 255, 0.548);box-shadow: 0 3px 8px rgba(157, 157,157,0.2);}
-.allCourses:hover ~  .A{height:auto;padding: 20px;}
-.training:hover ~  .hiddenB{height:auto;}
-.company:hover ~  .hiddenC{height:auto;}
-.hiddenB{position: absolute;top: 80px;height:0;overflow: hidden; }
-.hiddenB p, .hiddenC p{margin: 2px;background-color: white;padding: 10px 5px;}
-.hiddenC{position: absolute;top: 80px;height:0;overflow: hidden;}
-.hidden{ height: 0;overflow: hidden; padding: 0; position: absolute; top:80px;right: 0px; display:flex; background-color:rgb(255, 255, 255) ;justify-content: space-between;width: 100%;}
-.hidden div h1{background-color: #ffe07c;padding: 7px 5px;}
-.hidden div .sub{margin: 20px 0 0 0;}
-.hidden div .sub p{margin: 10px 0 0 0;}
 
-@media (max-width: 960px){
-    .navigation{
-        display: none;
-    }
-    .phoneNo{
-        display: none;
-    }
-    nav{
-        display: none;
-    }
+/* .allCourses{position: relative;} */
+.allCourses:hover .hidden{display: flex;}
+.training:hover   .hidden{display: flex;}
+.company:hover  .hidden{display: flex;}
+.company .hidden, .training .hidden{display: none;flex-direction: column;position: absolute;padding: 30px 0 0 0;}
+.training .hidden p,.company .hidden p{margin: 1px;background-color: white;padding: 10px 5px;}
+
+.allCourses .hidden{padding: 20px 0 0 0; display:none;left: 0; justify-content:space-around; position: absolute;width:100%;background-color: rgb(255, 255, 255);}
+.allCourses .hidden .category{padding: 10px 0;margin: 0 1px;}
+.allCourses .hidden div .heading{background-color: #f7ecd6;padding: 7px 5px;font-size: 20px;font-weight: 500;}
+.allCourses .hidden div .sub{margin: 1px 0 0 0;}
+.allCourses .hidden div .sub p{margin: 1px 0 0 0;background-color: rgb(255, 255, 255);padding: 7px 5px;font-size: 15px;}
+
+@media (max-width: 1030px){
+   .navigation{display: none;}
+   .menu{display: block;padding: 0 30px;}
 }

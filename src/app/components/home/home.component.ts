@@ -15,10 +15,38 @@ export class HomeComponent implements OnInit {
     {name:'Our teachers',icon:'fas fa-chalkboard-teacher'}
   ]
 
+  report = [
+    {name:'Satisfied Learners',value:'61,640',icon:'far fa-user'},
+    {name:'Hours Classes',value:'250,000+',icon:'far fa-clock'},
+    {name:'Assignments',value:'25,000+',icon:'far fa-file-code'},
+    {name:'Projects',value:'3500+',icon:'fas fa-edit'},
+  ]
+
+  list = [
+    'Python','RPA', 'Data science', 'Machine Learning', 'Deep Learning', 'Artificial Intelligence', 'Angular', 'PHP','Node JS', 'React', 'MongoDB', 'SQL', 'Oracle', 'PowerBi', 'Tablue','VBA', 'SEO', 'SMO', 'PPC', 'Google Ads', 'Facebook Ads', 'E-mail marketing', 'Social Media Promotion' 
+  ]
+
   coursesCards = [
-    {name:'A complete guide to design',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/design.jpg',authImg:'assets/images/auth.jpg'},
-    {name:'Beginners guide to HTML',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/html.jpg',authImg:'assets/images/auth.jpg'},
-    {name:'Advanced Photoshop',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/photoShop.jpg',authImg:'assets/images/auth.jpg'},
+    {name:'Python',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/python.svg',authImg:'assets/images/auth.jpg'},
+    {name:'Data Science',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/data-science.svg',authImg:'assets/images/auth.jpg'},
+    {name:'Machine Learning',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/machine-learning.png',authImg:'assets/images/auth.jpg'},
+    {name:'Deep learning',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/deep-learning.png',authImg:'assets/images/auth.jpg'},
+    {name:'Artificial Intelligence',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/artificial-intelligence.png',authImg:'assets/images/auth.jpg'},
+    {name:'RPA',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/robotics.png',authImg:'assets/images/auth.jpg'},
+    {name:'Java',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/java.png',authImg:'assets/images/auth.jpg'},
+    {name:'.Net',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/website.png',authImg:'assets/images/auth.jpg'},
+    {name:'PHP',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/php.png',authImg:'assets/images/auth.jpg'},
+    {name:'HTML5/CSS3/JS',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/html.png',authImg:'assets/images/auth.jpg'},
+    {name:'Angular',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/angular.svg',authImg:'assets/images/auth.jpg'},
+    {name:'NodeJs',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/nodejs.svg',authImg:'assets/images/auth.jpg'},
+    {name:'React',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/react.svg',authImg:'assets/images/auth.jpg'},
+    {name:'Python Django',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/django.svg',authImg:'assets/images/auth.jpg'},
+    {name:'MondoDB',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/mongodb.svg',authImg:'assets/images/auth.jpg'},
+    {name:'SQL',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/sql-server.png',authImg:'assets/images/auth.jpg'},
+    {name:'PowerBi',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/powerbi-logo.png',authImg:'assets/images/auth.jpg'},
+    {name:'Tableau',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/tableau-logo.png',authImg:'assets/images/auth.jpg'},
+    {name:'Oracle',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/oracle.png',authImg:'assets/images/auth.jpg'},
+    {name:'Oracle',author:'Michael Smith', about:'Adobe Guide, Layes, Smart Objects etc...',price:39,img:'assets/images/oracle.png',authImg:'assets/images/auth.jpg'},
   ]
 
   servicesCards = [
@@ -52,6 +80,14 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  expendCourses = false
+  viewMoreCourses(){
+    this.expendCourses = !this.expendCourses
+  }
+
+
+
   selectedMessage = 0
   readMore(id: any) {
     this.selectedMessage=id

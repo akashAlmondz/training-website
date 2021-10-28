@@ -7,6 +7,9 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './utilites/header/header.component';
 import { FooterComponent } from './utilites/footer/footer.component';
 import { CoursesComponent } from './components/courses/courses.component';
+import { SocialMediaComponent } from './utilites/social-media/social-media.component';
+import { ContactComponent } from './utilites/contact/contact.component';
+import { LinksComponent } from './utilites/links/links.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { CoursesComponent } from './components/courses/courses.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    CoursesComponent
+    CoursesComponent,
+    SocialMediaComponent,
+    ContactComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,

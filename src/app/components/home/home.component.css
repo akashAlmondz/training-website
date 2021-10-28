@@ -1,4 +1,6 @@
-
+app-contact{position: fixed;bottom: 0;z-index: 1;}
+app-links{position: fixed;top: 40vh;z-index: 10;}
+app-social{z-index: 1;right: 0;position: fixed;right: 0;}
 main{position: relative;}
 main .blur{
     display: none;
@@ -22,9 +24,9 @@ main .blur{
    min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content:flex-end;
+    justify-content:space-between;
     flex-direction: column;
-    padding-bottom:10vh ;
+    padding:20vh 0 ;
 }
 
 .landing p{
@@ -34,6 +36,17 @@ main .blur{
     font-size: 60px;
     text-align: center;
 }
+.landing .list{display: flex;width: 60%;align-items: center;justify-content: center;flex-wrap: wrap;}
+.landing .list p{font-size: 20px;margin:5px 1px;width: fit-content;position: relative;padding: 3px 10px;transition: .4s;}
+.landing .list p:hover{cursor: pointer; color: #FFB606;}
+.landing .list p::after{content: '';background-color: white;height: 90%;width: 1px;left: 0;position: absolute;}
+.landing .list p::before{content: '';background-color: white;height: 90%;width: 1px;right: 0;position: absolute;}
+
+.landing .search{
+    display: flex;
+}
+.landing .search input{width: 30vw;}
+.landing .search i{display: flex;align-items: center; font-size: 30PX;padding: 10px 30px;background-color: #FFB606;color: white;}
 .landing p b{
     background-color: #FFB606;
     padding: 10px;
@@ -88,6 +101,18 @@ main .blur{
     transform: scale(105%);
     
 }
+
+.reports{
+    width: 100%;display: flex;justify-content: space-between;
+    background-color: rgb(66, 121, 134);padding: 20px 70px;align-items: center;
+}
+.reports .button{background-color: #FFB606;display: flex;align-items: center;justify-content: center;border-radius: 25px;height: fit-content;padding: 1px 10px;}
+.reports .button i{padding: 10px;font-size: 25px;}
+.reports .report{display: flex;align-items: center;justify-content: center;}
+.reports .report i{display: flex;color: white;font-size: 40px;padding:0 20px;align-items: center;}
+.reports .report p{color: white;}
+.reports .report div{height: fit-content;}
+.reports .report div .value{font-size: 20px;padding: 10px 0 0 0;}
 .courses{
     width: 100%;
     background-color: white;
@@ -95,11 +120,11 @@ main .blur{
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    padding: 5%;
+    padding: 5% 5% 2% 5%;
 }
 .heading{
     margin-bottom: 30px;
-    font-size: 6vh;
+    font-size:30px;
     position: relative;
     
 }
@@ -110,20 +135,42 @@ main .blur{
     height: .3vw; width: 80%;
 }
 .courses .cards{
+    height:530px;
+    overflow: hidden;
     display: flex;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     justify-content:center;
     flex-wrap: wrap;
 }
+.courses .expendCards{
+    height: auto;
+}
+.courses .viewAllCoursesB{margin-top: 10px; width: 200px;display: flex;align-items: center;justify-content: center;cursor: pointer;}
+.courses .viewAllCourses{width: 100%;text-align: center;  transition: .4s;background-color: #ffb406c0;padding: 10px 20px; }
+/* .courses .viewAllCoursesB:hover .viewAllCourses{ 
+    cursor: pointer; height: 100px;width: 110px; background-color: #FFB606;  padding: 0;clip-path: polygon(0 0, 50% 14%, 100% 0);color: #FFB606;
+} */
+.courses .viewLessCourses{text-align: center;  transition: .4s;background-color: #ffb406c0;padding: 10px 20px;cursor: pointer; }
+
 
 .courses .card{
-    width: 300px;
+   
+    width: 200px ;
     margin: 60px 20px 0 20px;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(143, 143, 143);
+}
+
+.courses .card:hover .courseImg{transform: scale(140%);}
+.courseBackground{
+    overflow: hidden;
+    background-image: url('/assets/images/courseBG.png');
+    width:200px; height:150px ;
+    display: flex;align-items: center;justify-content: center ;
+    border-bottom: 3px solid goldenrod;
 }
 .courseImg{
-    width: 100%;
+    width: 50%; transition: .2s;
 }
 
 .courses .cards .card h1{
@@ -131,7 +178,7 @@ main .blur{
     font-weight: 100;
     width: 100%;
     text-align: center;
-    margin: 30px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 
 .courses .cards .card p{
@@ -189,7 +236,7 @@ main .blur{
     box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.418);
     cursor: pointer;
 }
-.search{
+.form .search{
     width: 50%;
     height: 600px;
     background-color: rgba(255, 255, 255, 0.63);
@@ -240,7 +287,7 @@ main .blur{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 7% 0 0 0; 
+    padding: 4% 0 0 0; 
 }
 
 .services .cards{
@@ -249,7 +296,7 @@ main .blur{
     align-items: center;
     justify-content:center;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 1% 1% 4% 1%;
     
 }
 
@@ -278,17 +325,17 @@ main .blur{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 0 0 150px 0 ;
+    padding: 0 0 100px 0 ;
 }
 .testimonial .cards{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 400px;
+    height: 350px;
     overflow: hidden;
     justify-content:center;
     align-items: center;
-    padding: 5% 10%;
+    padding: 1% 10%;
     transition: .2s;
 }
 .testimonial .cards .card{
@@ -345,7 +392,7 @@ main .blur{
 }
 #view{
     cursor: pointer;
-    color: gray;
+    color: rgb(0, 0, 0);text-align: center;  transition: .4s;background-color: #ffb406c0;padding: 10px 20px;cursor: pointer;
 }
 #view::after{
     content: '';
@@ -390,7 +437,7 @@ main .blur{
     width: 100%;
     align-items: center;
     flex-direction: column;
-    padding: 5%
+    padding: 1% 5%
 }
 
 .upcoming .cards .card{
@@ -450,5 +497,5 @@ main .blur{
     .testimonial{padding: 100px 0 100px 0;}
     .testimonial .viewMore{ width: 90%;padding: 0 10px;}
     .testimonial .cards{max-height:500px ;}
-    .testimonial .cards .card{}
+    
 }

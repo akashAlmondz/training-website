@@ -1,0 +1,8 @@
+main{transition: .4s;width: fit-content;}
+main div{display: flex;align-items: center; justify-content: center; padding: 10px 15px;align-items: center;transition: .4s;background-color: #ffb406;width: 40px;}
+i{color: rgb(43, 43, 43);padding: 3px;font-size: 20px;}
+p{color: rgb(43, 43, 43);transition: .4s;display: none;padding: 0;}
+main div:hover p{display: block;padding: 0 5px;}
+main div:hover{border: 1px solid gray;border-radius: 5px;cursor: pointer;background-color: white;width: auto;}
+main:hover{transform: scale(101%);border-radius: 5px;}
+

@@ -1,29 +1,56 @@
+<app-contact></app-contact>
+<app-links></app-links>
+<app-social></app-social>
 <main [ngClass] = "expendReviews? 'blur':'' "  >
     <div (click)=viewLess() class="blurBack"></div>
     <img class="BG" src="assets/images/bg.jpg" alt="">
     <div class="landing">
         
-        <p>Get your <b>Education</b> today!</p>
-        <div class="cards">
+        <p>Get your Education today!</p>
+        <div class="search">
+            <input type="text" name="" id="" placeholder="Search for Courses">
+            <i class="fas fa-search"></i>
+        </div>
+        <!-- <div class="cards">
             <div class="card" *ngFor = 'let item of landingCards'>
                 <i [ngClass]="item.icon"></i>
                 <p>{{item.name}}</p>
                 <h6>view more</h6>
             </div>
+        </div> -->
+        <div class="list">
+            <p *ngFor= "let item of list"  >{{item}}</p>
         </div>
     </div>
-    <div class="courses">
-        <p class="heading" >Popular Courses</p>
-        <div class="cards">
-            <div class="card" *ngFor= 'let item of coursesCards' >
-                <img class="courseImg" [src]=item.img alt="">
-                <h1>{{item.name}}</h1>
-                <p>{{item.about}}</p>
-
+    <div class="reports">
+        <p class="button" >Download Company Brochure  <i class="fas fa-file-download"></i>  </p>
+        <div class="report" *ngFor='let item of report' >
+            <i [class]=item.icon></i>
+            <div class="">
+                <p class="value" >{{item.value}}</p><br>
+                <p class="name" >{{item.name}}</p>
             </div>
         </div>
     </div>
-    <div class="form">
+    <div class="courses">
+        <p class="heading" >All Courses</p>
+        <div class="cards" [ngClass] = "expendCourses? 'expendCards': '' "  >
+            <div class="card" *ngFor= 'let item of coursesCards' >
+                <div class="courseBackground">
+                    <img class="courseImg" [src]=item.img alt="">
+                </div>
+                <h1>{{item.name}}</h1>
+                <!-- <p>{{item.about}}</p> -->
+
+            </div>
+        </div>
+        <div class="viewAllCoursesB">
+            <p  *ngIf='!expendCourses' class="viewAllCourses" (click)=viewMoreCourses() >View All Courses</p>
+        </div>
+
+        <p *ngIf='expendCourses' (click)=viewMoreCourses() class="viewLessCourses">View Less Courses</p>
+    </div>
+    <!-- <div class="form">
         <div class="register ">
             <h1>Register now and get a discount <b>50%</b> discount until 1 January</h1>
             <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempo.</p>
@@ -37,7 +64,7 @@
             <input type="text" placeholder="Degree">
             <p class="button" >SEARCH COURSE</p>
         </div>
-    </div>
+    </div> -->
     <div class="services">
         <p class="heading" >Our Services</p>
         <div class="cards">
@@ -60,7 +87,7 @@
             </div>
 
         </div>
-        <h4 id="view" (click)=viewMore() >view more</h4>
+        <p id="view" (click)=viewMore() >view more</p>
     </div>
     <div class="upcoming">
         <p class="heading">Upcoming Courses</p>
