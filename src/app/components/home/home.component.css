@@ -18,6 +18,12 @@ main .blur{
     top: 0;
     position: absolute;
 }
+.nonblur .blurBack{ height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;}
+    
+    
 
 
 .landing{width: 100%;
@@ -43,7 +49,7 @@ main .blur{
 .landing .list p::before{content: '';background-color: white;height: 90%;width: 1px;right: 0;position: absolute;}
 
 .landing .search{
-    display: flex;
+    display: flex;z-index: 1;
 }
 .landing .search input{width: 30vw;}
 .landing .search i{display: flex;align-items: center; font-size: 30PX;padding: 10px 30px;background-color: #FFB606;color: white;}
@@ -106,13 +112,13 @@ main .blur{
     width: 100%;display: flex;justify-content: space-between;
     background-color: rgb(66, 121, 134);padding: 20px 70px;align-items: center;
 }
-.reports .button{background-color: #FFB606;display: flex;align-items: center;justify-content: center;border-radius: 25px;height: fit-content;padding: 1px 10px;}
+.reports .button{z-index: 1; background-color: #FFB606;display: flex;align-items: center;justify-content: center;border-radius: 25px;height: fit-content;padding: 1px 10px;}
 .reports .button i{padding: 10px;font-size: 25px;}
 .reports .report{display: flex;align-items: center;justify-content: center;}
 .reports .report i{display: flex;color: white;font-size: 40px;padding:0 20px;align-items: center;}
 .reports .report p{color: white;}
 .reports .report div{height: fit-content;}
-.reports .report div .value{font-size: 20px;padding: 10px 0 0 0;}
+.reports .report div .value{font-size: 20px;}
 .courses{
     width: 100%;
     background-color: white;
@@ -123,7 +129,7 @@ main .blur{
     padding: 5% 5% 2% 5%;
 }
 .heading{
-    margin-bottom: 30px;
+    margin-bottom:0px;
     font-size:30px;
     position: relative;
     
@@ -132,9 +138,10 @@ main .blur{
     content: '';position: absolute;
     background-color: #FFB606;
     top:-20%;left:10%;
-    height: .3vw; width: 80%;
+    height: .1vw; width: 80%;
 }
 .courses .cards{
+    z-index: 1;
     height:530px;
     overflow: hidden;
     display: flex;
@@ -147,11 +154,11 @@ main .blur{
     height: auto;
 }
 .courses .viewAllCoursesB{margin-top: 10px; width: 200px;display: flex;align-items: center;justify-content: center;cursor: pointer;}
-.courses .viewAllCourses{width: 100%;text-align: center;  transition: .4s;background-color: #ffb406c0;padding: 10px 20px; }
+.courses .viewAllCourses{z-index: 1; width: 100%;text-align: center;  transition: .4s;background-color: #ffb406c0;padding: 10px 20px; }
 /* .courses .viewAllCoursesB:hover .viewAllCourses{ 
     cursor: pointer; height: 100px;width: 110px; background-color: #FFB606;  padding: 0;clip-path: polygon(0 0, 50% 14%, 100% 0);color: #FFB606;
 } */
-.courses .viewLessCourses{text-align: center;  transition: .4s;background-color: #ffb406c0;padding: 10px 20px;cursor: pointer; }
+.courses .viewLessCourses{margin-top: 20px; z-index: 1; text-align: center;  transition: .4s;background-color: #ffb406c0;padding: 10px 20px;cursor: pointer; }
 
 
 .courses .card{
@@ -173,12 +180,13 @@ main .blur{
     width: 50%; transition: .2s;
 }
 
-.courses .cards .card h1{
+.courses .cards .card .courseName{
     font-size: 20px;
     font-weight: 100;
     width: 100%;
     text-align: center;
     margin: 10px 0 10px 0;
+    color: #000;
 }
 
 .courses .cards .card p{
@@ -314,7 +322,8 @@ main .blur{
     width: 20%;
 }
 .services .cards .card h2{
-    font-weight: 100;
+    font-weight: 300;
+    font-size: 20px;
 }
 .services .cards .card p{
     color: gray;    
@@ -331,10 +340,10 @@ main .blur{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 350px;
+    height: 250px;
     overflow: hidden;
     justify-content:center;
-    align-items: center;
+    align-items: flex-start;
     padding: 1% 10%;
     transition: .2s;
 }
@@ -344,7 +353,7 @@ main .blur{
     border: 1px solid #FFB606;
     width:350px;
     padding:5px 6px 7px 120px;
-    margin: 100px 50px;
+    margin: 40px 50px 100px 50px;
 }
 
 .testimonial .cards .card img{
@@ -378,6 +387,7 @@ main .blur{
     width: 70%;
     overflow: auto;
     position: fixed;
+    position: relative;
     top: 20%;
     padding: 20px 0 0 0;
     box-shadow: 30px 40px 150px rgba(0, 0, 0, 0.411);
@@ -391,7 +401,7 @@ main .blur{
     margin: 50px 20px;
 }
 #view{
-    cursor: pointer;
+    cursor: pointer; z-index: 20;
     color: rgb(0, 0, 0);text-align: center;  transition: .4s;background-color: #ffb406c0;padding: 10px 20px;cursor: pointer;
 }
 #view::after{
@@ -421,6 +431,9 @@ main .blur{
     font-weight: 100;
     color: #FFB606;
     transition: .1s;
+}
+.testimonial .viewMore .readless{
+    position: absolute;width:100%;height: 100%;top: 0;
 }
 .testimonial .viewMore i:hover{
     cursor: pointer;
@@ -452,25 +465,34 @@ main .blur{
     padding: 2%;
     border: 2px solid #FFB606;
     display: flex;align-items: center;flex-direction: column;
+    width: 10vw;
 }
-.upcoming .cards .card .date h2{
+.courseDate{
     font-size: 20px;
 }
 .upcoming .cards .card .about{
     padding: 2%;
 }
-.upcoming .cards .card .about h1{
+.upcoming .cards .card .about .courseName{
     font-size: 25px;
     margin:10px 0;
 }
-.upcoming .cards .card .about h2{
+.upcoming .cards .card .about .courseAbout{
     font-size: 15px;
+    width: 60vw;
     color: gray;
     line-height: 30px;
 }
+.upcoming .cards .card .timing{display: flex;flex-direction: column;justify-content: space-between;height:100px;}
+.upcoming .cards .card .timing .enroll{
+    background-color: #FFB606;padding: 10px 20px;z-index: 2;transition: .4s;
+}
+.upcoming .cards .card .timing .enroll:hover{ box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.418);
+    cursor: pointer;}
 
 @media (max-width: 960px){
-    .landing{padding: 0 0  0 0 ;}
+    .BG{display: none;}
+    .landing{padding: 0 0  0 0 ;background-image: linear-gradient(rgb(80, 80, 80),rgb(59, 23, 23));}
     .landing p{
         margin: 10px 0 20px 0;
         font-size: 30px;

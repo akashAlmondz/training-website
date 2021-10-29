@@ -23,7 +23,7 @@ export class HomeComponent implements OnInit {
   ]
 
   list = [
-    'Python','RPA', 'Data science', 'Machine Learning', 'Deep Learning', 'Artificial Intelligence', 'Angular', 'PHP','Node JS', 'React', 'MongoDB', 'SQL', 'Oracle', 'PowerBi', 'Tablue','VBA', 'SEO', 'SMO', 'PPC', 'Google Ads', 'Facebook Ads', 'E-mail marketing', 'Social Media Promotion' 
+    'Python','RPA', 'Data science', 'Machine Learning', 'Deep Learning', 'Artificial Intelligence', 'Angular', 'PHP','Node JS', 'React', 'MongoDB', 'SQL', 'Oracle', 'PowerBi', 'Tableau','VBA', 'SEO', 'SMO', 'PPC', 'Google Ads', 'Facebook Ads', 'E-mail marketing', 'Social Media Promotion' 
   ]
 
   coursesCards = [
@@ -50,12 +50,14 @@ export class HomeComponent implements OnInit {
   ]
 
   servicesCards = [
-    {img:'assets/images/earth-globe.svg',name:'OnlineCourses',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
-    {img:'assets/images/exam.svg',name:'Indoor Courses',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
-    {img:'assets/images/books.svg',name:'Amazing Library',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
-    {img:'assets/images/professor.svg',name:'Exceptional Professors',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
-    {img:'assets/images/blackboard.svg',name:'Top Programs',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
-    {img:'assets/images/mortarboard.svg',name:'Graduate Diploma',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
+    {img:'assets/images/earth-globe.svg',name:'Online Training',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
+    {img:'assets/images/exam.svg',name:'Classroom Training',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
+    {img:'assets/images/books.svg',name:'Scholarship Programs',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
+    {img:'assets/images/professor.svg',name:'Resume Building',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
+    {img:'assets/images/blackboard.svg',name:'Placement Support',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
+    {img:'assets/images/books.svg',name:'Practical Approach',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
+    {img:'assets/images/mortarboard.svg',name:'Interview Prepration',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
+    {img:'assets/images/earth-globe.svg',name:'Career Guideline',about:'In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum.'},
   ]
 
   reviewCards = [
@@ -71,10 +73,10 @@ export class HomeComponent implements OnInit {
   ]
 
   upcomingCourses = [
-    {date:'07',month:'December',name:'In aliquam, augue a gravida rutrum',about:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur, praesentium delectus voluptatum dolorem eligendi labore sunt fuga pariatur modi, beatae, culpa tempora. Accusamus in doloremque rerum corrupti voluptate consequatur?'},
-    {date:'07',month:'December',name:'In aliquam, augue a gravida rutrum',about:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur, praesentium delectus voluptatum dolorem eligendi labore sunt fuga pariatur modi, beatae, culpa tempora. Accusamus in doloremque rerum corrupti voluptate consequatur?'},
-    {date:'07',month:'December',name:'In aliquam, augue a gravida rutrum',about:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur, praesentium delectus voluptatum dolorem eligendi labore sunt fuga pariatur modi, beatae, culpa tempora. Accusamus in doloremque rerum corrupti voluptate consequatur?'},
-    {date:'07',month:'December',name:'In aliquam, augue a gravida rutrum',about:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur, praesentium delectus voluptatum dolorem eligendi labore sunt fuga pariatur modi, beatae, culpa tempora. Accusamus in doloremque rerum corrupti voluptate consequatur?'},
+    {date:'07',month:'December',name:'Python',about:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur, praesentium delectus voluptatum dolorem eligendi labore sunt fuga pariatur modi, beatae, culpa tempora. Accusamus in doloremque rerum corrupti voluptate consequatur?'},
+    {date:'09',month:'January',name:'Machine learning',about:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur, praesentium delectus voluptatum dolorem eligendi labore sunt fuga pariatur modi, beatae, culpa tempora. Accusamus in doloremque rerum corrupti voluptate consequatur?'},
+    {date:'30',month:'Feburary',name:'Deep Learning',about:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur, praesentium delectus voluptatum dolorem eligendi labore sunt fuga pariatur modi, beatae, culpa tempora. Accusamus in doloremque rerum corrupti voluptate consequatur?'},
+    {date:'07',month:'March',name:'Web Development',about:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur, praesentium delectus voluptatum dolorem eligendi labore sunt fuga pariatur modi, beatae, culpa tempora. Accusamus in doloremque rerum corrupti voluptate consequatur?'},
 
   ]
 

@@ -1,7 +1,7 @@
 <app-contact></app-contact>
 <app-links></app-links>
 <app-social></app-social>
-<main [ngClass] = "expendReviews? 'blur':'' "  >
+<main [ngClass] = "expendReviews? 'blur':'nonblur' "  >
     <div (click)=viewLess() class="blurBack"></div>
     <img class="BG" src="assets/images/bg.jpg" alt="">
     <div class="landing">
@@ -27,7 +27,7 @@
         <div class="report" *ngFor='let item of report' >
             <i [class]=item.icon></i>
             <div class="">
-                <p class="value" >{{item.value}}</p><br>
+                <p class="value" >{{item.value}}</p>
                 <p class="name" >{{item.name}}</p>
             </div>
         </div>
@@ -39,7 +39,7 @@
                 <div class="courseBackground">
                     <img class="courseImg" [src]=item.img alt="">
                 </div>
-                <h1>{{item.name}}</h1>
+                <p class="courseName" >{{item.name}}</p>
                 <!-- <p>{{item.about}}</p> -->
 
             </div>
@@ -78,6 +78,7 @@
     <div class="testimonial">
         <p class="heading">What our students say</p>
         <div  class="cards" [ngClass] = "expendReviews? 'viewMore':'' "  >
+            <div class="readless" (click)=readLess() ></div>
             <i (click)=viewLess() class="far fa-times-circle"></i>
             <div class="card" *ngFor= 'let item of reviewCards' [ngClass] = "item.id==selectedMessage? 'open':'' "  >
                 <img [src]="item.img" alt="">
@@ -90,16 +91,21 @@
         <p id="view" (click)=viewMore() >view more</p>
     </div>
     <div class="upcoming">
-        <p class="heading">Upcoming Courses</p>
+        <p class="heading">Upcoming Batches</p>
         <div class="cards">
             <div class="card" *ngFor= 'let item of upcomingCourses' >
                 <div class="date">
-                    <h1>{{item.date}}</h1>
-                    <h2>{{item.month}}</h2>
+                    <p class="courseDate" >{{item.date}}</p>
+                    <p class="courseMonth" >{{item.month}}</p>
                 </div>
                 <div class="about">
-                    <h1>{{item.name}}</h1>
-                    <h2>{{item.about}}</h2>
+                    <p class="courseName" >{{item.name}}</p>
+                    <p class="courseAbout" >{{item.about}}</p>
+                </div>
+                <div class="timing">
+                    <p class="time" >8am to 12pm</p>
+                    <p class="day" >Monday to Friday</p>
+                    <p class="enroll" >Enroll Now</p>
                 </div>
                 
             </div>
