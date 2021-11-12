@@ -10,6 +10,7 @@ import { CoursesComponent } from './components/courses/courses.component';
 import { SocialMediaComponent } from './utilites/social-media/social-media.component';
 import { ContactComponent } from './utilites/contact/contact.component';
 import { LinksComponent } from './utilites/links/links.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LinksComponent } from './utilites/links/links.component';
     CoursesComponent,
     SocialMediaComponent,
     ContactComponent,
-    LinksComponent
+    LinksComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
