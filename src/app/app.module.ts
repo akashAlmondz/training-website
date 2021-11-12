@@ -10,6 +10,8 @@ import { CoursesComponent } from './components/courses/courses.component';
 import { SocialMediaComponent } from './utilites/social-media/social-media.component';
 import { ContactComponent } from './utilites/contact/contact.component';
 import { LinksComponent } from './utilites/links/links.component';
+import { OpenCourseComponent } from './components/open-course/open-course.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { LinksComponent } from './utilites/links/links.component';
     CoursesComponent,
     SocialMediaComponent,
     ContactComponent,
-    LinksComponent
+    LinksComponent,
+    OpenCourseComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

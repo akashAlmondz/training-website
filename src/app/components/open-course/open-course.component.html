@@ -1,0 +1,133 @@
+<app-contact></app-contact>
+<app-links></app-links>
+<app-social></app-social>
+<div class="landing">
+    <img class="backGround" src="assets/images/SL-051919-20420-21.jpg" alt="">
+    <div class="about">
+        <p class="courseName" >Basics of Python with Data Structures and Algorithms</p>
+        <p class="aboutCourse" >Lorem ipsum dolor sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.</p>
+        <p class="enrolNow" >Enrol Now</p>
+        <div class="report">
+            <div>
+                <b>10K+</b>
+                <p>stundents enrolled</p>
+            </div>
+            <div>
+                <b>350+</b>
+                <p>problems</p>
+            </div>
+            <div>
+                <b>4</b>
+                <p>months</p>
+            </div>
+            <div>
+                <b>50+</b>
+                <p>hours of video lectures</p>
+            </div>
+        </div>
+    </div>
+    <div class="courseImg">
+        <img  src="/assets/images/student.png" alt="">
+    </div>
+</div>
+<main>
+    <div id="query" class="query">
+        <h1>Drop a Query</h1>
+        <form action="">
+            <div>
+                <label for=""><i class="fas fa-user"></i></label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for=""><i class="fas fa-envelope"></i></label>
+                <input type="text" placeholder="Enter email">
+            </div>
+            <div>
+                <label for=""><i class="fas fa-phone"></i></label>
+                <input type="text" placeholder="Enter mobile no.">
+            </div>
+            <div>
+                <label for=""><i class="fas fa-book"></i></label>
+                <input type="text" placeholder="Enter course">
+            </div>
+            <div>
+                <label for=""><i class="fas fa-hand-point-up"></i></label>
+                <select name="Select training mode" id="">
+                    <option value="">Select training mode</option>
+                    <option value="">Classroom training</option>
+                    <option value="">Online training</option>
+                </select>
+            </div>
+            <input type="text" id="msg" placeholder="Enter your message">
+            <button>Submit</button>
+        </form>
+
+
+    </div>
+    <div class="aboutCourse">
+        <p class="heading">Python</p>
+        <p class="about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi amet non asperiores aspernatur ab cumque dolores reprehenderit adipisci error porro magni praesentium a quas excepturi enim veritatis impedit rerum vitae, similique ratione possimus numquam, deleniti voluptatibus! Nulla cumque omnis eum odio commodi doloribus facilis, rem nobis aperiam quidem consequatur architecto doloremque. Magnam mollitia voluptatibus excepturi incidunt autem ut accusamus aliquid quod qui omnis aperiam perspiciatis provident, quam sit, culpa dignissimos unde, accusantium deserunt quos nam pariatur? Earum asperiores doloremque et debitis magni itaque sint quidem dolore? Atque aliquam neque tempore recusandae sunt voluptatum in, maiores dolore incidunt dolorem? Tenetur, praesentium?
+        </p>
+        <p class="about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi amet non asperiores aspernatur ab cumque dolores reprehenderit adipisci error porro magni praesentium a quas excepturi enim veritatis impedit rerum vitae, similique ratione possimus numquam, deleniti voluptatibus! Nulla cumque omnis eum odio commodi doloribus facilis, rem nobis aperiam quidem consequatur architecto doloremque. Magnam mollitia voluptatibus excepturi incidunt autem ut accusamus aliquid quod qui omnis aperiam perspiciatis provident, quam sit, culpa dignissimos unde, accusantium deserunt quos nam pariatur? Earum asperiores doloremque et debitis magni itaque sint quidem dolore? Atque aliquam neque tempore recusandae sunt voluptatum in, maiores dolore incidunt dolorem? Tenetur, praesentium?
+        </p>
+        <p class="about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi amet non asperiores aspernatur ab cumque dolores reprehenderit adipisci error porro magni praesentium a quas excepturi enim veritatis impedit rerum vitae, similique ratione possimus numquam, deleniti voluptatibus! Nulla cumque omnis eum odio commodi doloribus facilis, rem nobis aperiam quidem consequatur architecto doloremque. Magnam mollitia voluptatibus excepturi incidunt autem ut accusamus aliquid quod qui omnis aperiam perspiciatis provident, quam sit, culpa dignissimos unde, accusantium deserunt quos nam pariatur? Earum asperiores doloremque et debitis magni itaque sint quidem dolore? Atque aliquam neque tempore recusandae sunt voluptatum in, maiores dolore incidunt dolorem? Tenetur, praesentium?
+        </p>
+
+    </div>   
+    <div class="curriculum">
+        <p class="heading" >Course Curriculum</p>
+        <div class="sections">
+            <div class="section" *ngFor ='let item of sections' [ngClass]="activeSection==item.id? 'active': '' " (click)=active(item.id) >
+                <i class={{item.img}}></i>
+                <p>{{item.name}}</p>
+            </div>
+        </div>
+        <div class="aboutSection" *ngFor ='let item of sections' >
+            <p *ngIf='item.id==activeSection' ><i class="fas fa-chevron-right"></i>{{item.about}}</p>
+        </div>
+    </div>
+    <div class="table">
+        <p class="heading">Upcoming Batches</p>
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>Start on</th>
+                <th>Timing </th>
+                <th>Enroll Now</th>
+            </tr>
+            <tr>
+                <td>Mon-Sun</td>
+                <td>15<sup>th</sup> jan. 2022</td>
+                <td>9AM-6PM</td>
+                <td><button>Enroll Now</button></td>
+            </tr>
+            <tr>
+                <td>Mon-Sun</td>
+                <td>20<sup>th</sup> jan. 2022</td>
+                <td>9AM-6PM</td>
+                <td><button>Enroll Now</button></td>
+            </tr>
+            <tr>
+                <td>Mon-Sun</td>
+                <td>15<sup>th</sup> jan. 2022</td>
+                <td>9AM-6PM</td>
+                <td><button>Enroll Now</button></td>
+            </tr>
+            <tr>
+                <td>Mon-Sun</td>
+                <td>20<sup>th</sup> jan. 2022</td>
+                <td>9AM-6PM</td>
+                <td><button>Enroll Now</button></td>
+            </tr>
+            <tr>
+                <td>Mon-Sun</td>
+                <td>28<sup>th</sup> Nov. 2021</td>
+                <td>9AM-6PM</td>
+                <td><button>Enroll Now</button></td>
+            </tr>
+        </table>
+    </div>
+</main>

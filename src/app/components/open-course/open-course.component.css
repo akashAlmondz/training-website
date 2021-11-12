@@ -1,0 +1,271 @@
+app-contact {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
+app-links {
+  position: fixed;
+  top: 40vh;
+  z-index: 10;
+}
+app-social {
+  z-index: 1;
+  right: 0;
+  position: fixed;
+  right: 0;
+}
+.landing {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.backGround {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(0.5);
+}
+.landing .about {
+  width: 50%;
+  padding: 0 0 0 80px;
+}
+.landing .about .courseName {
+  font-size: 30px;
+  color: white;
+  width: 70%;
+}
+.landing .about .aboutCourse {
+  font-size: 20px;
+  color: rgb(214, 214, 214);
+  width: 80%;
+  margin: 20px 0 50px 0;
+  line-height: 35px;
+}
+.landing .about .enrolNow {
+  padding: 10px 30px;
+  background-image: linear-gradient(yellow, orange);
+  width: fit-content;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.landing .about .enrolNow:hover {
+  cursor: pointer;
+  background-image: linear-gradient(orange, yellow);
+}
+.landing .report {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+  position: relative;
+  padding: 20px 0 0 0;
+}
+.landing .report::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(119, 107, 86);
+  height: 1px;
+  width: 100%;
+  top: 0;
+}
+.report div {
+  color: white;
+}
+.report div b {
+  font-size: 20px;
+}
+
+.courseImg {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.courseImg img {
+  width: 70%;
+}
+
+.heading {
+  font-size: 25px;
+  margin: 20px 0;
+  position: relative;
+  width: fit-content;
+}
+.heading::after {
+  content: "";
+  background-color: #ffb606;
+  height: 2px;
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main {
+  margin-top: 10vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.query {
+  box-shadow: 0 15px 30px rgba(134, 134, 134, 0.16);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.678);
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  border-radius: 5px;
+  padding: 10px 0 5px 0;
+  position: absolute;
+  right: 70px;
+  transition: .4s;
+}
+/* .sticky{
+  position: fixed;
+  z-index: 40;
+  top: 20vh;
+}
+.static{
+  position: absolute;
+  bottom: -90vh;
+} */
+.query h1 {
+  font-size: 25px;
+  color: rgb(139, 139, 139);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 70%;
+}
+
+form div {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+form i {
+  font-size: 20px;
+  color: #ffb606;
+}
+form div input,
+select {
+  border: none;
+  width: 190px;
+  height: 30px;
+  border-bottom: 1px solid #ffb606;
+}
+form div input,
+select:focus {
+  outline: none;
+}
+#msg {
+  border: none;
+  height: 50px;
+  border-bottom: solid 1px #ffb606;
+  border-radius: 0;
+  width: 100%;
+}
+#msg:focus {
+  outline: none;
+}
+form button {
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  width: 90px;
+  background-color: #ffb606;
+  color: white;
+}
+
+main .aboutCourse {
+  padding: 30px 80px;
+  box-shadow: 4px 7px 14px rgba(121, 121, 121, 0.219);
+  width: 65%;
+}
+main .aboutCourse .about {
+  padding: 10px 0;
+  width: 100%;
+  text-align: justify;
+  line-height: 30px;
+}
+.curriculum {
+  min-height: 70vh;
+  width: 100%;
+  padding: 80px;
+  /* background-color: blue; */
+}
+.curriculum .sections {
+  display: flex;
+}
+
+.curriculum .sections .section {
+  background-color: rgb(138, 237, 255);
+  padding: 20px;
+  margin: 1px;
+  border-radius: 10px;
+  border: 5px solid #ffb606;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.curriculum .sections .active {
+  background-color: #ffb606;
+  border: 5px solid rgb(138, 237, 255);
+}
+
+.curriculum .sections .section i {
+  color: #ffb606;
+  font-size: 30px;
+  padding: 5px 0;
+  transition: 0.4s;
+}
+.curriculum .sections .active i {
+  color: rgb(138, 237, 255);
+}
+
+.aboutSection {
+  margin: 40px 0 0 0;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1% 5%;
+  
+}
+table {
+  width: 70%;
+  height: 50vh;
+  margin: 30px 0;
+  border: 1px solid #ffb606;
+  border-collapse: collapse;
+}
+table th {
+  background-color: rgb(226, 147, 43);
+  color: white;
+}
+table td {
+  text-align: center;
+  border: 1px solid #ffb606;
+}
+table button {
+  border: none;
+  background-color: rgb(50, 99, 1);
+  border-radius: 3px;
+  padding: 2px 4px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
