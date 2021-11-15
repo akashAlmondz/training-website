@@ -39,7 +39,7 @@ main i {
 .navigation .link{margin:0 2vw ;}
 .navigation p{
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(0, 0, 0);
     transition: .4s;
 }
@@ -73,9 +73,9 @@ main i {
 
 .allCourses .hidden{padding: 20px 0 0 0; display:none;left: 0; justify-content:space-around; position: absolute;width:100%;background-color: rgb(255, 255, 255);}
 .allCourses .hidden .category{padding: 10px 0;margin: 0 1px;}
-.allCourses .hidden div .heading{background-color: #f7ecd6;padding: 7px 5px;font-size: 20px;font-weight: 500;}
+.allCourses .hidden div .heading{background-color: #f7ecd6;padding: 7px 5px;font-size: 13px;font-weight: 500;}
 .allCourses .hidden div .sub{margin: 1px 0 0 0;}
-.allCourses .hidden div .sub p{margin: 1px 0 0 0;background-color: rgb(255, 255, 255);padding: 7px 5px;font-size: 15px;}
+.allCourses .hidden div .sub p{margin: 1px 0 0 0;background-color: rgb(255, 255, 255);padding: 7px 5px;font-size: 12px;}
 
 @media (max-width: 1030px){
    .navigation{display: none;}

@@ -35,7 +35,7 @@
     <div class="courses">
         <p class="heading" >All Courses</p>
         <div class="cards" [ngClass] = "expendCourses? 'expendCards': '' "  >
-            <div class="card" *ngFor= 'let item of coursesCards' >
+            <div [routerLink]="['openCourse']" class="card" *ngFor= 'let item of coursesCards' >
                 <div class="courseBackground">
                     <img class="courseImg" [src]=item.img alt="">
                 </div>

@@ -1,0 +1,546 @@
+app-contact {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
+app-links {
+  position: fixed;
+  top: 40vh;
+  z-index: 10;
+}
+app-social {
+  z-index: 1;
+  right: 0;
+  position: fixed;
+  right: 0;
+}
+.holder{
+  position: relative;
+}
+.landing {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.backGround {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(0.5);
+  top: 0;
+}
+.landing .about {
+  width: 50%;
+  padding: 0 0 0 80px;
+}
+.landing .about .courseName {
+  font-size: 30px;
+  color: white;
+  width: 70%;
+}
+.landing .about .aboutCourse {
+  font-size: 20px;
+  color: rgb(214, 214, 214);
+  width: 80%;
+  margin: 20px 0 50px 0;
+  line-height: 35px;
+}
+.landing .about .enrolNow {
+  padding: 10px 30px;
+  background-image: linear-gradient(yellow, orange);
+  width: fit-content;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.landing .about .enrolNow:hover {
+  cursor: pointer;
+  background-image: linear-gradient(orange, yellow);
+}
+.landing .report {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 40px 0 0 0;
+  position: relative;
+  padding: 20px 0 0 0;
+}
+.landing .report::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(119, 107, 86);
+  height: 1px;
+  width: 100%;
+  top: 0;
+}
+.report div {
+  color: white;
+}
+.report div b {
+  font-size: 20px;
+}
+
+.courseImg {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.courseImg img {
+  width: 70%;
+}
+
+.heading {
+  font-size: 25px;
+  margin: 20px 0;
+  position: relative;
+  width: fit-content;
+}
+.heading::after {
+  content: "";
+  background-color: #ffb606;
+  height: 2px;
+  width: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main {
+  margin-top: 10vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.query {
+  box-shadow: 0 15px 30px rgba(134, 134, 134, 0.16);
+  border-radius: 20px;
+  background-color: rgba(236, 236, 236, 0.315);
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  border-radius: 5px;
+  padding: 10px 0 5px 0;
+  position: absolute;
+  right: 70px;
+  transition: .4s;
+}
+/* .sticky{
+  position: fixed;
+  z-index: 40;
+  top: 20vh;
+}
+.static{
+  position: absolute;
+  bottom: -90vh;
+} */
+.query h2 {
+  font-size: 25px;
+  color: rgb(139, 139, 139);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 70%;
+}
+
+form div {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+form i {
+  font-size: 20px;
+  color: #ffb606;
+}
+form div input,
+select {
+  border: none;
+  width: 190px;
+  height: 30px;
+  border-bottom: 1px solid #ffb606;
+}
+form div input,
+select:focus {
+  outline: none;
+}
+#msg {
+  border: none;
+  height: 50px;
+  border-bottom: solid 1px #ffb606;
+  border-radius: 0;
+  width: 100%;
+}
+#msg:focus {
+  outline: none;
+}
+form button {
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  width: 90px;
+  background-color: #ffb606;
+  color: white;
+}
+
+.courseFeatures{
+  box-shadow: 0 15px 30px rgba(134, 134, 134, 0.16);
+  border-radius: 20px;
+  background-color: rgba(235, 235, 235, 0.678);
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 500px; */
+  border-radius: 5px;
+  padding: 10px 15px;
+  position: absolute;
+  right: 70px;
+  top: 600px;
+  transition: .4s;
+}
+.courseFeatures h2{
+  font-size: 25px;
+  color: rgb(139,139,139);
+}
+.courseFeatures .feature{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border: 2px solid gray;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.courseFeatures .feature i{
+  color: #ffb606;
+  padding: 5px 15px;
+}
+
+
+main .aboutCourse {
+  padding: 30px 10px 30px 80px ;
+  /* box-shadow: 4px 7px 14px rgba(121, 121, 121, 0.219); */
+  width: 65%;
+}
+main .aboutCourse .about {
+  padding: 10px 0;
+  width: 100%;
+  text-align: justify;
+  line-height: 30px;
+}
+.curriculum {
+  min-height: 70vh;
+  width: 100%;
+  padding: 80px;
+  background-color: rgba(125, 159, 253, 0.212);
+}
+.curriculum .sectionHolder {
+  display: flex;
+}
+
+.curriculum .sectionHolder .section {
+  background-color: rgb(138, 237, 255);
+  padding: 20px;
+  margin: 1px;
+  border-radius: 10px;
+  border: 5px solid #ffb606;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.curriculum .sectionHolder .active {
+  background-color: #ffb606;
+  border: 5px solid rgb(138, 237, 255);
+}
+
+.curriculum .sectionHolder .section i {
+  color: #ffb606;
+  font-size: 30px;
+  padding: 5px 0;
+  transition: 0.4s;
+}
+.curriculum .sectionHolder .active i {
+  color: rgb(138, 237, 255);
+}
+
+.aboutSection {
+  margin: 40px 0 0 0;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 1% 5%;
+  
+}
+table {
+  width: 65%;
+  height: 50vh;
+  margin: 30px 0;
+  border: 1px solid #ffb606;
+  border-collapse: collapse;
+}
+table th {
+  background-color: rgb(226, 147, 43);
+  color: white;
+}
+table td {
+  text-align: center;
+  border: 1px solid #ffb606;
+}
+table button {
+  border: none;
+  background-color: rgb(50, 99, 1);
+  border-radius: 3px;
+  padding: 2px 4px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.projects{
+  padding: 80px;
+}
+.projects .cards{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.projects .cards .card{
+  width: 600px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  border: 1px solid rgba(170, 170, 170, 0.281);
+  border-radius: 10px;
+  transition: .4s;
+}
+.projects .cards .card:hover{
+  box-shadow:  4px 6px 16px rgba(128, 128, 128, 0.555);
+}
+.projects .cards .card .fa-times-circle{
+  display: none;
+}
+
+
+.projects .cards .card .img{
+  background-color: rgba(214, 214, 214, 0.226);
+  padding: 40px 80px;
+}
+.projects .img i{
+  color: #ffb606;
+  font-size: 60px;
+  text-shadow: 9px 29px 23px rgba(128, 128, 128, 0.795);
+}
+
+.projects .cards .card .about{
+  padding: 0px 2px 2px 34px;
+}
+
+.projects .cards .card .about p:nth-child(1) {
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  
+}
+
+.projects .cards .card .about p:nth-child(2){
+  font-size: 22px;
+  min-height: 150px;
+  width: 250px;
+  padding: 30px 0 0 0 ;
+}
+.projects .cards .card .about p:nth-child(3){
+  display: none;
+}
+.projects .cards .card .about p:nth-child(4){
+  color: rgb(110, 197, 255);
+  transition: .4s;
+}
+.projects .cards .card .about p:nth-child(4):hover{
+  color: rgb(41, 132, 194);
+  cursor: pointer;
+}
+
+.projects .cards .learnMore{
+  position:absolute;
+  width: 70%;
+  /* top: 1vh; */
+  transition: .4s;
+  left:15%;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.589);
+  z-index: 2;
+  /* position: relative; */
+}
+.projects .cards .learnMore .fa-times-circle{
+  display: block;
+  position: absolute;
+ right: 30px;
+ top: 30px; 
+ cursor: pointer;
+}
+.blurBack{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(172, 172, 172, 0.678);
+  filter: blur(3px);
+  position:fixed;
+  top: 0;
+  z-index: 1;
+}
+.projects .cards .learnMore .about p:nth-child(2){
+  min-height:fit-content;
+  padding: 30px 0;
+}
+.projects .cards .learnMore .about p:nth-child(3){
+  display: block;
+  width: 500px;
+}
+.projects .cards .learnMore .about p:nth-child(4){
+  display: none;
+}
+.process{
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.process .cards{
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.process .cards .card{
+  display:flex;
+  width: 30%;
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 5px 60px rgba(88, 88, 88, 0.164);
+}
+
+.process .cards .card .id{
+  background-color: rgb(39, 65, 0);
+  padding: 10px 15px;
+  border-radius: 100px;
+  color: aliceblue;
+  height: fit-content;
+}
+.process .cards .card span{
+  padding:0 0 0 30px;
+}
+.process .cards .card span p:nth-child(1){
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.process .cards .card span p:nth-child(2){
+  font-size: 14px;
+  color: rgb(82, 82, 82);
+}
+
+.blogs{
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.blogs .cards{
+  display: flex;
+  width: 100%;
+}
+.blogs .cards .card{
+  display: flex;
+  width: 30%;
+  margin: 20px;
+  padding: 30px 10px 10px 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.377);
+  position: relative;
+}
+.blogs .cards .card::before{
+  position: absolute;
+  background-color: rgb(160, 255, 255);
+  content: '';
+  top:0;
+  left:0;
+  width: 70%;
+  height:141%;
+  border-radius: 10px;
+  clip-path: polygon(40% 0, 40% 5%, 5% 5%, 5% 50%, 0 50%, 0 0);
+}
+.blogs .cards .card img{
+  width: 50%;
+  border-radius: 10px;
+}
+
+.blogs .cards .card span{
+  padding:  0 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blogs .cards .card span p:nth-child(2){
+  width: 100%;
+  text-align: end;
+  font-size: 12px;
+  color: rgb(0, 112, 112);
+  cursor: pointer;
+}
+.subHeading{
+  font-size: 20px;
+  color: rgb(31, 31, 31);
+}
+.sections{
+  padding: 40px 80px ;
+}
+.sections
+ .point{
+ padding: 0 0 0 5px;
+ /* line-height: 30px; */
+ display: flex;
+ text-align: start;
+ font-weight: 100;
+ color: rgb(112, 112, 112);
+}
+.sections .point::before{
+  content: '';
+  background-color: rgba(107, 107, 107, 0.219);
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+.sections .points{
+  display: flex;
+  /* align-items: center; */
+  margin:10px 0;
+  position: relative;
+  padding: 5px 0;
+}
+.sections .points b{
+  color: aliceblue;
+  background-color: rgb(66, 66, 66);
+  padding:0 5px;
+  font-weight: 100;
+  border-radius: 10px;
+  height: fit-content;
+}

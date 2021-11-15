@@ -11,6 +11,9 @@ import { SocialMediaComponent } from './utilites/social-media/social-media.compo
 import { ContactComponent } from './utilites/contact/contact.component';
 import { LinksComponent } from './utilites/links/links.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { OpenCourseComponent } from './components/open-course/open-course.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -22,11 +25,13 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
     SocialMediaComponent,
     ContactComponent,
     LinksComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    OpenCourseComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

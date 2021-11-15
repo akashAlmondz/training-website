@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
     window.addEventListener("scroll",function(){
       const header=document.querySelector('nav');
       if (header){
-        header.classList.toggle("sticky", window.scrollY>290);
+        header.classList.toggle("sticky", window.scrollY>10);
       }
     })
   }
