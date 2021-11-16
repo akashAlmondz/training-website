@@ -40,9 +40,32 @@ courseFeatures = [
 
 
 sections = [
-  {id:1, img:"fas fa-laptop-code",name:'lorem Impsum A',about:['Web scrapping','lorem ipsum2','lorem ipsom3']},
-  {id:2, img:"fas fa-puzzle-piece",name:'lorem Impsum B',about:['Data Science','lorem ipsum2','lorem ipsom3']},
-  {id:3, img:"fas fa-trophy",name:'lorem Impsum C',about:['machine learning','lorem ipsum2','lorem ipsom3']},
+  {id:0, img:"fas fa-laptop-code",sectionName:'Introduction of Python ',about:[ 
+    {name:'Name1a',summary:'this is summry of name1aLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name1b',summary:'this is summry of name1bLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name1c',summary:'this is summry of name1cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name1c',summary:'this is summry of name1cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name1c',summary:'this is summry of name1cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name1c',summary:'this is summry of name1cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name1c',summary:'this is summry of name1cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name1c',summary:'this is summry of name1cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+   ]},
+  {id:1, img:"fas fa-puzzle-piece",sectionName:'Data Structures & Algorithms ',about:[
+    {name:'Name2a',summary:'this is summry of name2aLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name2b',summary:'this is summry of name2bLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name2c',summary:'this is summry of name2cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name2c',summary:'this is summry of name2cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name2c',summary:'this is summry of name2cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name2c',summary:'this is summry of name2cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+  ]},
+  {id:2, img:"fas fa-trophy",sectionName:'Special Features',about:[
+    {name:'Name3a',summary:'this is summry of name3aLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name3b',summary:'this is summry of name3bLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name3c',summary:'this is summry of name3cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name3c',summary:'this is summry of name3cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name3c',summary:'this is summry of name3cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    {name:'Name3c',summary:'this is summry of name3cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+  ]},
 ]
 
 projectsCard = [
@@ -91,7 +114,7 @@ placementCards = [
   {point:'Loconsectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},   
 ]
 
-activeSection = 1
+activeSection = 0
 openedCard = 0
 openedCardItems = [{id:1,img:"fas fa-building",name:'House Price Prediction',domainName:'Real Estate',about:'In this particular project, the students are working on the data which has a few variables related to the various aspects of the property. At the end of the capstone project, students should be able to consolidate the results and suggest actions that are to be applied for the successful price prediction of real estate.'},]
 
