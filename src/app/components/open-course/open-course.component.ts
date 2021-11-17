@@ -55,8 +55,8 @@ sections = [
     {name:'Name2b',summary:'this is summry of name2bLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
     {name:'Name2c',summary:'this is summry of name2cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
     {name:'Name2c',summary:'this is summry of name2cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
-    {name:'Name2c',summary:'this is summry of name2cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
-    {name:'Name2c',summary:'this is summry of name2cLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
+    
+    
   ]},
   {id:2, img:"fas fa-trophy",sectionName:'Special Features',about:[
     {name:'Name3a',summary:'this is summry of name3aLorem ipsum dolor sit amet consectetur adipisicing elit. Amet velit consequuntur, quam culpa at in eveniet ratione, autem, unde minus soluta porro voluptas eius nulla praesentium itaque! Officia, nobis possimus?'},
@@ -116,7 +116,7 @@ placementCards = [
 
 activeSection = 0
 openedCard = 0
-openedCardItems = [{id:1,img:"fas fa-building",name:'House Price Prediction',domainName:'Real Estate',about:'In this particular project, the students are working on the data which has a few variables related to the various aspects of the property. At the end of the capstone project, students should be able to consolidate the results and suggest actions that are to be applied for the successful price prediction of real estate.'},]
+openedCertificate = 0
 
 active(num:any){
   this.activeSection=num
@@ -124,6 +124,10 @@ active(num:any){
 
 openCard(num:any){
   this.openedCard = num 
+}
+
+showCertificate(value:number){
+  this.openedCertificate = value
 }
 
 

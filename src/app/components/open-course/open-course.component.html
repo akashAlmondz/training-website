@@ -2,7 +2,7 @@
     <app-contact></app-contact>
 <app-links></app-links>
 <app-social></app-social>
-<div [ngClass]="openedCard!=0? 'blurBack': '' " (click)="openCard(0)" ></div>
+<div [ngClass]="openedCard!=0 || openedCertificate!=0? 'blurBack': '' " (click)="openCard(0)" (click)="showCertificate(0)" ></div>
 <div class="landing">
     <img class="backGround" src="assets/images/SL-051919-20420-21.jpg" alt="">
     <div class="about">
@@ -63,8 +63,20 @@
             <input type="text" id="msg" placeholder="Enter your message">
             <button>Submit</button>
         </form>
-
-
+        
+        
+    </div>
+    <div class="process">
+        <p class="heading">Application Process</p>
+        <div class="cards">
+            <div class="card" *ngFor="let item of processCard">
+                <p class="id" >{{item.id}}</p>
+                <span>
+                    <p>{{item.name}}</p>
+                <p>{{item.about}}</p>
+                </span>
+            </div>
+        </div>
     </div>
     <div class="courseFeatures">
         <h2>Course Features</h2>
@@ -162,16 +174,25 @@
             </div>
         </div>
     </div>
-    <div class="process">
-        <p class="heading">Application Process</p>
-        <div class="cards">
-            <div class="card" *ngFor="let item of processCard">
-                <p class="id" >{{item.id}}</p>
-                <span>
-                    <p>{{item.name}}</p>
-                <p>{{item.about}}</p>
-                </span>
+    <div class="certificate">
+        <p class="heading">Certification provided by Us</p>
+        <i *ngIf="openedCertificate!=0" (click)="showCertificate(0)" class="far fa-times-circle"></i>
+        <div class="holder">
+            <div class="card">
+                <img [ngClass]="this.openedCertificate==1? 'opnedCertificate': '' " src="assets/images/certificate.png" alt="">
+                <p>Internship certificate</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quidem necessitatibus, aspernatur beatae libero quam deserunt veniam neque, non quibusdam placeat esse ea voluptates tempore autem perferendis voluptate, vel natus?</p>
+                <p (click)="showCertificate(1)"  >view sample certificate</p>
             </div>
+            <div class="card">
+                <img [ngClass]="this.openedCertificate==2? 'opnedCertificate': '' " src="assets/images/certificate1.png" alt="">
+                <p>Course complition certificate</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quidem necessitatibus, aspernatur beatae libero quam deserunt veniam neque, non quibusdam placeat esse ea voluptates tempore autem perferendis voluptate, vel natus?</p>
+                <p (click)="showCertificate(2)" >view sample certificate</p>
+            </div>
+        </div>
+        <div class="download">
+            <p>Download Brochure <i class="fas fa-download"></i> </p>
         </div>
     </div>
     <div class="sections">
