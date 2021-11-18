@@ -13,6 +13,7 @@ import { LinksComponent } from './utilites/links/links.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { OpenCourseComponent } from './components/open-course/open-course.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContactComponent,
     LinksComponent,
     ContactUsComponent,
-    OpenCourseComponent
+    OpenCourseComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

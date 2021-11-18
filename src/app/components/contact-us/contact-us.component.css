@@ -1,0 +1,155 @@
+app-contact {
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+  }
+  app-links {
+    position: fixed;
+    top: 40vh;
+    z-index: 10;
+  }
+  app-social {
+    z-index: 1;
+    right: 0;
+    position: fixed;
+    right: 0;
+  }
+  main{
+      position: relative;
+  }
+  .BG {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(30%);
+    position: absolute;
+    z-index: -1;
+    display: none;
+  }
+
+  .landing{
+      width: 100%;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      
+  }
+  .landing .form{
+      width: 50%;
+      padding: 50px 80px 0 80px;
+      height: 60%;
+  }
+  form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      justify-content: space-between;
+  }
+  form span{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+  }
+  form span span{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      height: 70px;
+      width: 270px;
+  }
+  form label{
+      color: rgb(0, 0, 0);
+  }
+  form label:nth-child(3){
+      width: 100%;
+      text-align: start;
+  }
+  form input, form select {
+      width: 100%;
+      height: 40px;
+      border-radius: 5px;
+      border: none;
+      border-left:2px solid rgb(90, 90, 90) ;
+      border-top:2px solid rgb(90, 90, 90) ;
+      /* padding:0 20px; */
+      box-shadow: 1px 1px 2px gray;
+  }
+  form input:focus , select:focus{
+      outline: none;
+  }
+  form input:nth-child(4){
+      width: 100%;
+      height: 70px;
+      border: 1px solid gray;
+      box-shadow: none;
+  }
+  form input:nth-child(5){
+      height: 40px;
+      width: 30%;
+      cursor: pointer;
+      background-color:#ffb606;
+      border: none;
+      box-shadow: none;
+      font-size: 20px;
+      color: rgb(61, 61, 61);
+      transition: .4s;
+  }
+  form input:nth-child(5):hover{
+      box-shadow: 3px 3px 6px rgba(128, 128, 128, 0.404);
+  }
+  .landing .about{
+      width: 50%;
+      padding: 0 0 0 20px;
+      height: 45%;
+      color: rgb(0, 0, 0);
+      justify-content: space-between;
+  }
+
+  .landing .about p:nth-child(1){
+      font-size: 30px;
+      font-weight: 600;
+      padding-bottom: 20px;
+  }
+  .landing .about p:nth-child(2){
+      width: 70%;
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 200;
+  }
+  .landing .about .contactinfo{
+      padding: 50px 0;
+  }
+  .landing .about .contactinfo span{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+  }
+  .landing .about .contactinfo span i{
+      font-size: 20px;
+      font-weight: 500;
+  }
+  .landing .about .contactinfo span p{
+      font-size: 18px;
+      color: rgb(56, 139, 216);
+      padding: 0 0 0 19px;cursor: pointer;
+  }
+  .address{
+      padding:0 0 80px 80px;
+  }
+  .address span{
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 30px;
+  }
+  .address span i{
+      font-size: 30px;
+      width: 40px;
+  }
+  .address span p{
+      font-size: 20px;
+  }
+  .address p{
+      color: rgb(82, 82, 82);
+  }
