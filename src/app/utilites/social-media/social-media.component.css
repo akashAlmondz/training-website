@@ -1,4 +1,4 @@
 main{height: 100vh;display: flex;flex-direction: column;justify-content: center;}
-main div{display: flex;flex-direction: column;}
-main div img{width:3vw;margin: 8px 0;transition: .4s;}
-main div img:hover{transform: scale(114%);cursor: pointer; }
+main div{display: flex;flex-direction: column;margin:1px;background-color: white;padding: 6px;box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.479);border-radius: 5px;}
+main div img{width:30px;transition: .4s;}
+main div img:hover{transform: scale(129%);cursor: pointer;border-radius: 55px; }

@@ -1,68 +1,62 @@
 nav {
-    z-index: 1;
-    margin-top: 5vh;
+    z-index: 2;
+    margin-top: 0;
     width: 100%;
-    padding: 0 3%;
+    padding: 0 5%;
+    background-color: rgb(255, 255, 255);
     position: fixed;
+    /* box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.342); */
     transition: .4s;
+    /* overflow: hidden; */
 }
 .menu{display: none;}
 main {
     width: 100%;
+    /* height: 80px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.541);
-    backdrop-filter: blur(10px);
+    
+    /* background-color: rgba(255, 255, 255, 0.541); */
+    /* backdrop-filter: blur(10px); */
     /* border-bottom: 0.1px solid white; */
     /* border-left: 0.1px solid white; */
     /* border-radius: 5px; */
 }
-main:hover{
-    background-color: rgb(255, 255, 255);
+main .logo{
+   width: 130px;
+   padding: 5px 0 0 0;
+}
+main .logo img{
+    width: 100%;
+    cursor: pointer;
 }
 
-main i {
-    padding: 1% 2%;
-    width:10%;
-    font-size:50px;
-    /* text-align: center; */
-}
 
 .navigation{
     padding: 0;
     
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content:center;
 }
 .navigation .link{margin:0 2vw ;}
-.navigation p{
+.navigation .limk{
     font-weight: 300;
     font-size: 15px;
     color: rgb(0, 0, 0);
     transition: .4s;
 }
 
-.navigation p:hover{
+.navigation .link:hover{
     cursor: pointer;
-    color: #FFB606;
-    /* font-size: 22px; */
-    transform: scale(102%);
+    color: #1874d2;
 }
-.phoneNo{
-    padding: 21px 60px ;
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    background-color: #FFB606;
-}
-.phoneNo i{font-size: 30px;color: honeydew;}
-.phoneNo i:hover{cursor: text call us now;}
-.phoneNo p{font-size: 25px; color: honeydew;}
 
-.sticky{padding: 0;margin-top: 0; z-index: 50; background-color:rgba(255, 255, 255, 0.548);box-shadow: 0 3px 8px rgba(157, 157,157,0.2);}
+
+
+
+.sticky{box-shadow: 0 5px 8px rgba(157, 157, 157, 0.199);z-index: 40;background-color: white;}
 
 /* .allCourses{position: relative;} */
 .allCourses:hover .hidden{display: flex;}
@@ -73,9 +67,10 @@ main i {
 
 .allCourses .hidden{padding: 20px 0 0 0; display:none;left: 0; justify-content:space-around; position: absolute;width:100%;background-color: rgb(255, 255, 255);}
 .allCourses .hidden .category{padding: 10px 0;margin: 0 1px;}
-.allCourses .hidden div .heading{background-color: #f7ecd6;padding: 7px 5px;font-size: 13px;font-weight: 500;}
+.allCourses .hidden div .heading{color: black; background-color: #b0d8ff;padding: 7px 5px;font-size: 13px;font-weight: 500;}
 .allCourses .hidden div .sub{margin: 1px 0 0 0;}
-.allCourses .hidden div .sub p{margin: 1px 0 0 0;background-color: rgb(255, 255, 255);padding: 7px 5px;font-size: 12px;}
+.allCourses .hidden div .sub p{margin: 1px 0 0 0;color: black; background-color: rgb(255, 255, 255);padding: 7px 5px;font-size: 14px;}
+.allCourses .hidden div .sub p:hover{cursor: pointer;color: #1874d2;}
 
 @media (max-width: 1030px){
    .navigation{display: none;}

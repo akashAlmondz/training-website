@@ -1,15 +1,17 @@
 <nav>
     <main>
-        <i class="fas fa-book-reader"></i>
+        <div class="logo">
+            <img [routerLink]="['']" src="assets/images/logo.png" alt="">
+        </div>
         <div class="navigation">
-            <p [routerLink]="['']" class="link" >Home</p>
-            <div class="allCourses link" [routerLink]="['courses']" >
-                <p>All Courses</p>
+            
+            <div  class="allCourses "  >
+                <p class="link" >All Courses</p>
                 <div class="hidden">
                         <div class="python category">
                             <p class="heading" >Popular Courses</p>
                             <div class="sub">
-                                <p>Python training</p>
+                                <p [routerLink]="['openCourse']" >Python training</p>
                                 <p>Data Science training</p>
                                 <p>Machine Learning training</p>
                                 <p>Deep Learning training</p>
@@ -65,8 +67,8 @@
                 </div>
             </div>
             
-            <p class="link" >Certification</p>
-            <div class="training link" >
+            <p [routerLink]="['certification']" class="link" >Certification</p>
+            <div class="training link" [routerLink]="['training']" >
                 <p >Training Programs</p>
                 <div class="hidden">
                     <p>Corporate Training</p>
@@ -77,13 +79,12 @@
             <div class="company link" >
                 <p>Company</p>
                 <div class="hidden">
-                    <p>About Us</p>
-                    <p>Our Team</p>
+                    <p [routerLink]="['aboutUs']" >About Us</p>
                     <p [routerLink]="['contact']" >Contact Us</p>
-                    <p>Blogs</p>
+                    <p [routerLink]="['blogs']" >Blogs</p>
                 </div>
             </div>
-            <p class="link" >Placements</p>
+            <p [routerLink]="['placement']" class="link" >Placements</p>
             
         </div>
         <div class="menu">

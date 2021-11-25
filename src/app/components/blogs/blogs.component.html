@@ -1,0 +1,39 @@
+<main>
+    <p class="heading">Our Blogs:</p>
+    <div class="blogs">
+        <p class="subHeading">Informative blogs:</p>
+        <div class="cards">
+            <div class="card" *ngFor="let item of blogCards" >
+                <img [src] = item.img alt="">
+                <span>
+                    <p>{{item.name}}</p>
+                    <p>Learn More ></p>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="blogs">
+        <p class="subHeading">Social Media Awareness:</p>
+        <div class="cards">
+            <div class="card" *ngFor="let item of blogCards" >
+                <img [src] = item.img alt="">
+                <span>
+                    <p>{{item.name}}</p>
+                    <p>Learn More ></p>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="blogs">
+        <p class="subHeading">Latest Update IT Services:</p>
+        <div class="cards">
+            <div class="card" *ngFor="let item of blogCards" >
+                <img [src] = item.img alt="">
+                <span>
+                    <p>{{item.name}}</p>
+                    <p>Learn More ></p>
+                </span>
+            </div>
+        </div>
+    </div>
+</main>

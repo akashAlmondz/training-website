@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './utilites/header/header.component';
 import { FooterComponent } from './utilites/footer/footer.component';
-import { CoursesComponent } from './components/courses/courses.component';
 import { SocialMediaComponent } from './utilites/social-media/social-media.component';
 import { ContactComponent } from './utilites/contact/contact.component';
 import { LinksComponent } from './utilites/links/links.component';
@@ -14,6 +13,12 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { OpenCourseComponent } from './components/open-course/open-course.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { TrainingComponent } from './components/training/training.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { QformComponent } from './components/qform/qform.component';
+import { PlacementComponent } from './components/placement/placement.component';
+import { CertificationComponent } from './components/certification/certification.component';
 
 
 @NgModule({
@@ -22,13 +27,18 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    CoursesComponent,
     SocialMediaComponent,
     ContactComponent,
     LinksComponent,
     ContactUsComponent,
     OpenCourseComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    TrainingComponent,
+    BlogsComponent,
+    TestimonialsComponent,
+    QformComponent,
+    PlacementComponent,
+    CertificationComponent
   ],
   imports: [
     BrowserModule,

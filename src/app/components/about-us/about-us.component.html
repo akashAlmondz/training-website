@@ -1,1 +1,39 @@
-<p>about-us works!</p>
+<app-contact></app-contact>
+<app-links></app-links>
+<app-social></app-social>
+<main>
+    <div class="landing">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, expedita accusamus. Iste odit distinctio praesentium debitis nam consequuntur delectus magni dicta omnis inventore? Quae ipsam repellendus, dolorum obcaecati ipsum itaque.</p>
+    </div>
+    <div class="mission">
+        <div class="cards">
+            <div class="card">
+                <p>Our Mission</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quibusdam adipisci eligendi eaque rerum optio mollitia quos, aut commodi alias fuga sint? Ipsa aliquid quam, rem recusandae dignissimos minima laborum.</p>
+            </div>
+            <div class="card">
+                <p>Our Vision</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laborum fugiat ad? Est, quidem recusandae quibusdam commodi voluptatum, in soluta delectus, rem reprehenderit obcaecati sint sit nihil perferendis. Similique, cumque?</p>
+            </div>
+        </div>
+    </div>
+    <div class="partners">
+        <p class="heading" >Our Hiring Partners</p>
+        <div class="logos">
+            <div *ngFor="let item of partners" class="logo">
+                <img [src] = "item" alt="">
+            </div>
+        </div>
+        
+    </div>
+    <div class="college">
+        <p class="heading">Our College Tieups</p>
+        <div class="logos">
+            <div *ngFor="let item of colleges" class="logo">
+                <img [src] = "item" alt="">
+            </div>
+        </div>
+    </div>
+    <app-testimonials></app-testimonials>
+</main>

@@ -1,9 +1,9 @@
-<app-contact></app-contact>
-<app-links></app-links>
-<app-social></app-social>
-<main [ngClass] = "expendReviews? 'blur':'nonblur' "  >
-    <div (click)=viewLess() class="blurBack"></div>
-    <img class="BG" src="assets/images/bg.jpg" alt="">
+
+<main>
+    
+    
+    
+    <img class="BG" src="assets/images/bg.svg" alt="">
     <div class="landing">
         
         <p>Get your Education today!</p>
@@ -11,13 +11,7 @@
             <input type="text" name="" id="" placeholder="Search for Courses">
             <i class="fas fa-search"></i>
         </div>
-        <!-- <div class="cards">
-            <div class="card" *ngFor = 'let item of landingCards'>
-                <i [ngClass]="item.icon"></i>
-                <p>{{item.name}}</p>
-                <h6>view more</h6>
-            </div>
-        </div> -->
+        
         <div class="list">
             <p *ngFor= "let item of list"  >{{item}}</p>
         </div>
@@ -40,31 +34,16 @@
                     <img class="courseImg" [src]=item.img alt="">
                 </div>
                 <p class="courseName" >{{item.name}}</p>
-                <!-- <p>{{item.about}}</p> -->
-
+                
             </div>
         </div>
         <div class="viewAllCoursesB">
             <p  *ngIf='!expendCourses' class="viewAllCourses" (click)=viewMoreCourses() >View All Courses</p>
         </div>
-
+        
         <p *ngIf='expendCourses' (click)=viewMoreCourses() class="viewLessCourses">View Less Courses</p>
     </div>
-    <!-- <div class="form">
-        <div class="register ">
-            <h1>Register now and get a discount <b>50%</b> discount until 1 January</h1>
-            <p>In aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempor nisl ligula vel nunc. Proin quis mi malesuada, finibus tortor fermentum. Aliquam, augue a gravida rutrum, ante nisl fermentum nulla, vitae tempo.</p>
-            <button class="button" >REGISTER NOW</button>
-        </div>
-        <div class="search">
-            <img class="bg" src="/assets/images/searchBG.jpg" alt="">
-            <h1>Search for your course</h1>
-            <input type="text" placeholder="Course Name">
-            <input type="text" placeholder="Category">
-            <input type="text" placeholder="Degree">
-            <p class="button" >SEARCH COURSE</p>
-        </div>
-    </div> -->
+    
     <div class="services">
         <p class="heading" >Our Services</p>
         <div class="cards">
@@ -75,21 +54,7 @@
             </div>
         </div>
     </div>
-    <div class="testimonial">
-        <p class="heading">What our students say</p>
-        <div  class="cards" [ngClass] = "expendReviews? 'viewMore':'' "  >
-            <div class="readless" (click)=readLess() ></div>
-            <i (click)=viewLess() class="far fa-times-circle"></i>
-            <div class="card" *ngFor= 'let item of reviewCards' [ngClass] = "item.id==selectedMessage? 'open':'' "  >
-                <img [src]="item.img" alt="">
-                <h4>{{item.name}}</h4>
-                <p >{{item.message}}</p>
-                <h5 *ngIf= 'item.id!=selectedMessage'  (click)=readMore(item.id) >read more</h5>
-            </div>
-
-        </div>
-        <p id="view" (click)=viewMore() >view more</p>
-    </div>
+    <app-testimonials></app-testimonials>
     <div class="upcoming">
         <p class="heading">Upcoming Batches</p>
         <div class="cards">
@@ -108,6 +73,18 @@
                     <p class="enroll" >Enroll Now</p>
                 </div>
                 
+            </div>
+        </div>
+    </div>
+    <div class="blogs">
+        <p class="heading">Browse Related Blogs</p>
+        <div class="cards">
+            <div class="card" *ngFor="let item of blogCards" >
+                <img [src] = item.img alt="">
+                <span>
+                    <p>{{item.name}}</p>
+                    <p>Learn More ></p>
+                </span>
             </div>
         </div>
     </div>
