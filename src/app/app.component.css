@@ -6,7 +6,7 @@ app-contact {
   app-links {
     position: fixed;
     top: 40vh;
-    z-index: 10;
+    z-index: 1;
   }
   app-social {
     z-index: 1;
@@ -27,4 +27,17 @@ app-contact {
     color: white;
     cursor: pointer;
     z-index: 3;
+  }
+
+  @media (max-width: 960px){
+    app-contact, app-links, app-social {
+      display: none;
+    }
+    button{
+      right: 10px ;
+      bottom: 10px;
+      height: 25px;
+      width: 25px;
+      font-size: 15px;
+    }
   }

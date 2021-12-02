@@ -16,10 +16,10 @@ export class HomeComponent implements OnInit {
   ]
 
   report = [
-    {name:'Satisfied Learners',value:'61,640',icon:'far fa-user'},
-    {name:'Hours Classes',value:'250,000+',icon:'far fa-clock'},
-    {name:'Assignments',value:'25,000+',icon:'far fa-file-code'},
     {name:'Projects',value:'3500+',icon:'fas fa-edit'},
+    {name:'Satisfied Learners',value:'61,640',icon:'far fa-user'},
+    {name:'Assignments',value:'25,000+',icon:'far fa-file-code'},
+    {name:'Hours Classes',value:'250,000+',icon:'far fa-clock'},
   ]
 
   list = [
@@ -28,6 +28,7 @@ export class HomeComponent implements OnInit {
 
   coursesCards = [
     {name:'Python',img:'assets/images/python.svg'},
+    {name:'Digital Marketing',img:'assets/images/dm.png'},
     {name:'Data Science',img:'assets/images/data-science.svg'},
     {name:'Machine Learning',img:'assets/images/machine-learning.png'},
     {name:'Deep learning',img:'assets/images/deep-learning.png'},
@@ -45,7 +46,6 @@ export class HomeComponent implements OnInit {
     {name:'SQL',img:'assets/images/sql-server.png'},
     {name:'PowerBi',img:'assets/images/powerbi-logo.png'},
     {name:'Tableau',img:'assets/images/tableau-logo.png'},
-    {name:'Oracle',img:'assets/images/oracle.png'},
     {name:'Oracle',img:'assets/images/oracle.png'},
   ]
 
@@ -90,6 +90,13 @@ export class HomeComponent implements OnInit {
     }
       
   }
+  course:any = 0
+  selectedCourse(value:any){
+    this.course = this.coursesCards.indexOf(value)
+    localStorage.setItem('courseIndex',this.course)
+  }
+
+  
 
 
 

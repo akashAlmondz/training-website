@@ -19,6 +19,7 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
 import { QformComponent } from './components/qform/qform.component';
 import { PlacementComponent } from './components/placement/placement.component';
 import { CertificationComponent } from './components/certification/certification.component';
+import { OpenBlogsComponent } from './components/open-blogs/open-blogs.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { CertificationComponent } from './components/certification/certification
     TestimonialsComponent,
     QformComponent,
     PlacementComponent,
-    CertificationComponent
+    CertificationComponent,
+    OpenBlogsComponent
   ],
   imports: [
     BrowserModule,

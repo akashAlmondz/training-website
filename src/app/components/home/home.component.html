@@ -3,7 +3,7 @@
     
     
     
-    <img class="BG" src="assets/images/bg.svg" alt="">
+    <img class="BG" src="assets/images/bg.png" alt="">
     <div class="landing">
         
         <p>Get your Education today!</p>
@@ -18,18 +18,20 @@
     </div>
     <div class="reports">
         <p class="button" >Download Company Brochure  <i class="fas fa-file-download"></i>  </p>
-        <div class="report" *ngFor='let item of report' >
-            <i [class]=item.icon></i>
-            <div class="">
-                <p class="value" >{{item.value}}</p>
-                <p class="name" >{{item.name}}</p>
+        <div class="holder" >
+            <div class="report" *ngFor='let item of report' >
+                <i [class]=item.icon></i>
+                <div class="">
+                    <p class="value" >{{item.value}}</p>
+                    <p class="name" >{{item.name}}</p>
+                </div>
             </div>
         </div>
     </div>
     <div class="courses">
         <p class="heading" >All Courses</p>
         <div class="cards" [ngClass] = "expendCourses? 'expendCards': '' "  >
-            <div [routerLink]="['openCourse']" class="card" *ngFor= 'let item of coursesCards' >
+            <div [routerLink]="['openCourse']" class="card" *ngFor= 'let item of coursesCards; let i as index' (click)=selectedCourse(i) >
                 <div class="courseBackground">
                     <img class="courseImg" [src]=item.img alt="">
                 </div>
@@ -73,18 +75,6 @@
                     <p class="enroll" >Enroll Now</p>
                 </div>
                 
-            </div>
-        </div>
-    </div>
-    <div class="blogs">
-        <p class="heading">Browse Related Blogs</p>
-        <div class="cards">
-            <div class="card" *ngFor="let item of blogCards" >
-                <img [src] = item.img alt="">
-                <span>
-                    <p>{{item.name}}</p>
-                    <p>Learn More ></p>
-                </span>
             </div>
         </div>
     </div>

@@ -1,19 +1,4 @@
-app-contact {
-  position: fixed;
-  bottom: 0;
-  z-index: 10;
-}
-app-links {
-  position: fixed;
-  top: 40vh;
-  z-index: 10;
-}
-app-social {
-  z-index: 1;
-  right: 0;
-  position: fixed;
-  right: 0;
-}
+
 .holder{
   position: relative;
 }
@@ -50,7 +35,7 @@ app-social {
   padding: 10px 30px;
   background-image: linear-gradient(rgb(37, 175, 255),rgb(252, 252, 252));
   width: fit-content;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   color: rgb(51, 51, 51);
   border: none;
@@ -232,7 +217,7 @@ form button {
 
 
 main .aboutCourse {
-  padding: 30px 10px 30px 80px ;
+  padding:5%;
   /* box-shadow: 4px 7px 14px rgba(121, 121, 121, 0.219); */
   width: 65%;
 }
@@ -242,6 +227,18 @@ main .aboutCourse .about {
   text-align: justify;
   line-height: 30px;
 }
+
+.aboutSection p{
+  color: rgb(73, 73, 73);
+  line-height: 27px;
+  width: 100%;
+}
+.aboutSection p:nth-child(1){
+  font-size: 20px;
+  color: rgb(32, 32, 32);
+  padding: 5px 0;
+}
+
 .curriculum {
   min-height: 70vh;
   width: 100%;

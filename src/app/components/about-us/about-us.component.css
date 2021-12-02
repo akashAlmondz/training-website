@@ -1,19 +1,3 @@
-app-contact {
-    position: fixed;
-    bottom: 0;
-    z-index: 20;
-  }
-  app-links {
-    position: fixed;
-    top: 40vh;
-    z-index: 10;
-  }
-  app-social {
-    z-index: 1;
-    right: 0;
-    position: fixed;
-    right: 0;
-  }
 .landing{
     height: 100vh;
     display: flex;

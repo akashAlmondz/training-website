@@ -5,6 +5,7 @@ import { BlogsComponent } from './components/blogs/blogs.component';
 import { CertificationComponent } from './components/certification/certification.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { HomeComponent } from './components/home/home.component';
+import { OpenBlogsComponent } from './components/open-blogs/open-blogs.component';
 import { OpenCourseComponent } from './components/open-course/open-course.component';
 import { PlacementComponent } from './components/placement/placement.component';
 import { TrainingComponent } from './components/training/training.component';
@@ -18,6 +19,8 @@ const routes: Routes = [
   {path:'blogs',component:BlogsComponent},
   {path:'placement',component:PlacementComponent},
   {path:'certification',component:CertificationComponent},
+  {path:'openBlogs',component:OpenBlogsComponent},
+
 ];
 
 @NgModule({

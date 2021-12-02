@@ -1,6 +1,6 @@
 
 .landing{
-    padding-top: 100px;
+    padding: 5%;
 }
 .heading {
     font-size: 25px;
@@ -22,7 +22,7 @@
     color: rgb(31, 31, 31);
   }
   .sections{
-    padding: 40px 80px ;
+    /* padding: 40px 80px ; */
   }
   .sections
    .point{
@@ -56,4 +56,7 @@
     font-weight: 100;
     border-radius: 10px;
     height: fit-content;
+  }
+  @media (max-width: 960px){
+    .landing{ padding-top: 15%;}
   }

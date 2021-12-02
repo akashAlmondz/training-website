@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { blogs } from 'src/app/blogs';
 
 @Component({
   selector: 'app-blogs',
@@ -11,9 +12,17 @@ export class BlogsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  blogCards = [
-    {id:1,name:'What is Data Science & How Does Data Science Works?',img:'assets/images/ds.jpg'},
-    {id:1,name:'What is Data Science & How Does Data Science Works?',img:'assets/images/ds.jpg'},
-    {id:1,name:'What is Data Science & How Does Data Science Works?',img:'assets/images/ds.jpg'},
-  ]
+
+  blogs = blogs
+  cat:any = ''
+  index:any = 0
+
+  openBlog(cat:any,index:any){
+    this.cat = cat;
+    this.index = this.blogs[cat].indexOf(index)
+    localStorage.setItem('blogIndex',this.index)
+    localStorage.setItem('blogCat',this.cat)
+    console.log(this.cat,this.index)
+  }
+  
 }

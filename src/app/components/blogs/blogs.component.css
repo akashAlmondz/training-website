@@ -40,10 +40,13 @@ main{
     width: 30%;
     margin: 20px;
     padding: 30px 10px 10px 30px;
-    border: 2px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.301);
     border-radius: 10px;
-    box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.377);
+    transition: .4s;
     position: relative;
+  }
+  .card:hover{
+    box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.377);
   }
   .blogs .cards .card::before{
     position: absolute;
