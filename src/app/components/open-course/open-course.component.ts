@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { courses } from 'src/app/courses';
 
 @Component({
   selector: 'app-open-course',
@@ -8,24 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class OpenCourseComponent implements OnInit {
 
   constructor() { }
-
+  courseIndex = localStorage.getItem("courseIndex")
+  course = courses[Number(this.courseIndex)]
   ngOnInit(): void {
-        
-    window.addEventListener("scroll",function(){
-      const div=document.getElementById('query');
-      if (div){
-        div.classList.toggle("sticky", window.scrollY>600);
-      }
-    })
-
-    window.addEventListener("scroll",function(){
-      const div=document.getElementById('query');
-      if (div){
-        div.classList.toggle("static", window.scrollY>1000);
-      }
-    })
 
   }
+
  
 courseFeatures = [
   {img:'fas fa-laptop-code',name:'Hands-On exposer to code'},

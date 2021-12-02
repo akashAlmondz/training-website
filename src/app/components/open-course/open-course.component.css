@@ -1,29 +1,15 @@
-app-contact {
-  position: fixed;
-  bottom: 0;
-  z-index: 10;
-}
-app-links {
-  position: fixed;
-  top: 40vh;
-  z-index: 10;
-}
-app-social {
-  z-index: 1;
-  right: 0;
-  position: fixed;
-  right: 0;
-}
+
 .holder{
   position: relative;
 }
 .landing {
-  height:90vh;
+  height:100vh;
   display: flex;
   align-items: center;
 }
 .backGround {
   width: 100%;
+  height: 100vh;
   position: absolute;
   z-index: -1;
   filter: brightness(0.5);
@@ -47,9 +33,9 @@ app-social {
 }
 .landing .about .enrolNow {
   padding: 10px 30px;
-  background-image: linear-gradient(yellow, orange);
+  background-image: linear-gradient(rgb(37, 175, 255),rgb(252, 252, 252));
   width: fit-content;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   color: rgb(51, 51, 51);
   border: none;
@@ -58,7 +44,7 @@ app-social {
 }
 .landing .about .enrolNow:hover {
   cursor: pointer;
-  background-image: linear-gradient(orange, yellow);
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(37,175, 255));
 }
 .landing .report {
   display: flex;
@@ -102,7 +88,7 @@ app-social {
 }
 .heading::after {
   content: "";
-  background-color: #ffb606;
+  background-color: #4692E2;
   height: 2px;
   width: 70%;
   position: absolute;
@@ -162,14 +148,14 @@ form div {
 }
 form i {
   font-size: 20px;
-  color: #ffb606;
+  color: #4692E2;
 }
 form div input,
 select {
   border: none;
   width: 190px;
   height: 30px;
-  border-bottom: 1px solid #ffb606;
+  border-bottom: 1px solid #4692E2;
 }
 form div input,
 select:focus {
@@ -178,7 +164,7 @@ select:focus {
 #msg {
   border: none;
   height: 50px;
-  border-bottom: solid 1px #ffb606;
+  border-bottom: solid 1px #4692E2;
   border-radius: 0;
   width: 100%;
 }
@@ -190,7 +176,7 @@ form button {
   border-radius: 5px;
   padding: 6px;
   width: 90px;
-  background-color: #ffb606;
+  background-color: #4692E2;
   color: white;
 }
 
@@ -225,13 +211,13 @@ form button {
   border-radius: 10px;
 }
 .courseFeatures .feature i{
-  color: #ffb606;
+  color: #4692E2;
   padding: 5px 15px;
 }
 
 
 main .aboutCourse {
-  padding: 30px 10px 30px 80px ;
+  padding:5%;
   /* box-shadow: 4px 7px 14px rgba(121, 121, 121, 0.219); */
   width: 65%;
 }
@@ -241,11 +227,23 @@ main .aboutCourse .about {
   text-align: justify;
   line-height: 30px;
 }
+
+.aboutSection p{
+  color: rgb(73, 73, 73);
+  line-height: 27px;
+  width: 100%;
+}
+.aboutSection p:nth-child(1){
+  font-size: 20px;
+  color: rgb(32, 32, 32);
+  padding: 5px 0;
+}
+
 .curriculum {
   min-height: 70vh;
   width: 100%;
   padding: 80px;
-  background-color: rgba(125, 159, 253, 0.212);
+  background-color: rgba(125, 191, 253, 0.212);
 }
 .curriculum .sectionHolder {
   display: flex;
@@ -269,13 +267,13 @@ main .aboutCourse .about {
   
 }
 .curriculum .sectionHolder .active {
-  background-color: #ffb606;
+  background-color: #4692E2;
   color: white;
   /* border: 5px solid rgb(138, 237, 255); */
 }
 
 .curriculum .sectionHolder .section i {
-  color: #ffb606;
+  color: #4692E2;
   font-size: 30px;
   padding: 5px 0;
   transition: 0.4s;
@@ -317,7 +315,7 @@ main .aboutCourse .about {
   left: -27px;
   top: 50%;
   content: '';
-  background-color: #ffb406;
+  background-color: #4692E2;
 }
 .curriculum details:last-child::before{
   height: 240%;
@@ -339,7 +337,7 @@ main .aboutCourse .about {
   border-radius: 15px;
   top: 40%;
   content: '';
-  background-color: #ffb406;
+  background-color: #4692E2;
 }
 
 .curriculum details[open] summary ~ * {
@@ -352,7 +350,7 @@ main .aboutCourse .about {
 }
 
 .certificate{
-  padding: 80px;
+  padding:5%;
 }
 .certificate .holder{
   width: 100%;
@@ -412,7 +410,7 @@ main .aboutCourse .about {
 }
 .certificate .download p{
   padding: 10px 30px;
-  background-image: linear-gradient(yellow, orange);
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(37,175, 255));
   width: fit-content;
   font-size: 25px;
   font-weight: 400;
@@ -423,21 +421,21 @@ main .aboutCourse .about {
 }
 .certificate .download p:hover{
   cursor: pointer;
-  background-image: linear-gradient(orange, yellow);
+  background-image: linear-gradient(rgb(37, 175, 255),rgb(252, 252, 252));
 }
 .certificate .far{
-  position: absolute;
+  position:fixed;
   z-index: 1;
-  right:20%;
-  /* top: -20px; */
+  right:17%;
+  top:10%;
   font-size: 20px;
   cursor: pointer;
 }
 .opnedCertificate{
-  position: absolute;
-  width: 80%;
+  position:fixed;
+  /* width: 10%; */
   padding: 20px;
-  top: 0vh;
+  top: 10vh;
   right: 20%;
   transition: .4s;
   z-index: 1;
@@ -453,16 +451,16 @@ table {
   width: 65%;
   height: 50vh;
   margin: 30px 0;
-  border: 1px solid #ffb606;
+  border: 1px solid #4692E2;
   border-collapse: collapse;
 }
 table th {
-  background-color: rgb(226, 147, 43);
+  background-color: rgb(88, 188, 255);
   color: white;
 }
 table td {
   text-align: center;
-  border: 1px solid #ffb606;
+  border: 1px solid #4692E2;
 }
 table button {
   border: none;
@@ -507,7 +505,7 @@ table button {
   padding: 40px 80px;
 }
 .projects .img i{
-  color: #ffb606;
+  color: #4692E2;
   font-size: 60px;
   text-shadow: 9px 29px 23px rgba(128, 128, 128, 0.795);
 }
@@ -541,11 +539,11 @@ table button {
 }
 
 .projects .cards .learnMore{
-  position:absolute;
-  width: 70%;
-  /* top: 1vh; */
+  position:fixed;
+  width:fit-content;
+  top: 20vh;
   transition: .4s;
-  left:15%;
+  
   background-color: white;
   box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.589);
   z-index: 2;
@@ -554,8 +552,8 @@ table button {
 .projects .cards .learnMore .fa-times-circle{
   display: block;
   position: absolute;
- right: 30px;
- top: 30px; 
+ right: 20px;
+ top: 20px; 
  cursor: pointer;
 }
 .blurBack{

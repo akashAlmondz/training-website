@@ -1,85 +1,61 @@
-app-contact {
-  position: fixed;
-  bottom: 0;
-  z-index: 10;
-}
-app-links {
-  position: fixed;
-  top: 40vh;
-  z-index: 10;
-}
-app-social {
-  z-index: 1;
-  right: 0;
-  position: fixed;
-  right: 0;
-}
-main {
-  position: relative;
-}
-main .blur {
-  display: none;
-}
-.BG {
+
+
+.BG{
+  position:absolute;
+  height: 100%;
   width: 100%;
-  height: 100vh;
-  filter: brightness(30%);
-  position: absolute;
   z-index: -1;
 }
-.blur .blurBack {
-  height: 100%;
-  width: 100%;
-  backdrop-filter: blur(5px);
-  top: 0;
-  position: absolute;
-}
-.nonblur .blurBack {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  position: absolute;
-}
+
+
+
 
 .landing {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
   flex-direction: column;
-  padding: 20vh 0;
+  padding: 15vw 0;
+  /* background-image: url("/assets/images/bg.svg"); */
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .landing p {
-  margin-bottom: 100px;
+  margin-bottom: 0;
   width: 100%;
-  color: white;
-  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
   text-align: center;
 }
 .landing .list {
   display: flex;
-  width: 60%;
+  width: 70%;
+  padding: 0 5%;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 .landing .list p {
-  font-size: 20px;
+  font-size: 18px;
   margin: 5px 1px;
   width: fit-content;
   position: relative;
   padding: 3px 10px;
   transition: 0.4s;
+  color: rgb(255, 255, 255);
+  /* background-color: rgba(255, 255, 255, 0.404); */
 }
 .landing .list p:hover {
   cursor: pointer;
-  color: #ffb606;
+  color: #e6f4ff;
+  font-weight:500;
 }
 .landing .list p::after {
   content: "";
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height: 90%;
   width: 1px;
   left: 0;
@@ -87,7 +63,7 @@ main .blur {
 }
 .landing .list p::before {
   content: "";
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height: 90%;
   width: 1px;
   right: 0;
@@ -97,104 +73,72 @@ main .blur {
 .landing .search {
   display: flex;
   z-index: 1;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  /* margin: 40px 0; */
 }
 .landing .search input {
-  width: 30vw;
+  width: 20vw;
+  border: none;
+  padding: 0 0 0 15px;
+  /* background: none; */
 }
 .landing .search i {
   display: flex;
   align-items: center;
   font-size: 30px;
-  padding: 10px 30px;
-  background-color: #ffb606;
-  color: white;
-}
-.landing p b {
-  background-color: #ffb606;
-  padding: 10px;
-}
-.landing .cards {
-  display: flex;
-  width: 90%;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.landing .card {
-  width: 300px;
-  margin: 20px;
-  transition: 0.4s;
-  position: relative;
-  background-color: black;
-  display: flex;
-  padding: 2%;
-  /* align-items: center; */
-  justify-content: space-between;
-  /* margin: auto; */
-}
-.card i {
-  color: #ffb606;
-  font-size: 50px;
-  font-weight: 100;
-  width: 70px;
-}
-.landing .cards .card p {
-  color: white;
-  font-size: 25px;
-  font-weight: 600;
-  margin: 0;
-}
-.landing .card h6 {
-  position: absolute;
-  color: white;
-  font-size: 12px;
-  font-weight: 100;
-  right: 10px;
-  bottom: 10px;
-}
-.landing .card:hover {
-  background-color: #ffb606;
-}
-.landing .card:hover i {
-  color: white;
-}
-.landing .card h6:hover {
-  cursor: pointer;
-  transform: scale(105%);
+  padding: 10px 20px;
+  background-color: #1874d2;
+  color: rgb(0, 0, 0);
 }
 
+
+
 .reports {
-  width: 100%;
+  background-color: #05528a;
   display: flex;
-  justify-content: space-between;
-  background-color: rgb(66, 121, 134);
-  padding: 20px 70px;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  padding: 2% 5% ;
 }
 .reports .button {
-  z-index: 1;
-  background-color: #ffb606;
+  background-color: #a7cbf1;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 25px;
   height: fit-content;
   padding: 1px 10px;
+  transition: .4s;
+  min-width: max-content;
+}
+.reports .button:hover{
+  box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.425);
+  cursor: pointer;
 }
 .reports .button i {
   padding: 10px;
   font-size: 25px;
 }
+.reports .holder {
+ display: flex;
+ width: 70%;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
 .reports .report {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 15px;
 }
 .reports .report i {
   display: flex;
   color: white;
   font-size: 40px;
-  padding: 0 20px;
+  padding: 0 20px 0 0 ;
   align-items: center;
 }
 .reports .report p {
@@ -219,14 +163,16 @@ main .blur {
   margin-bottom: 0px;
   font-size: 30px;
   position: relative;
+  width: fit-content;
+  padding-bottom: 5px;
 }
 .heading::after {
   content: "";
   position: absolute;
-  background-color: #ffb606;
-  top: -20%;
-  left: 10%;
-  height: 0.1vw;
+  background-color: #1874d2;
+  bottom: 0;
+  left: 0;
+  height: 1px;
   width: 80%;
 }
 .courses .cards {
@@ -255,27 +201,36 @@ main .blur {
   width: 100%;
   text-align: center;
   transition: 0.4s;
-  background-color: #ffb406c0;
+  background-color: #b0d8ff;
   padding: 10px 20px;
+  border-radius: 5px;
 }
-/* .courses .viewAllCoursesB:hover .viewAllCourses{ 
-    cursor: pointer; height: 100px;width: 110px; background-color: #FFB606;  padding: 0;clip-path: polygon(0 0, 50% 14%, 100% 0);color: #FFB606;
-} */
+.courses .viewAllCourses:hover{
+  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.37);
+}
+
 .courses .viewLessCourses {
   margin-top: 20px;
   z-index: 1;
   text-align: center;
   transition: 0.4s;
-  background-color: #ffb406c0;
+  background-color: #b0d8ff;
   padding: 10px 20px;
   cursor: pointer;
+  border-radius: 5px;
+}
+.courses .viewLessCourses:hover{
+  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.37);
 }
 
 .courses .card {
   width: 200px;
   margin: 60px 20px 0 20px;
   cursor: pointer;
-  background-color: rgb(143, 143, 143);
+  background-color: rgba(143, 143, 143, 0);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.404);
 }
 
 .courses .card:hover .courseImg {
@@ -283,17 +238,18 @@ main .blur {
 }
 .courseBackground {
   overflow: hidden;
-  background-image: url("/assets/images/courseBG.png");
-  width: 200px;
-  height: 150px;
+  background: linear-gradient(27deg, rgba(5,82,138,0.2979166666666667) 25%, rgba(52,193,239,0.200717787114846) 75%);
+  width: 100%;
+  height:150px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 3px solid goldenrod;
+  border-bottom: 3px solid #05528a;
 }
 .courseImg {
   width: 50%;
   transition: 0.2s;
+  padding: 10% 0;
 }
 
 .courses .cards .card .courseName {
@@ -305,134 +261,47 @@ main .blur {
   color: #000;
 }
 
-.courses .cards .card p {
-  font-size: 15px;
-  font-weight: 100;
-  color: rgb(148, 148, 148);
-  width: 100%;
-  text-align: center;
-  margin: 0 0 40px 0;
-}
-
-.form {
-  min-height: 80vh;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-.register {
-  width: 50%;
-  height: 600px;
-  background-color: #ffb606;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 6% 5%;
-}
-.register h1 {
-  color: white;
-  font-size: 40px;
-  font-weight: 100;
-  text-align: center;
-}
-.register h1 b {
-  color: black;
-}
-.register p {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  width: 90%;
-  line-height: 40px;
-}
-.register button {
-  background-color: black;
-  color: white;
-  padding: 3% 5%;
-  font-size: 20px;
-  transition: 0.4s;
-}
-.button:hover {
-  box-shadow: 1px 4px 9px rgba(0, 0, 0, 0.418);
-  cursor: pointer;
-}
-.form .search {
-  width: 50%;
-  height: 600px;
-  background-color: rgba(255, 255, 255, 0.63);
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 6% 8%;
-}
-.bg {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  z-index: -1;
-}
-.search h1 {
-  color: rgb(0, 0, 0);
-  font-size: 40px;
-  font-weight: 100;
-}
-
-.search input {
-  width: 100%;
-  height: 60px;
-  border: none;
-  font-size: 20px;
-  padding-left: 5%;
-}
-.search input:focus {
-  outline-color: #ffb606;
-}
-.search p {
-  background-color: #ffb606;
-  color: white;
-  padding: 3% 5%;
-  font-size: 20px;
-  transition: 0.4s;
-  width: 100%;
-  text-align: center;
-}
 
 .services {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  padding: 4% 0 0 0;
+  padding: 5% 0 0 0;
 }
 
 .services .cards {
   width: 100%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   flex-wrap: wrap;
-  padding: 1% 1% 4% 1%;
+  /* padding: 1% 1% 4% 1%; */
 }
 
 .services .cards .card {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
   flex-direction: column;
   width: 300px;
-  height: 280px;
-  margin: 1%;
-  padding: 3%;
+  margin:20px;
+  border-radius: 5px;
+  transition: .4s;
+  padding:20px;
+  border: 1px solid rgba(81, 185, 255, 0.137);
+  box-shadow: 1px 1px 3px rgba(172, 172, 172, 0.13);
 }
+
+.services .cards .card:hover{
+  border: 1px solid rgba(81, 185, 255, 0.437);
+  box-shadow: 1px 1px 3px rgba(128, 128, 128, 0.253);
+}
+
 .services .cards .card img {
   width: 20%;
+  filter: sepia(100%) hue-rotate(193deg) saturate(1000%);
+  padding: 0 0 5px 0;
 }
 .services .cards .card h2 {
   font-weight: 300;
@@ -440,127 +309,10 @@ main .blur {
 }
 .services .cards .card p {
   color: gray;
+  text-align: justify;
 }
 
-.testimonial {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  padding: 0 0 100px 0;
-}
-.testimonial .cards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 250px;
-  overflow: hidden;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 1% 10%;
-  transition: 0.2s;
-}
-.testimonial .cards .card {
-  z-index: 20;
-  position: relative;
-  border: 1px solid #ffb606;
-  width: 350px;
-  padding: 5px 6px 7px 120px;
-  margin: 40px 50px 100px 50px;
-}
 
-.testimonial .cards .card img {
-  width: 100px;
-  position: absolute;
-  border-radius: 100px;
-  top: -30%;
-  left: 2%;
-}
-.testimonial .cards .card p {
-  max-height: 60px;
-  overflow: hidden;
-  transition: 0.4s;
-  color: rgb(119, 119, 119);
-}
-.open {
-  box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.479);
-}
-.testimonial .cards .open p {
-  max-height: 150px;
-  color: rgb(43, 43, 43);
-}
-.testimonial .cards .card h5 {
-  cursor: pointer;
-  color: rgb(151, 151, 151);
-  font: 100;
-  width: fit-content;
-}
-.testimonial .viewMore {
-  height: 70vh;
-  width: 70%;
-  overflow: auto;
-  position: fixed;
-  position: relative;
-  top: 20%;
-  padding: 20px 0 0 0;
-  box-shadow: 30px 40px 150px rgba(0, 0, 0, 0.411);
-  border: 2px solid rgb(238, 238, 238);
-  z-index: 30;
-  background-color: rgb(255, 255, 255);
-  transition: 0.2s;
-}
-.testimonial .viewMore .card {
-  margin: 50px 20px;
-}
-#view {
-  cursor: pointer;
-  z-index: 20;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  transition: 0.4s;
-  background-color: #ffb406c0;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-#view::after {
-  content: "";
-  background-color: #ffb606;
-  width: 30px;
-}
-::-webkit-scrollbar {
-  width: 5px;
-  background: #e7e7e7;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #ffce5db7;
-  width: 5px;
-  border-radius: 2px;
-}
-.testimonial .cards i {
-  display: none;
-}
-
-.testimonial .viewMore i {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  display: block;
-  font-size: 20px;
-  font-weight: 100;
-  color: #ffb606;
-  transition: 0.1s;
-}
-.testimonial .viewMore .readless {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-}
-.testimonial .viewMore i:hover {
-  cursor: pointer;
-  transform: scale(102%);
-  filter: drop-shadow(2px 3px 5px rgba(128, 128, 128, 0.247));
-}
 .upcoming {
   display: flex;
   align-items: center;
@@ -577,6 +329,7 @@ main .blur {
 .upcoming .cards .card {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -584,11 +337,11 @@ main .blur {
 }
 .upcoming .cards .card .date {
   padding: 2%;
-  border: 2px solid #ffb606;
+  border: 2px solid #1874d2;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 10vw;
+  width:100px;
 }
 .courseDate {
   font-size: 20px;
@@ -613,7 +366,7 @@ main .blur {
   height: 100px;
 }
 .upcoming .cards .card .timing .enroll {
-  background-color: #ffb606;
+  background-color: #b0d8ff;
   padding: 10px 20px;
   z-index: 2;
   transition: 0.4s;
@@ -623,50 +376,86 @@ main .blur {
   cursor: pointer;
 }
 
+
+
 @media (max-width: 960px) {
-  .BG {
-    display: none;
+  .heading{
+    font-size: 25px;
   }
-  .landing {
-    padding: 0 0 0 0;
-    background-image: linear-gradient(rgb(80, 80, 80), rgb(59, 23, 23));
+  .landing{
+    padding: 30vw 5% 20vw 5%;
   }
-  .landing p {
-    margin: 10px 0 20px 0;
+  .landing p{
     font-size: 30px;
   }
-  .landing .cards .card {
-    padding: 20px 5px;
+  .landing .list{
+    width:90%;
+    
   }
-  .form .register {
-    width: 100%;
+  .landing .list p{
+    font-size: 15px;
   }
-  .search {
-    width: 100%;
+
+  .landing .search input{
+    width: 40vw;
   }
-  .bg {
-    height: auto;
-    width: 100%;
-    min-height: 100%;
-  }
-  .heading {
-    font-size: 4vh;
-  }
-  .services .cards .card {
-    height: 200px;
-    margin-top: 40px;
-  }
-  .services .cards .card h2 {
+  .landing .search i{
     font-size: 20px;
   }
-  .testimonial {
-    padding: 100px 0 100px 0;
+  .reports{
+    justify-content: center;
+    /* align-items: flex-start; */
+    padding: 5% ;
   }
-  .testimonial .viewMore {
-    width: 90%;
-    padding: 0 10px;
+  .reports .holder {
+    justify-content:center;
+    /* padding-left: 50px; */
+    width:100%;
   }
-  .testimonial .cards {
-    max-height: 500px;
+  .reports .holder .report{
+    margin: 20px;
+    /* width: fit-content;
+    align-items:flex-start; */
   }
+  .reports .report i{
+    font-size: 20px;
+  }
+  .reports .report div .value{
+    font-size: 15px;
+  }
+  .reports .report div .name{
+    font-size: 10px;
+  }
+  
+  .courses .card{
+    width: 100px;
+    margin: 10px 5px;
+  }
+  .courseBackground{
+    height: 80px;
+  }
+  .courses .cards .card .courseName{
+    font-size: 11px;
+  }
+
+  .upcoming .cards .card{
+    display: flex;
+    flex-direction: column; 
+    margin: 30px 0;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+    padding: 0;
+    /* justify-content: flex-start; */
+  }
+  .upcoming .cards .card .about .courseAbout{
+    width: 100%;
+    
+  }
+  .upcoming .cards .card .about{
+    padding: 0;
+  }
+  app-testimonials{
+    display: none;
+  }
+  
 }

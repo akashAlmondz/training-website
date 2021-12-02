@@ -1,0 +1,43 @@
+app-contact {
+    position: fixed;
+    bottom: 0;
+    z-index: 20;
+  }
+  app-links {
+    position: fixed;
+    top: 40vh;
+    z-index: 1;
+  }
+  app-social {
+    z-index: 1;
+    right: 0;
+    position: fixed;
+    right: 0;
+  }
+  button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4692E2;
+    border-radius: 30px;
+    border:none;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 3;
+  }
+
+  @media (max-width: 960px){
+    app-contact, app-links, app-social {
+      display: none;
+    }
+    button{
+      right: 10px ;
+      bottom: 10px;
+      height: 25px;
+      width: 25px;
+      font-size: 15px;
+    }
+  }

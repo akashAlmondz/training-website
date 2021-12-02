@@ -1,0 +1,183 @@
+main{
+    padding:5%;
+}
+
+.heading {
+    font-size: 25px;
+    margin: 20px 0;
+    position: relative;
+    width: fit-content;
+    margin: 40px 0 10px 0 ;
+    padding: 5px 0;
+  }
+  .heading::after {
+    content: "";
+    background-color: #1874d2;
+    height: 1px;
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+.subHeading{
+    font-size: 20px;
+    color: rgb(31, 31, 31);
+  }
+
+.about{
+    width: 70%;
+    color: rgb(63, 63, 63);
+}
+
+  .certificate{
+    padding:0 0 50px 0;
+  }
+  .certificate .holder{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .certificate .holder .card{
+    width: 340px;
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.247);
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px ;
+    height: max-content;
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    /* position: relative; */
+    transition: .4s;
+  }
+  .certificate .holder .card:hover{
+    box-shadow: 5px 5px 10px rgba(172, 172, 172, 0.493);
+  }
+  .certificate .holder .card .close{
+    width: 60%;
+    transition: .4s;
+    
+  }
+  .certificate .holder .card p:nth-child(2){
+    font-size: 20px;
+  }
+  .certificate .holder .card p:nth-child(3){
+    font-size: 15px;
+    color: gray;
+    padding: 5px 0 20px 0;
+    text-align: justify;
+  }
+  .certificate .holder .card p:nth-child(4){
+    /* position: absolute; */
+    right: 10px;
+    bottom: 5px;
+    width: 100%;
+    font-size: 14px;
+    color: rgb(110, 197, 255);
+    text-align: end;
+    /* display: none; */
+  }
+  .certificate .holder .card p:nth-child(4):hover{
+    color: rgb(35, 143, 214);
+    cursor: pointer;
+  }
+  .certificate .download{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .certificate .download p{
+    padding: 10px 30px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(37,175, 255));
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+  .certificate .download p:hover{
+    cursor: pointer;
+    background-image: linear-gradient(rgb(37, 175, 255),rgb(252, 252, 252));
+  }
+  .certificate .far{
+    position:fixed;
+    z-index: 1;
+    right:17%;
+    top:10%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .opnedCertificate{
+    position:fixed;
+    width: 10%;
+    padding: 20px;
+    top: 10vh;
+    right: 20%;
+    transition: .4s;
+    z-index: 1;
+  }  
+
+
+  .blogs{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blogs .cards{
+    display: flex;
+    width: 100%;
+  }
+  .blogs .cards .card{
+    display: flex;
+    width: 30%;
+    margin: 20px;
+    padding: 30px 10px 10px 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.377);
+    position: relative;
+  }
+  .blogs .cards .card::before{
+    position: absolute;
+    background-color: rgb(160, 255, 255);
+    content: '';
+    top:0;
+    left:0;
+    width: 70%;
+    height:141%;
+    border-radius: 10px;
+    clip-path: polygon(40% 0, 40% 5%, 5% 5%, 5% 50%, 0 50%, 0 0);
+  }
+  .blogs .cards .card img{
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .blogs .cards .card span{
+    padding:  0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .blogs .cards .card span p:nth-child(2){
+    width: 100%;
+    text-align: end;
+    font-size: 12px;
+    color: rgb(0, 112, 112);
+    cursor: pointer;
+  }
+  @media (max-width: 960px){
+    .opnedCertificate{
+      width:90vw;
+    }
+    .about{
+      width: 100%;
+    }
+  }

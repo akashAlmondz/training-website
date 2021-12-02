@@ -1,0 +1,35 @@
+<main>
+    <p class="heading" >Certification Program</p>
+    <p class="about" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, accusamus suscipit error facilis itaque tenetur assumenda obcaecati reprehenderit quidem magni praesentium ut. Doloribus rerum nemo eum nostrum, corporis dolore accusamus.</p>
+    <p class="heading">Training certificate</p>
+    <p class="about" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur minima distinctio iusto repudiandae, illo omnis at voluptas soluta velit dolore dignissimos incidunt praesentium? Adipisci corrupti velit cum modi accusantium.</p>
+
+    <div class="certificate">
+        <p class="heading">Certification provided by Us</p>
+        <i *ngIf="openedCertificate!=0" (click)="showCertificate(0)" class="far fa-times-circle"></i>
+        <div class="holder">
+            <div class="card">
+                <img class="close" [ngClass]="this.openedCertificate==1? 'opnedCertificate': '' " src="assets/images/certificate.png" alt="">
+                <p>Internship certificate</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quidem necessitatibus, aspernatur beatae libero quam deserunt veniam neque, non quibusdam placeat esse ea voluptates tempore autem perferendis voluptate, vel natus?</p>
+                <p (click)="showCertificate(1)"  >view sample certificate</p>
+            </div>
+            <div class="card">
+                <img class="close" [ngClass]="this.openedCertificate==2? 'opnedCertificate': '' " src="assets/images/certificate1.png" alt="">
+                <p>Course complition certificate</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quidem necessitatibus, aspernatur beatae libero quam deserunt veniam neque, non quibusdam placeat esse ea voluptates tempore autem perferendis voluptate, vel natus?</p>
+                <p (click)="showCertificate(2)" >view sample certificate</p>
+            </div>
+            <div class="card">
+                <img class="close" [ngClass]="this.openedCertificate==3? 'opnedCertificate': '' " src="assets/images/certificate2.png" alt="">
+                <p>Course Certification</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam quidem necessitatibus, aspernatur beatae libero quam deserunt veniam neque, non quibusdam placeat esse ea voluptates tempore autem perferendis voluptate, vel natus?</p>
+                <p (click)="showCertificate(3)" >view sample certificate</p>
+            </div>
+        </div>
+        <div class="download">
+            <p [routerLink]="['/contact']" >Request For Certificate <i class="fas fa-file-certificate"></i> </p>
+        </div>
+    </div>
+   
+</main>

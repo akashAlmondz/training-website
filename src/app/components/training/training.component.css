@@ -1,0 +1,62 @@
+
+.landing{
+    padding: 5%;
+}
+.heading {
+    font-size: 25px;
+    margin: 20px 0;
+    position: relative;
+    width: fit-content;
+  }
+  .heading::after {
+    content: "";
+    background-color: #1874d2;
+    height: 2px;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+.subHeading{
+    font-size: 20px;
+    color: rgb(31, 31, 31);
+  }
+  .sections{
+    /* padding: 40px 80px ; */
+  }
+  .sections
+   .point{
+   padding: 0 0 0 5px;
+   /* line-height: 30px; */
+   display: flex;
+   text-align: start;
+   font-weight: 100;
+   color: rgb(112, 112, 112);
+  }
+  .sections .point::before{
+    content: '';
+    background-color: rgba(107, 107, 107, 0.219);
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  .sections .points{
+    display: flex;
+    /* align-items: center; */
+    margin:10px 0;
+    position: relative;
+    padding: 5px 0;
+  }
+  .sections .points b{
+    color: aliceblue;
+    background-color: rgb(66, 66, 66);
+    padding:0 5px;
+    font-weight: 100;
+    border-radius: 10px;
+    height: fit-content;
+  }
+  @media (max-width: 960px){
+    .landing{ padding-top: 15%;}
+  }

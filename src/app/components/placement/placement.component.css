@@ -1,0 +1,33 @@
+main{
+    padding:5%;
+}
+
+.heading {
+    font-size: 25px;
+    margin: 20px 0;
+    position: relative;
+    width: fit-content;
+  }
+  .heading::after {
+    content: "";
+    background-color: #1874d2;
+    height: 2px;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+.subHeading{
+    font-size: 20px;
+    color: rgb(31, 31, 31);
+  }
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  
+}
+img{
+  width: 60%;
+}

@@ -1,0 +1,15 @@
+<div class="testimonial">
+    <p class="heading">What our students say</p>
+    <div  class="cards" [ngClass] = "expendReviews? 'viewMore':'' "  >
+        <div class="readless" (click)=readMore(0) ></div>
+        <i (click)=viewLess() class="far fa-times-circle"></i>
+        <div class="card" *ngFor= 'let item of reviewCards' [ngClass] = "item.id==selectedMessage? 'open':'' "  >
+            <img [src]="item.img" alt="">
+            <h4>{{item.name}}</h4>
+            <p >{{item.message}}</p>
+            <h5 *ngIf= 'item.id!=selectedMessage'  (click)=readMore(item.id) >read more</h5>
+        </div>
+
+    </div>
+    <p id="view" (click)=viewMore() >view more</p>
+</div>

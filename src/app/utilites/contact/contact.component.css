@@ -1,6 +1,7 @@
 span{width: 100vw;display: flex;justify-content: center;}
-main{display: flex;background-color: #ffb406;transition: .4s;width: fit-content;}
-main div{display: flex;padding: 5px 10px;align-items: center;transition: .4s;}
-i,p{color: rgb(43, 43, 43);margin: 3px;}
-div:hover{border: 1px solid gray;border-radius: 5px;cursor: pointer;background-color: white;}
-main:hover{transform: scale(101%);border-radius: 5px;}
+main{display: flex;transition: .4s;width: fit-content;}
+main div{border-radius: 5px; background-color: #ffffff;margin-left: 1px; display: flex;padding: 5px 10px;align-items: center;transition: .4s;box-shadow: -2px -2px 4px rgba(128, 128, 128, 0.26);}
+i,p{color: #4692e2;margin: 3px;}
+main div:hover{cursor: pointer;background-color: #4692e2;}
+div:hover i,div:hover p{color: white;}
+

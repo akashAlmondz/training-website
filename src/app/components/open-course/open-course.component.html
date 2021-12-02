@@ -1,13 +1,11 @@
 <div class="holder">
-    <app-contact></app-contact>
-<app-links></app-links>
-<app-social></app-social>
+
 <div [ngClass]="openedCard!=0 || openedCertificate!=0? 'blurBack': '' " (click)="openCard(0)" (click)="showCertificate(0)" ></div>
 <div class="landing">
     <img class="backGround" src="assets/images/SL-051919-20420-21.jpg" alt="">
     <div class="about">
-        <p class="courseName" >Basics of Python with Data Structures and Algorithms</p>
-        <p class="aboutCourse" >Lorem ipsum dolor sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.</p>
+        <p class="courseName" >{{course.heading}}</p>
+        <p class="aboutCourse" >{{course.subHeading}}</p>
         <p class="enrolNow" >Enrol Now</p>
         <div class="report">
             <div>
@@ -86,16 +84,12 @@
         </div>
     </div>
     <div class="aboutCourse">
-        <p class="heading">Python</p>
-        <p class="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi amet non asperiores aspernatur ab cumque dolores reprehenderit adipisci error porro magni praesentium a quas excepturi enim veritatis impedit rerum vitae, similique ratione possimus numquam, deleniti voluptatibus! Nulla cumque omnis eum odio commodi doloribus facilis, rem nobis aperiam quidem consequatur architecto doloremque. Magnam mollitia voluptatibus excepturi incidunt autem ut accusamus aliquid quod qui omnis aperiam perspiciatis provident, quam sit, culpa dignissimos unde, accusantium deserunt quos nam pariatur? Earum asperiores doloremque et debitis magni itaque sint quidem dolore? Atque aliquam neque tempore recusandae sunt voluptatum in, maiores dolore incidunt dolorem? Tenetur, praesentium?
-        </p>
-        <p class="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi amet non asperiores aspernatur ab cumque dolores reprehenderit adipisci error porro magni praesentium a quas excepturi enim veritatis impedit rerum vitae, similique ratione possimus numquam, deleniti voluptatibus! Nulla cumque omnis eum odio commodi doloribus facilis, rem nobis aperiam quidem consequatur architecto doloremque. Magnam mollitia voluptatibus excepturi incidunt autem ut accusamus aliquid quod qui omnis aperiam perspiciatis provident, quam sit, culpa dignissimos unde, accusantium deserunt quos nam pariatur? Earum asperiores doloremque et debitis magni itaque sint quidem dolore? Atque aliquam neque tempore recusandae sunt voluptatum in, maiores dolore incidunt dolorem? Tenetur, praesentium?
-        </p>
-        <p class="about">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi amet non asperiores aspernatur ab cumque dolores reprehenderit adipisci error porro magni praesentium a quas excepturi enim veritatis impedit rerum vitae, similique ratione possimus numquam, deleniti voluptatibus! Nulla cumque omnis eum odio commodi doloribus facilis, rem nobis aperiam quidem consequatur architecto doloremque. Magnam mollitia voluptatibus excepturi incidunt autem ut accusamus aliquid quod qui omnis aperiam perspiciatis provident, quam sit, culpa dignissimos unde, accusantium deserunt quos nam pariatur? Earum asperiores doloremque et debitis magni itaque sint quidem dolore? Atque aliquam neque tempore recusandae sunt voluptatum in, maiores dolore incidunt dolorem? Tenetur, praesentium?
-        </p>
+        <p class="heading">{{course.aboutHeading}}</p>
+        <p *ngFor="let item of course.about" class="about">{{item}}</p>
+        <div class="aboutSection" *ngFor="let section of course.aboutSections" >
+            <p>{{section.heading}}</p>
+            <p *ngFor="let abouts of section.about" >{{abouts}}</p><br>
+        </div>
         
     </div>   
     <div class="table">
@@ -218,9 +212,9 @@
         <div *ngFor="let item of placementCards" class="points">
             <b>></b>
             <p class="point"> {{item.point}}</p>
-        </div>
-        
+        </div>        
     </div>
+    <app-testimonials></app-testimonials>
     <div class="blogs">
         <p class="heading">Browse Related Blogs</p>
         <div class="cards">
