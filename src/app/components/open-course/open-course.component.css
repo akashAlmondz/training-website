@@ -6,6 +6,8 @@
   height:100vh;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 5%;
 }
 .backGround {
   width: 100%;
@@ -17,7 +19,8 @@
 }
 .landing .about {
   width: 50%;
-  padding: 0 0 0 80px;
+  display: flex;
+  flex-direction: column;
 }
 .landing .about .courseName {
   font-size: 30px;
@@ -48,7 +51,7 @@
 }
 .landing .report {
   display: flex;
-  width: 80%;
+  /* width: 80%; */
   justify-content: space-between;
   margin: 40px 0 0 0;
   position: relative;
@@ -64,15 +67,15 @@
 }
 .report div {
   color: white;
+  margin: 0 10px;
 }
 .report div b {
   font-size: 20px;
 }
 
 .courseImg {
-  width: 800px;
   display: flex;
-  justify-content: center;
+  justify-content:flex-end;
   align-items: center;
   position: relative;
 }
@@ -85,48 +88,123 @@
   margin: 20px 0;
   position: relative;
   width: fit-content;
+  padding:5px 0;
 }
 .heading::after {
   content: "";
   background-color: #4692E2;
-  height: 2px;
+  height: 1px;
   width: 70%;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
 }
 
 main {
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
   position: relative;
+  padding:0 5%;
   overflow: hidden;
+}
+
+.process{
+  padding :0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.process .cards{
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.process .cards .card{
+  display:flex;
+  width: 350px;
+  margin:25px;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 5px 60px rgba(88, 88, 88, 0.164);
+}
+
+.process .cards .card .id{
+  background-color: rgb(39, 65, 0);
+  padding: 10px 15px;
+  border-radius: 100px;
+  color: aliceblue;
+  height: fit-content;
+}
+.process .cards .card span{
+  padding:0 0 0 30px;
+}
+.process .cards .card span p:nth-child(1){
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.process .cards .card span p:nth-child(2){
+  font-size: 14px;
+  color: rgb(82, 82, 82);
+}
+
+
+
+
+
+
+
+main .aboutCourse {
+  /* padding:5%; */
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+}
+main .aboutCourse .left{
+  width: 60%;
+}
+main .aboutCourse .right{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  padding: 7% 0 0 0;
+}
+main .aboutCourse .about {
+  padding: 10px 0;
+  width: 100%;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.aboutSection p{
+  color: rgb(73, 73, 73);
+  line-height: 27px;
+  width: 100%;
+}
+.aboutSection p:nth-child(1){
+  font-size: 20px;
+  color: rgb(32, 32, 32);
+  padding: 5px 0;
 }
 
 .query {
   box-shadow: 0 15px 30px rgba(134, 134, 134, 0.16);
   border-radius: 20px;
   background-color: rgba(236, 236, 236, 0.315);
-  width: 25%;
-  display: flex;
+  width:90%;
+  display:flex  ;
   flex-direction: column;
   align-items: center;
   height: 500px;
   border-radius: 5px;
   padding: 10px 0 5px 0;
-  position: absolute;
+  /* position: absolute; */
   right: 70px;
   top: 40vh;
   transition: .4s;
 }
-/* .sticky{
-  position: fixed;
-  z-index: 40;
-  top: 20vh;
-}
-.static{
-  position: absolute;
-  bottom: -90vh;
-} */
+
 .query h2 {
   font-size: 25px;
   color: rgb(139, 139, 139);
@@ -180,78 +258,27 @@ form button {
   color: white;
 }
 
-.courseFeatures{
-  box-shadow: 0 15px 30px rgba(134, 134, 134, 0.16);
-  border-radius: 20px;
-  background-color: rgba(235, 235, 235, 0.678);
-  width: 25%;
+
+
+
+
+.curriculum {
+  padding: 10vh 0;
+  min-height: 70vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: 500px; */
-  border-radius: 5px;
-  padding: 10px 15px;
-  position: absolute;
-  right: 70px;
-  top: 130vh;
-  transition: .4s;
-}
-.courseFeatures h2{
-  font-size: 25px;
-  color: rgb(139,139,139);
-}
-.courseFeatures .feature{
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background-color: white;
-  border: 2px solid gray;
-  padding: 10px 20px;
-  margin: 10px 0;
-  border-radius: 10px;
-}
-.courseFeatures .feature i{
-  color: #4692E2;
-  padding: 5px 15px;
-}
-
-
-main .aboutCourse {
-  padding:5%;
-  /* box-shadow: 4px 7px 14px rgba(121, 121, 121, 0.219); */
-  width: 65%;
-}
-main .aboutCourse .about {
-  padding: 10px 0;
-  width: 100%;
-  text-align: justify;
-  line-height: 30px;
-}
-
-.aboutSection p{
-  color: rgb(73, 73, 73);
-  line-height: 27px;
-  width: 100%;
-}
-.aboutSection p:nth-child(1){
-  font-size: 20px;
-  color: rgb(32, 32, 32);
-  padding: 5px 0;
-}
-
-.curriculum {
-  min-height: 70vh;
-  width: 100%;
-  padding: 80px;
-  background-color: rgba(125, 191, 253, 0.212);
+  /* background-color: rgba(125, 191, 253, 0.212); */
 }
 .curriculum .sectionHolder {
   display: flex;
-  padding: 0 0 0 90px;
+  justify-content: center;
+  width: 100%;
 }
 
 .curriculum .sectionHolder .section {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(125, 191, 253, 0.212);
   padding: 30px 40px  ;
   margin: 1px;
   border-radius: 10px;
@@ -285,10 +312,8 @@ main .aboutCourse .about {
 .aboutSection {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /* margin: 40px 0; */
-  position: relative;
   width: 100%;
+  align-items: center;
   /* background-color: white; */
 }
 .curriculum details{
@@ -296,8 +321,8 @@ main .aboutCourse .about {
   font-size: 20px;
   color: rgb(51, 51, 51);
   margin: 20px 0;
-  width: 800px;
-  background-color: white;
+  width: 80vw;
+  background-color: rgba(125, 191, 253, 0.212);
   border: 1px solid rgb(179, 179, 179);
   border-radius: 5px;
   position: relative;
@@ -349,102 +374,10 @@ main .aboutCourse .about {
   100%  {opacity: 1; margin-left: 0px}
 }
 
-.certificate{
-  padding:5%;
-}
-.certificate .holder{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
-}
-.certificate .holder .card{
-  width: 45%;
-  box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.247);
-  border: 1px solid gray;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  height: max-content;
-  border-radius: 10px;
-  padding: 20px 20px 10px 20px;
-  /* position: relative; */
-  transition: .4s;
-}
-.certificate .holder .card:hover{
-  box-shadow: 5px 5px 10px rgba(172, 172, 172, 0.493);
-}
-.certificate .holder .card img{
-  width: 60%;
-  transition: .4s;
-  
-}
-.certificate .holder .card p:nth-child(2){
-  font-size: 20px;
-}
-.certificate .holder .card p:nth-child(3){
-  font-size: 15px;
-  color: gray;
-  padding: 5px 0 20px 0;
-  text-align: justify;
-}
-.certificate .holder .card p:nth-child(4){
-  /* position: absolute; */
-  right: 10px;
-  bottom: 5px;
-  width: 100%;
-  font-size: 14px;
-  color: rgb(110, 197, 255);
-  text-align: end;
-  /* display: none; */
-}
-.certificate .holder .card p:nth-child(4):hover{
-  color: rgb(35, 143, 214);
-  cursor: pointer;
-}
-.certificate .download{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-.certificate .download p{
-  padding: 10px 30px;
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(37,175, 255));
-  width: fit-content;
-  font-size: 25px;
-  font-weight: 400;
-  color: rgb(51, 51, 51);
-  border: none;
-  border-radius: 5px;
-  transition: 0.4s;
-}
-.certificate .download p:hover{
-  cursor: pointer;
-  background-image: linear-gradient(rgb(37, 175, 255),rgb(252, 252, 252));
-}
-.certificate .far{
-  position:fixed;
-  z-index: 1;
-  right:17%;
-  top:10%;
-  font-size: 20px;
-  cursor: pointer;
-}
-.opnedCertificate{
-  position:fixed;
-  /* width: 10%; */
-  padding: 20px;
-  top: 10vh;
-  right: 20%;
-  transition: .4s;
-  z-index: 1;
-}
+
 .table {
   display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  padding: 1% 5%;
+  justify-content: space-between;
   
 }
 table {
@@ -471,20 +404,58 @@ table button {
   font-weight: 600;
   cursor: pointer;
 }
+.courseFeatures{
+  box-shadow: 0 15px 30px rgba(134, 134, 134, 0.16);
+  border-radius: 20px;
+  background-color: rgba(235, 235, 235, 0.678);
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 500px; */
+  border-radius: 5px;
+  padding: 10px 15px;
+  right: 70px;
+  top: 130vh;
+  transition: .4s;
+}
+.courseFeatures h2{
+  font-size: 25px;
+  color: rgb(139,139,139);
+}
+.courseFeatures .feature{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  border: 2px solid gray;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.courseFeatures .feature i{
+  color: #4692E2;
+  padding: 5px 15px;
+}
+
+
+
+
 
 .projects{
-  padding: 80px 80px 0px 80px;
+  
 }
 .projects .cards{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+
   position: relative;
 }
 .projects .cards .card{
-  width: 600px;
+  width:500px;
   margin: 10px;
   padding: 20px;
   display: flex;
@@ -502,7 +473,7 @@ table button {
 
 .projects .cards .card .img{
   background-color: rgba(214, 214, 214, 0.226);
-  padding: 40px 80px;
+  padding:7% 10%;
 }
 .projects .img i{
   color: #4692E2;
@@ -511,7 +482,9 @@ table button {
 }
 
 .projects .cards .card .about{
-  padding: 0px 2px 2px 34px;
+  padding:3%;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects .cards .card .about p:nth-child(1) {
@@ -521,9 +494,9 @@ table button {
 }
 
 .projects .cards .card .about p:nth-child(2){
-  font-size: 22px;
-  min-height: 150px;
-  width: 250px;
+  font-size: 20px;
+  min-height: 10vw;
+  width:100%;
   padding: 30px 0 0 0 ;
 }
 .projects .cards .card .about p:nth-child(3){
@@ -540,14 +513,25 @@ table button {
 
 .projects .cards .learnMore{
   position:fixed;
-  width:fit-content;
+  width:80%;
   top: 20vh;
   transition: .4s;
-  
+  border: 1px solid black;
   background-color: white;
   box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.589);
   z-index: 2;
   /* position: relative; */
+}
+.projects .cards .learnMore::after{
+  position: fixed;
+  content: '';
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.562);
+  backdrop-filter: blur(2px);
+  top: 0;
+  left: 0;
+  z-index: -2;
 }
 .projects .cards .learnMore .fa-times-circle{
   display: block;
@@ -556,123 +540,26 @@ table button {
  top: 20px; 
  cursor: pointer;
 }
-.blurBack{
-  height: 100vh;
-  width: 100%;
-  background-color: rgba(172, 172, 172, 0.678);
-  filter: blur(3px);
-  position:fixed;
-  top: 0;
-  z-index: 1;
-}
+
 .projects .cards .learnMore .about p:nth-child(2){
   min-height:fit-content;
   padding: 30px 0;
 }
 .projects .cards .learnMore .about p:nth-child(3){
   display: block;
-  width: 500px;
+  width: 100%;
 }
 .projects .cards .learnMore .about p:nth-child(4){
   display: none;
 }
-.process{
-  padding : 0px 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.process .cards{
-  display: flex;
-  width: 90%;
-  justify-content: space-between;
-}
-.process .cards .card{
-  display:flex;
-  width: 30%;
-  background-color: rgb(240, 240, 240);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 4px 5px 60px rgba(88, 88, 88, 0.164);
-}
 
-.process .cards .card .id{
-  background-color: rgb(39, 65, 0);
-  padding: 10px 15px;
-  border-radius: 100px;
-  color: aliceblue;
-  height: fit-content;
-}
-.process .cards .card span{
-  padding:0 0 0 30px;
-}
-.process .cards .card span p:nth-child(1){
-  font-size: 20px;
-  padding: 0 0 10px 0;
-}
 
-.process .cards .card span p:nth-child(2){
-  font-size: 14px;
-  color: rgb(82, 82, 82);
-}
 
-.blogs{
-  display: flex;
-  flex-direction: column;
-  padding: 80px;
-}
-
-.blogs .cards{
-  display: flex;
-  width: 100%;
-}
-.blogs .cards .card{
-  display: flex;
-  width: 30%;
-  margin: 20px;
-  padding: 30px 10px 10px 30px;
-  border: 2px solid gray;
-  border-radius: 10px;
-  box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.377);
-  position: relative;
-}
-.blogs .cards .card::before{
-  position: absolute;
-  background-color: rgb(160, 255, 255);
-  content: '';
-  top:0;
-  left:0;
-  width: 70%;
-  height:141%;
-  border-radius: 10px;
-  clip-path: polygon(40% 0, 40% 5%, 5% 5%, 5% 50%, 0 50%, 0 0);
-}
-.blogs .cards .card img{
-  width: 50%;
-  border-radius: 10px;
-}
-
-.blogs .cards .card span{
-  padding:  0 0 0 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.blogs .cards .card span p:nth-child(2){
-  width: 100%;
-  text-align: end;
-  font-size: 12px;
-  color: rgb(0, 112, 112);
-  cursor: pointer;
-}
 .subHeading{
   font-size: 20px;
   color: rgb(31, 31, 31);
 }
-.sections{
-  padding: 40px 80px ;
-}
+
 .sections
  .point{
  padding: 0 0 0 5px;
@@ -705,4 +592,55 @@ table button {
   font-weight: 100;
   border-radius: 10px;
   height: fit-content;
+}
+@media (max-width: 960px){
+  .landing{
+    /* flex-direction: column;
+    justify-content: space-between; */
+  }
+  .landing .about{
+    width: 100%;
+
+  }
+  .landing .courseImg{
+    display: none;
+  }
+  main .aboutCourse {
+    flex-direction: column;
+  }
+  main .aboutCourse .left{
+    width: 100%;
+  }
+  main .aboutCourse .right{
+    width: 100%;
+  }
+  .query{
+    width: 100%;
+  }
+  .table{
+    flex-direction: column;
+  }
+  .table table{
+    width: 100%;
+  }
+  .table .courseFeatures{
+    width: 100%;
+  }
+  .curriculum .sectionHolder{
+    flex-direction: column;
+  }
+  .curriculum .sectionHolder .section{
+    width: 100%; padding: 15px;
+  }
+  .curriculum .sectionHolder .aboutSection{
+    padding: 0;
+  }
+  .curriculum details{
+    width: 60vw;
+  }
+  .projects .cards .learnMore{
+    top: 10vh;
+    width: 100%;
+  }
+  /* .curriculum .sectionHolder */
 }
