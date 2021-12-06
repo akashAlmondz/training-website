@@ -79,12 +79,22 @@
     background-color: rgb(255, 255, 255);
     transition: 0.2s;
   }
+  .testimonial .viewMore::after{
+    position: fixed;
+    content: '';
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff60;
+    backdrop-filter: blur(1px);
+    z-index: -1;
+  }
   .testimonial .viewMore .card {
     margin: 50px 20px;
   }
   #view {
     cursor: pointer;
-    z-index: 20;
+    /* z-index: 20; */
     color: rgb(0, 0, 0);
     text-align: center;
     transition: 0.4s;
@@ -104,6 +114,7 @@
   ::-webkit-scrollbar {
     width: 5px;
     background: #e7e7e7;
+    z-index: 2;
   }
   ::-webkit-scrollbar-thumb {
     background-color: #84c4ff;
@@ -115,9 +126,9 @@
   }
   
   .testimonial .viewMore i {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    position:fixed;
+    top: 16vh;
+    right: 11%;
     display: block;
     font-size: 20px;
     font-weight: 100;
@@ -125,9 +136,9 @@
     transition: 0.1s;
   }
   .testimonial .viewMore .readless {
-    position: absolute;
+    position:absolute;
     width: 100%;
-    height: 100%;
+    height: 200%;
     top: 0;
   }
   .testimonial .viewMore i:hover {

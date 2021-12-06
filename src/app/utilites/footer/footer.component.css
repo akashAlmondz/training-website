@@ -121,7 +121,7 @@ iframe{
         /* display: none; */
     }
     iframe{
-        width: 300px;
+        width:100%;
     }
      .section{
             /* align-items: center; */

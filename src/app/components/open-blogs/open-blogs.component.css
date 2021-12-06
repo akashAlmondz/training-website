@@ -13,12 +13,29 @@ main p:nth-child(2){
     font-size: 30px;
     padding: 5%;
     width: 50%;
-
+    text-align: start;
+    line-height: normal;
 }
 main p{
   width: 80%;
   padding: 10px 0;
   line-height: 30px;
   text-align: justify;
+}
+
+@media (max-width: 960px){
+    img{
+        width: 50%;
+    }
+    main p:nth-child(2){
+        width: 100%;
+        font-size: 20px;
+        padding: 0 0 5% 0;
+    } 
+    main p{
+        width: 100%;
+        line-height: 25px;
+
+    }
 }
 
