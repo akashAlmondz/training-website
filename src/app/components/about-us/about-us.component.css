@@ -1,18 +1,16 @@
+main{
+    padding: 10vh 5%;
+}
 .landing{
-    height: 100vh;
+    /* height: 40vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30vh 0  50vh 0;
+    padding:10vh 0;
     justify-content: space-between;
     position: relative;
 }
-.landing img{
-    position: absolute;
-    bottom: 0;
-    z-index:-1;
-    width: 100%;
-}
+
 .landing p:nth-child(1){
     font-size: 30px;
     text-align: center;
@@ -29,12 +27,13 @@
 .mission .cards{
     display: flex;
     width: 100%;
-    padding: 8%;
-    justify-content: space-between;
+    justify-content:center;
+    flex-wrap: wrap;
 }
 .mission .cards .card{
     background-color: rgba(190, 190, 190, 0.123);
-    width: 40%;
+    width: 450px;
+    margin: 20px 40px;
     padding: 2%;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.192);
@@ -59,14 +58,13 @@
 }
 
 .partners{
-    padding: 0 80px;
+    margin: 50px 0;
 }
 .heading {
     margin-bottom: 0px;
     font-size: 30px;
     position: relative;
     width: fit-content;
-    padding: 0 0 5px 0;
   }
   .heading::after {
     content: "";
@@ -94,9 +92,7 @@
 .partners .logos .logo img{
     width: 80%;
 }
-.college{
-    padding: 0 80px;
-}
+
 .college .logos{
     display: flex;
     flex-wrap: wrap;
@@ -117,4 +113,20 @@
 } */
 .college .logos .logo:nth-child(5) img{
     width: 100%;
+}
+
+@media (max-width: 960px){
+    .landing p:nth-child(1){
+        font-size: 25px;
+    }
+    .landing p:nth-child(2){
+        width: 100%;
+        font-size:unset;
+        color: rgb(56, 56, 56);
+        line-height: 20px;
+    }
+    .mission .cards .card{
+        width: 100%;
+        margin: 10px 0;
+    }
 }

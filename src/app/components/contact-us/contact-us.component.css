@@ -1,29 +1,7 @@
-app-contact {
-    position: fixed;
-    bottom: 0;
-    z-index: 10;
-  }
-  app-links {
-    position: fixed;
-    top: 40vh;
-    z-index: 10;
-  }
-  app-social {
-    z-index: 1;
-    right: 0;
-    position: fixed;
-    right: 0;
-  }
+
   main{
       position: relative;
-  }
-  .BG {
-    width: 100%;
-    height: 100vh;
-    filter: brightness(30%);
-    position: absolute;
-    z-index: -1;
-    display: none;
+      padding: 10vh 5%;
   }
 
   .landing{
@@ -35,7 +13,7 @@ app-contact {
   }
   .landing .form{
       width: 50%;
-      padding: 50px 80px 0 80px;
+      /* padding: 50px 80px 0 80px; */
       height: 60%;
   }
   form{
@@ -58,6 +36,7 @@ app-contact {
       justify-content: space-between;
       height: 70px;
       width: 270px;
+      margin: 0 5px;
   }
   form label{
       color: rgb(0, 0, 0);
@@ -101,14 +80,14 @@ app-contact {
   }
   .landing .about{
       width: 50%;
-      padding: 0 0 0 20px;
+      /* padding: 0 0 0 20px; */
       height: 45%;
       color: rgb(0, 0, 0);
       justify-content: space-between;
   }
 
   .landing .about p:nth-child(1){
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 600;
       padding-bottom: 20px;
   }
@@ -136,7 +115,7 @@ app-contact {
       padding: 0 0 0 19px;cursor: pointer;
   }
   .address{
-      padding:0 0 80px 80px;
+      margin-top: 100px;
   }
   .address span{
       display: flex;
@@ -152,4 +131,27 @@ app-contact {
   }
   .address p{
       color: rgb(82, 82, 82);
+  }
+
+  @media (max-width: 960px){
+      .landing{
+          flex-direction: column;
+          height: 150vh;
+          justify-content: space-between;
+      }
+      .landing .about{
+          width: 100%;
+          height: 50%;
+      }
+      .landing .about p:nth-child(2){
+          width: 100%;
+      }
+      .landing .form{
+          width: 100%;
+          height: 50%;
+      }
+      .landing .form form span{
+          justify-content: center;
+          flex-wrap: wrap;
+      }
   }
