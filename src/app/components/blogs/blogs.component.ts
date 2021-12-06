@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { blogs } from 'src/app/blogs';
 
 @Component({
@@ -8,11 +9,12 @@ import { blogs } from 'src/app/blogs';
 })
 export class BlogsComponent implements OnInit {
 
-  constructor() { }
+  constructor(public route:Router) { }
 
   ngOnInit(): void {
   }
-
+  link = this.route.url
+  
   blogs = blogs
   cat:any = ''
   index:any = 0
@@ -22,7 +24,6 @@ export class BlogsComponent implements OnInit {
     this.index = this.blogs[cat].indexOf(index)
     localStorage.setItem('blogIndex',this.index)
     localStorage.setItem('blogCat',this.cat)
-    console.log(this.cat,this.index)
   }
   
 }

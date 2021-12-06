@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5%;
+  padding: 10vh 5% 0 5%;
 }
 .backGround {
   width: 100%;
@@ -16,6 +16,7 @@
   z-index: -1;
   filter: brightness(0.5);
   top: 0;
+  display: none;
 }
 .landing .about {
   width: 50%;
@@ -24,13 +25,13 @@
 }
 .landing .about .courseName {
   font-size: 30px;
-  color: white;
+  color:#262534;
   width: 70%;
 }
 .landing .about .aboutCourse {
   font-size: 20px;
-  color: rgb(214, 214, 214);
-  width: 80%;
+  color: #2F2E41;
+  width: 100%;
   margin: 20px 0 50px 0;
   line-height: 35px;
 }
@@ -66,8 +67,11 @@
   top: 0;
 }
 .report div {
-  color: white;
+  color: #34364b;
   margin: 0 10px;
+}
+.report div:hover{
+  color: #4692E2;
 }
 .report div b {
   font-size: 20px;
@@ -137,7 +141,7 @@ main {
   height: fit-content;
 }
 .process .cards .card span{
-  padding:0 0 0 30px;
+  padding:0 0 0 10px;
 }
 .process .cards .card span p:nth-child(1){
   font-size: 20px;
@@ -442,9 +446,7 @@ table button {
 
 
 
-.projects{
-  
-}
+
 .projects .cards{
   display: flex;
   flex-wrap: wrap;
@@ -595,15 +597,36 @@ table button {
 }
 @media (max-width: 960px){
   .landing{
-    /* flex-direction: column;
-    justify-content: space-between; */
+    flex-direction: column;
+    height: auto;
   }
   .landing .about{
     width: 100%;
+    order: 2;
 
   }
+  .landing .about .report{
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:flex-end;
+  }
+  .landing .about .report div{
+    /* width: 200px; */
+    margin: 10px;
+  }
+  .landing .about .report{
+    font-size: 12px;
+  }
   .landing .courseImg{
-    display: none;
+    width: 100%;
+    order: 1;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  main .process .cards .card{
+    width:100%;
+    margin: 10px 0;
   }
   main .aboutCourse {
     flex-direction: column;

@@ -49,7 +49,7 @@ main .logo img{
     transition: .4s;
 }
 
-.navigation .link:hover{
+.navigation .link p:hover{
     cursor: pointer;
     color: #1874d2;
 }
@@ -61,8 +61,8 @@ main .logo img{
 .allCourses:hover .hidden{display: flex;}
 .training:hover   .hidden{display: flex;}
 .company:hover  .hidden{display: flex;}
-.company .hidden, .training .hidden{display: none;flex-direction: column;position: absolute;padding: 30px 0 0 0;}
-.training .hidden p,.company .hidden p{background-color: white;padding: 10px 5px;color: black;}
+.company .hidden, .training .hidden{display:none;background-color: white;flex-direction: column;position: absolute;padding: 10px 0 0 0;}
+.training .hidden p,.company .hidden p{padding:5px 5px;color: black;margin: 5px 0;}
 
 .allCourses .hidden{padding: 20px 0 0 0; display:none;left: 0; justify-content:space-around; position: absolute;width:100%;background-color: rgb(255, 255, 255);}
 .allCourses .hidden .category{padding: 10px 0;margin: 0 1px;}
@@ -70,7 +70,14 @@ main .logo img{
 .allCourses .hidden div .sub{margin: 1px 0 0 0;}
 .allCourses .hidden div .sub p{margin: 1px 0 0 0;color: black; background-color: rgb(255, 255, 255);padding: 7px 5px;font-size: 14px;}
 .allCourses .hidden div .sub p:hover{cursor: pointer;color: #1874d2;}
+.menu .options{
+    position:absolute;background-color: white;padding: 20px 0;left: 0;width: 100%;
+    display: flex;flex-direction: column;align-items: center;transition: .4s;
+}
 
+ .options p{
+    padding: 10px 0;
+}
 @media (max-width: 1030px){
    .navigation{display: none;}
    .menu{display: block;padding: 0;}

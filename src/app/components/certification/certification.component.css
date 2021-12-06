@@ -1,5 +1,5 @@
 main{
-    padding:5%;
+    padding:10vh 5%;
 }
 
 .heading {
@@ -57,10 +57,15 @@ main{
   .certificate .holder .card:hover{
     box-shadow: 5px 5px 10px rgba(172, 172, 172, 0.493);
   }
-  .certificate .holder .card .close{
-    width: 60%;
-    transition: .4s;
-    
+   .img{
+    width:100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+   .img img{
+    width: 70%;
   }
   .certificate .holder .card p:nth-child(2){
     font-size: 20px;
@@ -109,73 +114,33 @@ main{
     position:fixed;
     z-index: 1;
     right:17%;
-    top:10%;
+    top:20vh;
     font-size: 20px;
     cursor: pointer;
   }
-  .opnedCertificate{
-    position:fixed;
-    width: 10%;
-    padding: 20px;
-    top: 10vh;
-    right: 20%;
-    transition: .4s;
-    z-index: 1;
+  .opned{
+    top: 0;
+    left: 0;
+   position: fixed;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(255, 255, 255, 0.671);
+   backdrop-filter: blur(1px);
+  }
+  .opned img{
+    width: 50%;
   }  
 
 
-  .blogs{
-    display: flex;
-    flex-direction: column;
-  }
   
-  .blogs .cards{
-    display: flex;
-    width: 100%;
-  }
-  .blogs .cards .card{
-    display: flex;
-    width: 30%;
-    margin: 20px;
-    padding: 30px 10px 10px 30px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.377);
-    position: relative;
-  }
-  .blogs .cards .card::before{
-    position: absolute;
-    background-color: rgb(160, 255, 255);
-    content: '';
-    top:0;
-    left:0;
-    width: 70%;
-    height:141%;
-    border-radius: 10px;
-    clip-path: polygon(40% 0, 40% 5%, 5% 5%, 5% 50%, 0 50%, 0 0);
-  }
-  .blogs .cards .card img{
-    width: 50%;
-    border-radius: 10px;
-  }
   
-  .blogs .cards .card span{
-    padding:  0 0 0 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .blogs .cards .card span p:nth-child(2){
-    width: 100%;
-    text-align: end;
-    font-size: 12px;
-    color: rgb(0, 112, 112);
-    cursor: pointer;
-  }
-  @media (max-width: 960px){
-    .opnedCertificate{
-      width:90vw;
+  @media (max-width: 360px){
+    .opned img{
+      width: 90%;
+    }
+    .certificate .far{
+      top: 28vh;
+      right: 1%;
     }
     .about{
       width: 100%;

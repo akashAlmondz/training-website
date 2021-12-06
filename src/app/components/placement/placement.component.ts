@@ -11,5 +11,44 @@ export class PlacementComponent implements OnInit {
 
   ngOnInit(): void {
   }
+cards = [
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+  {
+    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+  },
+]
 
+buttonValue = 'View More'
 }

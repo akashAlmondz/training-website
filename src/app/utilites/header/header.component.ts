@@ -18,7 +18,13 @@ export class HeaderComponent implements OnInit {
       }
     })
   }
-   
-  
+  toggleMenu = false
+  showMenu(value:boolean){
+    if(value==true){
+      this.toggleMenu = !this.toggleMenu
+    }else{
+      this.toggleMenu = value
+    }
+  }
   
 }

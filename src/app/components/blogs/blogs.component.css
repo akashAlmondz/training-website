@@ -2,7 +2,10 @@
 
 main{
     padding:10vh 5%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+}
+.small{
+  padding: 0 5%;
 }
 .heading {
     font-size: 25px;
@@ -13,7 +16,7 @@ main{
   .heading::after {
     content: "";
     background-color: #1874d2;
-    height: 2px;
+    height: 1px;
     width: 70%;
     position: absolute;
     bottom: 0;

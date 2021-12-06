@@ -350,7 +350,7 @@
   padding: 2%;
 }
 .upcoming .cards .card .about .courseName {
-  font-size: 25px;
+  font-size: 20px;
   margin: 10px 0;
 }
 .upcoming .cards .card .about .courseAbout {
@@ -454,8 +454,7 @@
   .upcoming .cards .card .about{
     padding: 0;
   }
-  app-testimonials{
-    display: none;
-  }
+ 
+
   
 }

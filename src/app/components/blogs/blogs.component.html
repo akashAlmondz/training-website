@@ -1,6 +1,6 @@
-<main>
-    <p class="heading">Our Blogs:</p>
-    <div class="blogs">
+<main [ngClass]="link!= '/blogs'? 'small': '' " >
+    <p  class="heading">Our Blogs:</p>
+    <div *ngIf = "link == '/blogs' " class="blogs">
         <p class="subHeading">Informative blogs:</p>
         <div class="cards">
             <div  class="card" *ngFor= "let item of blogs[0]; let i as index " >
@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-    <div class="blogs">
+    <div *ngIf = "link == '/blogs' " class="blogs">
         <p class="subHeading">Social Media Awareness:</p>
         <div class="cards">
             <div class="card" *ngFor= "let item of blogs[1]; let i as index " >
@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="blogs">
-        <p class="subHeading">Latest Update IT Services:</p>
+        <p *ngIf = "link == '/blogs' " class="subHeading">Latest Update IT Services:</p>
         <div class="cards">
             <div class="card" *ngFor= "let item of blogs[2]; let i as index" >
                 <img [src] = item.img alt="">

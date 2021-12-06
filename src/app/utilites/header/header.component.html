@@ -1,7 +1,8 @@
 <nav>
     <main>
+
         <div class="logo">
-            <img [routerLink]="['']" src="assets/images/logo.png" alt="">
+            <img (click)="showMenu(false)" [routerLink]="['']" src="assets/images/logo.png" alt="">
         </div>
         <div class="navigation">
             
@@ -88,7 +89,17 @@
             
         </div>
         <div class="menu">
-            <i class="fas fa-bars"></i>
+            <i (click)="showMenu(true)" class="fas fa-bars"></i>
+            <div (click)="showMenu(true)" *ngIf="toggleMenu" class="options" >
+                <!-- <p>All Courses</p> -->
+                <p [routerLink]="['certification']" >Certification</p>
+                <p [routerLink]="['training']" >Training Programs</p>
+                <!-- <p>Company</p> -->
+                <p [routerLink]="['blogs']" >Blogs</p>
+                <p [routerLink]="['aboutUs']" >About Us</p>
+                <p [routerLink]="['contact']" >Contact Us</p>
+                <p [routerLink]="['placement']" >Placements</p>
+            </div>
         </div>
         
     </main>
