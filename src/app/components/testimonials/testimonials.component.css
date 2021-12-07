@@ -18,7 +18,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 0 0 100px 0;
+    padding: 0 0 40px 0;
   }
   .testimonial .cards {
     display: flex;
@@ -150,5 +150,12 @@
   @media (max-width: 960px){
     .testimonial .viewMore{
       width: 90%;
+    }
+    .testimonial .cards{
+      padding:0 5%;
+    }
+    .testimonial .cards .card{
+      width: 500px;
+      margin: 10vh 0;
     }
   }

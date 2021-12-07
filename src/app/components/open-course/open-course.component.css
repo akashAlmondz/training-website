@@ -24,12 +24,12 @@
   flex-direction: column;
 }
 .landing .about .courseName {
-  font-size: 30px;
+  font-size: 27px;
   color:#262534;
   width: 70%;
 }
 .landing .about .aboutCourse {
-  font-size: 20px;
+  font-size: 18px;
   color: #2F2E41;
   width: 100%;
   margin: 20px 0 50px 0;
@@ -40,7 +40,6 @@
   background-image: linear-gradient(rgb(37, 175, 255),rgb(252, 252, 252));
   width: fit-content;
   font-size: 20px;
-  font-weight: 600;
   color: rgb(51, 51, 51);
   border: none;
   border-radius: 5px;
@@ -645,6 +644,9 @@ table button {
   }
   .table table{
     width: 100%;
+  }
+  .table table td{
+    font-size: 13px;
   }
   .table .courseFeatures{
     width: 100%;

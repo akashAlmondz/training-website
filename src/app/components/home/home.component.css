@@ -253,8 +253,8 @@
 }
 
 .courses .cards .card .courseName {
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 15px;
+  font-weight: 500;
   width: 100%;
   text-align: center;
   margin: 10px 0 10px 0;
@@ -368,7 +368,6 @@
 .upcoming .cards .card .timing .enroll {
   background-color: #b0d8ff;
   padding: 10px 20px;
-  z-index: 2;
   transition: 0.4s;
 }
 .upcoming .cards .card .timing .enroll:hover {
@@ -428,7 +427,7 @@
   }
   
   .courses .card{
-    width: 100px;
+    width: 145px;
     margin: 10px 5px;
   }
   .courseBackground{

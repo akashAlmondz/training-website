@@ -5,3 +5,20 @@ i,p{color: #4692e2;margin: 3px;}
 main div:hover{cursor: pointer;background-color: #4692e2;}
 div:hover i,div:hover p{color: white;}
 
+@media (max-width: 960px){
+    main div:nth-child(2){
+        display: none;
+    }
+    main div:nth-child(4){
+        display: none;
+    }
+    main div{
+        flex-direction: column;
+        padding:2px 4px;
+    }
+    i,p{
+        font-size: 10px;
+        margin: 0;
+    }
+}
+

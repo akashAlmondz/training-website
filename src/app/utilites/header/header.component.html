@@ -1,8 +1,22 @@
 <nav>
     <main>
-
+        <div class="menu">
+            <i (click)="show('menu')" class="fas fa-bars"></i>
+            <div (click)="show('none')" *ngIf="toggle== 'menu' " class="options" >
+                <app-links></app-links>
+                <app-social></app-social>
+                <!-- <p>All Courses</p> -->
+                <p [routerLink]="['certification']" >Certification</p>
+                <p [routerLink]="['training']" >Training Programs</p>
+                <!-- <p>Company</p> -->
+                <p [routerLink]="['blogs']" >Blogs</p>
+                <p [routerLink]="['aboutUs']" >About Us</p>
+                <p [routerLink]="['contact']" >Contact Us</p>
+                <p [routerLink]="['placement']" >Placements</p>
+            </div>
+        </div>
         <div class="logo">
-            <img (click)="showMenu(false)" [routerLink]="['']" src="assets/images/logo.png" alt="">
+            <img (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png" alt="">
         </div>
         <div class="navigation">
             
@@ -88,17 +102,18 @@
             <p [routerLink]="['placement']" class="link" >Placements</p>
             
         </div>
-        <div class="menu">
-            <i (click)="showMenu(true)" class="fas fa-bars"></i>
-            <div (click)="showMenu(true)" *ngIf="toggleMenu" class="options" >
-                <!-- <p>All Courses</p> -->
-                <p [routerLink]="['certification']" >Certification</p>
-                <p [routerLink]="['training']" >Training Programs</p>
-                <!-- <p>Company</p> -->
-                <p [routerLink]="['blogs']" >Blogs</p>
-                <p [routerLink]="['aboutUs']" >About Us</p>
-                <p [routerLink]="['contact']" >Contact Us</p>
-                <p [routerLink]="['placement']" >Placements</p>
+        <div class="course menu">
+            <p (click)="show('course')" class="menuButton" >All Courses <i class="fas fa-sort-down"></i></p>
+            <div *ngIf="toggle== 'course' "   class="hiddenCourse">
+               
+                <div class="courseOption">
+                    <div class="holder">
+                        <p *ngFor="let item of courseList; let i as index " (click)=activeOption(i) [ngClass]="activeSection==courseList.indexOf(i)? 'active': '' " >{{item.title}}</p>
+                    </div>
+                </div>
+                <div class="courseList">
+                    <p *ngFor="let item of activeList" >{{item}}</p>
+                </div>
             </div>
         </div>
         
