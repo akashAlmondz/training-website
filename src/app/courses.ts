@@ -13,7 +13,25 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Python Developer, Data Analyst, Educator, Product Manager, Financial Advisor, Data Journalist"]},
             {heading:'Prerequisite knowledge:',about:["Enthusiasm to learn this superb programming language which is a valuable lifetime skill. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Python is included in the course. "]},
-        ]  
+        ],
+        sections : [
+            {id:0, img:"fas fa-laptop-code",sectionName:'Introduction of Python ',about:[ 
+              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+            ]},
+            {id:1, img:"fas fa-laptop-code",sectionName:'Introduction of Python ',about:[ 
+              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+            ]},
+            {id:2, img:"fas fa-laptop-code",sectionName:'Introduction of Python ',about:[ 
+              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+            ]},
+            
+          ]  
     },
     
     {

@@ -5,8 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './placement.component.html',
   styleUrls: ['./placement.component.css']
 })
-export class PlacementComponent implements OnInit {
 
+export class PlacementComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
@@ -51,4 +51,22 @@ cards = [
 ]
 
 buttonValue = 'View More'
+button:any
+viewMore(){
+  this.button = document.getElementById('buttonHolder')
+  if (this.buttonValue == 'View Less'){
+    this.buttonValue= 'View More'
+    this.button.scrollIntoView()
+  }else{
+    this.buttonValue = 'View Less'
+    this.button.scrollIntoView()
+  }
+  
+  
+}
+
+ 
+
+
+
 }

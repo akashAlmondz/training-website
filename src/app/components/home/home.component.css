@@ -382,19 +382,23 @@
     font-size: 25px;
   }
   .landing{
-    padding: 30vw 5% 20vw 5%;
+    height: auto;
+    padding: 10vh 5%;
+    justify-content:center;
   }
   .landing p{
     font-size: 30px;
   }
   .landing .list{
-    width:90%;
-    
+    width:100%;
+    padding: 0;
   }
   .landing .list p{
     font-size: 15px;
   }
-
+  .landing .search{
+    margin: 40px 0;
+  }
   .landing .search input{
     width: 40vw;
   }

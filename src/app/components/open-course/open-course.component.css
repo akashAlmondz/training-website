@@ -225,11 +225,12 @@ form div {
   display: flex;
   width: 100%;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content:center;
 }
 form i {
   font-size: 20px;
   color: #4692E2;
+  margin-right: 20px;
 }
 form div input,
 select {
@@ -266,8 +267,8 @@ form button {
 
 
 .curriculum {
-  padding: 10vh 0;
-  min-height: 70vh;
+  /* padding: 5vh 0; */
+  /* min-height: 70vh; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -276,7 +277,7 @@ form button {
 }
 .curriculum .sectionHolder {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   width: 100%;
 }
 
@@ -302,29 +303,22 @@ form button {
   /* border: 5px solid rgb(138, 237, 255); */
 }
 
-.curriculum .sectionHolder .section i {
-  color: #4692E2;
-  font-size: 30px;
-  padding: 5px 0;
-  transition: 0.4s;
-}
-.curriculum .sectionHolder .active i {
-  color: rgb(138, 237, 255);
-}
+
 
 .aboutSection {
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: center;
+
+  /* align-items:; */
   /* background-color: white; */
 }
 .curriculum details{
   padding:30px 10px;
   font-size: 20px;
-  color: rgb(51, 51, 51);
+  color: rgb(0, 0, 0);
   margin: 20px 0;
-  width: 80vw;
+  width: 70vw;
   background-color: rgba(125, 191, 253, 0.212);
   border: 1px solid rgb(179, 179, 179);
   border-radius: 5px;
@@ -336,36 +330,10 @@ form button {
   cursor: pointer;
 }
 
-.curriculum details::before{
-  position: absolute;
-  height: 180%;
-  width: 3px;
-  left: -27px;
-  top: 50%;
-  content: '';
-  background-color: #4692E2;
-}
-.curriculum details:last-child::before{
-  height: 240%;
-  top: -190%;
-  /* color: antiquewhite */
-}
-.curriculum details:nth-last-child(2)::before{
-  height: 60%;
-  top: -30%;
-}
-.curriculum details:nth-last-child(3)::before{
-  height: 50%;
-}
-.curriculum details::after{
-  position: absolute;
-  height: 20px;
-  width: 20px;
-  left: -36px;
-  border-radius: 15px;
-  top: 40%;
-  content: '';
-  background-color: #4692E2;
+
+.curriculum details p{
+  font-size: 15px ;
+  color: rgb(51, 51, 51);
 }
 
 .curriculum details[open] summary ~ * {
@@ -391,8 +359,9 @@ table {
   border-collapse: collapse;
 }
 table th {
-  background-color: rgb(88, 188, 255);
-  color: white;
+  background-color: #4692E2;
+  color: #ffffff;
+  font-weight: 500;
 }
 table td {
   text-align: center;
@@ -462,7 +431,7 @@ table button {
   display: flex;
   border: 1px solid rgba(170, 170, 170, 0.281);
   border-radius: 10px;
-  transition: .4s;
+  /* transition: .4s; */
 }
 .projects .cards .card:hover{
   box-shadow:  4px 6px 16px rgba(128, 128, 128, 0.555);
@@ -516,7 +485,7 @@ table button {
   position:fixed;
   width:80%;
   top: 20vh;
-  transition: .4s;
+  /* transition: .4s; */
   border: 1px solid black;
   background-color: white;
   box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.589);
@@ -655,17 +624,24 @@ table button {
     flex-direction: column;
   }
   .curriculum .sectionHolder .section{
-    width: 100%; padding: 15px;
+    width: 50%; padding: 15px;
   }
   .curriculum .sectionHolder .aboutSection{
     padding: 0;
   }
   .curriculum details{
-    width: 60vw;
+    width:90%;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  .curriculum details summary{
+    font-size: 15px;
   }
   .projects .cards .learnMore{
     top: 10vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
   /* .curriculum .sectionHolder */
 }

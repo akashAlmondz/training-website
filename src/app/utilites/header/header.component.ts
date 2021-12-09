@@ -28,7 +28,7 @@ export class HeaderComponent implements OnInit {
   ]
   activeSection = 0
   activeList = this.courseList[this.activeSection].courses
-  toggle:string = "menu"
+  toggle:string = "none"
   show(value:string){
     if(value==this.toggle){
       this.toggle = "none"

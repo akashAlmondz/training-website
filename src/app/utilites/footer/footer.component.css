@@ -2,7 +2,7 @@ footer{
     background-color: black;
     width: 100%;
     min-height: 50vh;
-    padding:5%;
+    padding: 5% 5% 10vh 5%;
 }
 
 .upper{
@@ -31,6 +31,7 @@ footer{
 }
 .subscribe span{height: 30px; display: flex;align-items: center;}
 .upper .subscribe input{height:100%;border: none;}
+.subscribe i{cursor: pointer;}
 .upper .socialMedia .icon i{color: white;font-size: 25px;transition: .4s; width:50px;text-align: center;}
 .upper .socialMedia .icon i:hover{color: #1874d2;transform: scale(112%);cursor: pointer;}
 .upper .a img{width:200px;}
@@ -116,9 +117,26 @@ iframe{
 .sub{padding: 10px 0 0 0;}
 .sub p{padding: 4px 0;color: white;transition: .4s;margin: 3px 0;}
 .sub p:hover{cursor: pointer;color: #1874d2;transform: scale(102%);}
+.lower{
+    color: white;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.lower p{
+    margin:15px 30px;
+}
+.lower p:hover{
+    cursor: pointer;
+    color: #9eceff;
+}
 @media (max-width: 960px){
     footer{
         /* display: none; */
+    }
+    .map{
+        width: 100%;
     }
     iframe{
         width:100%;
@@ -146,6 +164,6 @@ iframe{
         margin:  0;
     }
     .middle{
-        justify-content:center;
+        justify-content:space-between;
     }
 }

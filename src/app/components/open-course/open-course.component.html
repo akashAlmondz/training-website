@@ -142,16 +142,16 @@
     <p class="heading" >Course Curriculum</p>
     <div class="curriculum">
         <div class="sectionHolder">
-            <div class="section" *ngFor ='let item of sections' [ngClass]="activeSection==item.id? 'active': '' " (click)=active(item.id) >
+            <div class="section" *ngFor ='let item of course.sections' [ngClass]="activeSection==item.id? 'active': '' " (click)=active(item.id) >
                 <!-- <i class={{item.img}}></i> -->
                 <p>{{item.sectionName}}</p>
             </div>
         </div>
-        <div  class="aboutSection" *ngFor ='let item of sections' >
+        <div  class="aboutSection" *ngFor ='let item of course.sections' >
           <span *ngIf="item.id==activeSection" >
-            <details  *ngFor="let about of item.about">
-                <summary>{{about.name}}</summary>
-                <p>{{about.summary}}</p>
+            <details  *ngFor="let section of item.about">
+                <summary>{{section.name}}</summary>
+                <p *ngFor="let item of section.summary" >•{{item}}</p>
             </details>
           </span>
             

@@ -35,6 +35,28 @@ main{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: 50vh;
+  overflow: hidden;
+}
+.expend{
+  height: auto;
+}
+main #buttonHolder{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.button{
+  background-color: #1874d2;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+.button:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(173, 173, 173, 0.774);
 }
 .card{
   display: flex;

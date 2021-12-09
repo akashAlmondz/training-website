@@ -115,7 +115,7 @@
       padding: 0 0 0 19px;cursor: pointer;
   }
   .address{
-      margin-top: 100px;
+      margin-top: 10vh;
   }
   .address span{
       display: flex;
@@ -136,22 +136,38 @@
   @media (max-width: 960px){
       .landing{
           flex-direction: column;
-          height: 150vh;
+          height:auto;
           justify-content: space-between;
       }
       .landing .about{
           width: 100%;
-          height: 50%;
+          height:auto;
       }
       .landing .about p:nth-child(2){
           width: 100%;
       }
+      .landing .about .contactinfo{
+          padding: 10px 0;
+      }
+      .landing .about .contactinfo span{
+          display: flex;flex-direction: column;align-items: center;
+          
+      }
+      .landing .about .contactinfo span span{
+        margin: 20px 0;
+      }
+      .landing .about .contactinfo span p{
+          padding: 0;width: fit-content;
+      }
       .landing .form{
           width: 100%;
-          height: 50%;
+          /* height: 60%; */
       }
       .landing .form form span{
           justify-content: center;
           flex-wrap: wrap;
+      }
+      form input:nth-child(5){
+          margin-top: 20px;
       }
   }

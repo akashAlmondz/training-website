@@ -134,7 +134,7 @@ main{
 
   
   
-  @media (max-width: 360px){
+  @media (max-width: 960px){
     .opned img{
       width: 90%;
     }

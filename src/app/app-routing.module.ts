@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { OpenBlogsComponent } from './components/open-blogs/open-blogs.component';
 import { OpenCourseComponent } from './components/open-course/open-course.component';
 import { PlacementComponent } from './components/placement/placement.component';
+import { PolicyComponent } from './components/policy/policy.component';
 import { TrainingComponent } from './components/training/training.component';
 
 const routes: Routes = [
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:'placement',component:PlacementComponent},
   {path:'certification',component:CertificationComponent},
   {path:'openBlogs',component:OpenBlogsComponent},
+  {path:'policy',component:PolicyComponent},
 
 ];
 

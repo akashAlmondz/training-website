@@ -20,6 +20,7 @@ import { QformComponent } from './components/qform/qform.component';
 import { PlacementComponent } from './components/placement/placement.component';
 import { CertificationComponent } from './components/certification/certification.component';
 import { OpenBlogsComponent } from './components/open-blogs/open-blogs.component';
+import { PolicyComponent } from './components/policy/policy.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { OpenBlogsComponent } from './components/open-blogs/open-blogs.component
     QformComponent,
     PlacementComponent,
     CertificationComponent,
-    OpenBlogsComponent
+    OpenBlogsComponent,
+    PolicyComponent
   ],
   imports: [
     BrowserModule,
