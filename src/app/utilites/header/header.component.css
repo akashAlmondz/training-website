@@ -42,14 +42,20 @@ main .logo img{
     align-items:flex-end;
     justify-content:center;
 }
-.navigation .link{margin:0 2vw ;}
+.navigation P:nth-child(2):hover, .navigation p:nth-child(5):hover{
+    cursor: pointer;
+    color:#1874d2 ;
+}
+
 .navigation .link{
     font-weight: 300;
     font-size: 15px;
     color: rgb(0, 0, 0);
     transition: .4s;
 }
-
+.linkHead{
+    margin: 0 2vw;
+}
 .navigation .link p:hover{
     cursor: pointer;
     color: #1874d2;

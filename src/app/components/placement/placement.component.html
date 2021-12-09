@@ -7,8 +7,8 @@
     <div class="img">
         <img src="assets/images/placement.svg" alt="">
     </div>
-    <p class="heading">Students Placed</p>
-    <div [ngClass]="buttonValue=='View Less'? 'expend': '' " class="cards">
+    <p id="heading" class="heading">Students Placed</p>
+    <div [ngClass]="buttonValue=='View Less'? 'expend': '' " class="cards" id="cardHolder">
         <div *ngFor="let item of cards" class="card">
             <img [src]= item.img alt="">
             <p>{{item.name}}</p>

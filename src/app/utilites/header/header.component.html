@@ -20,8 +20,8 @@
         </div>
         <div class="navigation">
             
-            <div  class="allCourses "  >
-                <p class="link" >All Courses</p>
+            <div  class="allCourses linkHead"  >
+                <p class="" >All Courses</p>
                 <div class="hidden">
                         <div class="python category">
                             <p class="heading" >Popular Courses</p>
@@ -82,24 +82,24 @@
                 </div>
             </div>
             
-            <p [routerLink]="['certification']" class="link" >Certification</p>
-            <div class="training link" [routerLink]="['training']" >
+            <p [routerLink]="['certification']" class="linkHead link" >Certification</p>
+            <div class="training linkHead" [routerLink]="['training']" >
                 <p >Training Programs</p>
-                <div class="hidden">
+                <div  class="hidden link">
                     <p>Corporate Training</p>
                     <p>Industrial Training</p>
                     <p>Online/Classroom Training</p>
                 </div>   
             </div>
-            <div class="company link" >
+            <div class="company linkHead" >
                 <p>Company</p>
-                <div class="hidden">
+                <div class="hidden link">
                     <p [routerLink]="['aboutUs']" >About Us</p>
                     <p [routerLink]="['contact']" >Contact Us</p>
                     <p [routerLink]="['blogs']" >Blogs</p>
                 </div>
             </div>
-            <p [routerLink]="['placement']" class="link" >Placements</p>
+            <p [routerLink]="['placement']" class="link linkHead" >Placements</p>
             
         </div>
         <div class="course menu">
@@ -108,7 +108,7 @@
                
                 <div class="courseOption">
                     <div class="holder">
-                        <p *ngFor="let item of courseList; let i as index " (click)=activeOption(i) [ngClass]="activeSection==courseList.indexOf(i)? 'active': '' " >{{item.title}}</p>
+                        <p *ngFor="let item of courseList; let i as index " (click)=activeOption(i) [ngClass]="activeSection==courseList.indexOf(i)? 'active': '' " id="active" >{{item.title}}</p>
                     </div>
                 </div>
                 <div class="courseList">

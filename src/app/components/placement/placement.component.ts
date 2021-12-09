@@ -52,14 +52,23 @@ cards = [
 
 buttonValue = 'View More'
 button:any
+heading:any
 viewMore(){
-  this.button = document.getElementById('buttonHolder')
-  if (this.buttonValue == 'View Less'){
-    this.buttonValue= 'View More'
-    this.button.scrollIntoView()
-  }else{
-    this.buttonValue = 'View Less'
-    this.button.scrollIntoView()
+  this.button = document.getElementById('buttonHolder');
+  this.heading = document.getElementById('heading');
+  if (this.buttonValue == 'View More'){
+    this.buttonValue= 'View Less'
+    this.button.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+  });
+  }else if (this.buttonValue == 'View Less') {
+    
+    this.buttonValue = 'View More'
+    this.heading.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+  })
   }
   
   

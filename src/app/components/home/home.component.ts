@@ -84,14 +84,26 @@ export class HomeComponent implements OnInit {
   }
 
   expendCourses = false
+  buttonValue = "View all courses"
+  heading1:any
+  heading2:any
   viewMoreCourses(){
     this.expendCourses = !this.expendCourses
+    this.heading1 = document.getElementById('heading1')
+    this.heading2 = document.getElementById('heading2')
     if (!this.expendCourses){
-      window.scrollTo(0,820)
+      this.buttonValue = "View all courses"
+      this.heading1.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+    });
     }
     if (this.expendCourses){
-
-      window.scrollTo(0,1350)
+      this.buttonValue = "View less courses"
+      this.heading2.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+    });
     }
       
   }

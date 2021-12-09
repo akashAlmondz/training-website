@@ -36,10 +36,17 @@ export class HeaderComponent implements OnInit {
       this.toggle = value
     }
   }
+  option:any
   activeOption(value:any){
+    // this.option = document.getElementsByClassName('active')
     this.activeSection = this.courseList.indexOf(value)
     this.activeList = this.courseList[this.activeSection].courses
-    console.log(this.activeList)
+  //   this.option.scrollIntoView({
+  //     behavior: 'smooth',
+  //     block: 'start',
+  //     inline: 'center'
+  // });
+  console.log(this.option)
   }
 
   

@@ -177,7 +177,7 @@
 }
 .courses .cards {
   z-index: 1;
-  height: 530px;
+  height: 500px;
   overflow: hidden;
   display: flex;
   width: 100%;
@@ -188,25 +188,21 @@
 .courses .expendCards {
   height: auto;
 }
-.courses .viewAllCoursesB {
-  margin-top: 10px;
-  width: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+.buttonHolder{
+  margin: 40px;
 }
-.courses .viewAllCourses {
+.courses .button{
   z-index: 1;
-  width: 100%;
+  
   text-align: center;
   transition: 0.4s;
   background-color: #b0d8ff;
   padding: 10px 20px;
   border-radius: 5px;
 }
-.courses .viewAllCourses:hover{
+.courses .button:hover{
   box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.37);
+  cursor: pointer;
 }
 
 .courses .viewLessCourses {
