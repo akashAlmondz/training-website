@@ -14,24 +14,32 @@ export const courses = [
             {heading:'Job opportunities after finishing this course:',about:["Python Developer, Data Analyst, Educator, Product Manager, Financial Advisor, Data Journalist"]},
             {heading:'Prerequisite knowledge:',about:["Enthusiasm to learn this superb programming language which is a valuable lifetime skill. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Python is included in the course. "]},
         ],
+        
         sections : [
-            {id:0, img:"fas fa-laptop-code",sectionName:'Introduction of Python ',about:[ 
-              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
-              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
-              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+            {id:0,sectionName:'Introduction to Programming ',about:[ 
+              {name:'Basics of Programming',summary:['Introduction to flowcharts, Decision making using flowcharts, Loops, Example problems','First program, Variables and data types, Taking input, How data is stored in memory, Arithmetic Operators','Introduction to If else, Relational and logical operators, Nested conditionals']},
+              {name:'Loops and Functions',summary:['While loops, Flow of execution of statements in while loop, Example problems using while loop','Introduction to patterns, Basic Patterns, Square Patterns, Triangular Patterns, Character Patterns, Reverse Triangle, Inverted patterns, Isosceles triangles','For loops, Break and Continue, increment - decrement operators','Introduction to functions, Working of function calling, Variables and its scope, Pass by value']},
+              {name:'Functions',summary:['Built-In-Fucntions','User Defined Functions']},
+              {name:'Strings and 2D Arrays',summary:['Introduction to strings, storage of strings and their inbuilt functions','2D arrays, Storage of 2D arrays, Example problems using 2D Arrays']},
+              {name:'OOPS concept',summary:['Class and Object','Inheritance','Polymorphism','Self & __init__']},
             ]},
-            {id:1, img:"fas fa-laptop-code",sectionName:'Introduction of Python ',about:[ 
-              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
-              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
-              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Problem Solving Techniques',summary:['Introduction to recursion, Principle of mathematical induction, Fibonacci numbers, Recursion using arrays, Recursion using strings, Recursion using 2D arrays','Order complexity analysis, Theoretical complexity analysis, Time complexity analysis of searching and recursive algorithms, Theoretical space complexity, Space complexity analysis of merge sort']},
+              {name:'Linear Data Structures',summary:['Introduction to linked list, Inserting node in linked list, Deleting node from linked list, Midpoint of linked list, Merge two sorted linked lists, merge sort of a linked list, Reversing a linked list','Introduction to stacks, Stack using arrays, Dynamic Stack class,Stack using linked list, Inbuilt stack, Queue using arrays, Dynamic queue class, Queue using linked list, Inbuilt queue']},
+              {name:'Trees',summary:['Introduction to Trees, Making a tree node class, Taking a tree as input and printing, Tree traversals, Destructor for tree node class','Introduction to Binary Trees, Taking a binary tree as input and printing, Binary Tree traversals, Diameter of binary tree','Introduction to Binary Search Trees, Searching a node in BST, BST class, Inserting and Deleting nodes in BST, Types of balanced BSTs']},
+              {name:'Advanced Data Structures',summary:['Introduction to Priority Queues, Ways to implement priority queues, Introduction to heaps, Introduction to Complete Binary Trees and its implementation, Insert and Delete operations in heaps, Implementing priority queues, Heap sort, Inbuilt Priority Queue','Introduction to Hashmaps, Inbuilt Hashmap, Hash functions, Collision handling, Insert and Delete operation implementation in hashmap, Load factor, Rehashing','Introduction to Graphs, Graph Terminology, Graph implementation, Graph Traversals (DFS and BFS), Weighted and Directed Graphs, Minimum Spanning Trees, Cycle Detection in Graphs, Kruskal algorithm,Prim Algorithm, Dijkstra algorithm']},
             ]},
-            {id:2, img:"fas fa-laptop-code",sectionName:'Introduction of Python ',about:[ 
-              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
-              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
-              {name:'Name1a',summary:['this is summry of name1aLorem ipsum dolor sit amet consectetur ',' eius nulla praesentium itaque! Officia, nobis possimus?']},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
-          ]  
+          ],
+        projects:[
+            {id:1,img:"fas fa-building",name:'Create UI Application',domainName:'Front-End',about:'In this particular project, the students are working on tkiinter module, It is already installed in python.'},
+            {id:2,img:"fas fa-chart-line",name:'Life Insurance Sales',domainName:'Real Estate',about:'For this particular project, the students are expected to predict the bonus for a particular life insurance agent based on their performance. The students will be analysing the data of insurance with respect to a lot of different customers. Based on the various machine learning models built by the students, there will be recommendations to the insurance company.'},
+            {id:3,img:"fas fa-laptop",name:'Sales Forecasting',domainName:'Real Estate',about:'In this particular project, the students are expected to predict the customer churn of an E-Commerce company. The students will build predictive models to understand the variables which are affecting the churn of customers and how to reduce the churn.'},
+            {id:4,img:"fab fa-adversal",name:'Customer Churn Prediction',domainName:'Real Estate',about:'For this project, the students should analyse the historical sales data and forecast the sales of the next quarter from the domain of consumer goods appliances. This is an all India level project for which students can choose to segregate and analyze the data in a multitude of ways.'},
+        ]  
     },
     
     {
