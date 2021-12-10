@@ -55,7 +55,7 @@ main{
     transition: .4s;
   }
   .certificate .holder .card:hover{
-    box-shadow: 5px 5px 10px rgba(172, 172, 172, 0.493);
+    box-shadow: 5px 5px 10px rgba(172, 172, 172, 0.493),-5px 0 10px rgba(172, 172, 172, 0.493);
   }
    .img{
     width:100%;
@@ -129,9 +129,32 @@ main{
   }
   .opned img{
     width: 50%;
-  }  
+  }
+  .nameHolder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  } 
 
-
+  .nameHolder p{
+    margin:10px 11px 10px 0;
+    background-color: #e1f4ff;
+    padding: 10px;
+    border-radius: 5px;
+    color: #2e3f2e;
+    transition: .8s;
+    /* box-shadow: 3px 3px 6px rgba(82, 82, 82, 0.534), -3px 0px 6px rgba(49, 49, 49, 0.534); */
+    box-shadow: 2px 2px 4px rgba(80, 80, 80, 0.267);
+  }
+  .nameHolder p:nth-child(odd){
+    background-color: #ececff;
+  }
+  .nameHolder p:hover{
+    background-color: #1874D2;
+    color: white;
+    cursor: pointer ;
+    box-shadow: 3px 3px 6px rgba(165, 165, 165, 0.534), -3px 0px 6px rgba(165, 165, 165, 0.534);
+  }
   
   
   @media (max-width: 960px){
@@ -144,5 +167,13 @@ main{
     }
     .about{
       width: 100%;
+    }
+    .nameHolder{
+      justify-content: center;
+    }
+    .nameHolder p{
+      font-size: 15px;
+      padding: 5px;
+      margin:5px;
     }
   }
