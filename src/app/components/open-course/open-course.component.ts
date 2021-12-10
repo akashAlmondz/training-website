@@ -15,7 +15,7 @@ export class OpenCourseComponent implements OnInit {
 
   }
 
- 
+  note = 'Details mentioned below is just a cover or as we say in layman language important points ,  to know the detailed curriculam you have to visit our company or download the curriculam. All the content mentioned in the website is up to date with the present technologies.' 
 courseFeatures = [
   {img:'fas fa-laptop-code',name:'Hands-On exposer to code'},
   {img:'fas fa-file-certificate',name:'Certification Program'},
@@ -30,24 +30,15 @@ courseFeatures = [
 
 
 
-projectsCard = [
-  {id:1,img:"fas fa-building",name:'House Price Prediction',domainName:'Real Estate',about:'In this particular project, the students are working on the data which has a few variables related to the various aspects of the property. At the end of the capstone project, students should be able to consolidate the results and suggest actions that are to be applied for the successful price prediction of real estate.'},
-  {id:2,img:"fas fa-chart-line",name:'Life Insurance Sales',domainName:'Real Estate',about:'For this particular project, the students are expected to predict the bonus for a particular life insurance agent based on their performance. The students will be analysing the data of insurance with respect to a lot of different customers. Based on the various machine learning models built by the students, there will be recommendations to the insurance company.'},
-  {id:3,img:"fas fa-laptop",name:'Sales Forecasting',domainName:'Real Estate',about:'In this particular project, the students are expected to predict the customer churn of an E-Commerce company. The students will build predictive models to understand the variables which are affecting the churn of customers and how to reduce the churn.'},
-  {id:4,img:"fab fa-adversal",name:'Customer Churn Prediction',domainName:'Real Estate',about:'For this project, the students should analyse the historical sales data and forecast the sales of the next quarter from the domain of consumer goods appliances. This is an all India level project for which students can choose to segregate and analyze the data in a multitude of ways.'},
-]
+
 
 processCard = [
-  {id:1,name:'Fill the application form', about:'Apply by filling a simple online application form.'},
-  {id:2,name:'Interview Process', about:'Go through a screening call with the Admission Director\'s office '},
-  {id:3,name:'Join program', about:'An offer letter will be rolled out to the select few candidates. Secure your seat by paying the admission fee.'},
+  {id:1,name:'Fill the application form', about:'Jump start your learning journey by filling up the form'},
+  {id:2,name:'Interview Process', about:'Test your skill by going through screening call with our interviewers'},
+  {id:3,name:'Join program', about:'We will provide you with our traditional practical approach & when you are ready, we furthermore provide you intership.'},
 ]
 
-blogCards = [
-  {id:1,name:'What is Data Science & How Does Data Science Works?',img:'assets/images/ds.jpg'},
-  {id:1,name:'What is Data Science & How Does Data Science Works?',img:'assets/images/ds.jpg'},
-  {id:1,name:'What is Data Science & How Does Data Science Works?',img:'assets/images/ds.jpg'},
-]
+
 whyUsCards = [
   {point:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
   {point:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},

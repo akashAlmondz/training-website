@@ -81,7 +81,7 @@
                             <option value="">Online training</option>
                         </select>
                     </div>
-                    <input type="text" id="msg" placeholder="Enter your message">
+                    <textarea name="Enter a Message" id="" cols="27" rows="5"></textarea>
                     <button>Submit</button>
                 </form>
                 
@@ -141,9 +141,9 @@
     </div>
     <p class="heading" >Course Curriculum</p>
     <div class="curriculum">
-        <div class="sectionHolder">
+        <p class="note" >Note:<span>{{note}}</span></p>
+    <div class="sectionHolder">
             <div class="section" *ngFor ='let item of course.sections' [ngClass]="activeSection==item.id? 'active': '' " (click)=active(item.id) >
-                <!-- <i class={{item.img}}></i> -->
                 <p>{{item.sectionName}}</p>
             </div>
         </div>
@@ -160,7 +160,7 @@
     <p class="heading">Hands-on Projects</p>
     <div class="projects">
         <div class="cards">
-            <div [ngClass]="openedCard==item.id? 'learnMore': '' " class="card" *ngFor="let item of projectsCard" >
+            <div [ngClass]="openedCard==item.id? 'learnMore': '' " class="card" *ngFor="let item of course.projects" >
                 <i (click)="openCard(0)" class="far fa-times-circle"></i>
                 <div class="img">
                     <i  [class]="item.img"></i>
@@ -200,6 +200,7 @@
             <p class="point"> {{item.point}}</p>
         </div>        
     </div>
+    <app-blogs></app-blogs>
    
 </main>
 

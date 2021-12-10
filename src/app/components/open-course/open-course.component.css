@@ -275,6 +275,14 @@ form button {
   align-items: center;
   /* background-color: rgba(125, 191, 253, 0.212); */
 }
+.curriculum .note{
+  padding: 0 0 10PX 0;
+  font-size: 13px;
+}
+.curriculum .note span{
+  color: red;
+  
+}
 .curriculum .sectionHolder {
   display: flex;
   /* justify-content: center; */
