@@ -182,7 +182,7 @@
   display: flex;
   width: 100%;
   align-items: flex-start;
-  justify-content: center;
+  justify-content:space-between;
   flex-wrap: wrap;
 }
 .courses .expendCards {
@@ -221,7 +221,7 @@
 
 .courses .card {
   width: 200px;
-  margin: 60px 20px 0 20px;
+  margin: 60px 20px 0 0px;
   cursor: pointer;
   background-color: rgba(143, 143, 143, 0);
   border-radius: 5px;

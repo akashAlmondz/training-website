@@ -122,7 +122,8 @@ iframe{
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
-    font-size: 15px;
+    font-size: 13px;
+    padding-top: 10px;
 }
 .lower .policy{
     display: flex;

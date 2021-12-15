@@ -1,5 +1,5 @@
 export const policy = {
-    privacyPolicy:{
+    privacy_policy:{
         heading: 'Privacy Policy',
         about:[
             'At Book My Shiksha, accessible from www.bookmyshiksha.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by bookmyshiksha.com and how we use it.',
@@ -145,7 +145,7 @@ export const policy = {
             }
         ]
     },
-    cookiePolicy:{
+    cookie_policy:{
         heading: 'Cookie Policy',
         about:[
             'Book My Shiksha may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our website www.bookmyshiksha.com, including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the “Site”) to help customize the Site and improve your experience.',

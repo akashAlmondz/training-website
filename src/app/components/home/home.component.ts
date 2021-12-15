@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
-
+  
   landingCards = [
     {name:'Online Courses',icon:'fas fa-globe-americas'},
     {name:'Our Library',icon:'fas fa-book'},
@@ -27,31 +27,31 @@ export class HomeComponent implements OnInit {
   ]
 
   coursesCards = [
-    {name:'Python',img:'assets/images/python.svg'},
-    {name:'Data Science',img:'assets/images/data-science.svg'},
-    {name:'Machine Learning',img:'assets/images/machine-learning.png'},
-    {name:'Deep learning',img:'assets/images/deep-learning.png'},
-    {name:'Artificial Intelligence',img:'assets/images/artificial-intelligence.png'},
-    {name:'Diploma in Data Science',img:'assets/images/diplomaDS.png'},
-    {name:'Diploma in Machine Learning',img:'assets/images/diplomaML.png'},
-    {name:'Masters in Data science',img:'assets/images/mastersDS.png'},
-    {name:'Masters in Machine Learning',img:'assets/images/mastersML.png'},
-    {name:'Digital Marketing',img:'assets/images/dm.png'},
-    {name:'RPA',img:'assets/images/robotics.png'},
-    {name:'Java',img:'assets/images/java.png'},
-    {name:'.Net',img:'assets/images/website.png'},
-    {name:'VBA',img:'assets/images/vba.png'},
-    {name:'PHP',img:'assets/images/php.png'},
-    {name:'HTML5/CSS3/JS',img:'assets/images/html.png'},
-    {name:'Angular',img:'assets/images/angular.svg'},
-    {name:'NodeJs',img:'assets/images/nodejs.svg'},
-    {name:'React',img:'assets/images/react.svg'},
-    {name:'Python Django',img:'assets/images/django.svg'},
-    {name:'MondoDB',img:'assets/images/mongodb.svg'},
-    {name:'SQL',img:'assets/images/sql-server.png'},
-    {name:'PowerBi',img:'assets/images/powerbi-logo.png'},
-    {name:'Tableau',img:'assets/images/tableau-logo.png'},
-    {name:'Oracle',img:'assets/images/oracle.png'},
+    {name:'Python',img:'assets/images/python.svg',routerLink:'courses/Python_Training_course_DelhiNCR',},
+    {name:'Data Science',img:'assets/images/data-science.svg',routerLink:'courses/Data_Science_Training_course_DelhiNCR'},
+    {name:'Machine Learning',img:'assets/images/machine-learning.png',routerLink:'courses/Machine_Learning_Training_course_DelhiNCR'},
+    {name:'Deep learning',img:'assets/images/deep-learning.png',routerLink:'courses/Deep_Learning_Training_course_DelhiNCR'},
+    {name:'Artificial Intelligence',img:'assets/images/artificial-intelligence.png',routerLink:'courses/Artificial_Inteligence_Training_course_DelhiNCR'},
+    {name:'Diploma in Data Science',img:'assets/images/diplomaDS.png',routerLink:'courses/Diploma_in_DataScience_course_DelhiNCR'},
+    {name:'Diploma in Machine Learning',img:'assets/images/diplomaML.png',routerLink:'courses/Diploma_in_Machine_Learning_course_DelhiNCR'},
+    {name:'Masters in Data science',img:'assets/images/mastersDS.png',routerLink:'courses/Masters_in_DataScience_course_DelhiNCR'},
+    {name:'Masters in Machine Learning',img:'assets/images/mastersML.png',routerLink:'courses/Masters_in_Machine_Learning_course_DelhiNCR'},
+    {name:'Digital Marketing',img:'assets/images/dm.png',routerLink:'courses/Digital_Marketing_course_DelhiNCR'},
+    {name:'RPA',img:'assets/images/robotics.png',routerLink:'courses/RPA_course_DelhiNCR'},
+    {name:'Java',img:'assets/images/java.png',routerLink:'courses/Java_course_DelhiNCR'},
+    {name:'.Net',img:'assets/images/website.png',routerLink:'courses/NET_course_DelhiNCR'},
+    {name:'VBA',img:'assets/images/vba.png',routerLink:'courses/VBA_course_DelhiNCR'},
+    {name:'PHP',img:'assets/images/php.png',routerLink:'courses/PHP_course_DelhiNCR'},
+    {name:'HTML5/CSS3/JS',img:'assets/images/html.png',routerLink:'courses/HTML5_CSS3_JS_course_DelhiNCR'},
+    {name:'Angular',img:'assets/images/angular.svg',routerLink:'courses/Angular_course_DelhiNCR'},
+    {name:'NodeJs',img:'assets/images/nodejs.svg',routerLink:'courses/NodeJs_course_DelhiNCR'},
+    {name:'React',img:'assets/images/react.svg',routerLink:'courses/React_course_DelhiNCR'},
+    {name:'Python Django',img:'assets/images/django.svg',routerLink:'courses/Pyhton_Django_course_DelhiNCR'},
+    {name:'MondoDB',img:'assets/images/mongodb.svg',routerLink:'courses/MongoDB_course_DelhiNCR'},
+    {name:'SQL',img:'assets/images/sql-server.png',routerLink:'courses/SQL_course_DelhiNCR'},
+    {name:'PowerBi',img:'assets/images/powerbi-logo.png',routerLink:'courses/PowerBi_course_DelhiNCR'},
+    {name:'Tableau',img:'assets/images/tableau-logo.png',routerLink:'courses/Tableau_course_DelhiNCR'},
+    {name:'Oracle',img:'assets/images/oracle.png',routerLink:'courses/Oracle_course_DelhiNCR'},
   ]
 
   servicesCards = [
@@ -82,7 +82,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
   expendCourses = false
   buttonValue = "View all courses"
   heading1:any
@@ -108,10 +108,8 @@ export class HomeComponent implements OnInit {
       
   }
   course:any = 0
-  selectedCourse(value:any){
-    this.course = this.coursesCards.indexOf(value)
-    localStorage.setItem('courseIndex',this.course)
-  }
+  
+
 
   
 
