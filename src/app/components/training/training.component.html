@@ -1,30 +1,13 @@
 <main>
     <div class="landing">
-        <div class="sections">
-            <p class="heading" >Corporate Training</p>
-            <p class="subHeading">Reasons why we stand out:</p>
-            <div *ngFor="let item of points" class="points">
-                <b>></b>
-                <p class="point"> {{item.point}}</p>
+        <div class="sections" *ngFor="let item of data" >
+            <p class="heading" >{{item.name}}</p>
+            <p class="about" *ngFor="let item of item.about" >{{item}} </p>
+            <p class="subHeading">{{item.subHeading}}</p>
+            <div class="points">
+                <p *ngFor="let point of item.points" class="point"><i class="fas fa-caret-right"></i> {{point}}</p>
+                        
             </div>
-        </div>
-        <div class="sections">
-            <p class="heading">Industrial training</p>
-            <p class="subHeading">Book My Shiksha trainers are:</p>
-            <div *ngFor="let item of points" class="points">
-                <b>></b>
-                <p class="point"> {{item.point}}</p>
-            </div>
-            
-        </div>
-        <div class="sections">
-            <p class="heading">Classroom/Online Training</p>
-            <p class="subHeading">Book My Shiksha Placement Process:</p>
-            <div *ngFor="let item of points" class="points">
-                <b>></b>
-                <p class="point"> {{item.point}}</p>
-            </div>
-            
         </div>
     </div>
 </main>

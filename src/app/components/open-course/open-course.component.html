@@ -178,7 +178,7 @@
     <div class="sections">
         <p class="heading" >Why You Should Join Book My Shiksha for Python training</p>
         <p class="subHeading">Reasons why we stand out:</p>
-        <div *ngFor="let item of whyUsCards" class="points">
+        <div *ngFor="let item of course.whyUsCards" class="points">
             <b>></b>
             <p class="point"> {{item.point}}</p>
         </div>
@@ -186,7 +186,7 @@
     <div class="sections">
         <p class="heading">Book My Shiksha Corporate Trainers Profile for Python Training</p>
         <p class="subHeading">Book My Shiksha trainers are:</p>
-        <div *ngFor="let item of trainesrsCards" class="points">
+        <div *ngFor="let item of course.trainesrsCards" class="points">
             <b>></b>
             <p class="point"> {{item.point}}</p>
         </div>
@@ -195,13 +195,13 @@
     <div class="sections">
         <p class="heading">Placement Facility During Python Training</p>
         <p class="subHeading">Book My Shiksha Placement Process:</p>
-        <div *ngFor="let item of placementCards" class="points">
+        <div *ngFor="let item of course.placementCards" class="points">
             <b>></b>
             <p class="point"> {{item.point}}</p>
         </div>        
     </div>
-    <app-blogs></app-blogs>
-   
+    
 </main>
+<app-blogs></app-blogs>
 
 </div>

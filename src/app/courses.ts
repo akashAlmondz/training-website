@@ -39,7 +39,29 @@ export const courses = [
             {id:2,img:"fas fa-chart-line",name:'Life Insurance Sales',domainName:'Real Estate',about:'For this particular project, the students are expected to predict the bonus for a particular life insurance agent based on their performance. The students will be analysing the data of insurance with respect to a lot of different customers. Based on the various machine learning models built by the students, there will be recommendations to the insurance company.'},
             {id:3,img:"fas fa-laptop",name:'Sales Forecasting',domainName:'Real Estate',about:'In this particular project, the students are expected to predict the customer churn of an E-Commerce company. The students will build predictive models to understand the variables which are affecting the churn of customers and how to reduce the churn.'},
             {id:4,img:"fab fa-adversal",name:'Customer Churn Prediction',domainName:'Real Estate',about:'For this project, the students should analyse the historical sales data and forecast the sales of the next quarter from the domain of consumer goods appliances. This is an all India level project for which students can choose to segregate and analyze the data in a multitude of ways.'},
-        ]  
+                ] ,
+                
+        whyUsCards: [
+                    {point:'The syllabus of our training programs are based on the current industry projects in programming languages which are recognised by our placement partners.'},
+                    {point:'Be mentored by the best professors and tutors in the field of information technology who will offer extended support and are available to address all your queries.'},
+                    {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+                    {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+                    {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI.'},
+                  ],
+        trainesrsCards : [
+                    {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+                    {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+                    {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+                    {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+                    {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+                    {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+                    {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+                  ],
+        placementCards : [
+                    {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+                    {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+                    {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+                    ]
     },
     
     {
@@ -56,7 +78,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Data Scientist, Data Analyst, Applications Architect, Machine Learning Engineer, Machine Learning Scientist, Enterprise Architect, Data Architect, Data Engineer, Infrastructure Architect."]},
             {heading:'Prerequisite knowledge:',about:["No prior knowledge in programming is required. Any tool that has to be installed will be taught through a step-by-step process."]},
-        ]   
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ] ,
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],
     },
     {
         heading:'Machine Learning Training',
@@ -72,7 +133,48 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Python Developer, Software Engineer, Data Scientist, Computational Linguist, Designer in Human-Centered Machine Learning, Software Developer."]},
             {heading:'Prerequisite knowledge:',about:["Thirst to expand their horizons through Book My Shiksha. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Machine Learning is included in the course."]},
-        ]  
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ], 
+
+        
     },
     {
         heading:'Deep Learning Training',
@@ -88,7 +190,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Deep Learning Engineer, Data Scientist, Computational Linguist, Data Analyst, Software Developer."]},
             {heading:'Prerequisite knowledge:',about:["The passion to equip themselves with a coveted set of skills by learning at Book My Shiksha. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Basic knowledge of Python programming is essential."]},
-        ] 
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],
     },
     {
         heading:'Artificial Intelligence Training',
@@ -104,7 +245,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Business Intelligence Developer, Machine Learning Engineer, AI Engineer, Research Scientist, Robotic Scientist."]},
             {heading:'Prerequisite knowledge:',about:["Basic knowledge of computer programming is required. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions for softwares are included for each operating system."]},
-        ] 
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ], 
     },
     {
         heading:'Diploma in DataScience',
@@ -120,7 +300,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Data Scientist, Enterprise Architect, Data Architect, Data Analyst, Applications Architect, Data Engineer, Machine Learning Engineer, Machine Learning Scientist, Infrastructure Architect."]},
             {heading:'Prerequisite knowledge:',about:["No prior knowledge in programming is required. Any tool that has to be installed will be taught through a step-by-step process."]},
-        ]
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],
     },
     {
         heading:'Diploma in Machine Learning',
@@ -136,7 +355,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Python Developer, Software Engineer, Data Scientist, Computational Linguist, Designer in Human-Centered Machine Learning, Software Developer."]},
             {heading:'Prerequisite knowledge:',about:["High school mathematical knowledge. A computer that supports Windows, MacOS, or Linux. Everything else that is required to start using Machine Learning is included in the course."]},
-        ]
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],
     },
     {
         heading:'Master in DataScience',
@@ -152,7 +410,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Business Data Analyst, Data Analyst, Data Architect, Solutions Architect, Data Engineer, Data Scientist, Systems Engineer."]},
             {heading:'Prerequisite knowledge:',about:["Bachelor’s Degree with a minimum of 50% or equivalent passing marks. No prior coding experience is necessary."]},
-        ]
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],
     },
     {
         heading:'Master in Machine Learning',
@@ -168,7 +465,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Data Engineer, Big Data Analyst, Machine Learning Engineer, Data Scientist."]},
             {heading:'Prerequisite knowledge:',about:["Bachelor’s Degree with a minimum 50% or equivalent marks graduation. Coding experience is mandatory."]},
-        ]
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],
     },
     {
         heading:'Digital Marketing',
@@ -190,7 +526,46 @@ export const courses = [
             {heading:'Who is this course for?',about:['This course is meant for individuals, new, small businesses, or established business owners that are looking to crack the code to offer exceptional social media marketing strategies.','Join the 𝐛𝐞𝐬𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐄𝐧𝐠𝐢𝐧𝐞 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐜𝐨𝐮𝐫𝐬𝐞 𝐢𝐧 𝐃𝐞𝐥𝐡𝐢 to stand out in a sea of applicants.']},
             {heading:'Job opportunities after finishing this course:',about:['Organic Search Engine Optimization, Social Media Analyst, Link Builder, PPC Manager, SEO Guarantee Expert, Offline Marketing and Advertising, Public Relations Manager, Reputation Manager.']},
             {heading:'Prerequisite knowledge:',about:['A basic understanding of the internet, and search engines. Analytical, technical and programming skills are a bonus!']},
-        ]  
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ], 
     },
     {
         heading:'RPA Training',
@@ -206,7 +581,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["RPA Developer, Robotics Analyst, Robotics Engineer, Research Scientist, Data Scientist, Robotic Scientist."]},
             {heading:'Prerequisite knowledge:',about:["Learners should possess the will to expand their horizons, and welcome new opportunities post completion of this resourceful course. A computer that supports Windows is essential. All details about RPA will be included in the course."]},
-        ]  
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],  
     },
     {
         heading:'Java Training',
@@ -222,7 +636,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Junior Developer, Senior Developer, Java Web Developer, Java Android Developer, Java EE Developer."]},
             {heading:'Prerequisite knowledge:',about:["No prior Java programming knowledge is necessary. Basic computer knowledge is essential."]},
-        ]   
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+            placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],    
     },
     {
         heading:'.Net Training',
@@ -238,7 +691,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Junior Research Fellow (RF), Senior Research Fellow (SRF), Project Associate, Senior Project Associate, Author, Senior Author."]},
             {heading:'Prerequisite knowledge:',about:["No prior .Net programming knowledge is necessary. Basic computer knowledge is essential."]},
-        ]   
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],   
     },
     {
         heading:'VBA Training',
@@ -254,7 +746,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Data Analysts, Technical Analysts, Business Analysts."]},
             {heading:'Prerequisite knowledge:',about:["No prior VBA programming knowledge is necessary. Basic computer, and Microsoft Excel knowledge is essential. A computer with Microsoft Excel is required."]},
-        ] 
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],
     },
     {
         heading:'PHP Training',
@@ -270,7 +801,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Command-line Scripting, Database Concepts, Server-side Scripting, Desktop Application Development, Web Development Careers, Compiler Based Applications, Computer Programmer."]},
             {heading:'Prerequisite knowledge:',about:["No prior PHP programming knowledge is necessary. Basic computer knowledge is essential."]},
-        ]    
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],    
     },
     {
         heading:'HTML5-CSS3-JS Training',
@@ -286,7 +856,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Javascript UI Developer, Javascript Expert, Remote HTML5 Developer, Javascript Front End Developer."]},
             {heading:'Prerequisite knowledge:',about:["No prior HTML5, CSS3, and Javascript programming knowledge is necessary. Basic computer knowledge is essential."]},
-        ]
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+        ],
+        trainesrsCards : [
+          {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+          {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+          {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+          {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+        ],
+      placementCards : [
+          {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+          {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+          ],
+        sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ], 
     },
     {
         heading:'Angular Training',
@@ -302,7 +911,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Front End Developer, Software Developer, Software Engineer."]},
             {heading:'Prerequisite knowledge:',about:["No Angular 1 or Angular 2+ knowledge is needed. Basic JavaScript knowledge is mandatory. However, basic TypeScript, HTML and CSS knowledge is helpful, but not mandatory."]},
-        ]
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ], 
     },
     {
         heading:'Node Training',
@@ -318,7 +966,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Cloud Software Engineer, Lead Software Engineer, Node Developer, Technical Manager, Technical Manager, Advanced Front End Development, Technology Lead."]},
             {heading:'Prerequisite knowledge:',about:["This course requires basic JavaScript knowledge. Hence, it is not for novice web developers. However, no back-end experience is required."]},
-        ]
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ],
     },
     {
         heading:'React Training',
@@ -334,7 +1021,46 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["React Developer, Front End Web Developer, UI Engineer III."]},
             {heading:'Prerequisite knowledge:',about:["No prior knowledge in React is not required. JavaScript/HTML/CSS fundamentals are mandatory for this course."]},
-        ] 
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ], 
     },
     {
         heading:'Python Django Training',
@@ -350,6 +1076,45 @@ export const courses = [
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Python Developer, Data Analyst, Financial Advisor, Educator, Product Manager, Data Journalist."]},
             {heading:'Prerequisite knowledge:',about:["A basic idea about HTML, CSS, Python, and Django would be great. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Python and Django are included in the course."]},
-        ] 
+        ],
+        whyUsCards: [
+            {point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+            {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+            {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+            {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+            {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},
+          ],
+          trainesrsCards : [
+            {point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+            {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+            {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+            {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},
+          ],
+          placementCards : [
+            {point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+            {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},
+            ],
+          sections : [
+            {id:0,sectionName:'Introduction to Programming  ',about:[ 
+              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            ]},
+            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            ]},
+            
+          ], 
     },
 ]

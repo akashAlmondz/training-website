@@ -39,33 +39,8 @@ processCard = [
 ]
 
 
-whyUsCards = [
-  {point:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
-  {point:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-  {point:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
-  {point:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-  {point:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
-  {point:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-  {point:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
-  {point:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-]
-trainesrsCards = [
-  {point:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
-  {point:'Lorem ipsum dolor sit ametnsequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-  {point:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
-  {point:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-  {point:'Lorem ipsumlum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
-  {point:'Lorem ipsum elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-  
-  {point:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-]
-placementCards = [
-  {point:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
-  {point:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-  {point:'Lortias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},
-  {point:'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid impedit voluptas blanditiis. Fugit consequatur quam laboriosam praesentium adipisci quisquam architecto, error quidem est, vel odio illo voluptas itaque repellendus dolor!'},
-  {point:'Loconsectetur adipisicing elit. Illum molestias perferendis necessitatibus vel iusto maxime odio possimus. Pariatur, officia repellendus.'},   
-]
+
+
 
 activeSection = 0
 openedCard = 0

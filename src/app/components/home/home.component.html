@@ -62,16 +62,18 @@
         <div class="cards">
             <div class="card" *ngFor= 'let item of upcomingCourses' >
                 <div class="date">
+                    <i class="fas fa-calendar-alt"></i>
                     <p class="courseDate" >{{item.date}}</p>
                     <p class="courseMonth" >{{item.month}}</p>
+                    <p class="courseMonth" >{{item.year}}</p>
                 </div>
                 <div class="about">
                     <p class="courseName" >{{item.name}}</p>
                     <p class="courseAbout" >{{item.about}}</p>
                 </div>
                 <div class="timing">
-                    <p class="time" >8am to 12pm</p>
-                    <p class="day" >Monday to Friday</p>
+                    <p class="time" >9AM-9PM</p>
+                    <p class="day" >Monday to Sunday</p>
                     <p class="enroll" >Enroll Now</p>
                 </div>
                 

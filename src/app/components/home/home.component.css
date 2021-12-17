@@ -342,6 +342,13 @@
   align-items: center;
   flex-direction: column;
   width:100px;
+  position: relative;
+}
+.upcoming .cards .card .date i{
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: #05528a;
 }
 .courseDate {
   font-size: 20px;

@@ -11,15 +11,19 @@
   .heading::after {
     content: "";
     background-color: #1874d2;
-    height: 2px;
+    height: 1px;
     width: 70%;
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
+  }
+  .about{
+    line-height: 25px;
   }
 .subHeading{
     font-size: 20px;
-    color: rgb(31, 31, 31);
+    color: rgb(17, 17, 17);
+    margin-top: 10px;
   }
   .sections{
     /* padding: 40px 80px ; */
@@ -44,19 +48,12 @@
   }
   .sections .points{
     display: flex;
-    /* align-items: center; */
-    margin:10px 0;
+    flex-direction: column;
+    margin:5px 0 10px 0;
     position: relative;
     padding: 5px 0;
   }
-  .sections .points b{
-    color: aliceblue;
-    background-color: rgb(66, 66, 66);
-    padding:0 5px;
-    font-weight: 100;
-    border-radius: 10px;
-    height: fit-content;
-  }
+
   @media (max-width: 960px){
     .landing{ padding-top: 15%;}
   }
