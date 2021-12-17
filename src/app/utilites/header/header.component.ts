@@ -10,14 +10,7 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-    window.addEventListener("scroll",function(){
-      const header=document.querySelector('nav');
-      if (header){
-        header.classList.toggle("sticky", window.scrollY>10);
-      }
-    })
-  }
+  
   courseList = [
     {title:'All Course', courses:[
       {name:'Python training', routerLink:'courses/Python_Training_course_DelhiNCR'},
@@ -96,7 +89,8 @@ export class HeaderComponent implements OnInit {
   ]
 
   
-  popUp = false
+  popUp = 0
+  showCourses = false
   activeSection = 0
   activeList = this.courseList[this.activeSection].courses
   toggle:string = "none"
@@ -113,9 +107,28 @@ export class HeaderComponent implements OnInit {
     this.activeSection = this.courseList.indexOf(value)
     this.activeList = this.courseList[this.activeSection].courses
   }
+  toggleCourses(){
+    this.showCourses = !this.showCourses
+  }
+  togglePopup(value:any){
+    this.popUp = value
+  }
+
   
-  togglePopup(){
-    this.popUp = !this.popUp
+
+
+  
+
+  ngOnInit(): void {
+    window.addEventListener("scroll",function(){
+      const header=document.querySelector('nav');
+      if (header){
+        header.classList.toggle("sticky", window.scrollY>10);
+      }
+    })
+    setTimeout(() => {
+      this.popUp = 2
+    },2000);
   }
   
 }

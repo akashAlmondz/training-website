@@ -1,8 +1,8 @@
 <nav>
     <main>
         <div class="menu">
-            <i (click)="show('menu')" class="fas fa-bars"></i>
-            <div (click)="show('none')" *ngIf="toggle== 'menu' " class="options" >
+            <i [ngClass]="toggle=='menu'? 'rotate1': '' " (click)="show('menu')" class="fas fa-bars"></i>
+            <div (click)="show('none')" [ngClass]="toggle=='menu'? 'show': '' " class="options" >
                 <app-links></app-links>
                 <app-social></app-social>
                 <p [routerLink]="['certification']" >Certification</p>
@@ -11,19 +11,22 @@
                 <p [routerLink]="['aboutUs']" >About Us</p>
                 <p [routerLink]="['contact']" >Contact Us</p>
                 <p [routerLink]="['placement']" >Placements</p>
+                <div class="scholarship">
+                    <p (click)="togglePopup(1)" >Scholarship Registration</p>
+                </div>
             </div>
         </div>
         <div class="logo">
             <img (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png" alt="">
         </div>
-        <div class="scholarship">
-            <p (click)="togglePopup()" >Scholarship Registration</p>
+        <div class="scholarship wide">
+            <p (click)="togglePopup(1)" >Scholarship Registration</p>
         </div>
         <div class="navigation">
             
             <div  class="allCourses linkHead"  >
-                <p class="" >All Courses <i class="fas fa-sort-down"></i></p>
-                <div class="hidden">
+                <p class="allCoursesButton" (click)="toggleCourses()" >All Courses <i [ngClass]="showCourses? 'rotate': '' " class="fas fa-sort-down"></i></p>
+                <div [ngClass]="showCourses? 'showCourses': '' " class="hidden" (click)="toggleCourses()">
                         <div class="python category">
                             <p class="heading" >Popular Courses</p>
                             <div class="sub">
@@ -104,8 +107,8 @@
             
         </div>
         <div class="course menu">
-            <p (click)="show('course')" class="menuButton" >All Courses <i class="fas fa-sort-down"></i></p>
-            <div *ngIf="toggle== 'course' "   class="hiddenCourse">
+            <p (click)="show('course')"  class="menuButton" >All Courses <i [ngClass]="toggle=='course'? 'rotate': '' " class="fas fa-sort-down"></i></p>
+            <div [ngClass]="toggle=='course'? 'show': '' "   class="hiddenCourse">
                
                 <div class="courseOption">
                     <div class="holder">
@@ -120,11 +123,11 @@
         
     </main>
 
-    <div [ngClass]="popUp? 'show': '' " class="popUp popup1">
+    <div [ngClass]="popUp == 1? 'show': '' " class="popUp popup1">
         <div class="holder">
-            <i (click)="togglePopup()" class="far fa-times-circle"></i>
+            <i (click)="togglePopup(0)" class="far fa-times-circle"></i>
             <div class="img">
-                <img src="assets/images/scholar.svg" alt="">
+                <img src="assets/images/popup2.png" alt="">
             </div>
             <div class="form">
                 <form action="">
@@ -157,11 +160,11 @@
             </div>
         </div>
     </div>
-    <!-- <div class=" popUp2 popUp">
+    <div [ngClass]="popUp == 2? 'show': '' " class=" popUp2 popUp">
         <div class="holder">
-            <i class="far fa-times-circle"></i>
+            <i (click)="togglePopup(0)" class="far fa-times-circle"></i>
             <div class="img">
-                <img src="assets/images/scholar.svg" alt="">
+                <img src="assets/images/discount.svg" alt="">
             </div>
             <div class="form">
                 <form action="">
@@ -193,6 +196,6 @@
                 </form>
             </div>
         </div>
-    </div> -->
+    </div>
 
 </nav>

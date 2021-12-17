@@ -624,7 +624,7 @@ table button {
     flex-direction: column;
   }
   .curriculum .sectionHolder .section{
-    width: 50%; padding: 15px;
+    width: 100%; padding: 15px;
   }
   .curriculum .sectionHolder .aboutSection{
     padding: 0;

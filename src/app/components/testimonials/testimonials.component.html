@@ -5,6 +5,13 @@
         <i (click)=viewLess() class="far fa-times-circle"></i>
         <div class="card" *ngFor= 'let item of reviewCards' [ngClass] = "item.id==selectedMessage? 'open':'' "  >
             <img [src]="item.img" alt="">
+            <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
             <h4>{{item.name}}</h4>
             <p >{{item.message}}</p>
             <h5 *ngIf= 'item.id!=selectedMessage'  (click)=readMore(item.id) >read more</h5>
