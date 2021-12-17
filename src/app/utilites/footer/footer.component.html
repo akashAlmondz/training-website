@@ -25,36 +25,36 @@
         <div class="python category">
             <p class="heading" >Popular Courses</p>
             <div class="sub">
-                <p>Python training</p>
-                <p>Data Science training</p>
-                <p>Machine Learning training</p>
-                <p>Deep Learning training</p>
-                <p>Artificial Inteligence training</p>
-                <p>RPA training</p>
-                <p>Java training</p>
-                <p>.Net training</p>
-                <p>VBA training</p>
+                <p [routerLink]="['courses/Python_Training_course_DelhiNCR']" >Python training</p>
+                <p [routerLink]="['courses/Data_Science_Training_course_DelhiNCR']" >Data Science training</p>
+                <p [routerLink]="['courses/Machine_Learning_Training_course_DelhiNCR']" >Machine Learning training</p>
+                <p [routerLink]="['courses/Deep_Learning_Training_course_DelhiNCR']" >Deep Learning training</p>
+                <p [routerLink]="['courses/Artificial_Inteligence_Training_course_DelhiNCR']" >Artificial Inteligence training</p>
+                <p [routerLink]="['courses/RPA_course_DelhiNCR']" >RPA training</p>
+                <p [routerLink]="['courses/Java_course_DelhiNCR']" >Java training</p>
+                <p [routerLink]="['courses/NET_course_DelhiNCR']">.Net training</p>
+                <p [routerLink]="['courses/VBA_course_DelhiNCR']" >VBA training</p>
             </div>
         </div>
         <div class="webDev category">
             <p class="heading" >Web Development</p>
             <div class="sub">
-                <p>PHP</p>
-                <p>HTML5/CSS3/JS</p>
-                <p>Angular</p>
-                <p>Node</p>
-                <p>React</p>
-                <p>Python Django/Flask</p>
+                <p [routerLink]="['courses/PHP_course_DelhiNCR']" >PHP</p>
+                <p [routerLink]="['courses/HTML5_CSS3_JS_course_DelhiNCR']" >HTML5/CSS3/JS</p>
+                <p [routerLink]="['courses/Angular_course_DelhiNCR']" >Angular</p>
+                <p [routerLink]="['courses/NodeJs_course_DelhiNCR']" >Node</p>
+                <p [routerLink]="['courses/React_course_DelhiNCR']" >React</p>
+                <p [routerLink]="['courses/Pyhton_Django_course_DelhiNCR']" >Python Django/Flask</p>
             </div>
         </div>
         <div class="database category">
             <p class="heading" >Database & Analytics Tools</p>
             <div class="sub">
-                <p>MongoDB</p>
-                <p>SQL</p>
-                <p>Oracle</p>
-                <p>Power Bi</p>
-                <p>Tablue</p>
+                <p [routerLink]="['courses/MongoDB_course_DelhiNCR']" >MongoDB</p>
+                <p [routerLink]="['courses/SQL_course_DelhiNCR']" >SQL</p>
+                <p [routerLink]="['courses/Oracle_course_DelhiNCR']" >Oracle</p>
+                <p [routerLink]="['courses/PowerBi_course_DelhiNCR']" >Power Bi</p>
+                <p [routerLink]="['courses/courses/Tableau_course_DelhiNCR']" >Tablue</p>
             </div>
         </div>
         <div class="digitelMarketing category">
@@ -72,10 +72,10 @@
         <div class="special category">
             <p class="heading" >Specialization Courses</p>
             <div class="sub">
-            <p>Diploma in Data Science</p>
-            <p>Diploma in Machine Learning</p>
-            <p>Masters in Data Science</p>
-            <p>Masters in Machine Learning</p>
+                <p [routerLink]="['courses/Diploma_in_DataScience_course_DelhiNCR']" >Diploma in Data Science</p>
+                <p [routerLink]="['courses/Diploma_in_Machine_Learning_course_DelhiNCR']" >Diploma in Machine Learning</p>
+                <p [routerLink]="['courses/Masters_in_DataScience_course_DelhiNCR']" >Masters in Data Science</p>
+                <p [routerLink]="['courses/Masters_in_Machine_Learning_course_DelhiNCR']" >Masters in Machine Learning</p>
             </div>
         </div>
     </div>
@@ -99,9 +99,13 @@
         </div>
     </div>
     <div class="lower">
-        <p [routerLink]="['policy']" >Privacy policy</p>
-        <p [routerLink]="['policy']" >Disclaimer</p>
-        <p [routerLink]="['policy']" >Cookie Policy</p>
-        <p [routerLink]="['policy']" >Website Policy</p>
+        <div>
+            <p>©Copyright © 2020, All Rights Reserved. BookMyShiksha | Developed by <a href="https://almondzit.netlify.app/">AlmondzIT</a> </p>
+        </div>
+        <div class="policy">
+        <p [routerLink]="['company/privacy_policy']" >Privacy policy</p>
+        <p [routerLink]="['company/disclaimer']" >Disclaimer</p>
+        <p [routerLink]="['company/cookie_policy']" >Cookie Policy</p>
+        </div>
     </div>
 </footer>

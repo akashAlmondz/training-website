@@ -24,6 +24,18 @@ main {
     /* border-left: 0.1px solid white; */
     /* border-radius: 5px; */
 }
+.scholarship p {
+    background-color: #ff6b1b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .4s;
+    
+}
+.scholarship p:hover{
+    box-shadow: 3px 3px 5px rgba(199, 63, 0, 0.57),-3px -3px 5px rgba(84, 26, 0, 0.213);
+    cursor: pointer;
+}
 main .logo{
    width: 130px;
    padding: 5px 0 0 0;
@@ -37,47 +49,63 @@ main .logo img{
 
 .navigation{
     padding: 0;
-    
     display: flex;
-    align-items:flex-end;
+    align-items:center;
     justify-content:center;
 }
-.navigation .link{margin:0 2vw ;}
+.navigation P:nth-child(2):hover, .navigation p:nth-child(5):hover{
+    cursor: pointer;
+    color:#1874d2 ;
+}
+
 .navigation .link{
     font-weight: 300;
     font-size: 15px;
     color: rgb(0, 0, 0);
     transition: .4s;
 }
-
+.linkHead{
+    margin: 0 2vw;
+}
 .navigation .link p:hover{
     cursor: pointer;
     color: #1874d2;
 }
 
 
-
+.allCoursesButton{background-color: #2e97ff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.allCoursesButton i{transition: .4s;}
+.allCoursesButton:hover{box-shadow: 3px 3px 5px rgba(0, 96, 199, 0.57),-3px -3px 5px rgba(0, 24, 84, 0.213);
+    cursor: pointer;}
 
 .sticky{box-shadow: 0 5px 8px rgba(157, 157, 157, 0.199);z-index: 40;background-color: white;}
-.allCourses:hover .hidden{display: flex;}
-.training:hover   .hidden{display: flex;}
-.company:hover  .hidden{display: flex;}
-.company .hidden, .training .hidden{display:none;background-color: white;flex-direction: column;position: absolute;padding: 10px 0 0 0;}
+
+.training:hover   .hidden{transform: translateY(0vh);}
+.company:hover  .hidden{transform: translateY(0vh);}
+.company .hidden, .training .hidden{display:flex;background-color: white;flex-direction: column;position: absolute;padding: 10px 0 0 0;transform: translateY(-100vh);transition: .4s;}
 .training .hidden p,.company .hidden p{padding:5px 5px;color: black;margin: 5px 0;}
 
-.allCourses .hidden{padding: 20px 0 0 0; display:none;left: 0; justify-content:space-around; position: absolute;width:100%;background-color: rgb(255, 255, 255);}
+.allCourses .hidden{padding: 20px 0 0 0; display:flex;transform: translateY(-100vh); left: 0; justify-content:space-around; position: absolute;width:100%;background-color: rgb(255, 255, 255);transition: .4s;z-index: -2;}
 .allCourses .hidden .category{padding: 10px 0;margin: 0 1px;}
 .allCourses .hidden div .heading{color: black; background-color: #b0d8ff;padding: 7px 5px;font-size: 13px;font-weight: 500;}
 .allCourses .hidden div .sub{margin: 1px 0 0 0;}
 .allCourses .hidden div .sub p{margin: 1px 0 0 0;color: black; background-color: rgb(255, 255, 255);padding: 7px 5px;font-size: 14px;}
 .allCourses .hidden div .sub p:hover{cursor: pointer;color: #1874d2;}
+.allCourses .showCourses{transform: translateY(1vh);}
 .menu .options{
-    position:absolute;background-color: white;padding: 20px 0;left: 0;width: 100%;
-    display: flex;flex-direction: column;align-items: center;transition: .4s;z-index: -1;height: 100vh;
+    position:absolute;background-color: white;padding: 20px 0;left: 0;width: 100%;transition: .4s;
+    display: flex;flex-direction: column;align-items: center;transition: .4s;z-index: -1;height: 100vh;transform: translateX(-200vh);
 }
+.menu i{transition: .4s;}
+.menu .show{transform: translateX(0vh);}
 
  .options p{
-    padding: 10px 0;
+    padding: 10px;
 }
 .course .menuButton{
     background-color: #1874d2;
@@ -87,6 +115,15 @@ main .logo img{
 }
 .course .menuButton i{
     font-size: 25px;
+    padding: 0;
+    height: fit-content;
+    transition: .4s;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+.rotate1{
+    transform: rotate(90deg);
 }
 .course .hiddenCourse{
     position: absolute;
@@ -97,10 +134,15 @@ main .logo img{
     display:flex;
     flex-direction: column;
     padding: 5%;
+    transform: translateX(200vh);
+    transition: .4s;
     /* justify-content: center; */
     /* align-items: center; */
 
     /* flex-wrap: wrap; */
+}
+.course .show{
+    transform: translateX(0vh);
 }
 .hiddenCourse .courseOption{
     width: max-content;
@@ -153,7 +195,110 @@ app-social{
     right: 0;
     position: absolute;
 }
+.popUp{
+    position:fixed;
+    height: 100vh;
+    width: 100%;
+    transform: translateY(-200vh);
+    backdrop-filter: blur(1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    left: 0;
+    transition: .6s;
+   
+}
+
+.show{
+    transform: translateY(-8vh);
+}
+.popUp2{
+    /* transform: translateY(0vh); */
+}
+.popUp .holder{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border:  10px solid #ff7d36;
+    position: relative;
+}
+.popUp2 .holder{
+    border:  10px solid #2e97ff;
+}
+.holder i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ff6b1b;
+    /* transition: .1s; */
+}
+.popUp2 .holder i{
+    color: #2e97ff;
+}
+.holder i:hover{
+    cursor: pointer;
+    transform: scale(110%);
+}
+.img{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+}
+.form{
+    width: 50%;
+    padding: 5%;
+    height: 100%;
+}
+.form form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form form span{
+    display: flex;
+    margin: 10px 0;
+    width: 100%;
+    justify-content: space-between;
+}
+.form form span input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.form form span input:focus{
+    outline: none;
+}
+.form form span:nth-child(6){
+    height: 50px;
+}
+.form form button{
+    background-color: #ff7d36;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0;
+    margin: 10px 0 0 0 ;
+    width: 50%;
+    cursor: pointer;
+} 
+.popUp2 .form form button{
+    background-color: #2e97ff;
+}
 @media (max-width: 1030px){
    .navigation{display: none;}
    .menu{display: block;padding: 0;}
+   .wide{
+       display: none;
+   }
+   .popUp .holder{flex-direction: column;width: 90%;height: auto;}
+   .popUp .holder .img{width: 50%;align-items: center;}
+   .popUp .holder .form {width: 100%;height: auto;}
 }

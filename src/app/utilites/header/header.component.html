@@ -1,61 +1,65 @@
 <nav>
     <main>
         <div class="menu">
-            <i (click)="show('menu')" class="fas fa-bars"></i>
-            <div (click)="show('none')" *ngIf="toggle== 'menu' " class="options" >
+            <i [ngClass]="toggle=='menu'? 'rotate1': '' " (click)="show('menu')" class="fas fa-bars"></i>
+            <div (click)="show('none')" [ngClass]="toggle=='menu'? 'show': '' " class="options" >
                 <app-links></app-links>
                 <app-social></app-social>
-                <!-- <p>All Courses</p> -->
                 <p [routerLink]="['certification']" >Certification</p>
                 <p [routerLink]="['training']" >Training Programs</p>
-                <!-- <p>Company</p> -->
                 <p [routerLink]="['blogs']" >Blogs</p>
                 <p [routerLink]="['aboutUs']" >About Us</p>
                 <p [routerLink]="['contact']" >Contact Us</p>
                 <p [routerLink]="['placement']" >Placements</p>
+                <div class="scholarship">
+                    <p (click)="togglePopup(1)" >Scholarship Registration</p>
+                </div>
             </div>
         </div>
         <div class="logo">
             <img (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png" alt="">
         </div>
+        <div class="scholarship wide">
+            <p (click)="togglePopup(1)" >Scholarship Registration</p>
+        </div>
         <div class="navigation">
             
-            <div  class="allCourses "  >
-                <p class="link" >All Courses</p>
-                <div class="hidden">
+            <div  class="allCourses linkHead"  >
+                <p class="allCoursesButton" (click)="toggleCourses()" >All Courses <i [ngClass]="showCourses? 'rotate': '' " class="fas fa-sort-down"></i></p>
+                <div [ngClass]="showCourses? 'showCourses': '' " class="hidden" (click)="toggleCourses()">
                         <div class="python category">
                             <p class="heading" >Popular Courses</p>
                             <div class="sub">
-                                <p [routerLink]="['openCourse']" >Python training</p>
-                                <p>Data Science training</p>
-                                <p>Machine Learning training</p>
-                                <p>Deep Learning training</p>
-                                <p>Artificial Inteligence training</p>
-                                <p>RPA training</p>
-                                <p>Java training</p>
-                                <p>.Net training</p>
-                                <p>VBA training</p>
+                                <p [routerLink]="['courses/Python_Training_course_DelhiNCR']" >Python training</p>
+                                <p [routerLink]="['courses/Data_Science_Training_course_DelhiNCR']" >Data Science training</p>
+                                <p [routerLink]="['courses/Machine_Learning_Training_course_DelhiNCR']" >Machine Learning training</p>
+                                <p [routerLink]="['courses/Deep_Learning_Training_course_DelhiNCR']" >Deep Learning training</p>
+                                <p [routerLink]="['courses/Artificial_Inteligence_Training_course_DelhiNCR']" >Artificial Inteligence training</p>
+                                <p [routerLink]="['courses/RPA_course_DelhiNCR']" >RPA training</p>
+                                <p [routerLink]="['courses/Java_course_DelhiNCR']" >Java training</p>
+                                <p [routerLink]="['courses/NET_course_DelhiNCR']">.Net training</p>
+                                <p [routerLink]="['courses/VBA_course_DelhiNCR']" >VBA training</p>
                             </div>
                         </div>
                         <div class="webDev category">
                             <p class="heading" >Web Development</p>
                             <div class="sub">
-                                <p>PHP</p>
-                                <p>HTML5/CSS3/JS</p>
-                                <p>Angular</p>
-                                <p>Node</p>
-                                <p>React</p>
-                                <p>Python Django/Flask</p>
+                                <p [routerLink]="['courses/PHP_course_DelhiNCR']" >PHP</p>
+                                <p [routerLink]="['courses/HTML5_CSS3_JS_course_DelhiNCR']" >HTML5/CSS3/JS</p>
+                                <p [routerLink]="['courses/Angular_course_DelhiNCR']" >Angular</p>
+                                <p [routerLink]="['courses/NodeJs_course_DelhiNCR']" >Node</p>
+                                <p [routerLink]="['courses/React_course_DelhiNCR']" >React</p>
+                                <p [routerLink]="['courses/Pyhton_Django_course_DelhiNCR']" >Python Django/Flask</p>
                             </div>
                         </div>
                         <div class="database category">
                             <p class="heading" >Database & Analytics Tools</p>
                             <div class="sub">
-                                <p>MongoDB</p>
-                                <p>SQL</p>
-                                <p>Oracle</p>
-                                <p>Power Bi</p>
-                                <p>Tablue</p>
+                                <p [routerLink]="['courses/MongoDB_course_DelhiNCR']" >MongoDB</p>
+                                <p [routerLink]="['courses/SQL_course_DelhiNCR']" >SQL</p>
+                                <p [routerLink]="['courses/Oracle_course_DelhiNCR']" >Oracle</p>
+                                <p [routerLink]="['courses/PowerBi_course_DelhiNCR']" >Power Bi</p>
+                                <p [routerLink]="['courses/courses/Tableau_course_DelhiNCR']" >Tablue</p>
                             </div>
                         </div>
                         <div class="digitelMarketing category">
@@ -73,49 +77,125 @@
                         <div class="special category">
                             <p class="heading" >Specialization Courses</p>
                             <div class="sub">
-                            <p>Diploma in Data Science</p>
-                            <p>Diploma in Machine Learning</p>
-                            <p>Masters in Data Science</p>
-                            <p>Masters in Machine Learning</p>
+                            <p [routerLink]="['courses/Diploma_in_DataScience_course_DelhiNCR']" >Diploma in Data Science</p>
+                            <p [routerLink]="['courses/Diploma_in_Machine_Learning_course_DelhiNCR']" >Diploma in Machine Learning</p>
+                            <p [routerLink]="['courses/Masters_in_DataScience_course_DelhiNCR']" >Masters in Data Science</p>
+                            <p [routerLink]="['courses/Masters_in_Machine_Learning_course_DelhiNCR']" >Masters in Machine Learning</p>
                             </div>
                         </div>
                 </div>
             </div>
             
-            <p [routerLink]="['certification']" class="link" >Certification</p>
-            <div class="training link" [routerLink]="['training']" >
-                <p >Training Programs</p>
-                <div class="hidden">
+            <p [routerLink]="['certification']" class="linkHead link" >Certification</p>
+            <div class="training linkHead" [routerLink]="['training']" >
+                <p >Training Programs <i class="fas fa-sort-down"></i></p>
+                <div  class="hidden link">
                     <p>Corporate Training</p>
                     <p>Industrial Training</p>
                     <p>Online/Classroom Training</p>
                 </div>   
             </div>
-            <div class="company link" >
-                <p>Company</p>
-                <div class="hidden">
+            <div class="company linkHead" >
+                <p>Company <i class="fas fa-sort-down"></i></p>
+                <div class="hidden link">
                     <p [routerLink]="['aboutUs']" >About Us</p>
                     <p [routerLink]="['contact']" >Contact Us</p>
                     <p [routerLink]="['blogs']" >Blogs</p>
                 </div>
             </div>
-            <p [routerLink]="['placement']" class="link" >Placements</p>
+            <p [routerLink]="['placement']" class="link linkHead" >Placements</p>
             
         </div>
         <div class="course menu">
-            <p (click)="show('course')" class="menuButton" >All Courses <i class="fas fa-sort-down"></i></p>
-            <div *ngIf="toggle== 'course' "   class="hiddenCourse">
+            <p (click)="show('course')"  class="menuButton" >All Courses <i [ngClass]="toggle=='course'? 'rotate': '' " class="fas fa-sort-down"></i></p>
+            <div [ngClass]="toggle=='course'? 'show': '' "   class="hiddenCourse">
                
                 <div class="courseOption">
                     <div class="holder">
-                        <p *ngFor="let item of courseList; let i as index " (click)=activeOption(i) [ngClass]="activeSection==courseList.indexOf(i)? 'active': '' " >{{item.title}}</p>
+                        <p *ngFor="let item of courseList; let i as index " (click)=activeOption(i) [ngClass]="activeSection==courseList.indexOf(i)? 'active': '' " id="active" >{{item.title}}</p>
                     </div>
                 </div>
                 <div class="courseList">
-                    <p *ngFor="let item of activeList" >{{item}}</p>
+                    <p (click)="show('none')"  [routerLink]="item.routerLink" *ngFor="let item of activeList" >{{item.name}}</p>
                 </div>
             </div>
         </div>
         
     </main>
+
+    <div [ngClass]="popUp == 1? 'show': '' " class="popUp popup1">
+        <div class="holder">
+            <i (click)="togglePopup(0)" class="far fa-times-circle"></i>
+            <div class="img">
+                <img src="assets/images/popup2.png" alt="">
+            </div>
+            <div class="form">
+                <form action="">
+                    <span>
+                        <label for="">Name</label>
+                        <input type="text" placeholder="Enter your name" >
+                    </span>
+                    <span>
+                        <label for="">Email</label>
+                        <input type="text" placeholder="Enter your Email" >
+                    </span>
+                    <span>
+                        <label for="">Mobile-No</label>
+                        <input type="text" placeholder="Enter your mobileNo" >
+                    </span>
+                    <span>
+                        <label for="">College</label>
+                        <input type="text" placeholder="Enter your College Name" >
+                    </span>
+                    <span>
+                        <label for="">Courses</label>
+                        <input type="text" placeholder="Enter your Course Name" >
+                    </span>
+                    <span>
+                        <label for="">Message</label>
+                        <input type="text">
+                    </span>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div [ngClass]="popUp == 2? 'show': '' " class=" popUp2 popUp">
+        <div class="holder">
+            <i (click)="togglePopup(0)" class="far fa-times-circle"></i>
+            <div class="img">
+                <img src="assets/images/discount.svg" alt="">
+            </div>
+            <div class="form">
+                <form action="">
+                    <span>
+                        <label for="">Name</label>
+                        <input type="text" placeholder="Enter your name" >
+                    </span>
+                    <span>
+                        <label for="">Email</label>
+                        <input type="text" placeholder="Enter your Email" >
+                    </span>
+                    <span>
+                        <label for="">Mobile-No</label>
+                        <input type="text" placeholder="Enter your mobileNo" >
+                    </span>
+                    <span>
+                        <label for="">College</label>
+                        <input type="text" placeholder="Enter your College Name" >
+                    </span>
+                    <span>
+                        <label for="">Courses</label>
+                        <input type="text" placeholder="Enter your Course Name" >
+                    </span>
+                    <span>
+                        <label for="">Message</label>
+                        <input type="text">
+                    </span>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
 </nav>

@@ -26,6 +26,7 @@ export class TestimonialsComponent implements OnInit {
   selectedMessage = 0
   readMore(id: any) {
     this.selectedMessage=id
+    this.expendReviews = true
   }
   
  

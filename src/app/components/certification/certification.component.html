@@ -37,5 +37,11 @@
             <p [routerLink]="['/contact']" >Request For Certificate <i class="fas fa-file-certificate"></i> </p>
         </div>
     </div>
+    <div class="names">
+        <p class="heading" >Additional Certification provided by us</p>
+        <div class="nameHolder">
+            <p [routerLink]="['/contact']" *ngFor="let item of names" >{{item}}</p>
+        </div>
+    </div>
    
 </main>

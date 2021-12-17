@@ -121,11 +121,11 @@
     width: 5px;
     border-radius: 2px;
   }
-  .testimonial .cards i {
+  .testimonial .cards .fa-times-circle{
     display: none;
   }
   
-  .testimonial .viewMore i {
+  .testimonial .viewMore .fa-times-circle{
     position:fixed;
     top: 16vh;
     right: 11%;
@@ -141,10 +141,18 @@
     height: 200%;
     top: 0;
   }
-  .testimonial .viewMore i:hover {
+  .testimonial .viewMore .fa-times-circle:hover {
     cursor: pointer;
     transform: scale(102%);
     filter: drop-shadow(2px 3px 5px rgba(128, 128, 128, 0.247));
+  }
+  .ratings{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+  }
+  .ratings i{
+    color: #FF6B1B;
   }
 
   @media (max-width: 960px){

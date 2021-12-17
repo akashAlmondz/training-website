@@ -88,4 +88,10 @@ main #buttonHolder{
   .img img{
     width: 100%;
   }
+  .cards{
+    height: 37vh;
+  }
+  .expend{
+    height: auto;
+  }
 }

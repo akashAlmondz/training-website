@@ -14,14 +14,14 @@ import { TrainingComponent } from './components/training/training.component';
 const routes: Routes = [
   {path:'', component:HomeComponent},
   {path: 'contact', component:ContactUsComponent},
-  {path:'openCourse', component:OpenCourseComponent},
+  {path:'courses/:id', component:OpenCourseComponent},
   {path:'training',component:TrainingComponent},
   {path:'aboutUs',component:AboutUsComponent},
   {path:'blogs',component:BlogsComponent},
   {path:'placement',component:PlacementComponent},
   {path:'certification',component:CertificationComponent},
   {path:'openBlogs',component:OpenBlogsComponent},
-  {path:'policy',component:PolicyComponent},
+  {path:'company/:id',component:PolicyComponent},
 
 ];
 
