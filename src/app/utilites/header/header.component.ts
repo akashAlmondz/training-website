@@ -137,9 +137,9 @@ export class HeaderComponent implements OnInit {
         header.classList.toggle("sticky", window.scrollY>10);
       }
     })
-    setTimeout(() => {
-      this.popUp = 2
-    },2000);
+    // setTimeout(() => {
+    //   this.popUp = 2
+    // },2000);
   }
   
 }

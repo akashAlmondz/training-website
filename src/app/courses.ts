@@ -1236,4 +1236,297 @@ export const courses = [
           
         ], 
   },
+  {
+    heading:'Pay-per-click (PPC)',
+    subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    aboutHeading:'Pay-per-click (PPC) Training',
+    about: [
+        "This course will teach you all the basics of Pay-Per-Click advertising right from its definition to the benefits it offers and the relationship it shares with Search Engine Marketing. Students will learn the  different components of PPC such as AD groups, Display Network, common paid search marketing terms, billing models, Ad Auction, Quality Score, organization structure, Keywords, text ads, expanded text ads, targeting, ad extension, a-b testing and so on.",
+        "Learn the advertising module that allows you to place ads on an advertisement platform by enrolling for the best Pay-Per-Click course in Delhi NCR. The goal of the ad is to lead the consumer who clicks on an advertiser’s application or website to complete a valuable action such as learning about a product or purchasing it.","Search engines are the most popular host platforms which allow advertisers to showcase ads that are relevant to what consumers are looking for.","Learners can create pay-per-click ad campaigns using Google AdWords, Facebook Ad platform, Microsoft Ad Network, Yahoo, and Bing search engines. You will also understand top paid advertising opportunities and where each business fits. Learn the different fundamentals, and terminologies of the PPC advertising world. Learn how to run and manage your own PPC ad campaigns. Write the best ads for your campaigns You will also be able to optimise campaigns in a cost-efficient manner which will increase your overall profit. Smartly utilise professionally proven PPC methods that are proven to work. Post the course, you will be able to amplify the revenue generation and get the most out of your advertising budget."], 
+    aboutSections : [
+        {heading:'Why should you join this course?',about:['This course will include the relevant, and reliable information that’s curated specially for learners to get the most knowledge about PPC. Information will be showcased in a slide show format, lectures, and live looks at the AdWords PPC platform to implement demonstration techniques, methodologies discussed, and dive into accounts and ads that use these strategies.',"There are multiple quizzes and cheat sheets to help ensure that you are absorbing the most vital, accurate information to review lessons on your own.","At Book My Shiksha, we offer placement opportunities for all our students at some of the leading companies in the field."]},
+        {heading:'Who is this course for?',about:[
+            "This course is for marketing executives that chase leads and sales from their PPC budgets, small business owners that run their own Bing or Google Ad campaigns, companies, and individuals that are just starting to invest in pay per click advertising and need assurance that they are spending their money wisely.","Our team of educators for the best Pay-Per-Click training in Delhi are here to offer their expertise in the field so that you can generate the maximum revenue."
+        ]},
+        {heading:'Job opportunities after finishing this course:',about:["Search Engine Advertiser, Paid Search (PPC) Account Manager, SEM Executive, Google AdWords Manager, PPC Analyst."]},
+        {heading:'Prerequisite knowledge:',about:["A basic understanding of the internet, and search engines. Come as you are."]},
+    ],
+    whyUsCards: {
+      heading:'Why You Should Join BookMyShiksha For Pay-per-click (PPC)',
+        points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+        {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+        {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+        {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+        {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+    },
+    trainesrsCards : {
+      heading:'Book My Shiksha Corporate Trainers Profile for Pay-per-click (PPC)',
+        points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+        {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+        {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+        {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+    },
+    placementCards : {
+      heading:'Placement Facility During Pay-per-click (PPC)',
+      points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+      {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+      {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+      },
+      sections : [
+        {id:0,sectionName:'Introduction to Programming  ',about:[ 
+          {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+          {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+          {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+          {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+        ]},
+        {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+          {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+          {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+          {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+          {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+        ]},
+        {id:2,sectionName:'Special Features',about:[ 
+          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+        ]},
+        
+      ], 
+  },
+  {
+    heading:'Google Ads Certification',
+    subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    aboutHeading:'Google Ads Certification Training',
+    about: [
+        "With this course, students will learn to use Google Search Ads and create brilliant campaigns to target new customers and increase your revenue. Students will work on Google Ads, Google's online advertising platform. Learn to drive qualified traffic, or relevant customers to drive sales whilst they are searching for products and services like the ones you or your clients offer on Google.",
+        "Learn the fastest course for your Google Ads Certification which includes AdWords Fundamentals as well as Adwords Search Certifications. By completing the best Google ads certification course in Delhi, you will be able to get an industry-recognised certification from Google. Pave the path to take on a job with an understanding of Google Ads. Learn how to crack the official exam the first time with course material of over 200 sample questions.","Learn this course to stand out from the rest as a Google Ads marketing specialist. Be equipped with the right set of skills to take your next interview, client or even a job promotion with your Google Ads Certification. Enroll for this Book My Shiksha course if you want to learn a special set of skills that will help you shine in your career."], 
+    aboutSections : [
+        {heading:'By the end of this course, you will be able to:',about:['Crack the formula to run the right Google Ads to optimize your sales or take your client’s business to the next level. Be wise with delegating funds to run ads by targeting the right demographic. Ultimately, reducing your advertising costs, and increasing sales with accurate Google Ads. Gain professional knowledge on the running of ads relevant to your marketing strategies. Be able to communicate the results you find with your team, or clients to analyse the reports and boost profits.']},
+        {heading:'Who is this course for?',about:[
+            "This course is for students that are looking to get started on a digital marketing career. Anybody that wants to crack more interviews or get a promotion by offering in-demand skills. Entrepreneurs who are looking to generate more revenue through online sales. Marketers who want a better strategy for ad budgets and vendors.  Look no further for the best Google ads certification course in the national capital region."
+        ]},
+        {heading:'Job opportunities after finishing this course:',about:["Search Engine Optimization (SEO), Search Engine Marketing (SEM), Social Media and Content Marketing, Marketing Analytics, and Branding."]},
+        {heading:'Prerequisite knowledge:',about:["A basic understanding of the internet, and search engines. There is no need for previous Google AdWords experience."]},
+    ],
+    whyUsCards: {
+      heading:'Why You Should Join BookMyShiksha For Pay-per-click (PPC) Training.',
+        points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+        {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+        {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+        {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+        {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+    },
+    trainesrsCards : {
+      heading:'Book My Shiksha Corporate Trainers Profile for Pay-per-click (PPC) Training',
+        points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+        {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+        {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+        {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+    },
+    placementCards : {
+      heading:'Placement Facility During Pay-per-click (PPC) Training',
+      points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+      {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+      {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+      },
+      sections : [
+        {id:0,sectionName:'Introduction to Programming  ',about:[ 
+          {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+          {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+          {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+          {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+        ]},
+        {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+          {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+          {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+          {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+          {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+        ]},
+        {id:2,sectionName:'Special Features',about:[ 
+          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+        ]},
+        
+      ], 
+  },
+  {
+    heading:'Facebook Ads Certification',
+    subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    aboutHeading:'Facebook Ads Certification Training',
+    about: [
+        "Students will be able to get a deep understanding of the Facebook Ads Manager. Whether you are new to it, launching a new brand or want to improve the social media strategy on a lean budget, you will be able to create impressive Facebook ads. The goal is to come up with simple yet creative campaigns that work to make a difference in businesses.",
+        "Master the Facebook Ads Manager. Learn to connect with a new targeted demographic to lower your Facebook ad costs through our Facebook Ads Certification training in Delhi NCR. Understand how to manage mass posts as swiftly, and efficiently as possible to various social media networks. Implement the right ad campaigns, and learn advanced tracking strategies, tips and tricks through Book My Shiksha. Use advanced features that are available in Facebook Business Manager with ease.","This course will allow you to learn the newest, and the best possible methods to implement for your clients, or businesses. You will also be able to analyse the right social media pages, and content management that’s necessary for a concise social media plan. Streamline your posting process. Learn the right techniques to optimise your Facebook page, and Facebook Ads by enrolling in the best Facebook ads certification course in Delhi."], 
+    aboutSections : [
+        {heading:'By the end of this course, you will be able to:',about:['Have an in-depth understanding of Facebook Marketing up to an advanced level. Learn about every aspect of Facebook, and Facebook Ads Manager. Optimise your ad campaigns to the fullest extent, and reform your online presence. Achieve increased conversions, and reduce the costs involved for running promotions. Educate your clients and colleagues the importance of investing in ads to help your brand reach a larger audience.',"Join this course now to learn how to take your brand, public figure, service, product, to a different level with the sheer power of Facebook Ads."]},
+        {heading:'Who is this course for?',about:[
+            "This course is specially curated for advertising managers, online marketers, marketing reps, advertising reps, small business owners, bloggers, influencers, corporations."
+        ]},
+        {heading:'Job opportunities after finishing this course:',about:["Social Media Analyst, Social Media Content Creator, Social Media and Content Marketing, Marketing Analytics, and Branding."]},
+        {heading:'Prerequisite knowledge:',about:["A basic understanding of computers, the internet and Facebook. Having social media accounts helps understanding concepts better."]},
+    ],
+    whyUsCards: {
+      heading:'Why You Should Join BookMyShiksha For Facebook Ads Certification Training.',
+        points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+        {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+        {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+        {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+        {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+    },
+    trainesrsCards : {
+      heading:'Book My Shiksha Corporate Trainers Profile for Facebook Ads Certification Training',
+        points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+        {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+        {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+        {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+    },
+    placementCards : {
+      heading:'Placement Facility During Facebook Ads Certification Training',
+      points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+      {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+      {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+      },
+      sections : [
+        {id:0,sectionName:'Introduction to Programming  ',about:[ 
+          {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+          {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+          {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+          {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+        ]},
+        {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+          {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+          {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+          {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+          {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+        ]},
+        {id:2,sectionName:'Special Features',about:[ 
+          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+        ]},
+        
+      ], 
+  },
+  {
+    heading:'Social Media Promotion',
+    subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    aboutHeading:'Social Media Promotion Training',
+    about: [
+        "This social media promotion course is to learn to create campaigns, and run ads on social media platforms. Learn the best tips and tricks for the rapidly growing social media market. Besides learning the basics, students will also learn how to analyse and improve their social media marketing strategies through this course. Join this course to add a coveted set of skills to your repertoire.",
+        "Understand all the intricacies of Social Media Marketing by joining this Social Media Promotion training in Delhi NCR. Learn how to create highly optimised ads, and excellent campaigns on all social media platforms. Master Instagram marketing to the fullest extent to monetise this lucrative platform. Analyse and implement the learnings of curated Twitter Marketing strategies for focused ads. Perfect the art of YouTube marketing along with content creation, video ads, and layout. Optimise LinkedIn profiles to use the platform to grow businesses. Understand the importance of Pinterest pins, and how the marketing strategies change the game for promoting content.","This course will allow you to increase revenue generation whilst steadily reducing marketing costs. Get better reach, and engagement for every rupee invested by joining Book My Shiksha today."], 
+    aboutSections : [
+        {heading:'By the end of this course, you will be able to:',about:["Use every type of social media marketing ads and social media platforms to apply the smartest online marketing strategies for your business or your clients’ business. Rapidly increase the followers, page likes, and engagement. Find new clients that will boost your brand, and income to great heights, all through the use of social marketing."]},
+        {heading:'Who is this course for?',about:[
+            "This course is for students that are looking for the best social media marketing course in Delhi to get started on a social marketing career. Business owners that are looking to create a strong social media presence. Entrepreneurs who are looking to generate more revenue through online sales. Marketers who want a better strategy for ad budgets and vendors."
+        ]},
+        {heading:'Job opportunities after finishing this course:',about:["Social Media Analyst, Social Media Content Creator, Social Media and Content Marketing, Marketing Analytics, and Branding."]},
+        {heading:'Prerequisite knowledge:',about:["A basic understanding of computers, the internet and social media platforms. Having different social media accounts will allow you to understand the course better."]},
+    ],
+    whyUsCards: {
+      heading:'Why You Should Join BookMyShiksha For Social Media Promotion Training.',
+        points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+        {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+        {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+        {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+        {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+    },
+    trainesrsCards : {
+      heading:'Book My Shiksha Corporate Trainers Profile for Social Media Promotion Training',
+        points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+        {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+        {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+        {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+    },
+    placementCards : {
+      heading:'Placement Facility During Social Media Promotion Training',
+      points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+      {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+      {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+      },
+      sections : [
+        {id:0,sectionName:'Introduction to Programming  ',about:[ 
+          {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+          {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+          {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+          {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+        ]},
+        {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+          {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+          {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+          {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+          {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+        ]},
+        {id:2,sectionName:'Special Features',about:[ 
+          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+        ]},
+        
+      ], 
+  },
+  {
+    heading:'Email Marketing',
+    subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    aboutHeading:'Email Marketing Training',
+    about: [
+        "Learn to write effective sales pitches and use our proven templates to grow your network, or business instantly. Email marketing forms the core foundation to generate revenue for various businesses. Studies from numerous online sources have proven that email marketing is one of the best marketing channels that generates the most profit, steeply beating social media and paid advertising, each year.",
+        "Learn the basics of email marketing, and list building opportunities at Book My Shiksha. You will learn the different types of services that are involved in this field. Understand what a lead magnet is, and create a brilliant lead magnet by joining the best email marketing certification course in Delhi NCR. Perfect the usage of basic tools such as Microsoft Word, and Quicktime to generate optimised lead magnets."], 
+    aboutSections : [
+        {heading:'By the end of this course, you will be able to:',about:['Customise lead magnets so that they look fresh, modern and professional. Get a larger group of people to subscribe to email lists. Work with free tools to build an email list. Be able to formulate customisable opt-in boxes, and forms. Turn website traffic into subscribers. You\'ll learn the different types of email marketing services.']},
+        {heading:'Who is this course for?',about:[
+            "This course is for small business owners that are looking to establish a great base to stay in touch with their customers. Social media marketers who help their clients make the best out of their campaigns and generate revenue for their clients. This course is for anybody who wants to build their skills.","If you are looking to add some niche skills to your repertoire, enroll for this email marketing training in Delhi today.","At Book My Shiksha, we offer our students placement opportunities at some of the best companies from around the globe."
+        ]},
+        {heading:'Job opportunities after finishing this course:',about:["Email marketer, Social Media and Content Marketing, Social Media Content Creator, Marketing Analytics."]},
+        {heading:'Prerequisite knowledge:',about:["Learners should have a thirst to grow businesses. Have the basic knowledge of sending emails. Accounts on social media platforms and a great internet connection would be ideal. Learners should be open to spending a few hours of their time to complete assignments to have a fully functioning system that converts visitors into long term subscribers."]},
+    ],
+    whyUsCards: {
+      heading:'Why You Should Join BookMyShiksha For Email Marketing Training.',
+        points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+        {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+        {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+        {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+        {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+    },
+    trainesrsCards : {
+      heading:'Book My Shiksha Corporate Trainers Profile for Email Marketing Training',
+        points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+        {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+        {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+        {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+        {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+    },
+    placementCards : {
+      heading:'Placement Facility During Email Marketing Training',
+      points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+      {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+      {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+      },
+      sections : [
+        {id:0,sectionName:'Introduction to Programming  ',about:[ 
+          {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+          {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+          {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+          {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+        ]},
+        {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+          {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+          {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+          {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+          {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+        ]},
+        {id:2,sectionName:'Special Features',about:[ 
+          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+        ]},
+        
+      ], 
+  },
+  
+
+
 ]
