@@ -2,19 +2,29 @@
     <main>
         <div class="menu">
             <i [ngClass]="toggle=='menu'? 'rotate1': '' " (click)="show('menu')" class="fas fa-bars"></i>
-            <div (click)="show('none')" [ngClass]="toggle=='menu'? 'show': '' " class="options" >
-                <app-links></app-links>
-                <app-social></app-social>
-                <p [routerLink]="['certification']" >Certification</p>
-                <p [routerLink]="['training']" >Training Programs</p>
-                <p [routerLink]="['blogs']" >Blogs</p>
-                <p [routerLink]="['aboutUs']" >About Us</p>
-                <p [routerLink]="['contact']" >Contact Us</p>
-                <p [routerLink]="['placement']" >Placements</p>
+           <div  class="optionHolder" [ngClass]="toggle=='menu'? 'show': '' " (click)="show('none')">
+            <div   class="options" >
+                <div class="img">
+                    <img [routerLink]="['']" src="assets/images/logo.png" alt="">
+                </div>
+                <p [routerLink]="['certification']" > <i class="fas fa-file-certificate"></i> Certification</p>
+                <p [routerLink]="['training']" > <i class="fas fa-chalkboard"></i> Training Programs</p>
+                <p [routerLink]="['blogs']" > <i class="fas fa-blog"></i> Blogs</p>
+                <p [routerLink]="['aboutUs']" > <i class="fas fa-address-card"></i> About Us</p>
+                <p [routerLink]="['contact']" > <i class="far fa-address-book"></i> Contact Us</p>
+                <p [routerLink]="['placement']" ><i class="fas fa-road"></i> Placements</p>
+                <div class="links">
+                    <p><i class="far fa-credit-card"></i> Fee Deposit</p>
+                    <p><i class="fas fa-sign-in-alt"></i> Apply Jobs</p>
+                </div>
                 <div class="scholarship">
                     <p (click)="togglePopup(1)" >Scholarship Registration</p>
                 </div>
+                <div class="socialMedia">
+                    <img *ngFor="let item of socialMedia" [src]=item.img alt="">
+                </div>
             </div>
+           </div>
         </div>
         <div class="logo">
             <img (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png" alt="">
@@ -25,8 +35,10 @@
         <div class="navigation">
             
             <div  class="allCourses linkHead"  >
-                <p class="allCoursesButton" (click)="toggleCourses()" >All Courses <i [ngClass]="showCourses? 'rotate': '' " class="fas fa-sort-down"></i></p>
-                <div [ngClass]="showCourses? 'showCourses': '' " class="hidden" (click)="toggleCourses()">
+                <div class="allCoursesButton" (click)="toggleDropdown(1)">
+                    <p   >All Courses</p><i [ngClass]="showDropdown==1? 'rotate': '' " class="fas fa-sort-down"></i>
+                </div>
+                <div [ngClass]="showDropdown == 1? 'showDropdown': '' " class="hidden" (click)="toggleDropdown(1)">
                         <div class="python category">
                             <p class="heading" >Popular Courses</p>
                             <div class="sub">
@@ -86,24 +98,24 @@
                 </div>
             </div>
             
-            <p [routerLink]="['certification']" class="linkHead link" >Certification</p>
-            <div class="training linkHead" [routerLink]="['training']" >
-                <p >Training Programs <i class="fas fa-sort-down"></i></p>
-                <div  class="hidden link">
-                    <p>Corporate Training</p>
-                    <p>Industrial Training</p>
-                    <p>Online/Classroom Training</p>
+            <p (click)="toggleDropdown(0)"  [routerLink]="['certification']" class="linkHead link" >Certification</p>
+            <div (click)="toggleDropdown(2)"  class="training linkHead"  >
+                <p >Training Programs <i [ngClass]="showDropdown==2? 'rotate': '' " class="fas fa-sort-down"></i></p>
+                <div class="hidden link" [ngClass]="showDropdown == 2? 'showDropdown': '' " >
+                    <p [routerLink]="['training']" >Corporate Training</p>
+                    <p [routerLink]="['training']" >Industrial Training</p>
+                    <p [routerLink]="['training']" >Online/Classroom Training</p>
                 </div>   
             </div>
-            <div class="company linkHead" >
-                <p>Company <i class="fas fa-sort-down"></i></p>
-                <div class="hidden link">
+            <div (click)="toggleDropdown(3)"  class="company linkHead" >
+                <p>Company <i [ngClass]="showDropdown==3? 'rotate': '' " class="fas fa-sort-down"></i></p>
+                <div [ngClass]="showDropdown == 3? 'showDropdown': '' " class="hidden link">
                     <p [routerLink]="['aboutUs']" >About Us</p>
                     <p [routerLink]="['contact']" >Contact Us</p>
                     <p [routerLink]="['blogs']" >Blogs</p>
                 </div>
             </div>
-            <p [routerLink]="['placement']" class="link linkHead" >Placements</p>
+            <p (click)="toggleDropdown(0)" [routerLink]="['placement']" class="link linkHead" >Placements</p>
             
         </div>
         <div class="course menu">

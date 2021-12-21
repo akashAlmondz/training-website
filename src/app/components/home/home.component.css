@@ -435,13 +435,19 @@
   
   .courses .card{
     width: 145px;
-    margin: 10px 5px;
+    margin: 10px 10px;
   }
   .courseBackground{
     height: 80px;
   }
+  .courses .cards{
+    justify-content: center;
+  }
   .courses .cards .card .courseName{
     font-size: 11px;
+  }
+  .services .cards .card{
+    width: 100%;
   }
 
   .upcoming .cards .card{

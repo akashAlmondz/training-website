@@ -12,13 +12,13 @@ main{
 }
 
 .landing p:nth-child(1){
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-
 }
 .landing p:nth-child(2){
+    padding: 20px 0 0 0;
     width: 50%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 .mission{

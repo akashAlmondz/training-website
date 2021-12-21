@@ -161,12 +161,14 @@ main{
     .opned img{
       width: 90%;
     }
+    .heading{margin: 0;}
     .certificate .far{
       top: 28vh;
       right: 1%;
     }
     .about{
       width: 100%;
+      margin-bottom: 20px;
     }
     .nameHolder{
       justify-content: center;
