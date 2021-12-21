@@ -4,10 +4,10 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Python Course Training',
         about: [
-            "Python is one of the most widely reputed programming languages in the world. 𝐁𝐨𝐨𝐤 𝐌𝐲 𝐒𝐡𝐢𝐤𝐬𝐡𝐚 is the  𝐛𝐞𝐬𝐭 𝐏𝐲𝐭𝐡𝐨𝐧 𝐭𝐫𝐚𝐢𝐧𝐢𝐧𝐠 campus in  𝐃𝐞𝐥𝐡𝐢 𝐍𝐂𝐑 that allows learners to build the skills you would require to land your first Python programming job. Learn the intricacies of Machine Learning, Django, Data Science, and the other specialised areas. Be in a position to create your own Python apps efficiently by enrolling for the 𝐛𝐞𝐬𝐭 𝐏𝐲𝐭𝐡𝐨𝐧 𝐨𝐧𝐥𝐢𝐧𝐞 𝐜𝐨𝐮𝐫𝐬𝐞",
+            "Python is one of the most widely reputed programming languages in the world.BookMyShiksha is the best python training campus in Delhi-NCR that allows learners to build the skills you would require to land your first Python programming job. Learn the intricacies of Machine Learning, Django, Data Science, and the other specialised areas. Be in a position to create your own Python apps efficiently by enrolling for the best python institute delhi",
             "To be able to do so, you require a firm foundation in Python programming, and this course is specially designed to equip you with the core skills in a swift manner."], 
         aboutSections : [
-            {heading:'By the end of this course, you will be able to:',about:['Create, and incorporate your own Python programs through this course at 𝐁𝐨𝐨𝐤 𝐌𝐲 𝐒𝐡𝐢𝐤𝐬𝐡𝐚. Add OOP (Python Object-Oriented Programming) skills to your CV. Well versed in both Python 2, as well as Python 3 softwares. Or be in a position where you understand how to scale up as a senior software developer.']},
+            {heading:'By the end of this course, you will be able to:',about:['Create, and incorporate your own Python programs through this course at BookMyShiksha. Add OOP (Python Object-Oriented Programming) skills to your CV. Well versed in both Python 2, as well as Python 3 softwares. Or be in a position where you understand how to scale up as a senior software developer.']},
             {heading:'Who is this course for?',about:[
                 "This course is for beginners with no prior knowledge about Python but are looking to equip themselves with the most popular programming job in the world. Anybody that wants to gain prerequisite knowledge to move into Machine Learning, Data Science or Artificial Intelligence. "
             ]},
@@ -50,11 +50,10 @@ export const courses = [
                     {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI.'},]
               },
         trainesrsCards : {
-                    heading:'Book My Shiksha Corporate Trainers Profile for Python Training',
-      
+                    heading:'BookMyShiksha Corporate Trainers Profile for Python Training',
                     points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
                     {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-                    {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+                    {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
                     {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
                     {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
                     {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -62,7 +61,7 @@ export const courses = [
         },
         placementCards : {
                     heading:'Placement Facility During Python Training',
-                    points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+                    points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
                     {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
                     {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
         }
@@ -73,8 +72,8 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Data Science training',
         about: [
-            "The course at Book My Shiksha offers the entire toolbox one might require to become a brilliant data scientist. Learn Python programming with matplotlib, NumPy, Seaborn, pandas, Advanced Statistical Analysis, Machine Learning with scikit-learn, Tableau, and Deep Learning with TensorFlow. Having an understanding of the mathematics behind Machine Learning through the best data science training course in Delhi. Code in Python, and use it for statistical analysis.",
-            "Through this course at Book My Shiksha, you will be able to apply the skills you gain in real-life business scenarios."], 
+            "The course at BookMyShiksha offers the entire toolbox one might require to become a brilliant data scientist. Learn Python programming with matplotlib, NumPy, Seaborn, pandas, Advanced Statistical Analysis, Machine Learning with scikit-learn, Tableau, and Deep Learning with TensorFlow. Having an understanding of the mathematics behind Machine Learning through the best data science training course in Delhi. Code in Python, and use it for statistical analysis.",
+            "Through this course at BookMyShiksha, you will be able to apply the skills you gain in real-life business scenarios."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Perform linear, and logistic regressions in the Python language. Conduct cluster and factor analysis. Create Machine Learning algorithms in Python, using statsmodels, scikit-learn, and NumPy. Use the latest Deep Learning framework like the Google TensorFlow. Develop a business intuition whilst solving tasks, or coding with large data. Unfold the intricacies of deep neural networks through the best data science online course in Delhi NCR.']},
             {heading:'Who is this course for?',about:[
@@ -92,10 +91,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Data Science Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Data Science Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -103,7 +102,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Data Science Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -131,15 +130,15 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Machine Learning Training',
         about: [
-            "Master the art of Machine Learning on Python at Book My Shiksha. Learn to use the many Machine Learning models, and tools. Understand how to handle specific topics like Reinforcement Learning, Deep Learning, and NLP. Master advanced techniques like Dimensionality Reduction with the help of the educators at the best Machine Learning Training course in Delhi. Be in a position to choose the right Machine Learning model to address each type of problem.",
-            "By enrolling in this course at Book My Shiksha, you will be able to apply the knowledge you gain to scale up in your career."], 
+            "Master the art of Machine Learning on Python at BookMyShiksha. Learn to use the many Machine Learning models, and tools. Understand how to handle specific topics like Reinforcement Learning, Deep Learning, and NLP. Master advanced techniques like Dimensionality Reduction with the help of the educators at the best Machine Learning Training course in Delhi. Be in a position to choose the right Machine Learning model to address each type of problem.",
+            "By enrolling in this course at BookMyShiksha, you will be able to apply the knowledge you gain to scale up in your career."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Make accurate predictions for businesses. Conduct powerful analysis that yields great results. Create robust Machine Learning models. Add value to your business, or for your clients.']},
             {heading:'Who is this course for?',about:[
                 "This course is for beginners with no prior knowledge about Machine Learning on Python but are looking to equip themselves with a well defined set of skills. Students who have math knowledge and want to start learning Machine Learning. Anybody that wants to gain prerequisite knowledge to move into Machine Learning by learning classical algorithms such as linear regression or logistic regression."
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Python Developer, Software Engineer, Data Scientist, Computational Linguist, Designer in Human-Centered Machine Learning, Software Developer."]},
-            {heading:'Prerequisite knowledge:',about:["Thirst to expand their horizons through Book My Shiksha. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Machine Learning is included in the course."]},
+            {heading:'Prerequisite knowledge:',about:["Thirst to expand their horizons through BookMyShiksha. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Machine Learning is included in the course."]},
         ],
         whyUsCards: {
           heading:'Why You Should Join BookMyShiksha For Machine learning Training.',
@@ -150,10 +149,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Data Science Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Data Science Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -161,22 +160,22 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Machine Learning Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
             {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+              {name:'Introduction to Machine Learning',summary:['Overview of Machine learning','What is Machine learning','Different Sectors Using Machine learning']},
+              {name:'Supervised Learning - Classification',summary:['Regression','Multi-Regression','Linear Regression']},
+              {name:'Supervised Learning - Classification II',summary:['Random Forest','SVR','Logistic Regression']},
+              {name:'Unsupervised Learning - Clustering',summary:['K-Means','KNN','SVM','Decision Tree']},
             ]},
             {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+              {name:'Tree Models Using Python',summary:['Introduction to decision trees','Entropy and Information gain','Introduction to bagging algorithm','Random Forests','Project on tree models']},
+              {name:'Naive Byes Algorithm',summary:['Conditional Probability','Overview of Naïve Bayes Algorithm','News Classification Project using naïve Bayes classifier']},
+              {name:'Bosting Algorithm',summary:['Concept of weak learners','Introduction to boosting algorithms','Adaptive Boosting','Extreme Gradient Boosting (XGBoost)']},
+              {name:'Principle Component Analysis',summary:['Need for dimensionality reduction','Principal Component Analysis (PCA)','PCA with Python on cancer Dataset']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
@@ -210,10 +209,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Deep Learning Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Deep Learning Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -221,7 +220,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Deep Learning Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -250,7 +249,7 @@ export const courses = [
         aboutHeading:'Artificial Intelligence Training',
         about: [
             "Enroll for the best Artificial Intelligence Training online course in Delhi to gain insights on AI concepts. Understand the intuition behind the math used in AI solutions. Gain knowledge on Time series along with simple linear regression. Learn how to incorporate Multiple and Logistic regression.",
-            "At Book My Shiksha, you will learn how Artificial Intelligence is disrupting the way we work, and function."], 
+            "At BookMyShiksha, you will learn how Artificial Intelligence is disrupting the way we work, and function."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Have a clear understanding of the theory behind AI. Work on AI projects that involve the application of concepts you learnt in class. Create AI programs that are developed to perform specific tasks in the medical field, electronics, robotics, finance, education, and transportation.','Artificial Intelligence has drastically transformed the business landscape. Add value to the work you do by learning how AI can make your approach unique by joining Book My Shiksha today.']},
             {heading:'Who is this course for?',about:[
@@ -268,10 +267,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Artificial Intelligence Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Artificial Intelligence Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -279,7 +278,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Artificial Intelligence Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -307,8 +306,8 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Diploma in DataScience',
         about: [
-            "The Diploma course at Book My Shiksha leads learners to learn the basics of writing and running scripts and to understand complex concepts such as regular expressions, file operations and working with binary data. Enroll for the best Diploma in Data Science in Delhi to gain knowledge on the rapidly booming data science industry. The cross platform training offers learners a better use of tasks on any operating system. Ultimately, learners would be able to cater to different job roles. Join this course today to become a fantastic data scientist.",
-            "By enrolling for this diploma at Book My Shiksha, you will be able to apply the skills you acquire in real-life business decisions."], 
+            "The Diploma course at BookMyShiksha leads learners to learn the basics of writing and running scripts and to understand complex concepts such as regular expressions, file operations and working with binary data. Enroll for the best Diploma in Data Science in Delhi to gain knowledge on the rapidly booming data science industry. The cross platform training offers learners a better use of tasks on any operating system. Ultimately, learners would be able to cater to different job roles. Join this course today to become a fantastic data scientist.",
+            "By enrolling for this diploma at BookMyShiksha, you will be able to apply the skills you acquire in real-life business decisions."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Carry out different tasks in Python. Conduct linear, and logistic regressions in the Python language. Have a thorough understanding of cluster and factor analysis. Use the latest Deep Learning framework tools. Have a business intuition whilst executing tasks, or coding with mammoth data. Unfold the deep layers of neural networks by joining the best Diploma in Data Science online course in Delhi NCR']},
             {heading:'Who is this course for?',about:[
@@ -326,10 +325,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
           trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Diploma in Data Science Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Diploma in Data Science Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -337,7 +336,7 @@ export const courses = [
           },
           placementCards : {
             heading:'Placement Facility During Diploma in Data Science Training',
-            points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
             {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
             },
@@ -384,10 +383,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Diploma in Machine Learning Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Diploma in Machine Learning Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -395,7 +394,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Diploma in Machine Learning Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -423,7 +422,7 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Master in DataScience',
         about: [
-            "The Master in Data Science program at Book My Shiksha is delivered online. It is conducted by the best data science professionals in the field. This is the best Masters in Data Science as it offers a multidisciplinary curriculum that is managed by experienced faculty from top companies, the flexibility of online learning, and a versatile group of peers.",
+            "The Master in Data Science program at BookMyShiksha is delivered online. It is conducted by the best data science professionals in the field. This is the best Masters in Data Science as it offers a multidisciplinary curriculum that is managed by experienced faculty from top companies, the flexibility of online learning, and a versatile group of peers.",
             "This multidisciplinary program draws its structure from computer science, statistics, management, social sciences, and law. Students who join the masters program at Book My Shiksha will use the newest tools and methods of analysis to derive insights from unstructured data that’s complex and address real-world issues."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Be proficient at research design. Have a thorough understanding of Data Cleansing, Data Engineering, Mining and Exploring. Furthermore, learners would be able to be experts at Data Visualization. Incorporate the statistics you learn from analysis to improve your own business, or the sales of your clients. Be proficient at Machine Learning and the other intricacies it entails.']},
@@ -442,10 +441,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Master in Data Science Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Master in Data Science Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -453,7 +452,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Master in Data Science Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -500,10 +499,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Master in Machine Learning Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Master in Machine Learning Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -511,7 +510,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Master in Machine Learning Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -541,7 +540,7 @@ export const courses = [
         about: [
             "Gain an in-depth knowledge of search engine algorithms and about the role they play with organic search results and websites. To further build on this knowledge, 𝐛𝐞𝐬𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐄𝐧𝐠𝐢𝐧𝐞 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐜𝐨𝐮𝐫𝐬𝐞 𝐢𝐧 𝐃𝐞𝐥𝐡𝐢 through which you will be learning the key aspects to create an efficient SEO strategy, that includes tips and tricks on the selection of keywords and to perform keyword research. Learn about consumer psychology and search behavior to target the right demographic. Learn how to analyse on-page SEO to identify new opportunities to improve the growth of a website’s search optimization.",], 
         aboutSections : [
-            {heading:'What will you learn  in this course?',about:['𝐁𝐨𝐨𝐤 𝐌𝐲 𝐒𝐡𝐢𝐤𝐬𝐡𝐚, we’ll focus on site-level optimization, on-page SEO, blogging optimization, and optimization for local searches. You will be able to complete a competitive analysis of a webpage. Learn to develop the perfect approach to achieve a productive relationship that is successful with clients. Learn to enhance relationships with influencers by engaging in collaborations, and analyze different kinds of data to see which performs the best. Present the final recordings and recommendations for SEO to clients.']},
+            {heading:'What will you learn  in this course?',about:['BookMyShiksha, we’ll focus on site-level optimization, on-page SEO, blogging optimization, and optimization for local searches. You will be able to complete a competitive analysis of a webpage. Learn to develop the perfect approach to achieve a productive relationship that is successful with clients. Learn to enhance relationships with influencers by engaging in collaborations, and analyze different kinds of data to see which performs the best. Present the final recordings and recommendations for SEO to clients.']},
             {heading:'By the end of this course, you will be able to:',about:[
                 '• Optimize the website content for the best search engine rankings.',
                 '• Identify the right keywords, and strategies for SEO.',
@@ -564,10 +563,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Digital Marketing Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Digital Marketing Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -575,7 +574,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Diploma in Digital Marketing Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -603,7 +602,7 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'RPA Training',
         about: [
-            "This is the best RPA training and certification course online, and at Book My Shiksha, we utilise the trending RPA development software that companies rely on for Robotic Process Automations. You will be able to learn how RPA works by completing in-depth worksheets, and projects. Gain access to curated syllabi by the top educators in Delhi.",
+            "This is the best RPA training and certification course online, and at BookMyShiksha, we utilise the trending RPA development software that companies rely on for Robotic Process Automations. You will be able to learn how RPA works by completing in-depth worksheets, and projects. Gain access to curated syllabi by the top educators in Delhi.",
             "Gain knowledge from our educators who will offer you the best tips, and tricks to enhance your career, only at Book My Shiksha."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Have a clear understanding to use RPA efficiently. Incorporate the different strategies you learn to help clients grow their businesses, or take your business to the next level. Complete a RPA overview from start to finish.']},
@@ -622,10 +621,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for RPA Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for RPA Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -633,7 +632,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During RPA Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -661,7 +660,7 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Java Training',
         about: [
-            "Learn to write stand-alone applications by using Java language through Book My Shiksha. Implement the right object-oriented concepts by using superb Java features such as classes, references, and interfaces. This is the best online course for Java training in Delhi. You will learn to create well structured classes that are efficient using packages. Understand how to read and write programs using input and output streams.",
+            "Learn to write stand-alone applications by using Java language through BookMyShiksha. Implement the right object-oriented concepts by using superb Java features such as classes, references, and interfaces. This is the best online course for Java training in Delhi. You will learn to create well structured classes that are efficient using packages. Understand how to read and write programs using input and output streams.",
             "Enroll for the best Java training course in the national capital region where our educators will help you excel in your careers."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Have a solid foundation in Java programming. Have an understanding of object-oriented principles and to apply them in Java applications. Write programs that handle and create exceptions too. Incorporate Java Collections Framework to efficiently work with groups of objects. Be well versed in the more advanced features of Java like interfaces, generics, exception handling, and abstract classes.']},
@@ -680,10 +679,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Java Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Java Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -691,7 +690,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Java Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -719,7 +718,7 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'.Net Training',
         about: [
-            "Learn to write stand-alone applications by using Java language through Book My Shiksha. Implement the right object-oriented concepts by using superb Java features such as classes, references, and interfaces. This is the best online course for Java training in Delhi. You will learn to create well structured classes that are efficient using packages. Understand how to read and write programs using input and output streams.",
+            "Learn to write stand-alone applications by using Java language through BookMyShiksha. Implement the right object-oriented concepts by using superb Java features such as classes, references, and interfaces. This is the best online course for Java training in Delhi. You will learn to create well structured classes that are efficient using packages. Understand how to read and write programs using input and output streams.",
             ], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Have a thorough understanding of the fundamental elements of computer programming. Leverage different development techniques to produce a well designed web application that includes the user interface, data access layers, and business logic. Be an expert at writing codes using the C# language by joining this course at Book My Shiksha. Create ASP.NET web applications that make you stand out from the crowd.']},
@@ -738,10 +737,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for .Net Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for .Net Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -749,22 +748,22 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Diploma in .Net Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
             {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+              {name:'Introduction to C#.NET and OOPs using C#.NET',summary:['Console Application','Arrays in detail','Understand OOPs concepts and implementation using C#.NET','Understand DataObjects in System']},
+              {name:'Windows Forms using C#.NET',summary:['Creating Windows Forms',' Working with controls like Label','TextBox, Button','RadioButton','CheckBox','PicureBox']},
+              {name:'ADO.NET -Data Access from SQL Server',summary:['Ado.NET Architecture and ADO.NET Library','Creating and Establish database connectivity','Connection vs Disconnection Model','CRUD operations using Connection Oriented Model with SqlCommand and SqlDataReader']},
+              {name:'Collections and Assemblies',summary:['Collection','Collection API','Generics','Generic Collection','Index and Key-Value paired collections']},
             ]},
             {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+              {name:'Web Server Controls',summary:['Web Server Control','Available Web Sever controls','Using regular controls like','ListControl']},
+              {name:'LinQ, 3-Tier Architecture',summary:['Introduction to Linq','Linq type queries','sql like queries','access DataSource like Array','XML and database using Linq']},
+              {name:'State Management, Ajax',summary:['Introduction to State Management Techniques','ViewState','QueryString','Session','Cookie']},
+              {name:'Security and Web Services',summary:['Introduction to Security','Security in ASP.NET','Authentication (Anonymous Authentication, Windows Authentication, Forms Authentication)','Authorization','WebService Introduction']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
@@ -796,10 +795,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for VBA Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for VBA Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -807,7 +806,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Diploma in VBA Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -835,12 +834,12 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'PHP Training',
         about: [
-            "The Hyperlink Preprocessor course at Book My Shiksha offers learners a comprehensive guide to learn coding in PHP. Starting with the basics, this course also dives into MySQL Databases for user driven functionality that’s dynamic. Sign up today for the best PHP training course in Delhi. Understand how to work with variable declarations, and data outputs. Play with objects, conditional statements, arrays, functions, form validations, loops, sorting and so much more.",
-            "At Book My Shiksha, students would be able to incorporate the sheer power of dynamic page development with the help of MySQL database. Learn how to create tables and user management. Students will also be able to formulate database connections and execute SQL statements from PHP scripts. This is the best PHP online course in Delhi as we always give priority to script security, and efficiency of execution."], 
+            "The Hyperlink Preprocessor course at BookMyShiksha offers learners a comprehensive guide to learn coding in PHP. Starting with the basics, this course also dives into MySQL Databases for user driven functionality that’s dynamic. Sign up today for the best PHP training course in Delhi. Understand how to work with variable declarations, and data outputs. Play with objects, conditional statements, arrays, functions, form validations, loops, sorting and so much more.",
+            "At BookMyShiksha, students would be able to incorporate the sheer power of dynamic page development with the help of MySQL database. Learn how to create tables and user management. Students will also be able to formulate database connections and execute SQL statements from PHP scripts. This is the best PHP online course in Delhi as we always give priority to script security, and efficiency of execution."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Formulate a Content Management System (CMS). Use MySQL Databases efficiently. Have a thorough understanding of Object Oriented Programming (OOP). Launch your applications online. Use forms to submit data. Handle AJAX to submit data without having to refresh the page. Understand the layers of PHP security. Debug your own programs. Use API to get data from a database into a graphic user interface.']},
             {heading:'Who is this course for?',about:[
-                "The PHP course at Book My Shiksha is specially designed for developers that are looking to understand the fundamentals of PHP. Learners that want to integrate MySQL Databases into PHP applications. People that want to code in PHP. Anybody that has an interest in understanding the intricacies of PHP in Delhi NCR."
+                "The PHP course at BookMyShiksha is specially designed for developers that are looking to understand the fundamentals of PHP. Learners that want to integrate MySQL Databases into PHP applications. People that want to code in PHP. Anybody that has an interest in understanding the intricacies of PHP in Delhi NCR."
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Command-line Scripting, Database Concepts, Server-side Scripting, Desktop Application Development, Web Development Careers, Compiler Based Applications, Computer Programmer."]},
             {heading:'Prerequisite knowledge:',about:["No prior PHP programming knowledge is necessary. Basic computer knowledge is essential."]},
@@ -854,10 +853,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for PhP Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for PhP Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -865,7 +864,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During PhP Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -912,10 +911,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for HTML5-CSS3-JS Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for HTML5-CSS3-JS Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -923,7 +922,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During HTML5-CSS3-JS Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -951,8 +950,8 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Angular Training',
         about: [
-            "Through this course at Book My Shiksha, you will be able to learn the complexities of Angular 13. Learn to develop modern, responsive, and scalable web applications. Get a thorough understanding of the architecture behind an Angular application, and how to apply it. Gain an in-depth understanding of the Angular fundamentals. Be able to create single-page applications with modern JavaScript frameworks by enrolling for the best Angular training course in Delhi.",
-            "Through this course at Book My Shiksha, learners can use the Angular CLI and work on projects that will allow you to implement everything that you have learnt."], 
+            "Through this course at BookMyShiksha, you will be able to learn the complexities of Angular 13. Learn to develop modern, responsive, and scalable web applications. Get a thorough understanding of the architecture behind an Angular application, and how to apply it. Gain an in-depth understanding of the Angular fundamentals. Be able to create single-page applications with modern JavaScript frameworks by enrolling for the best Angular training course in Delhi.",
+            "Through this course at BookMyShiksha, learners can use the Angular CLI and work on projects that will allow you to implement everything that you have learnt."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Work on projects right from Setup to Deployment. Understand Components, Services, Directives, Forms, HTTP Access, Optimisation of Angular App with Modules, and Offline Compilation. Use databinding for your projects. Have a clear understanding of pipes and how to incorporate them. Have an idea of NgRx and complex state management. Use modules in Angular efficiently.']},
             {heading:'Who is this course for?',about:[
@@ -970,10 +969,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Angular Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Angular Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -981,7 +980,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Diploma in Angular Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -1009,7 +1008,7 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Node Training',
         about: [
-            "With this course at Book My Shiksha, you will learn to master the modern back-end stack entirely. Learn how to build a superb, real-world application that is complete from start to finish with API and server rendered website. Build a RESTful API that is fast, scalable and resourceful. It will include filters, pagination, and sorts. Understand the concept of Node by enrolling for the best Node training course in Delhi.",
+            "With this course at BookMyShiksha, you will learn to master the modern back-end stack entirely. Learn how to build a superb, real-world application that is complete from start to finish with API and server rendered website. Build a RESTful API that is fast, scalable and resourceful. It will include filters, pagination, and sorts. Understand the concept of Node by enrolling for the best Node training course in Delhi.",
             "Furthermore, you will also learn how to work with data in NoSQL databases with geospatial data. Be able to use advanced authorization and authentication techniques including password reset through the best Node online course in Delhi NCR."], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Have a clear understanding of the behind the scenes including event loop, streams, blocking vs non-blocking code, modules. Incorporate encryption, sanitisation, and rate limiting in your codes. Deploy final application to production. Download code, video, and design assets for projects at Book My Shiksha.']},
@@ -1028,10 +1027,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Node Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Node Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -1039,7 +1038,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Node Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -1067,7 +1066,7 @@ export const courses = [
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'React Training',
         about: [
-            "Learners can get an introduction to React.js. At Book My Shiksha, you will learn the core basics along with the components, props and dynamic data binding. Understand how to work with user events and state to create interactive applications. Gain knowledge on working with lists, and conditional content. Work with in-built and custom hooks by enrolling for the best React training course in Delhi.",
+            "Learners can get an introduction to React.js. At BookMyShiksha, you will learn the core basics along with the components, props and dynamic data binding. Understand how to work with user events and state to create interactive applications. Gain knowledge on working with lists, and conditional content. Work with in-built and custom hooks by enrolling for the best React training course in Delhi.",
             ], 
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Deploy React applications. Check for authentication. Have a clear understanding on debugging React applications. Be proficient at working with fragments and portals through this course at Book My Shiksha. Apply class based and functional components. Use React Hooks efficiently in your career.']},
@@ -1086,10 +1085,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for React Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for React Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -1097,7 +1096,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Diploma in React Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -1144,10 +1143,10 @@ export const courses = [
             {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
         },
         trainesrsCards : {
-          heading:'Book My Shiksha Corporate Trainers Profile for Python Django Training',
+          heading:'BookMyShiksha Corporate Trainers Profile for Python Django Training',
             points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
             {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-            {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+            {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
             {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
             {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
             {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -1155,7 +1154,7 @@ export const courses = [
         },
         placementCards : {
           heading:'Placement Facility During Python Django Training',
-          points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
@@ -1186,7 +1185,7 @@ export const courses = [
           "If you are looking to become an SEO Expert by mastering search engine optimization tools and strategies, then this course is for you. Learn the theory of Google search along with other search engine algorithms. Build practical, real-world skills to apply in projects, or for the businesses of your clients to achieve the best ranking. Optimise the websites for local, and international audiences.",
           "The Social Media Optimization course provides you with the right set of skills to optimize your efforts for social media marketing. Our educators at Book My Shiksha offer the best social media optimization course in the national capital region. You will be able to learn to accurately evaluate and interpret the recordings of various advertising campaigns. Learn how to smartly assess the effectiveness of advertising by using lift studies and optimize the campaigns with split tests. Understand how advertising efficiency is interpreted across devices, and platforms. Learn how to analyse the return of investment of your marketing systems, and master the art of communicating your social media marketing recordings to the rest of the team in the company."], 
       aboutSections : [
-          {heading:'By the end of this course, you will be able to:',about:['The tutors at Book My Shiksha will help you become the best versions of yourself, and help you emerge as the leader amongst your colleagues. Post the completion of this course, you will be able to.']},
+          {heading:'By the end of this course, you will be able to:',about:['The tutors at BookMyShiksha will help you become the best versions of yourself, and help you emerge as the leader amongst your colleagues. Post the completion of this course, you will be able to.']},
           {heading:'Who is this course for?',about:[
               "This course is for Freshers, Sales Professionals, Traditional Marketers, Brand and Communication Managers, and Entrepreneurs who are interested in analyzing their campaign marketing recordings, and enhancing their campaigns. Learners do require any prior marketing experience but should possess basic internet navigation skills and have a thirst to participate and connect with new people on social media. Having a Facebook or Instagram account makes things easier."
           ]},
@@ -1202,10 +1201,10 @@ export const courses = [
           {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
       },
       trainesrsCards : {
-        heading:'Book My Shiksha Corporate Trainers Profile for Socila Media Optimization Training',
+        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
           points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
           {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-          {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
           {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
           {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
@@ -1213,7 +1212,7 @@ export const courses = [
       },
       placementCards : {
         heading:'Placement Facility During Social Media Optimization Training',
-        points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
         {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
         {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
         },
@@ -1235,5 +1234,299 @@ export const courses = [
           ]},
           
         ], 
-  },
+    },
+    {
+      heading:'MongoDB Training',
+      subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+      aboutHeading:'MongoDB Training',
+      about: [
+          "This course will help you understand MongoDB quickly. It will teach you how to leverage the power of this tool for data analytics. Students will master the fundamentals of MongoDB, including MongoDB’s Document data model, working with CRUD API, importing data into clusters, and Aggregation Framework.",
+          "MongoDB is a document related data store that is super easy to work with. It scales up well as the application grows. The schemaless nature of the tool allows impressive flexibility and helps in customising the requirements of the application. At Book My Shiksha, we offer the best MongoDB training course in Delhi NCR.  It is one of the finest databases in terms of developer productivity.",
+          "It is one of the most important NoSQL databases that are available in the market right now. It is widely popular, and MongoDB developers are very much in demand. Learn the intricacies of this tool through Book My Shiksha. Use MongoDB to its fullest potential for future projects, and clients. Write the best performing queries that are efficient to fetch data in the format that is required. Learn to use all the features of this database program to smartly apply them in your line of work."], 
+      aboutSections : [
+          {heading:'By the end of this course, you will be able to:',about:['Install and use the database program to use locally and in the cloud. Perform create, read, update, delete (CRUD) tasks on the database. Filter data efficiently for work purposes. Work with Mongo Shell, and drivers such as Node.js drivers. Use the right indexes whilst increasing the overall performance. Use the built in "Aggregation Framework". Have a clear understanding of replica sets, and shading. Incorporate the usage of the serverless platform “Stitch” from MongoDB.',"This is the best hands on course for MongoDB training in Delhi. And, at Book My Shiksha, we will encourage learners to work with a vast array of sample data, and use cases. By the end of the course, you will have all the knowledge you need to possess to work with MongoDB in your career.","Regardless of which programming language you’re comfortable using, our curated course syllabi will help you learn a systematic way of interacting with MongoDB that can be applied to any of the programming languages."]},
+          {heading:'Who is this course for?',about:[
+              "This course is for developers, data scientists that are planning on working with MongoDB. It is for anybody that is interested in learning the best MongoDB online course in Delhi. It is for beginners, and advanced NoSQL database users who want to explore the core features of this program."
+          ]},
+          {heading:'Job opportunities after finishing this course:',about:["Software developer, MongoDB Developer,programmer, coder, software specialist."]},
+          {heading:'Prerequisite knowledge:',about:["To enroll in this course at Book My Shiksha, a learner does not have to possess any prior knowledge about MongoDB. A general mobile development or web-development knowledge will be a bonus, but it is not mandatory. You can use any operating system such as Windows, MacOS, or Linux."]},
+      ],
+      whyUsCards: {
+        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
+          points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+          {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+          {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+          {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+          {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+      },
+      trainesrsCards : {
+        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
+          points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+          {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+          {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+          {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+      },
+      placementCards : {
+        heading:'Placement Facility During Social Media Optimization Training',
+        points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+        {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+        },
+        sections : [
+          {id:0,sectionName:'Introduction to Programming  ',about:[ 
+            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          ]},
+          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          ]},
+          {id:2,sectionName:'Special Features',about:[ 
+            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          ]},
+          
+        ], 
+    },
+    {
+      heading:'SQL Training',
+      subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+      aboutHeading:'SQL Training',
+      about: [
+          "This course covers the basics of SQL to help learners read and write queries for a database. Work with the world’s best recognised tools to excel in this career path. Use the most advanced languages out there to understand the SQL syntax. Learners would be able to analyse, understand the different layers of the SQL database.",
+          "Enroll for the best SQL training course in Delhi to learn to read and write queries to a database using the most in demand programs- PostgreSQL. By joining this course, you will be able to apply these skills to the other major SQL databases such as Microsoft SQL Server, MySQL, Amazon Redshift, and Oracle amongst others.",
+          "Adding SQL skills is one of the best ways to add skills to your repertoire, and at Book My Shiksha, we take this a step forward by curating a course structure that has the best, concise syllabus. Through the best SQL online training certification in Delhi you will be able to swiftly learn and implement the skills to challenges and tests."], 
+      aboutSections : [
+          {heading:'By the end of this course, you will be able to:',about:["Work on two of the world’s most recognised SQL tools- PostgreSQL , and PgAdmin. Have a thorough understanding of the SQL syntax. Analyse data using the GROUP BY commands. Run advanced queries with string, and comparison operations. Add logic flow to your SQL queries by using logical operators. Understand SQL JOIN commands. Create tables, and databases along with constraints on different data entries.","By learning this course at Book My Shiksha, you will be able to set up, control, restore databases efficiently whilst tackling fresh challenges, and tasks that are modeled after real world queries, and situations."]},
+          {heading:'Who is this course for?',about:[
+              "This course is for anybody that is interested in learning more about SQL, PostgreSQL, or basic data analysis."
+          ]},
+          {heading:'Job opportunities after finishing this course:',about:["Software developer, programmer, coder, software specialist,SQL Developer"]},
+          {heading:'Prerequisite knowledge:',about:["Learners do not have to possess any prior knowledge about SQL. However, a general mobile development knowledge or web-development understanding will be a bonus, but it is not mandatory. You would be able to use any operating systems such as Windows, MacOS, or Linux."]},
+      ],
+      whyUsCards: {
+        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
+          points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+          {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+          {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+          {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+          {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+      },
+      trainesrsCards : {
+        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
+          points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+          {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+          {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+          {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+      },
+      placementCards : {
+        heading:'Placement Facility During Social Media Optimization Training',
+        points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+        {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+        },
+        sections : [
+          {id:0,sectionName:'Introduction to Programming  ',about:[ 
+            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          ]},
+          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          ]},
+          {id:2,sectionName:'Special Features',about:[ 
+            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          ]},
+          
+        ], 
+    },
+    {
+      heading:'Oracle Training',
+      subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+      aboutHeading:'Oracle Training',
+      about: [
+          "Become a master of Oracle SQL Databases. Master the creation and editing of databases with Oracle SQL. The course is intended to become a proficient writer of Oracle SQL codes to create, modify, and edit the databases. Explore the Oracle database foundations, discover the platform, and try your hand at applying the basics to become a great Oracle master.",
+          "By enrolling in the best Oracle training course in Delhi, you will be able to understand Database terminology. Learn to retrieve data from a database by using SQL command (Select). Understand how to filter data based on business requirements using SQL command (Where). Through Book My Shiksha, you will be able to create tables, and modify the structure using Create, and Alter SQL commands. Learn to join data from different tables using SQL joins."], 
+      aboutSections : [
+          {heading:'By the end of this course, you will be able to:',about:["After pursuing this course at Book My Shiksha, you can use SQL programs comfortably to make your queries super efficient. Combine data from 2 or more tables by using keywords such as Union, Union All, Intersect, Minus. Enforce constraints on tables using commands like Create and Alter. Create views using the SQL command Create View. Create database objects like Synonyms, and Sequences using SQL Commands. Control access of users by using Grant, Revoke commands. Improve the performance by using the Create Index command. Communicate what you have learnt and implemented to other members of the team, or to colleagues."]},
+          {heading:'Who is this course for?',about:[
+              "This course is for learners that are not familiar with SQL syntax. It is for students who are looking for a quick refresher course on SQL and other vital database concepts.","Enroll for the best Oracle course online in Delhi NCR at Book My Shiksha to enrich your career."
+          ]},
+          {heading:'Job opportunities after finishing this course:',about:["Data Administrator, Developer, Implementer, Consultant, Data Scientist/Business Analyst."]},
+          {heading:'Prerequisite knowledge:',about:["Learners do not have to possess any prior knowledge about Oracle. However, a general programming understanding will be a bonus, but it is not mandatory. You would be able to use any operating systems such as Windows, MacOS, or Linux."]},
+      ],
+      whyUsCards: {
+        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
+          points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+          {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+          {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+          {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+          {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+      },
+      trainesrsCards : {
+        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
+          points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+          {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+          {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+          {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+      },
+      placementCards : {
+        heading:'Placement Facility During Social Media Optimization Training',
+        points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+        {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+        },
+        sections : [
+          {id:0,sectionName:'Introduction to Programming  ',about:[ 
+            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          ]},
+          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          ]},
+          {id:2,sectionName:'Special Features',about:[ 
+            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          ]},
+          
+        ], 
+    },
+    {
+      heading:'PowerBi Training',
+      subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+      aboutHeading:'PowerBi Training',
+      about: [
+          "This course is for learners who are looking to venture into the world of the Power BI Desktop software. It is a free Business Intelligence app from Microsoft that allows you to load, visualize, and transform data. Learn to create reports and dashboards efficiently, and swiftly. Be able to deliver impressive business solutions to transform businesses.",
+          "At Book My Shiksha, you will be able to build professional business intelligence reports from scratch. Learn to blend, and transform raw data into great interactive dashboards. Showcase in demand skills with practical experience by joining the best Power BI training course in Delhi NCR. Understand end-to-end business intelligence workflow.",
+          "Our educators at Book My Shiksha will teach you how to design, and deliver impeccable end-to-end business intelligence solutions that’s of professional quality. They will share clear explanations, tips, and tricks every step of the way. Learn to follow a steady progression that’s through a systematic Power BI workflow."], 
+      aboutSections : [
+          {heading:'By the end of this course, you will be able to:',about:["Differentiate and understand the different types of Power BI data connectors. Understand basic table transformations. Master how to group, and aggregate data. Merge, Modify and Append queries. Have a thorough understanding of the best Power BI practices.","Through the best Power BI online course in Delhi, you will be able to develop an entire business intelligence tool from scratch using Power BI and have the confidence to apply similar concepts to your future Power BI projects."]},
+          {heading:'Who is this course for?',about:[
+              "This is for people that are looking for the best Power BI online training in the national capital region to participate in a hands-on, project oriented introduction to the Power BI tool. Excel users, and data analysts looking to develop advanced data modelling, business intelligence skills, and dashboard design. Aspiring data professionals who want to master the best business intelligence that is available right now."
+          ]},
+          {heading:'Job opportunities after finishing this course:',about:["Business Intelligence Analyst, Power BI Data Developer, Senior Software Engineer."]},
+          {heading:'Prerequisite knowledge:',about:["Learners do not have to possess any prior knowledge about Power BI. However, a general understanding with Power Pivot, Excel Power Query, and DAX will be a bonus, but it is not mandatory. You would be able to use Power BI only on Windows as it is currently unavailable for MacOS/Linux."]},
+      ],
+      whyUsCards: {
+        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
+          points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+          {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+          {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+          {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+          {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+      },
+      trainesrsCards : {
+        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
+          points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+          {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+          {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+          {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+      },
+      placementCards : {
+        heading:'Placement Facility During Social Media Optimization Training',
+        points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+        {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+        },
+        sections : [
+          {id:0,sectionName:'Introduction to Programming  ',about:[ 
+            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          ]},
+          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          ]},
+          {id:2,sectionName:'Special Features',about:[ 
+            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          ]},
+          
+        ], 
+    },
+    {
+      heading:'Tablue Training',
+      subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+      aboutHeading:'Tablue Training',
+      about: [
+          "Learn how to visualize business data with Tableau. Understand how to create impactful business intelligence reports. This course on Tableau is for newcomers who are looking to dive into the world of data visualisation. You will use the tool’s library of resources to offer best practices for data visualisation, and storytelling. Generate powerful reports and dashboards to improve businesses and increase revenue.",
+          "By signing up for the best Tableau training course in Delhi, learners would be able to have an understanding about data visualization through Tableau 2020. Learners can create opportunities for themselves or key decision-makers to explore various data patterns such as sales trends, production bottlenecks, or customer purchase behavior that can enhance their businesses and boost sales.",
+          "Through Book My Shiksha, you will be able to learn all the different tools and features in Tableau."], 
+      aboutSections : [
+          {heading:'By the end of this course, you will be able to:',about:["Explore, experiment, create, fix, and present all the knowledge you possess for your projects. Whether they are your own projects, or for your clients you would be in a position to excel in your career. Efficiently connect, analyse, blend, calculate and join data in Tableau to a variety of datasets. Visualise data in the form of Charts, Plots, and Maps in a seamless manner. Demonstrate locations using geographic maps. Sort, filter, and group data easily by joining the best Tableau online course in Delhi."]},
+          {heading:'Who is this course for?',about:[
+              "This course is for people that are looking to learn and understand Tableau from scratch. If you are a novice that’s looking to sharpen your skills, then enroll for this course today at Book My Shiksha. If you are somebody that’s looking to transform businesses by offering better solutions or excel in your career, this course is for you."
+          ]},
+          {heading:'Job opportunities after finishing this course:',about:["Tableau Consultant, Data Analyst, Business Intelligence Analyst, Business Analyst, Business Intelligence Developer, Business Analyst, Business Intelligence Manager"]},
+          {heading:'Prerequisite knowledge:',about:["Familiarity with Excel is great, but not mandatory. Learners need to have access to a computer using Windows or MacOS. The setup and installation instructions are included for each operating system. Everything else that is required to start using Tableau is included in the course."]},
+      ],
+      whyUsCards: {
+        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
+          points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+          {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+          {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+          {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+          {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+      },
+      trainesrsCards : {
+        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
+          points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+          {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+          {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+          {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+      },
+      placementCards : {
+        heading:'Placement Facility During Social Media Optimization Training',
+        points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+        {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+        },
+        sections : [
+          {id:0,sectionName:'Introduction to Programming  ',about:[ 
+            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          ]},
+          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          ]},
+          {id:2,sectionName:'Special Features',about:[ 
+            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          ]},
+          
+        ], 
+    },
 ]
