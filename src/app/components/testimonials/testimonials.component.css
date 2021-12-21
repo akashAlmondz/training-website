@@ -28,7 +28,7 @@
     overflow: hidden;
     justify-content: center;
     align-items: flex-start;
-    padding: 1% 10%;
+    padding: 0 10%;
     transition: 0.2s;
   }
   .testimonial .cards .card {
@@ -37,8 +37,9 @@
     border: 1px solid #1874d2;
     width: 350px;
     min-height: 100px;
-    padding: 5px 6px 7px 120px;
-    margin: 40px 50px 100px 50px;
+    padding: 5px 6px 15px 120px;
+    margin: 100px 50px;
+    border-radius: 5px;
   }
   
   .testimonial .cards .card img {
@@ -48,27 +49,39 @@
     top:-50px;
     left: 2%;
   }
-  .testimonial .cards .card p {
-
+  .testimonial .cards .card p:nth-child(3) {
+    font-size: 20px;
+  }
+  .testimonial .cards .card .message{
+    height: 42px;
+    overflow: hidden;
     color: rgb(119, 119, 119);
+    transition: .4s;
   }
-  .open {
-    box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.479);
+  .testimonial .cards .card .readMore{
+    color: rgb(43, 43, 43);
+    height: auto;
+    transition: .4s;
+    overflow: visible;
   }
-  
-  .testimonial .cards .card h5 {
+  .testimonial .cards .card p:nth-child(5){
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    font-size: 10px;
+    color: #84c4ff;
     cursor: pointer;
-    color: rgb(151, 151, 151);
-    font: 100;
-    width: fit-content;
   }
+ 
+  
+
   .testimonial .viewMore {
     height: 70vh;
     width: 70%;
     overflow: auto;
     position: fixed;
     top: 20%;
-    padding: 20px 0 0 0;
+    padding: 40px 0 0 0;
     box-shadow: 30px 40px 150px rgba(0, 0, 0, 0.411);
     border: 2px solid rgb(238, 238, 238);
     z-index: 30;
@@ -81,8 +94,8 @@
     height: 100vh;
     width: 100%;
     top: 0;
-    background-color: #ffffff60;
-    backdrop-filter: blur(1px);
+    background-color: #ffffff88;
+    /* backdrop-filter: blur(1px); */
     z-index: -1;
   }
   .testimonial .viewMore .card {
@@ -131,12 +144,7 @@
     color: #1874d2;
     transition: 0.1s;
   }
-  .testimonial .viewMore .readless {
-    position:absolute;
-    width: 100%;
-    height: 200%;
-    top: 0;
-  }
+
   .testimonial .viewMore .fa-times-circle:hover {
     cursor: pointer;
     transform: scale(102%);
@@ -152,11 +160,13 @@
   }
 
   @media (max-width: 960px){
-    .testimonial .viewMore{
-      width: 90%;
-    }
     .testimonial .cards{
       padding:0 5%;
+      height: 200px;
+    }
+    .testimonial .viewMore{
+      width: 100%;
+      height: 70vh;
     }
     .testimonial .cards .card{
       width: 500px;
