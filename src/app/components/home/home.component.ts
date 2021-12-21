@@ -16,10 +16,10 @@ export class HomeComponent implements OnInit {
   ]
 
   report = [
-    {name:'Projects',value:'3500+',icon:'fas fa-edit'},
-    {name:'Satisfied Learners',value:'61,640',icon:'far fa-user'},
-    {name:'Assignments',value:'25,000+',icon:'far fa-file-code'},
-    {name:'Hours Classes',value:'250,000+',icon:'far fa-clock'},
+    {name:'Projects',value:'15+',icon:'fas fa-edit'},
+    {name:'Satisfied Learners',value:'40+',icon:'far fa-user'},
+    {name:'Assignments',value:'30+',icon:'far fa-file-code'},
+    {name:'Hours Classes',value:'120+',icon:'far fa-clock'},
   ]
 
   list = [
