@@ -13,17 +13,12 @@ nav {
 .menu{display: none;}
 main {
     width: 100%;
-    /* height: 80px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     
-    /* background-color: rgba(255, 255, 255, 0.541); */
-    /* backdrop-filter: blur(10px); */
-    /* border-bottom: 0.1px solid white; */
-    /* border-left: 0.1px solid white; */
-    /* border-radius: 5px; */
 }
+
 .scholarship p {
     background-color: #ff6b1b;
     color: white;
@@ -74,21 +69,23 @@ main .logo img{
 
 
 .allCoursesButton{background-color: #2e97ff;
+    display: flex;
     color: white;
     padding: 10px;
     border-radius: 5px;
     transition: .4s;
 }
-.allCoursesButton i{transition: .4s;}
+.allCoursesButton i{transition: .1s;width: 20px;height: 20px; display: flex;justify-content: center;align-items:flex-start;}
 .allCoursesButton:hover{box-shadow: 3px 3px 5px rgba(0, 96, 199, 0.57),-3px -3px 5px rgba(0, 24, 84, 0.213);
     cursor: pointer;}
 
 .sticky{box-shadow: 0 5px 8px rgba(157, 157, 157, 0.199);z-index: 40;background-color: white;}
 
-.training:hover   .hidden{transform: translateY(0vh);}
-.company:hover  .hidden{transform: translateY(0vh);}
-.company .hidden, .training .hidden{display:flex;background-color: white;flex-direction: column;position: absolute;padding: 10px 0 0 0;transform: translateY(-100vh);transition: .4s;}
+
+.company .hidden, .training .hidden{display:flex;background-color: white;flex-direction: column;position: absolute;padding: 10px 0 0 0;transform: translateY(-100vh);transition: .4s;z-index: -20;}
 .training .hidden p,.company .hidden p{padding:5px 5px;color: black;margin: 5px 0;}
+.training p:hover , .company p:hover{cursor: pointer;color: #2e97ff;}
+.training p i, .company p i {transition: .1s;transform: translateY(-2px);}
 
 .allCourses .hidden{padding: 20px 0 0 0; display:flex;transform: translateY(-100vh); left: 0; justify-content:space-around; position: absolute;width:100%;background-color: rgb(255, 255, 255);transition: .4s;z-index: -2;}
 .allCourses .hidden .category{padding: 10px 0;margin: 0 1px;}
@@ -96,17 +93,42 @@ main .logo img{
 .allCourses .hidden div .sub{margin: 1px 0 0 0;}
 .allCourses .hidden div .sub p{margin: 1px 0 0 0;color: black; background-color: rgb(255, 255, 255);padding: 7px 5px;font-size: 14px;}
 .allCourses .hidden div .sub p:hover{cursor: pointer;color: #1874d2;}
-.allCourses .showCourses{transform: translateY(1vh);}
-.menu .options{
-    position:absolute;background-color: white;padding: 20px 0;left: 0;width: 100%;transition: .4s;
-    display: flex;flex-direction: column;align-items: center;transition: .4s;z-index: -1;height: 100vh;transform: translateX(-200vh);
+.allCourses .showDropdown{transform: translateY(0vh);}
+.company .showDropdown{transform: translateY(0vh);}
+.training .showDropdown{transform: translateY(0vh);}
+.menu .optionHolder{
+    width: 100%;position: absolute;height: 100vh;top: 0;left: 0;transform: translateX(-200vh);z-index: 2;
+    background-color: rgba(48, 48, 48, 0.296);
 }
+.menu .options{
+    width: 60%;
+    height: 100%;
+    padding: 10px  10px 0 10px;
+    display: flex;flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(-200vh);
+    transition: .4s;
+}
+.menu .scholarship{display: flex;width: 100%;justify-content: center;margin-top: 20px;}
+.menu .scholarship p{padding:5px;width: fit-content;color: white;}
+.menu .options .img{width:100%;display: flex;justify-content: center;margin-bottom: 20px;}
+.menu .options .img img{width:50%;}
 .menu i{transition: .4s;}
 .menu .show{transform: translateX(0vh);}
 
  .options p{
-    padding: 10px;
+    padding: 10px 0;color: rgb(84, 84, 84);
 }
+.options p:hover{color: #1874d2;cursor: pointer;}
+.options p i{width: 25px;text-align: start;}
+.menu .optionHolder .socialMedia{
+  width: 100%;display: flex;justify-content: space-between;margin-top: 20px;padding: 0 20px;
+}
+.links{position: relative;}
+.links::after{position: absolute;content: '';background-color: gray;height: 1px ;width: 100%;}
+.links::before{position: absolute;content: '';background-color: gray;height: 1px ;width: 100%;}
+
+.menu .optionHolder .socialMedia img{width: 10%;}
 .course .menuButton{
     background-color: #1874d2;
     color: white;
@@ -120,7 +142,8 @@ main .logo img{
     transition: .4s;
 }
 .rotate{
-    transform: rotate(180deg);
+    transform:  translateY(5px);
+
 }
 .rotate1{
     transform: rotate(90deg);
@@ -185,16 +208,7 @@ main .logo img{
 .courseList p:hover{
     color: #2e97ff;
 }
-app-links{
-    position: absolute;
-    top: 10vh;
-    left: 0;
-}
-app-social{
-    top: 10vh;
-    right: 0;
-    position: absolute;
-}
+
 .popUp{
     position:fixed;
     height: 100vh;
@@ -212,6 +226,9 @@ app-social{
 
 .show{
     transform: translateY(-8vh);
+}
+.show .options{
+    transform: translateX(0vh);
 }
 .popUp2{
     /* transform: translateY(0vh); */
@@ -301,4 +318,5 @@ app-social{
    .popUp .holder{flex-direction: column;width: 90%;height: auto;}
    .popUp .holder .img{width: 50%;align-items: center;}
    .popUp .holder .form {width: 100%;height: auto;}
+   main .logo{margin:0 0 0 0 ;z-index: 1;}
 }

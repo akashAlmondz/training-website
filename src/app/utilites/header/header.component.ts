@@ -87,13 +87,19 @@ export class HeaderComponent implements OnInit {
       {name:'Masters in Machine Learning', routerLink:'courses/Masters_in_Machine_Learning_course_DelhiNCR'},
     ]}
   ]
+  socialMedia = [
+    {img:'assets/images/fb.svg'},
+    {img:'assets/images/lin.svg'},
+    {img:'assets/images/insta.svg'},
+    {img:'assets/images/twt.svg'},
+  ]
 
   
-  popUp = 0
-  showCourses = false
-  activeSection = 0
-  activeList = this.courseList[this.activeSection].courses
-  toggle:string = "none"
+  popUp = 0;
+  showDropdown = 0;
+  activeSection = 0;
+  activeList = this.courseList[this.activeSection].courses;
+  toggle:string = "none";
   show(value:string){
     if(value==this.toggle){
       this.toggle = "none"
@@ -107,8 +113,13 @@ export class HeaderComponent implements OnInit {
     this.activeSection = this.courseList.indexOf(value)
     this.activeList = this.courseList[this.activeSection].courses
   }
-  toggleCourses(){
-    this.showCourses = !this.showCourses
+  toggleDropdown(value:any){
+    if (value == this.showDropdown){
+      this.showDropdown = 0
+    }
+    else{
+      this.showDropdown = value
+    }
   }
   togglePopup(value:any){
     this.popUp = value

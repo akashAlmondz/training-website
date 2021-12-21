@@ -23,21 +23,17 @@ export class TestimonialsComponent implements OnInit {
     {id:9, name:'Shubham', message:'BookMyShiksha guided me to my career path, Thank you',img:'assets/images/auth.jpg'},
   ]
 
-  selectedMessage = 0
-  readMore(id: any) {
-    this.selectedMessage=id
-    this.expendReviews = true
-  }
+ 
   
  
   expendReviews = false
   viewMore() {
     this.expendReviews = !this.expendReviews
-    this.selectedMessage = 0
+    
   }
   viewLess(){
     this.expendReviews = false
-    this.selectedMessage = 0
+    
   }
 
 }
