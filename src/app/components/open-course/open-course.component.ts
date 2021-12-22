@@ -56,13 +56,6 @@ courseFeatures = [
   {img:'fas fa-hands-helping',name:'Carrer guiedlines'},
 ]
 
-
-
-
-
-
-
-
 processCard = [
   {id:1,name:'Fill the application form', about:'Jump start your learning journey by filling up the form'},
   {id:2,name:'Interview Process', about:'Test your skill by going through screening call with our interviewers'},
@@ -89,6 +82,6 @@ showCertificate(value:number){
   this.openedCertificate = value
 }
 
-
+showPopup = true
 
 }

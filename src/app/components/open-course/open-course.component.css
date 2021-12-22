@@ -571,6 +571,52 @@ table button {
   border-radius: 10px;
   height: fit-content;
 }
+.enrollNow{
+  top: 0 ;
+  z-index: 21;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(182, 182, 182, 0.466);
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+.enrollNow .form{
+  width: 45%;
+  height: 55%;
+  display: flex;
+  background-color: white;
+  padding:1%;
+  border: 5px solid #4692E2;
+  border-radius: 5px;
+  position: relative;
+}
+.enrollNow .form i{
+  position: absolute;
+  top: 5px ;
+  right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.enrollNow .form img{width: 40%;}
+.enrollNow .form form{
+  width: 60%;
+  height: 100%;
+  padding: 10px 0;
+}
+.enrollNow .form form input{
+  border: none;
+  border-bottom:1px solid black ;
+  width: 50%;
+}
+.enrollNow .form form input:focus{
+  outline: none;
+  border-bottom: 1px solid #4692E2;
+}
+.enrollNow .form form label{
+  font-size: 14px;
+}
 @media (max-width: 960px){
   .landing{
     flex-direction: column;
