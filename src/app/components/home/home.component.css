@@ -271,9 +271,9 @@
   width: 100%;
   display: flex;
   /* align-items: center; */
-  justify-content: center;
+  justify-content:space-between;
   flex-wrap: wrap;
-  /* padding: 1% 1% 4% 1%; */
+  padding:0 5%;
 }
 
 .services .cards .card {
@@ -281,7 +281,7 @@
   align-items: flex-start;
   flex-direction: column;
   width: 300px;
-  margin:20px;
+  margin:20px 0;
   border-radius: 5px;
   transition: .4s;
   padding:20px;
@@ -329,7 +329,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 2%;
+  padding:5% 0;
 }
 .upcoming .cards .card .date {
   padding: 2%;

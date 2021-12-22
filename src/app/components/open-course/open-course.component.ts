@@ -82,6 +82,8 @@ showCertificate(value:number){
   this.openedCertificate = value
 }
 
-showPopup = true
-
+showPopup = false
+enrollNow(value){
+  this.showPopup = value
+}
 }

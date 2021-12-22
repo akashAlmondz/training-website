@@ -581,6 +581,8 @@ table button {
   display: flex;  
   align-items: center;
   justify-content: center;
+  transform: translateY(-200vh);
+  backdrop-filter: blur(1px);
 }
 .enrollNow .form{
   width: 45%;
@@ -591,6 +593,14 @@ table button {
   border: 5px solid #4692E2;
   border-radius: 5px;
   position: relative;
+  transform: translateY(-200vh);
+  transition: .4s;
+}
+.showForm{
+  transform: translateY(0vh); 
+}
+.showForm .form{
+  transform: translateY(0vh);
 }
 .enrollNow .form i{
   position: absolute;

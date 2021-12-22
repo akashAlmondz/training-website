@@ -6,7 +6,7 @@
     <div class="about">
         <p class="courseName" >{{course.heading}}</p>
         <p class="aboutCourse" >{{course.subHeading}}</p>
-        <p class="enrolNow" >Enrol Now</p>
+        <p class="enrolNow" (click)="enrollNow(true)" >Enrol Now</p>
         <div class="report">
             <div>
                 <b>50+</b>
@@ -104,31 +104,31 @@
                 <td>Mon-Sun</td>
                 <td>15<sup>th</sup> jan. 2022</td>
                 <td>9AM-6PM</td>
-                <td><button>Enroll Now</button></td>
+                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
             </tr>
             <tr>
                 <td>Mon-Sun</td>
                 <td>20<sup>th</sup> jan. 2022</td>
                 <td>9AM-6PM</td>
-                <td><button>Enroll Now</button></td>
+                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
             </tr>
             <tr>
                 <td>Mon-Sun</td>
                 <td>15<sup>th</sup> jan. 2022</td>
                 <td>9AM-6PM</td>
-                <td><button>Enroll Now</button></td>
+                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
             </tr>
             <tr>
                 <td>Mon-Sun</td>
                 <td>20<sup>th</sup> jan. 2022</td>
                 <td>9AM-6PM</td>
-                <td><button>Enroll Now</button></td>
+                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
             </tr>
             <tr>
                 <td>Mon-Sun</td>
                 <td>28<sup>th</sup> Nov. 2021</td>
                 <td>9AM-6PM</td>
-                <td><button>Enroll Now</button></td>
+                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
             </tr>
         </table> 
         <div class="courseFeatures">
@@ -202,9 +202,9 @@
     </div>
     
 </main>
-<div *ngIf="showPopup" class="enrollNow">
-    <div class="form">
-        <i class="far fa-times-circle"></i>
+<div [ngClass]="showPopup==true? 'showForm': '' " class="enrollNow">
+    <div   class="form">
+        <i (click)="enrollNow(false)" class="far fa-times-circle"></i>
         <img src="assets/images/enrollNow.svg" alt="">
         <form action="">
             <input type="text" placeholder="Name" >
@@ -214,6 +214,7 @@
             <label for="">When Would You Like    To Join</label>
             <input type="date">
             <span>
+                
             </span>
             <textarea name="" id="" cols="24" rows="5" placeholder="Enter Your Message" ></textarea>
         </form>
