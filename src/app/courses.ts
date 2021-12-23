@@ -1029,6 +1029,12 @@ export const courses = [
             ]},
             
           ], 
+          projects:[
+            {id:1,img:"fas fa-building",name:'Login authentication -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-chart-line",name:'Product landing page -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-laptop",name:'Build Your Portfolio Website with HTML and CSS -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fab fa-adversal",name:'A Trivia/Quiz Game Using JS (and jQuery) -By BookMyShiksha',domainName:'Marketing & Businesss'},
+      ] , 
     },
     {
         heading:'Angular Training',
@@ -1086,7 +1092,13 @@ export const courses = [
               {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
-          ], 
+          ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Angular Bare Bones Project -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-chart-line",name:'Room Banking System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-laptop",name:'Notepad Application -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fab fa-adversal",name:'Simple Currency Converter -By BookMyShiksha',domainName:'Marketing & Businesss'},
+      ] , 
     },
     {
         heading:'Node Training',
