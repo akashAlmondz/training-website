@@ -36,7 +36,7 @@ export class HomeComponent implements OnInit {
     {name:'Diploma in Machine Learning',img:'assets/images/diplomaML.png',routerLink:'courses/Diploma_in_Machine_Learning_course_DelhiNCR'},
     {name:'Masters in Data science',img:'assets/images/mastersDS.png',routerLink:'courses/Masters_in_DataScience_course_DelhiNCR'},
     {name:'Masters in Machine Learning',img:'assets/images/mastersML.png',routerLink:'courses/Masters_in_Machine_Learning_course_DelhiNCR'},
-    {name:'Digital Marketing',img:'assets/images/dm.png',routerLink:'courses/Digital_Marketing_course_DelhiNCR'},
+    {name:'SEO',img:'assets/images/dm.png',routerLink:'courses/SEO_course_DelhiNCR'},
     {name:'RPA',img:'assets/images/robotics.png',routerLink:'courses/RPA_course_DelhiNCR'},
     {name:'Java',img:'assets/images/java.png',routerLink:'courses/Java_course_DelhiNCR'},
     {name:'.Net',img:'assets/images/website.png',routerLink:'courses/NET_course_DelhiNCR'},
