@@ -1,7 +1,6 @@
 <div class="testimonial">
     <p class="heading">What our students say</p>
     <div  class="cards" [ngClass] = "expendReviews? 'viewMore':'' "  >
-        <span id="card" ></span>
         <i (click)="readMore(0)" (click)=viewMore(false) class="far fa-times-circle"></i>
         <div  class="card" *ngFor= 'let item of reviewCards; let i as index' >
             <img [src]="item.img" alt="">

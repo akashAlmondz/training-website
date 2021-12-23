@@ -583,7 +583,7 @@ export const courses = [
       ] ,
     },
     {
-        heading:'Digital Marketing',
+        heading:'Search Engine Optimization (SEO)',
         subHeading:' Digital marketingdolor sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Search Engine Optimization (SEO)',
         about: [
@@ -1180,7 +1180,7 @@ export const courses = [
             {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
         },
         placementCards : {
-          heading:'Placement Facility During Diploma in React Training',
+          heading:'Placement Facility During React Training',
           points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
           {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
@@ -1263,70 +1263,6 @@ export const courses = [
           ], 
     },
     {
-      heading:'Social Media Optimization Training',
-      subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
-      aboutHeading:'Social Media Optimization Training',
-      about: [
-          "If you are looking to become an SEO Expert by mastering search engine optimization tools and strategies, then this course is for you. Learn the theory of Google search along with other search engine algorithms. Build practical, real-world skills to apply in projects, or for the businesses of your clients to achieve the best ranking. Optimise the websites for local, and international audiences.",
-          "The Social Media Optimization course provides you with the right set of skills to optimize your efforts for social media marketing. Our educators at Book My Shiksha offer the best social media optimization course in the national capital region. You will be able to learn to accurately evaluate and interpret the recordings of various advertising campaigns. Learn how to smartly assess the effectiveness of advertising by using lift studies and optimize the campaigns with split tests. Understand how advertising efficiency is interpreted across devices, and platforms. Learn how to analyse the return of investment of your marketing systems, and master the art of communicating your social media marketing recordings to the rest of the team in the company."], 
-      aboutSections : [
-          {heading:'By the end of this course, you will be able to:',about:['The tutors at BookMyShiksha will help you become the best versions of yourself, and help you emerge as the leader amongst your colleagues. Post the completion of this course, you will be able to.']},
-          {heading:'Who is this course for?',about:[
-              "This course is for Freshers, Sales Professionals, Traditional Marketers, Brand and Communication Managers, and Entrepreneurs who are interested in analyzing their campaign marketing recordings, and enhancing their campaigns. Learners do require any prior marketing experience but should possess basic internet navigation skills and have a thirst to participate and connect with new people on social media. Having a Facebook or Instagram account makes things easier."
-          ]},
-          {heading:'Job opportunities after finishing this course:',about:["Search Engine Optimization (SEO), Search Engine Marketing (SEM), Social Media and Content Marketing, Marketing Analytics, and Branding."]},
-          {heading:'Prerequisite knowledge:',about:["A basic understanding of the internet, and search engines. Come as you are."]},
-      ],
-      whyUsCards: {
-        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
-          points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
-          {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
-          {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
-          {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
-          {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
-      },
-      trainesrsCards : {
-        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
-          points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
-          {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
-          {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
-          {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
-          {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
-          {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
-          {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
-      },
-      placementCards : {
-        heading:'Placement Facility During Social Media Optimization Training',
-        points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
-        {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
-        {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
-        },
-        sections : [
-          {id:0,sectionName:'Introduction to Programming  ',about:[ 
-            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
-          ]},
-          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
-          ]},
-          {id:2,sectionName:'Special Features',about:[ 
-            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
-          ]},
-          
-        ], 
-        projects:[
-          {id:1,img:"fas fa-building",name:'Analysis of New Product Launch Using Google Double Click -By BookMyShiksha',domainName:'Marketing & Businesss'},
-          {id:2,img:"fas fa-chart-line",name:'Social Media Strategies for Online Shopping Cart -By BookMyShiksha',domainName:'Marketing & Businesss'},
-          {id:3,img:"fas fa-laptop",name:'Analytical Comparison of Traditional Marketing to Digital Marketing -By BookMyShiksha',domainName:'Marketing & Businesss'},
-          {id:4,img:"fab fa-adversal",name:'Facebook Analytics For Targeted Marketing -By BookMyShiksha',domainName:'Marketing & Businesss'},
-    ] ,
-    },
-    {
       heading:'MongoDB Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'MongoDB Training',
@@ -1384,6 +1320,12 @@ export const courses = [
           ]},
           
         ], 
+        projects:[
+          {id:1,img:"fas fa-building",name:'Analysis of New Product Launch Using Google Double Click -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:2,img:"fas fa-chart-line",name:'Social Media Strategies for Online Shopping Cart -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:3,img:"fas fa-laptop",name:'Analytical Comparison of Traditional Marketing to Digital Marketing -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:4,img:"fab fa-adversal",name:'Facebook Analytics For Targeted Marketing -By BookMyShiksha',domainName:'Marketing & Businesss'},
+    ] ,
     },
     {
       heading:'SQL Training',
@@ -1562,9 +1504,9 @@ export const courses = [
         ], 
     },
     {
-      heading:'Tablue Training',
+      heading:'Tableau Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
-      aboutHeading:'Tablue Training',
+      aboutHeading:'Tableau Training',
       about: [
           "Learn how to visualize business data with Tableau. Understand how to create impactful business intelligence reports. This course on Tableau is for newcomers who are looking to dive into the world of data visualisation. You will use the tool’s library of resources to offer best practices for data visualisation, and storytelling. Generate powerful reports and dashboards to improve businesses and increase revenue.",
           "By signing up for the best Tableau training course in Delhi, learners would be able to have an understanding about data visualization through Tableau 2020. Learners can create opportunities for themselves or key decision-makers to explore various data patterns such as sales trends, production bottlenecks, or customer purchase behavior that can enhance their businesses and boost sales.",
@@ -1576,6 +1518,64 @@ export const courses = [
           ]},
           {heading:'Job opportunities after finishing this course:',about:["Tableau Consultant, Data Analyst, Business Intelligence Analyst, Business Analyst, Business Intelligence Developer, Business Analyst, Business Intelligence Manager"]},
           {heading:'Prerequisite knowledge:',about:["Familiarity with Excel is great, but not mandatory. Learners need to have access to a computer using Windows or MacOS. The setup and installation instructions are included for each operating system. Everything else that is required to start using Tableau is included in the course."]},
+      ],
+      whyUsCards: {
+        heading:'Why You Should Join BookMyShiksha For Tableau Training.',
+          points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
+          {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
+          {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
+          {point:'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.'},
+          {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
+      },
+      trainesrsCards : {
+        heading:'BookMyShiksha Corporate Trainers Profile for Tableau Training',
+          points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
+          {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
+          {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+          {point:'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.'},
+          {point:'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.'},
+          {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
+      },
+      placementCards : {
+        heading:'Placement Facility During Tableau Training',
+        points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
+        {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
+        {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
+        },
+        sections : [
+          {id:0,sectionName:'Introduction to Programming  ',about:[ 
+            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
+            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
+            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
+            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          ]},
+          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
+            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
+            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
+            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
+            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          ]},
+          {id:2,sectionName:'Special Features',about:[ 
+            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          ]},
+          
+        ], 
+    },
+    {
+      heading:'Social Media Optimization Training',
+      subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+      aboutHeading:'Social Media Optimization Training',
+      about: [
+          "If you are looking to become an SEO Expert by mastering search engine optimization tools and strategies, then this course is for you. Learn the theory of Google search along with other search engine algorithms. Build practical, real-world skills to apply in projects, or for the businesses of your clients to achieve the best ranking. Optimise the websites for local, and international audiences.",
+          "The Social Media Optimization course provides you with the right set of skills to optimize your efforts for social media marketing. Our educators at Book My Shiksha offer the best social media optimization course in the national capital region. You will be able to learn to accurately evaluate and interpret the recordings of various advertising campaigns. Learn how to smartly assess the effectiveness of advertising by using lift studies and optimize the campaigns with split tests. Understand how advertising efficiency is interpreted across devices, and platforms. Learn how to analyse the return of investment of your marketing systems, and master the art of communicating your social media marketing recordings to the rest of the team in the company."], 
+      aboutSections : [
+          {heading:'By the end of this course, you will be able to:',about:['The tutors at BookMyShiksha will help you become the best versions of yourself, and help you emerge as the leader amongst your colleagues. Post the completion of this course, you will be able to.']},
+          {heading:'Who is this course for?',about:[
+              "This course is for Freshers, Sales Professionals, Traditional Marketers, Brand and Communication Managers, and Entrepreneurs who are interested in analyzing their campaign marketing recordings, and enhancing their campaigns. Learners do require any prior marketing experience but should possess basic internet navigation skills and have a thirst to participate and connect with new people on social media. Having a Facebook or Instagram account makes things easier."
+          ]},
+          {heading:'Job opportunities after finishing this course:',about:["Search Engine Optimization (SEO), Search Engine Marketing (SEM), Social Media and Content Marketing, Marketing Analytics, and Branding."]},
+          {heading:'Prerequisite knowledge:',about:["A basic understanding of the internet, and search engines. Come as you are."]},
       ],
       whyUsCards: {
         heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
@@ -1917,6 +1917,7 @@ export const courses = [
         
       ], 
   },
+
   
 
 

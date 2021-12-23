@@ -23,7 +23,7 @@ export class OpenCourseComponent implements OnInit {
       Diploma_in_Machine_Learning_course_DelhiNCR:6,
       Masters_in_DataScience_course_DelhiNCR:7,
       Masters_in_Machine_Learning_course_DelhiNCR:8,
-      Digital_Marketing_course_DelhiNCR:9,
+      SEO_course_DelhiNCR:9,
       RPA_course_DelhiNCR:10,
       Java_course_DelhiNCR:11,
       NET_course_DelhiNCR:12,
@@ -36,9 +36,16 @@ export class OpenCourseComponent implements OnInit {
       Pyhton_Django_course_DelhiNCR:19,
       MongoDB_course_DelhiNCR:20,
       SQL_course_DelhiNCR:21,
-      PowerBi_course_DelhiNCR:22,
-      Tableau_course_DelhiNCR:23,
-      Oracle_course_DelhiNCR:24,
+      Oracle_course_DelhiNCR:22,
+      PowerBi_course_DelhiNCR:23,
+      Tableau_course_DelhiNCR:24,
+      Social_media_Optimization_course_DelhiNCR:25,
+      Pay_per_click_course_DelhiNCR:26,
+      Google_ads_certification_course_DelhiNCR:27,
+      Facebook_ads_certification_course_DelhiNCR:28,
+      Social_media_promotion_course_DelhiNCR:29,
+      Email_marketing_course_DelhiNCR:30,
+
     }
     this.router.paramMap.subscribe((x:any) => {
       let index = indexNo[x.params.id]
@@ -55,13 +62,6 @@ courseFeatures = [
   {img:'fas fa-sign-in-alt',name:'Lifetime Access'},
   {img:'fas fa-hands-helping',name:'Carrer guiedlines'},
 ]
-
-
-
-
-
-
-
 
 processCard = [
   {id:1,name:'Fill the application form', about:'Jump start your learning journey by filling up the form'},
@@ -89,6 +89,8 @@ showCertificate(value:number){
   this.openedCertificate = value
 }
 
-
-
+showPopup = false
+enrollNow(value){
+  this.showPopup = value
+}
 }
