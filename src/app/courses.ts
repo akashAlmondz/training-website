@@ -1,7 +1,7 @@
 export const courses = [
     {
         heading:'Python training',
-        subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+        subHeading:'Python is the most searched language as well as used by google, microsoft, twitter and the list goes on with wide variety of frameworks for App development & Backend. BookMyShiksha consider python as the next big thing in the coming future.',
         aboutHeading:'Python Course Training',
         about: [
             "Python is one of the most widely reputed programming languages in the world.BookMyShiksha is the best python training campus in Delhi-NCR that allows learners to build the skills you would require to land your first Python programming job. Learn the intricacies of Machine Learning, Django, Data Science, and the other specialised areas. Be in a position to create your own Python apps efficiently by enrolling for the best python institute delhi",
@@ -35,10 +35,10 @@ export const courses = [
             
           ],
         projects:[
-            {id:1,img:"fas fa-building",name:'Create UI Application',domainName:'Front-End',about:'In this particular project, the students are working on tkiinter module, It is already installed in python.'},
-            {id:2,img:"fas fa-chart-line",name:'Life Insurance Sales',domainName:'Real Estate',about:'For this particular project, the students are expected to predict the bonus for a particular life insurance agent based on their performance. The students will be analysing the data of insurance with respect to a lot of different customers. Based on the various machine learning models built by the students, there will be recommendations to the insurance company.'},
-            {id:3,img:"fas fa-laptop",name:'Sales Forecasting',domainName:'Real Estate',about:'In this particular project, the students are expected to predict the customer churn of an E-Commerce company. The students will build predictive models to understand the variables which are affecting the churn of customers and how to reduce the churn.'},
-            {id:4,img:"fab fa-adversal",name:'Customer Churn Prediction',domainName:'Real Estate',about:'For this project, the students should analyse the historical sales data and forecast the sales of the next quarter from the domain of consumer goods appliances. This is an all India level project for which students can choose to segregate and analyze the data in a multitude of ways.'},
+            {id:1,img:"fas fa-building",name:'Dice Rolling Simulator -By BookMyShiksha',domainName:'Front-End+Back-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
+            {id:2,img:"fas fa-chart-line",name:'Message Encode Decode -By BookMyShiksha',domainName:'Front-End+Back-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
+            {id:3,img:"fas fa-laptop",name:'Alarm Clock with GUI -By BookMyShiksha',domainName:'Front-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
+            {id:4,img:"fab fa-adversal",name:'Python Tic Tac Toe Game -By BookMyShiksha',domainName:'Front-End+Back-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
                 ] ,
                 
         whyUsCards: {
@@ -69,7 +69,7 @@ export const courses = [
     
     {
         heading:'Data Science training',
-        subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+        subHeading:'DataScience is the future for highend analytics, visualization & Preprocessing. BookMyShiksha uses tools like anaconda navigator, IDLE, VS code, Pycharm, Jupyter notebook.Not only these tools are exciting to use but there real world uses in IT industry is inevitable in the coming future. ',
         aboutHeading:'Data Science training',
         about: [
             "The course at BookMyShiksha offers the entire toolbox one might require to become a brilliant data scientist. Learn Python programming with matplotlib, NumPy, Seaborn, pandas, Advanced Statistical Analysis, Machine Learning with scikit-learn, Tableau, and Deep Learning with TensorFlow. Having an understanding of the mathematics behind Machine Learning through the best data science training course in Delhi. Code in Python, and use it for statistical analysis.",
@@ -124,10 +124,16 @@ export const courses = [
             ]},
             
           ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Fake News Detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Detection of Road Lane Lines -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Project on Sentimental Analysis -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Project on  Speech Recognition through the Emotions -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'Machine Learning Training',
-        subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+        subHeading:'Machine learning helps in data analytics and have its framework for prediction & analysis.Machine learning is the key tool which used by google, microsoft, youtube and so on to implement its AI which makes the processing fast. BookMyShiksha believes in the future and plans to work and implement its features in the coming future.',
         aboutHeading:'Machine Learning Training',
         about: [
             "Master the art of Machine Learning on Python at BookMyShiksha. Learn to use the many Machine Learning models, and tools. Understand how to handle specific topics like Reinforcement Learning, Deep Learning, and NLP. Master advanced techniques like Dimensionality Reduction with the help of the educators at the best Machine Learning Training course in Delhi. Be in a position to choose the right Machine Learning model to address each type of problem.",
@@ -182,12 +188,18 @@ export const courses = [
             ]},
             
           ], 
+          projects:[
+            {id:1,img:"fas fa-building",name:'Iris Flowers Classification Project -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Housing Prices Prediction -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'MNIST Digit Classification -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Stock Price Prediction -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
 
         
     },
     {
         heading:'Deep Learning Training',
-        subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+        subHeading:'Deep learning works with neural networking and features of machine learning, Deep learning involves lot of statistic analysis and complex calculation.Deep learning is used in various sector such as medical science, robotics and so on. BookMyShiksha have well trained trainers and expertise to help students to understand and be future ready in deep learning.',
         aboutHeading:'Deep Learning Training',
         about: [
             "Dive into our Deep Learning course to understand the different layers of Artificial Neural Networks. Once you understand the concept behind it, apply it in real life scenarios that require your expertise. Learn what Convolutional Neural Networks are and how to implement them through the best Deep Learning Training course in the national capital region. Gain knowledge on Recurrent Neural Networks, Self-Organizing Maps, Boltzmann Machines, and AutoEncoders. Furthermore, by enrolling for this course at Book My Shiksha, you will also learn how to implement all of these concepts to excel in your career.",
@@ -242,10 +254,16 @@ export const courses = [
             ]},
             
           ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Image Classification with CIFAR-10 Dataset -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Human Face Detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Dog’s Breed Identification -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Traffic Sign Classification -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'Artificial Intelligence Training',
-        subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+        subHeading:'Artificial inteligence is used by big brands such as youtube, augmented reality, virtual reality,robotics and so on. Artificial intelliegnce have reached a new level of achievement where they have already made a humanoid robot, which have been given citizenship also. BookMyShiksha works with the latest trends in machine learning and artificial intelligence field.',
         aboutHeading:'Artificial Intelligence Training',
         about: [
             "Enroll for the best Artificial Intelligence Training online course in Delhi to gain insights on AI concepts. Understand the intuition behind the math used in AI solutions. Gain knowledge on Time series along with simple linear regression. Learn how to incorporate Multiple and Logistic regression.",
@@ -300,6 +318,12 @@ export const courses = [
             ]},
             
           ], 
+          projects:[
+            {id:1,img:"fas fa-building",name:'Customer Recommendation -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Chatbots -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Facial Emotion Recognition and Detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Heart Disease Prediction Project -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'Diploma in DataScience',
@@ -357,7 +381,14 @@ export const courses = [
               {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
+            
           ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Detecting Parkinson’s Disease -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Gender and Age Detection with Data Science -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Customer Segmentation -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Traffic Signs Recognition -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'Diploma in Machine Learning',
@@ -416,6 +447,12 @@ export const courses = [
             ]},
             
           ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Kaggle Titanic Prediction -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Wine Quality Prediction -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'TMDB Box Office Prediction -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Wildlife Object Detection System -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'Master in DataScience',
@@ -474,6 +511,12 @@ export const courses = [
             ]},
             
           ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Driver Drowsiness detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Topic modelling using Kmeans clustering to group customer reviews -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Color Detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Brain Tumor Detection with Data Science -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'Master in Machine Learning',
@@ -532,6 +575,12 @@ export const courses = [
             ]},
             
           ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Market Basket Analysis -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Real-time Spam Detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Financial Budget Analysis -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Weather Forecasting -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'Digital Marketing',
@@ -596,6 +645,12 @@ export const courses = [
             ]},
             
           ], 
+          projects:[
+            {id:1,img:"fas fa-building",name:'Social Media Strategies for Online Shopping Cart -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-chart-line",name:'Customer Satisfaction for a Digital Marketing Agency -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-laptop",name:'Return on Investment for Various Digital Marketing Strategies -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fab fa-adversal",name:'Google Search Engine Marketing Case Study Analysis -By BookMyShiksha',domainName:'Marketing & Businesss'},
+      ] ,
     },
     {
         heading:'RPA Training',
@@ -653,7 +708,13 @@ export const courses = [
               {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
-          ],  
+          ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Customer onboarding -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Extracting data from PDFs, scanned documents and other formats -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Periodic report preparation and dissemination -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Data migration and entry -By BookMyShiksha',domainName:'Back-End'},
+      ] ,  
     },
     {
         heading:'Java Training',
@@ -712,6 +773,12 @@ export const courses = [
             ]},
             
           ],    
+          projects:[
+            {id:1,img:"fas fa-building",name:'Currency Converter -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Number Guessing Game -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Airline Reservation System -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Electricity billing system -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'.Net Training',
@@ -769,7 +836,13 @@ export const courses = [
               {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
-          ],   
+          ],  
+          projects:[
+            {id:1,img:"fas fa-building",name:'Appointment Scheduler -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-chart-line",name:'Cab Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-laptop",name:'City Bus Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fab fa-adversal",name:'Civil Registration System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+      ] , 
     },
     {
         heading:'VBA Training',
@@ -828,6 +901,12 @@ export const courses = [
             ]},
             
           ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Calculator using Excel VBA UserForm -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-chart-line",name:'Data Entry Userform -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-laptop",name:'List Folders Subfolders from Dictionary using VBA -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fab fa-adversal",name:'TOC creator in Excel Workbook using VBA -By BookMyShiksha',domainName:'Marketing & Businesss'},
+      ] ,
     },
     {
         heading:'PHP Training',
@@ -885,7 +964,13 @@ export const courses = [
               {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
-          ],    
+          ],  
+          projects:[
+            {id:1,img:"fas fa-building",name:'Build a Clothes Recommendation System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-chart-line",name:'Customer Relationship Management for ISP -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-laptop",name:'Predict Movie Success through Data Mining -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fab fa-adversal",name:'Fake Review Identification -By BookMyShiksha',domainName:'Marketing & Businesss'},
+      ] ,  
     },
     {
         heading:'HTML5-CSS3-JS Training',
@@ -1234,6 +1319,12 @@ export const courses = [
           ]},
           
         ], 
+        projects:[
+          {id:1,img:"fas fa-building",name:'Analysis of New Product Launch Using Google Double Click -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:2,img:"fas fa-chart-line",name:'Social Media Strategies for Online Shopping Cart -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:3,img:"fas fa-laptop",name:'Analytical Comparison of Traditional Marketing to Digital Marketing -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:4,img:"fab fa-adversal",name:'Facebook Analytics For Targeted Marketing -By BookMyShiksha',domainName:'Marketing & Businesss'},
+    ] ,
     },
     {
       heading:'MongoDB Training',
@@ -1586,7 +1677,13 @@ export const courses = [
           {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
         ]},
         
-      ], 
+      ],
+      projects:[
+        {id:1,img:"fas fa-building",name:'Customer Preferences on Coupon Code Based Promotional Activities -By BookMyShiksha',domainName:'Marketing & Businesss'},
+        {id:2,img:"fas fa-chart-line",name:'Report on Tools to Analyze Digital Marketing Competitors -By BookMyShiksha',domainName:'Marketing & Businesss'},
+        {id:3,img:"fas fa-laptop",name:'Analysis of Visual Keyword Tools for Search Engine Marketing -By BookMyShiksha',domainName:'Marketing & Businesss'},
+        {id:4,img:"fab fa-adversal",name:'Google Search Engine Marketing Case Study Analysis -By BookMyShiksha',domainName:'Marketing & Businesss'},
+  ] ,
   },
   {
     heading:'Google Ads Certification',
