@@ -30,6 +30,7 @@
     justify-content:space-between;
     padding: 0 5%;
     transition: 0.2s;
+    position: relative;
   }
   .testimonial .cards .card {
     /* z-index: 20; */
@@ -100,6 +101,10 @@
   }
   .testimonial .viewMore .card {
     margin: 30px 20px;
+  }
+  #card{
+    position: absolute;
+    top: 0;
   }
   #view {
     cursor: pointer;
