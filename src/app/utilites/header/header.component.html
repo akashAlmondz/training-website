@@ -1,11 +1,11 @@
 <nav>
     <main>
-        <div class="menu">
+        <div  class="menu">
             <i [ngClass]="toggle=='menu'? 'rotate1': '' " (click)="show('menu')" class="fas fa-bars"></i>
            <div  class="optionHolder" [ngClass]="toggle=='menu'? 'show': '' " (click)="show('none')">
             <div   class="options" >
                 <div class="img">
-                    <img [routerLink]="['']" src="assets/images/logo.png" alt="">
+                    <img (click)="setDocTitle('BookMyshiksha: Best IT training institute in DelhiNCR | Noida | Gurgaon')" [routerLink]="['']" src="assets/images/logo.png" alt="">
                 </div>
                 <p [routerLink]="['certification']" > <i class="fas fa-file-certificate"></i> Certification</p>
                 <p [routerLink]="['training']" > <i class="fas fa-chalkboard"></i> Training Programs</p>
@@ -27,7 +27,7 @@
            </div>
         </div>
         <div class="logo">
-            <img (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png" alt="">
+            <img (click)="setDocTitle('BookMyshiksha: Best IT training institute in DelhiNCR | Noida | Gurgaon')" (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png" alt="">
         </div>
         <div class="scholarship wide">
             <p (click)="togglePopup(1)" >Scholarship Registration</p>
@@ -42,8 +42,8 @@
                         <div class="python category">
                             <p class="heading" >Popular Courses</p>
                             <div class="sub">
-                                <p [routerLink]="['courses/Python_Training_course_DelhiNCR']" >Python training</p>
-                                <p [routerLink]="['courses/Data_Science_Training_course_DelhiNCR']" >Data Science training</p>
+                                <p (click)="setDocTitle('Python Course in Delhi | Python Training in Delhi')" [routerLink]="['courses/Python_Training_course_DelhiNCR']" >Python training</p>
+                                <p (click)="setDocTitle('Data Science Course in Delhi | Data Science Training in Delhi')" [routerLink]="['courses/Data_Science_Training_course_DelhiNCR']" >Data Science training</p>
                                 <p [routerLink]="['courses/Machine_Learning_Training_course_DelhiNCR']" >Machine Learning training</p>
                                 <p [routerLink]="['courses/Deep_Learning_Training_course_DelhiNCR']" >Deep Learning training</p>
                                 <p [routerLink]="['courses/Artificial_Inteligence_Training_course_DelhiNCR']" >Artificial Inteligence training</p>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 <div class="courseList">
-                    <p (click)="show('none')"  [routerLink]="item.routerLink" *ngFor="let item of activeList" >{{item.name}}</p>
+                    <p (click)="setDocTitle(item.title)" (click)="show('none')"  [routerLink]="item.routerLink" *ngFor="let item of activeList" >{{item.name}}</p>
                 </div>
             </div>
         </div>

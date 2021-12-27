@@ -321,7 +321,7 @@
 }
 .upcoming .cards .card .about .courseName {
   font-size: 20px;
-  /* margin:0 0 10px 0; */
+  margin:10px 0;
 }
 .upcoming .cards .card .about .courseAbout {
   font-size: 15px;
@@ -353,19 +353,17 @@
   }
   .landing{
     flex-direction: column;
+    justify-content:center;
+    padding:10vh 5% 5vh 5%;
     height:auto;
-    min-height: 100vh;
-    justify-content: space-around;
-    padding: 10vh 5%;
   }
   .landing img{
     order: 0;
-    width: 80%;
-    filter: contrast(101%);
+    width:80%;
   }
   .landing .about{
     width: 100%;
-    padding: 5% 0;
+    padding:5% 0 ;
     order: 1;
   }
   .landing .about p:nth-child(1){
@@ -374,7 +372,7 @@
   .landing .about p:nth-child(2){
     width: 100%;
     font-size: 15px;
-    /* margin: 10px 0 5px 0; */
+    margin: 10px 0 5px 0;
   }
 
   
