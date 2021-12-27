@@ -149,12 +149,12 @@
         </div>
         <div  class="aboutSection" *ngFor ='let item of course.sections' >
           <span *ngIf="item.id==activeSection" >
-            <details  *ngFor="let section of item.about">
-                <summary>{{section.name}}</summary>
-                <p *ngFor="let item of section.summary" >•{{item}}</p>
-            </details>
+                <p *ngFor="let section of item.about" >{{section}}</p>
           </span>
             
+        </div>
+        <div class="downloadCurriculum">
+            <p>Download Curriculum <i class="fas fa-file-pdf"></i></p>
         </div>
     </div>
     <p class="heading">Hands-on Projects</p>

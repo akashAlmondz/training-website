@@ -82,6 +82,7 @@
     overflow: auto;
     position: fixed;
     top: 20%;
+    justify-content: space-around;
     padding: 40px 0 0 0;
     box-shadow: 30px 40px 150px rgba(0, 0, 0, 0.411);
     border: 2px solid rgb(238, 238, 238);

@@ -3,11 +3,11 @@
   position: relative;
 }
 .landing {
-  height:70vh;
+  /* height:70vh; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10vh 5% 0 5%;
+  padding: 20vh 5% 5vh 5%;
 }
 .backGround {
   width: 100%;
@@ -291,7 +291,7 @@ form button {
 
 .curriculum .sectionHolder .section {
   background-color: rgba(125, 191, 253, 0.212);
-  padding: 30px 40px  ;
+  padding: 15px 20px  ;
   margin: 1px;
   border-radius: 10px;
   /* border: 5px solid #ffb606; */
@@ -313,44 +313,32 @@ form button {
 
 
 
-.aboutSection {
+.curriculum .aboutSection {
   display: flex;
   flex-direction: column;
   width: 100%;
-
-  /* align-items:; */
-  /* background-color: white; */
 }
-.curriculum details{
-  padding:30px 10px;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  margin: 20px 0;
-  width: 70vw;
-  background-color: rgba(125, 191, 253, 0.212);
-  border: 1px solid rgb(179, 179, 179);
+.curriculum .aboutSection span p{
+  width: 70%;
+  font-size: 15px;
+  color: rgb(77, 77, 77);
+}
+.curriculum .downloadCurriculum{
+  padding: 40px 0;
+}
+.curriculum .downloadCurriculum p{
+  background-color: #FF6B1B;
+  color: white;
   border-radius: 5px;
-  position: relative;
-  transition: .4s;
+  padding: 15px 10px;
+  transition: .4S;
 }
-.curriculum details:hover{
-  box-shadow: 1px 2px 4px rgba(128, 128, 128, 0.61);
+.curriculum .downloadCurriculum p i{
+  font-size: 20px;
+}
+.curriculum .downloadCurriculum p:hover{
+  box-shadow: 3px 3px 6px rgba(128, 128, 128, 0.597), -3px -3px 6px rgba(255, 175, 113, 0.597);
   cursor: pointer;
-}
-
-
-.curriculum details p{
-  font-size: 15px ;
-  color: rgb(51, 51, 51);
-}
-
-.curriculum details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
-}
-
-@keyframes sweep {
-  0%    {opacity: 0; margin-left: -10px}
-  100%  {opacity: 1; margin-left: 0px}
 }
 
 
@@ -590,7 +578,7 @@ table button {
   display: flex;
   background-color: white;
   padding:1%;
-  border: 5px solid #4692E2;
+  border: 10px solid #4692E2;
   border-radius: 5px;
   position: relative;
   transform: translateY(-200vh);
@@ -631,11 +619,15 @@ table button {
   .landing{
     flex-direction: column;
     height: auto;
+    padding: 10vh 5% 5vh 5%;
   }
   .landing .about{
     width: 100%;
     order: 2;
 
+  }
+  .landing .about .aboutCourse{
+    font-size: 18px;
   }
   .landing .about .report{
     flex-wrap: wrap;
@@ -693,19 +685,38 @@ table button {
   .curriculum .sectionHolder .aboutSection{
     padding: 0;
   }
-  .curriculum details{
-    width:90%;
-    margin: 20px 0;
-    padding: 10px;
-  }
-  .curriculum details summary{
-    font-size: 15px;
+  .curriculum .aboutSection span p{
+    width: 100%;
   }
   .projects .cards .learnMore{
     top: 10vh;
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  .projects .cards .card .about p:nth-child(1){
+    font-size: 15px;
+  }
+  .projects .cards .card .about p:nth-child(2){
+    font-size: 18px;
+  }
+  .enrollNow .form{
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    height:70%;
+    padding: 20px 0;
+    border:  5px solid #4692E2;
+  }
+  .enrollNow .form img{
+    width: 50%;
+  }
+  .enrollNow .form form{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  .enrollNow .form form input{
+    width: 100%;
   }
   /* .curriculum .sectionHolder */
 }
