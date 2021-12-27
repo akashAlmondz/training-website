@@ -27,11 +27,12 @@ export const courses = [
             ]},
             
           ],
+          
         projects:[
-            {id:1,img:"fas fa-building",name:'Dice Rolling Simulator -By BookMyShiksha',domainName:'Front-End+Back-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
-            {id:2,img:"fas fa-chart-line",name:'Message Encode Decode -By BookMyShiksha',domainName:'Front-End+Back-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
-            {id:3,img:"fas fa-laptop",name:'Alarm Clock with GUI -By BookMyShiksha',domainName:'Front-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
-            {id:4,img:"fab fa-adversal",name:'Python Tic Tac Toe Game -By BookMyShiksha',domainName:'Front-End+Back-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
+            {id:1,img:"fas fa-dice",name:'Dice Rolling Simulator -By BookMyShiksha',domainName:'Front-End+Back-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
+            {id:2,img:"fas fa-envelope-open-text",name:'Message Encode Decode -By BookMyShiksha',domainName:'Front-End+Back-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
+            {id:3,img:"fas fa-alarm-clock",name:'Alarm Clock with GUI -By BookMyShiksha',domainName:'Front-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
+            {id:4,img:"fas fa-gamepad",name:'Python Tic Tac Toe Game -By BookMyShiksha',domainName:'Front-End+Back-End',about:'This project is build by our trainers for students in BookMyShiksha, So they understand how the code is implemented and steps before implementing the code by brain storming about the project with students. Once brain storming is done, As trainers already know the project, Since its build by BookMyShiksha team it become easier for students to clear there queries and execute the entire process with ease.This project is not limited within BookMyShiksha our students are allowed to add them in there resume which makes the hiring process easier and faster.'},
                 ] ,
                 
         whyUsCards: {
@@ -118,10 +119,10 @@ export const courses = [
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Fake News Detection -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Detection of Road Lane Lines -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Project on Sentimental Analysis -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Project on  Speech Recognition through the Emotions -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"far fa-newspaper",name:'Fake News Detection -By BookMyShiksha',domainName:'Multimedia'},
+            {id:2,img:"far fa-road",name:'Detection of Road Lane Lines -By BookMyShiksha',domainName:'Infrastructure'},
+            {id:3,img:"fas fa-chart-line",name:'Project on Sentimental Analysis -By BookMyShiksha',domainName:'Banking and Finance'},
+            {id:4,img:"fas fa-language",name:'Project on  Speech Recognition through the Emotions -By BookMyShiksha',domainName:'Social Media'},
       ] ,
     },
     {
@@ -182,10 +183,10 @@ export const courses = [
             
           ], 
           projects:[
-            {id:1,img:"fas fa-building",name:'Iris Flowers Classification Project -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Housing Prices Prediction -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'MNIST Digit Classification -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Stock Price Prediction -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fal fa-flower-daffodil",name:'Iris Flowers Classification Project -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-home",name:'Housing Prices Prediction -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-digital-tachograph",name:'MNIST Digit Classification -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-stack-exchange",name:'Stock Price Prediction -By BookMyShiksha',domainName:'Back-End'},
       ] ,
 
         
@@ -248,10 +249,10 @@ export const courses = [
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Image Classification with CIFAR-10 Dataset -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Human Face Detection -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Dog’s Breed Identification -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Traffic Sign Classification -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fas fa-images",name:'Image Classification with CIFAR-10 Dataset -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"far fa-grin-beam",name:'Human Face Detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-dog",name:'Dog’s Breed Identification -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fas fa-traffic-light",name:'Traffic Sign Classification -By BookMyShiksha',domainName:'Back-End'},
       ] ,
     },
     {
@@ -312,15 +313,15 @@ export const courses = [
             
           ], 
           projects:[
-            {id:1,img:"fas fa-building",name:'Customer Recommendation -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Chatbots -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Facial Emotion Recognition and Detection -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Heart Disease Prediction Project -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fas fa-fingerprint",name:'Customer Recommendation -By BookMyShiksha',domainName:'Banking & Finance'},
+            {id:2,img:"fas fa-robot",name:'Chatbots -By BookMyShiksha',domainName:'Banking & Finance'},
+            {id:3,img:"far fa-grin-stars",name:'Facial Emotion Recognition and Detection -By BookMyShiksha',domainName:'Banking & Finance'},
+            {id:4,img:"fas fa-heartbeat",name:'Heart Disease Prediction Project -By BookMyShiksha',domainName:'Banking & Finance'},
       ] ,
     },
     {
         heading:'Diploma in DataScience',
-        subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+        subHeading:'BookMySiksha provide data science diploma for all the students who are aspiring to have a future in Data Science.We as an institute bilieves in education , however most of the companies ask for degree, diploma or masters so BookMyShiksha introduced this diploma after taking an opinion from our students.',
         aboutHeading:'Diploma in DataScience',
         about: [
             "The Diploma course at BookMyShiksha leads learners to learn the basics of writing and running scripts and to understand complex concepts such as regular expressions, file operations and working with binary data. Enroll for the best Diploma in Data Science in Delhi to gain knowledge on the rapidly booming data science industry. The cross platform training offers learners a better use of tasks on any operating system. Ultimately, learners would be able to cater to different job roles. Join this course today to become a fantastic data scientist.",
@@ -377,15 +378,15 @@ export const courses = [
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Detecting Parkinson’s Disease -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Gender and Age Detection with Data Science -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Customer Segmentation -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Traffic Signs Recognition -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fas fa-stethoscope",name:'Detecting Parkinson’s Disease -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-male",name:'Gender and Age Detection with Data Science -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-users",name:'Customer Segmentation -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fas fa-traffic-light",name:'Traffic Signs Recognition -By BookMyShiksha',domainName:'Back-End'},
       ] ,
     },
     {
         heading:'Diploma in Machine Learning',
-        subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+        subHeading:'Machine Learning is the most searched skillset required in IT industry at the moment and will be in the coming decade. BookMyShiksha choose to provide Machine Learning as a diploma as our institiute primarily focus on AI , analytics and so on. According to news AI will generate 133 millions new jobs globally by 2023.',
         aboutHeading:'Diploma in Machine Learning',
         about: [
             "Learn the art of Machine Learning on Python through the best Diploma in Machine Learning in Delhi. Learners have the opportunity to get an in-depth understanding of various Machine Learning models, and tools. Be in a position to handle specific components such as Reinforcement Learning, NLP, and Deep Learning. Through the best Diploma in Machine Learning, learn advanced techniques such as Dimensionality Reduction with the help of the most experienced educators at Book My Shiksha. Understand how to choose the correct Machine Learning model to address each issue.",
@@ -441,15 +442,15 @@ export const courses = [
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Kaggle Titanic Prediction -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Wine Quality Prediction -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'TMDB Box Office Prediction -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Wildlife Object Detection System -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fas fa-ship",name:'Kaggle Titanic Prediction -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-wine-glass-alt",name:'Wine Quality Prediction -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-box-open",name:'TMDB Box Office Prediction -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fas fa-paw",name:'Wildlife Object Detection System -By BookMyShiksha',domainName:'Back-End'},
       ] ,
     },
     {
         heading:'Master in DataScience',
-        subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+        subHeading:'BookMyShiksha build this diploma under the guidance of IT experts who have been in IT field for more than a decade. BookMyShiksha makes education a priority as students are the future of this nation and we as an intitute bilieve that its our obligation to guide them in the right path and make them industry ready. Minimum eligibility criteria to get a seat in our diploma is class 10th and 12th with mathematics.',
         aboutHeading:'Master in DataScience',
         about: [
             "The Master in Data Science program at BookMyShiksha is delivered online. It is conducted by the best data science professionals in the field. This is the best Masters in Data Science as it offers a multidisciplinary curriculum that is managed by experienced faculty from top companies, the flexibility of online learning, and a versatile group of peers.",
@@ -505,15 +506,15 @@ export const courses = [
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Driver Drowsiness detection -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Topic modelling using Kmeans clustering to group customer reviews -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Color Detection -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Brain Tumor Detection with Data Science -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fas fa-car",name:'Driver Drowsiness detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-users",name:'Topic modelling using Kmeans clustering to group customer reviews -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-palette",name:'Color Detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fas fa-brain",name:'Brain Tumor Detection with Data Science -By BookMyShiksha',domainName:'Back-End'},
       ] ,
     },
     {
         heading:'Master in Machine Learning',
-        subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+        subHeading:'BookMyShiksha as an institute knows that india is moving towards digitization with every aspect of our life being digitize need for Machine learning is increasing every second. BookMyShiksha provide machine learning Master with our experienced industrial trainers in Machine Learning.Machine learning makes prediction and implement automation.',
         aboutHeading:'Master in Machine Learning',
         about: [
             "Develop an in-depth understanding of the layers of machine learning methods by signing up for the best Masters in Machine Learning in Delhi NCR. Learners would be able to tackle real-world problems by acquiring invaluable practical skills. This curriculum is curated to improve your engineering or data science career by understanding what’s right for you at Book My Shiksha.",
@@ -569,10 +570,10 @@ export const courses = [
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Market Basket Analysis -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Real-time Spam Detection -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Financial Budget Analysis -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Weather Forecasting -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fas fa-shopping-basket",name:'Market Basket Analysis -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-user-secret",name:'Real-time Spam Detection -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-rupee-sign",name:'Financial Budget Analysis -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fas fa-smog",name:'Weather Forecasting -By BookMyShiksha',domainName:'Back-End'},
       ] ,
     },
     {
@@ -639,10 +640,10 @@ export const courses = [
             
           ], 
           projects:[
-            {id:1,img:"fas fa-building",name:'Social Media Strategies for Online Shopping Cart -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:2,img:"fas fa-chart-line",name:'Customer Satisfaction for a Digital Marketing Agency -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:3,img:"fas fa-laptop",name:'Return on Investment for Various Digital Marketing Strategies -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:4,img:"fab fa-adversal",name:'Google Search Engine Marketing Case Study Analysis -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:1,img:"fab fa-google-plus-square",name:'Social Media Strategies for Online Shopping Cart -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-user-check",name:'Customer Satisfaction for a Digital Marketing Agency -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-coins",name:'Return on Investment for Various Digital Marketing Strategies -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fab fa-google",name:'Google Search Engine Marketing Case Study Analysis -By BookMyShiksha',domainName:'Marketing & Businesss'},
       ] ,
     },
     {
@@ -703,10 +704,10 @@ export const courses = [
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Customer onboarding -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Extracting data from PDFs, scanned documents and other formats -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Periodic report preparation and dissemination -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Data migration and entry -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fas fa-user-alt",name:'Customer onboarding -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-database",name:'Extracting data from PDFs, scanned documents and other formats -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-file-alt",name:'Periodic report preparation and dissemination -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"far fa-database",name:'Data migration and entry -By BookMyShiksha',domainName:'Back-End'},
       ] ,  
     },
     {
@@ -767,10 +768,10 @@ export const courses = [
             
           ],    
           projects:[
-            {id:1,img:"fas fa-building",name:'Currency Converter -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Number Guessing Game -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Airline Reservation System -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Electricity billing system -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fas fa-rupee-sign",name:'Currency Converter -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-list-ol",name:'Number Guessing Game -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-plane",name:'Airline Reservation System -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fas fa-bolt",name:'Electricity billing system -By BookMyShiksha',domainName:'Back-End'},
       ] ,
     },
     {
@@ -1150,6 +1151,12 @@ export const courses = [
             ]},
             
           ],
+          projects:[
+            {id:1,img:"fas fa-building",name:'Web Security -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Email Sender -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Books Directory -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Portfolio App -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'React Training',
@@ -1208,6 +1215,12 @@ export const courses = [
             ]},
             
           ], 
+          projects:[
+            {id:1,img:"fas fa-building",name:'Social Media App -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'e-Commerce App -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Weather App -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Messaging App -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
         heading:'Python Django Training',
@@ -1266,6 +1279,12 @@ export const courses = [
             ]},
             
           ], 
+          projects:[
+            {id:1,img:"fas fa-building",name:'Django Chat App -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-chart-line",name:'Django Hospital Management System -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-laptop",name:'Railway Enquiry System -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fab fa-adversal",name:'Clothes Online Store with Payment -By BookMyShiksha',domainName:'Back-End'},
+      ] ,
     },
     {
       heading:'MongoDB Training',
@@ -1326,10 +1345,10 @@ export const courses = [
           
         ], 
         projects:[
-          {id:1,img:"fas fa-building",name:'Analysis of New Product Launch Using Google Double Click -By BookMyShiksha',domainName:'Marketing & Businesss'},
-          {id:2,img:"fas fa-chart-line",name:'Social Media Strategies for Online Shopping Cart -By BookMyShiksha',domainName:'Marketing & Businesss'},
-          {id:3,img:"fas fa-laptop",name:'Analytical Comparison of Traditional Marketing to Digital Marketing -By BookMyShiksha',domainName:'Marketing & Businesss'},
-          {id:4,img:"fab fa-adversal",name:'Facebook Analytics For Targeted Marketing -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:1,img:"fas fa-building",name:'Content Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:2,img:"fas fa-chart-line",name:'Metadata Project -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:3,img:"fas fa-laptop",name:'Finance and Investment Applications -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:4,img:"fab fa-adversal",name:'Online Radio Station App -By BookMyShiksha',domainName:'Marketing & Businesss'},
     ] ,
     },
     {
@@ -1390,7 +1409,14 @@ export const courses = [
           ]},
           
         ], 
+        projects:[
+          {id:1,img:"fas fa-building",name:'Centralized College Database -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:2,img:"fas fa-chart-line",name:'Online Retail Application Database -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:3,img:"fas fa-laptop",name:'Inventory Control Management -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:4,img:"fab fa-adversal",name:'Payroll Management System -By BookMyShiksha',domainName:'Banking and Finance'},
+    ] ,
     },
+
     {
       heading:'Oracle Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
@@ -1448,6 +1474,13 @@ export const courses = [
           ]},
           
         ], 
+        projects:[
+          {id:1,img:"fas fa-building",name:'Generation System Database -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:2,img:"fas fa-chart-line",name:'Club Membership Database System -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:3,img:"fas fa-laptop",name:'Grocery Stock Management Database -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:4,img:"fab fa-adversal",name:'Tax Calculation System Database -By BookMyShiksha',domainName:'Banking and Finance'},
+    ] ,
+
     },
     {
       heading:'PowerBi Training',
@@ -1506,7 +1539,13 @@ export const courses = [
             {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
           ]},
           
-        ], 
+        ],
+        projects:[
+          {id:1,img:"fas fa-building",name:'Customer Segmentation Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:2,img:"fas fa-chart-line",name:'Sales Scorecard Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:3,img:"fas fa-laptop",name:'Sales Analysis Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:4,img:"fab fa-adversal",name:'Email Engagement Analytics Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+    ] , 
     },
     {
       heading:'Tableau Training',
@@ -1566,6 +1605,12 @@ export const courses = [
           ]},
           
         ], 
+        projects:[
+          {id:1,img:"fas fa-building",name:'Patient Risk Healthcare Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:2,img:"fas fa-chart-line",name:'Marketing Campaign Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:3,img:"fas fa-laptop",name:'Flight Price Analysis Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:4,img:"fab fa-adversal",name:'Crime Analysis Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+    ] ,
     },
     {
       heading:'Social Media Optimization Training',
