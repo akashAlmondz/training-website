@@ -695,10 +695,10 @@ table button {
     flex-direction: column;
   }
   .projects .cards .card .about p:nth-child(1){
-    font-size: 15px;
+    font-size: 12px;
   }
   .projects .cards .card .about p:nth-child(2){
-    font-size: 18px;
+    font-size: 15px;
   }
   .enrollNow .form{
     width: 80%;

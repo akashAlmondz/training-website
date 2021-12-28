@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Titles } from 'src/app/titles&meta';
 
 @Component({
   selector: 'app-header',
@@ -8,83 +8,83 @@ import { Title } from '@angular/platform-browser';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private titleService:Title) { }
+  constructor() { }
 
   
   courseList = [
     {title:'All Course', courses:[
-      {title: 'Python Course in Delhi | Python Training in Delhi', name:'Python training', routerLink:'courses/python-training-course-in-delhincr'},
-      {title: 'Data Science Course in Delhi | Data Science Training in Delhi', name:'Data Science training', routerLink:'courses/data-science-training-course-in-delhincr'},
-      {title: '', name:'Machine Learning training', routerLink:'courses/machine-learning-training-course-in-delhincr'},
-      {title: '', name:'Deep Learning training', routerLink:'courses/deep-learning-training-course-in-delhincr'},
-      {title: '', name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course-in-delhincr'},
-      {title: '', name:'RPA training', routerLink:'courses/rpa-course-in-delhincr'},
-      {title: '', name:'Java training', routerLink:'courses/java-course-in-delhincr'},
-      {title: '', name:'.Net training', routerLink:'.net-course-in-delhincr'},
-      {title: '', name:'VBA training', routerLink:'vba-course-in-delhincr'},
-      {title: '', name:'PHP', routerLink:'courses/php-course-in-delhincr'},
-      {title: '', name:'HTML5/CSS3/JS', routerLink:'courses/html5-css3-js-course-in-delhincr'},
-      {title: '', name:'Angular', routerLink:'courses/angular-course-in-delhincr'},
-      {title: '', name:'Node', routerLink:'courses/nodejs-course-in-delhincr'},
-      {title: '', name:'React', routerLink:'courses/react-course-in-delhincr'},
-      {title: '', name:'Python Django/Flask', routerLink:'courses/pyhton-django-course-in-delhincr'},
-      {title: '', name:'MongoDB', routerLink:'courses/mongodb-course-in-delhincr'},
-      {title: '', name:'SQL', routerLink:'courses/sql-course-in-delhincr'},
-      {title: '', name:'Oracle', routerLink:'courses/oracle-course-in-delhincr'},
-      {title: '', name:'Power Bi', routerLink:'courses/powerBi-course-in-delhincr'},
-      {title: '', name:'Tablue', routerLink:'courses/courses/tableau-course-in-delhincr'},
-      {title: '', name:'SMO(Social media optimization)', routerLink:'courses/social-media-optimization-course-in-delhincr'},
-      {title: '', name:'PPC(Pay-per-click)', routerLink:'courses/pay-per-click-course-in-delhincr'},
-      {title: '', name:'SEO(Search engine optimization)', routerLink:'courses/seo-course-in-delhincr'},
-      {title: '', name:'Google Ads', routerLink:'courses/google-ads-certification-course-in-delhincr'},
-      {title: '', name:'Facebook Ads', routerLink:'courses/facebook_ads_certification-course-in-delhincr'},
-      {title: '', name:'Social Media Promotion', routerLink:'courses/social-media-promotion-course-in-delhincr'},
-      {title: '', name:'E-mail Marketing', routerLink:'courses/email-marketing-course-in-delhincr'},
-      {title: '', name:'Diploma in Data Science', routerLink:'courses/diploma-in-data-science-course-in-delhincr'},
-      {title: '', name:'Diploma in Machine Learning', routerLink:'courses/diploma-in-machine-learning-course-in-delhincr'},
-      {title: '', name:'Masters in Data Science', routerLink:'courses/masters-in-data-science-course-in-delhincr'},
-      {title: '', name:'Masters in Machine Learning', routerLink:'courses/masters-in-machine-learning-course-in-delhincr'},
+      {name:'Python training', routerLink:'courses/python-training-course-in-delhincr'},
+      {name:'Data Science training', routerLink:'courses/data-science-training-course-in-delhincr'},
+      {name:'Machine Learning training', routerLink:'courses/machine-learning-training-course-in-delhincr'},
+      {name:'Deep Learning training', routerLink:'courses/deep-learning-training-course-in-delhincr'},
+      {name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course-in-delhincr'},
+      {name:'RPA training', routerLink:'courses/rpa-course-in-delhincr'},
+      {name:'Java training', routerLink:'courses/java-course-in-delhincr'},
+      {name:'.Net training', routerLink:'.net-course-in-delhincr'},
+      {name:'VBA training', routerLink:'vba-course-in-delhincr'},
+      {name:'PHP', routerLink:'courses/php-course-in-delhincr'},
+      {name:'HTML5/CSS3/JS', routerLink:'courses/html5-css3-js-course-in-delhincr'},
+      {name:'Angular', routerLink:'courses/angular-course-in-delhincr'},
+      {name:'Node', routerLink:'courses/nodejs-course-in-delhincr'},
+      {name:'React', routerLink:'courses/react-course-in-delhincr'},
+      {name:'Python Django/Flask', routerLink:'courses/pyhton-django-course-in-delhincr'},
+      {name:'MongoDB', routerLink:'courses/mongodb-course-in-delhincr'},
+      {name:'SQL', routerLink:'courses/sql-course-in-delhincr'},
+      {name:'Oracle', routerLink:'courses/oracle-course-in-delhincr'},
+      {name:'Power Bi', routerLink:'courses/powerBi-course-in-delhincr'},
+      {name:'Tablue', routerLink:'courses/courses/tableau-course-in-delhincr'},
+      {name:'SMO(Social media optimization)', routerLink:'courses/social-media-optimization-course-in-delhincr'},
+      {name:'PPC(Pay-per-click)', routerLink:'courses/pay-per-click-course-in-delhincr'},
+      {name:'SEO(Search engine optimization)', routerLink:'courses/seo-course-in-delhincr'},
+      {name:'Google Ads', routerLink:'courses/google-ads-certification-course-in-delhincr'},
+      {name:'Facebook Ads', routerLink:'courses/facebook_ads_certification-course-in-delhincr'},
+      {name:'Social Media Promotion', routerLink:'courses/social-media-promotion-course-in-delhincr'},
+      {name:'E-mail Marketing', routerLink:'courses/email-marketing-course-in-delhincr'},
+      {name:'Diploma in Data Science', routerLink:'courses/diploma-in-data-science-course-in-delhincr'},
+      {name:'Diploma in Machine Learning', routerLink:'courses/diploma-in-machine-learning-course-in-delhincr'},
+      {name:'Masters in Data Science', routerLink:'courses/masters-in-data-science-course-in-delhincr'},
+      {name:'Masters in Machine Learning', routerLink:'courses/masters-in-machine-learning-course-in-delhincr'},
     ]},
     {title:'Popular Courses', courses:[
-      {title: 'Python Course in Delhi | Python Training in Delhi', name:'Python training', routerLink:'courses/python-training-course-in-delhincr'},
-      {title: 'Data Science Course in Delhi | Data Science Training in Delhi', name:'Data Science training', routerLink:'courses/data-science-training-course-in-delhincr'},
-      {title: '', name:'Machine Learning training', routerLink:'courses/machine-learning-training-course-in-delhincr'},
-      {title: '', name:'Deep Learning training', routerLink:'courses/deep-learning-training-course-in-delhincr'},
-      {title: '', name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course-in-delhincr'},
-      {title: '', name:'RPA training', routerLink:'courses/rpa-course-in-delhincr'},
-      {title: '', name:'Java training', routerLink:'courses/java-course-in-delhincr'},
-      {title: '', name:'.Net training', routerLink:'.net-course-in-delhincr'},
-      {title: '', name:'VBA training', routerLink:'vba-course-in-delhincr'},
+      {name:'Python training', routerLink:'courses/python-training-course-in-delhincr'},
+      {name:'Data Science training', routerLink:'courses/data-science-training-course-in-delhincr'},
+      {name:'Machine Learning training', routerLink:'courses/machine-learning-training-course-in-delhincr'},
+      {name:'Deep Learning training', routerLink:'courses/deep-learning-training-course-in-delhincr'},
+      {name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course-in-delhincr'},
+      {name:'RPA training', routerLink:'courses/rpa-course-in-delhincr'},
+      {name:'Java training', routerLink:'courses/java-course-in-delhincr'},
+      {name:'.Net training', routerLink:'.net-course-in-delhincr'},
+      {name:'VBA training', routerLink:'vba-course-in-delhincr'},
     ]},
     {title:'Web Development', courses:[
-      {title: '', name:'PHP', routerLink:'courses/php-course-in-delhincr'},
-      {title: '', name:'HTML5/CSS3/JS', routerLink:'courses/html5-css3-js-course-in-delhincr'},
-      {title: '', name:'Angular', routerLink:'courses/angular-course-in-delhincr'},
-      {title: '', name:'Node', routerLink:'courses/nodejs-course-in-delhincr'},
-      {title: '', name:'React', routerLink:'courses/react-course-in-delhincr'},
-      {title: '', name:'Python Django/Flask', routerLink:'courses/pyhton-django-course-in-delhincr'},
+      {name:'PHP', routerLink:'courses/php-course-in-delhincr'},
+      {name:'HTML5/CSS3/JS', routerLink:'courses/html5-css3-js-course-in-delhincr'},
+      {name:'Angular', routerLink:'courses/angular-course-in-delhincr'},
+      {name:'Node', routerLink:'courses/nodejs-course-in-delhincr'},
+      {name:'React', routerLink:'courses/react-course-in-delhincr'},
+      {name:'Python Django/Flask', routerLink:'courses/pyhton-django-course-in-delhincr'},
     ]},
     {title:'Database & Analytics Tools', courses:[
-      {title: '', name:'MongoDB', routerLink:'courses/mongodb-course-in-delhincr'},
-      {title: '', name:'SQL', routerLink:'courses/sql-course-in-delhincr'},
-      {title: '', name:'Oracle', routerLink:'courses/oracle-course-in-delhincr'},
-      {title: '', name:'Power Bi', routerLink:'courses/powerBi-course-in-delhincr'},
-      {title: '', name:'Tablue', routerLink:'courses/courses/tableau-course-in-delhincr'},
+      {name:'MongoDB', routerLink:'courses/mongodb-course-in-delhincr'},
+      {name:'SQL', routerLink:'courses/sql-course-in-delhincr'},
+      {name:'Oracle', routerLink:'courses/oracle-course-in-delhincr'},
+      {name:'Power Bi', routerLink:'courses/powerBi-course-in-delhincr'},
+      {name:'Tablue', routerLink:'courses/courses/tableau-course-in-delhincr'},
     ]},
     {title:'Digital Marketing', courses:[
-      {title: '', name:'SMO(Social media optimization)', routerLink:'courses/social-media-optimization-course-in-delhincr'},
-      {title: '', name:'PPC(Pay-per-click)', routerLink:'courses/pay-per-click-course-in-delhincr'},
-      {title: '', name:'SEO(Search engine optimization)', routerLink:'courses/seo-course-in-delhincr'},
-      {title: '', name:'Google Ads', routerLink:'courses/google-ads-certification-course-in-delhincr'},
-      {title: '', name:'Facebook Ads', routerLink:'courses/facebook_ads_certification-course-in-delhincr'},
-      {title: '', name:'Social Media Promotion', routerLink:'courses/social-media-promotion-course-in-delhincr'},
-      {title: '', name:'E-mail Marketing', routerLink:'courses/email-marketing-course-in-delhincr'},
+      {name:'SMO(Social media optimization)', routerLink:'courses/social-media-optimization-course-in-delhincr'},
+      {name:'PPC(Pay-per-click)', routerLink:'courses/pay-per-click-course-in-delhincr'},
+      {name:'SEO(Search engine optimization)', routerLink:'courses/seo-course-in-delhincr'},
+      {name:'Google Ads', routerLink:'courses/google-ads-certification-course-in-delhincr'},
+      {name:'Facebook Ads', routerLink:'courses/facebook_ads_certification-course-in-delhincr'},
+      {name:'Social Media Promotion', routerLink:'courses/social-media-promotion-course-in-delhincr'},
+      {name:'E-mail Marketing', routerLink:'courses/email-marketing-course-in-delhincr'},
     ]},
     {title:'Specialization Courses', courses:[
-      {title: '', name:'Diploma in Data Science', routerLink:'courses/diploma-in-data-science-course-in-delhincr'},
-      {title: '', name:'Diploma in Machine Learning', routerLink:'courses/diploma-in-machine-learning-course-in-delhincr'},
-      {title: '', name:'Masters in Data Science', routerLink:'courses/masters-in-data-science-course-in-delhincr'},
-      {title: '', name:'Masters in Machine Learning', routerLink:'courses/masters-in-machine-learning-course-in-delhincr'},
+      {name:'Diploma in Data Science', routerLink:'courses/diploma-in-data-science-course-in-delhincr'},
+      {name:'Diploma in Machine Learning', routerLink:'courses/diploma-in-machine-learning-course-in-delhincr'},
+      {name:'Masters in Data Science', routerLink:'courses/masters-in-data-science-course-in-delhincr'},
+      {name:'Masters in Machine Learning', routerLink:'courses/masters-in-machine-learning-course-in-delhincr'},
     ]}
   ]
   socialMedia = [
@@ -127,7 +127,7 @@ export class HeaderComponent implements OnInit {
 
   
 
-
+  
   
 
   ngOnInit(): void {
@@ -142,9 +142,6 @@ export class HeaderComponent implements OnInit {
     // },2000);
   }
 
-  setDocTitle(value) {
-    console.log('current title:::::' + this.titleService.getTitle());
-    this.titleService.setTitle(value);
- }
+ 
   
 }
