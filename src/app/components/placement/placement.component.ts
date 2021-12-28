@@ -13,40 +13,40 @@ export class PlacementComponent implements OnInit {
   }
 cards = [
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'Akash sharma', company: 'Seaborntechnologies', profile:'Python developer', img: 'assets/images/placement/img1.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'sakshi jain', company: 'Almondz global securities', profile:'Digital marketing', img: 'assets/images/placement/img5.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'kaj ostam', company: 'jetdevs pvt ltd', profile:'Full Stack Developer', img: 'assets/images/placement/img10.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'akansha singh', company: 'Softcubical', profile:'Machine learning engineer', img: 'assets/images/placement/img6.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'Kuldeep singh', company: 'Seaborntechnologies', profile:'Full Stack Developer', img: 'assets/images/placement/img4.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'Himanshu Rawat', company: 'webinfotech', profile:'Digital Marketing', img: 'assets/images/placement/img2.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'Rahul kumar', company: 'css infotech pvt ltd', profile:'python developer', img: 'assets/images/placement/img7.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'Sanjeev kumar', company: 'seaborntechnologies', profile:'Data Analytical', img: 'assets/images/placement/img8.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'gunjan Singh', company: 'css infotech', profile:'Data Scientist', img: 'assets/images/placement/img9.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'Rihaan', company: 'Seaborntechnologies', profile:'Python Developer', img: 'assets/images/placement/img3.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'Rajat', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/placement/img11.jpeg'
   },
   {
-    name:'Akash Badola', company: 'Almondz Global Securities', profile:'Full Stack Developer', img: 'assets/images/auth.jpg'
+    name:'Divanshu', company: 'webinfotech', profile:'Python Developer', img: 'assets/images/placement/img12.png'
   },
 ]
 

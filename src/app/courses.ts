@@ -1,18 +1,19 @@
 export const courses = [
     {
-        heading:'Python training',
-        subHeading:'Python is the most searched language as well as used by google, microsoft, twitter and the list goes on with wide variety of frameworks for App development & Backend. BookMyShiksha consider python as the next big thing in the coming future.',
-        aboutHeading:'Python Course Training',
+        image:"/assets/images/course-images/python.png",
+        heading:'Python training course in Delhi,India',
+        subHeading:'Python course in delhi is the most searched language as well as used by google, microsoft, twitter and the list goes on with wide variety of frameworks for App development & Backend. BookMyShiksha consider python as the next big thing in the coming future.',
+        aboutHeading:'Python Classes in Delhi',
         about: [
-            "Python is one of the most widely reputed programming languages in the world.BookMyShiksha is the best python training campus in Delhi-NCR that allows learners to build the skills you would require to land your first Python programming job. Learn the intricacies of Machine Learning, Django, Data Science, and the other specialised areas. Be in a position to create your own Python apps efficiently by enrolling for the best python institute delhi",
-            "To be able to do so, you require a firm foundation in Python programming, and this course is specially designed to equip you with the core skills in a swift manner."], 
+            "Python is one of the most widely reputed programming languages in the world, python training institute in delhi.BookMyShiksha is the best python training campus in Delhi-NCR that allows learners to build the skills you would require to land your first Python programming job. Learn the intricacies of Machine Learning, Django, Data Science, and the other specialised areas.Understand the mathematics behind Machine Learning which is vital and not covered in most courses. Gain theoretical and practical knowledge to use Python for acing projects. Be in a position to create your own Python apps efficiently by enrolling for the best python institute delhi",
+            "To be able to do so, you require a firm foundation in Python programming, and this course is specially designed to equip you with the core skills in a swift manner. Join this course today if you want an incredible boost in your career."], 
         aboutSections : [
-            {heading:'By the end of this course, you will be able to:',about:['Create, and incorporate your own Python programs through this course at BookMyShiksha. Add OOP (Python Object-Oriented Programming) skills to your CV. Well versed in both Python 2, as well as Python 3 softwares. Or be in a position where you understand how to scale up as a senior software developer.']},
+            {heading:'By the end of this course, you will be able to:',about:['Create, and incorporate your own Python programs through this course at BookMyShiksha. python training in delhi, Add OOP (Python Object-Oriented Programming) skills to your CV.Pre-process data with ease. Well versed in both Python 2, as well as Python 3 softwares.Be excellent at improving Machine Learning algorithms using underfitting, overfitting, training, testing and validation. Execute factor and cluster analysis. Perform linear and logistic regressions in Python efficiently. Create your own web applications, games or apply the knowledge in the realm of Data Science. Use flows control in programs. Create generator expressions and functions. Use containers which are a collection of data such as dictionaries and lists. Have impressive knowledge on decorators and on their creation and usage. Or be in a position where you understand how to scale up as a senior software developer.']},
             {heading:'Who is this course for?',about:[
-                "This course is for beginners with no prior knowledge about Python but are looking to equip themselves with the most popular programming job in the world. Anybody that wants to gain prerequisite knowledge to move into Machine Learning, Data Science or Artificial Intelligence. "
+                "python classes in delhi, This course is for beginners with no prior knowledge about Python but are looking to equip themselves with the most popular programming job in the world.Students who want to start their career with a solid foundation and gradually build their skills. For corporate employees who want to scale up their careers and grasp better opportunities. For engineers and developers who have knowledge of other programming languages but not Python. python course near me, Anybody that wants to gain prerequisite knowledge to move into Machine Learning, Data Science or Artificial Intelligence. "
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Python Developer, Data Analyst, Educator, Product Manager, Financial Advisor, Data Journalist"]},
-            {heading:'Prerequisite knowledge:',about:["Enthusiasm to learn this superb programming language which is a valuable lifetime skill. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Python is included in the course. "]},
+            {heading:'Prerequisite knowledge:',about:["Enthusiasm to learn this superb programming language which is a valuable lifetime skill.There is no prior coding language knowledge required. We will start from the basics. However, you would require a python course fees in delhi, A computer that supports Windows, MacOS, or Linux. A stable internet connection. The setup and installation instructions are included for each operating system. python coaching in delhi, Everything else that is required to learn and start using Python is included in the course. "]},
         ],
         
         sections : [
@@ -26,6 +27,7 @@ export const courses = [
               '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
               '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
@@ -65,6 +67,7 @@ export const courses = [
     },
     
     {
+      image:"/assets/images/course-images/DS.png",
         heading:'Data Science training',
         subHeading:'DataScience is the future for highend analytics, visualization & Preprocessing. BookMyShiksha uses tools like anaconda navigator, IDLE, VS code, Pycharm, Jupyter notebook.Not only these tools are exciting to use but there real world uses in IT industry is inevitable in the coming future. ',
         aboutHeading:'Data Science training',
@@ -117,7 +120,7 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],
@@ -129,6 +132,7 @@ export const courses = [
       ] ,
     },
     {
+        image:"/assets/images/course-images/ML.png",
         heading:'Machine Learning Training',
         subHeading:'Machine learning helps in data analytics and have its framework for prediction & analysis.Machine learning is the key tool which used by google, microsoft, youtube and so on to implement its AI which makes the processing fast. BookMyShiksha believes in the future and plans to work and implement its features in the coming future.',
         aboutHeading:'Machine Learning Training',
@@ -181,7 +185,7 @@ export const courses = [
               {name:'Principle Component Analysis',summary:['Need for dimensionality reduction','Principal Component Analysis (PCA)','PCA with Python on cancer Dataset']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ], 
@@ -195,6 +199,7 @@ export const courses = [
         
     },
     {
+      image:"/assets/images/course-images/DL.png",
         heading:'Deep Learning Training',
         subHeading:'Deep learning works with neural networking and features of machine learning, Deep learning involves lot of statistic analysis and complex calculation.Deep learning is used in various sector such as medical science, robotics and so on. BookMyShiksha have well trained trainers and expertise to help students to understand and be future ready in deep learning.',
         aboutHeading:'Deep Learning Training',
@@ -247,7 +252,7 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],
@@ -259,6 +264,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/ai.png",
         heading:'Artificial Intelligence Training',
         subHeading:'Artificial inteligence is used by big brands such as youtube, augmented reality, virtual reality,robotics and so on. Artificial intelliegnce have reached a new level of achievement where they have already made a humanoid robot, which have been given citizenship also. BookMyShiksha works with the latest trends in machine learning and artificial intelligence field.',
         aboutHeading:'Artificial Intelligence Training',
@@ -311,7 +317,7 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ], 
@@ -323,6 +329,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/diplomaiinds.png",
         heading:'Diploma in DataScience',
         subHeading:'BookMySiksha provide data science diploma for all the students who are aspiring to have a future in Data Science.We as an institute bilieves in education , however most of the companies ask for degree, diploma or masters so BookMyShiksha introduced this diploma after taking an opinion from our students.',
         aboutHeading:'Diploma in DataScience',
@@ -388,6 +395,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/diplomainml.png",
         heading:'Diploma in Machine Learning',
         subHeading:'Machine Learning is the most searched skillset required in IT industry at the moment and will be in the coming decade. BookMyShiksha choose to provide Machine Learning as a diploma as our institiute primarily focus on AI , analytics and so on. According to news AI will generate 133 millions new jobs globally by 2023.',
         aboutHeading:'Diploma in Machine Learning',
@@ -440,7 +448,7 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],
@@ -452,6 +460,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/masterinds.png",
         heading:'Master in DataScience',
         subHeading:'BookMyShiksha build this diploma under the guidance of IT experts who have been in IT field for more than a decade. BookMyShiksha makes education a priority as students are the future of this nation and we as an intitute bilieve that its our obligation to guide them in the right path and make them industry ready. Minimum eligibility criteria to get a seat in our diploma is class 10th and 12th with mathematics.',
         aboutHeading:'Master in DataScience',
@@ -516,6 +525,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/msinml.png",
         heading:'Master in Machine Learning',
         subHeading:'BookMyShiksha as an institute knows that india is moving towards digitization with every aspect of our life being digitize need for Machine learning is increasing every second. BookMyShiksha provide machine learning Master with our experienced industrial trainers in Machine Learning.Machine learning makes prediction and implement automation.',
         aboutHeading:'Master in Machine Learning',
@@ -568,7 +578,7 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],
@@ -580,6 +590,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/seo.png",
         heading:'Search Engine Optimization (SEO)',
         subHeading:' Digital marketingdolor sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Search Engine Optimization (SEO)',
@@ -638,7 +649,7 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ], 
@@ -650,6 +661,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/rpa.png",
         heading:'RPA Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'RPA Training',
@@ -702,7 +714,7 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],
@@ -714,6 +726,7 @@ export const courses = [
       ] ,  
     },
     {
+      image:"/assets/images/course-images/java.png",
         heading:'Java Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Java Training',
@@ -766,7 +779,7 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],    
@@ -778,6 +791,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/dotnet.png",
         heading:'.Net Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'.Net Training',
@@ -830,18 +844,19 @@ export const courses = [
               {name:'Security and Web Services',summary:['Introduction to Security','Security in ASP.NET','Authentication (Anonymous Authentication, Windows Authentication, Forms Authentication)','Authorization','WebService Introduction']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],  
           projects:[
-            {id:1,img:"fas fa-building",name:'Appointment Scheduler -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:2,img:"fas fa-chart-line",name:'Cab Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:3,img:"fas fa-laptop",name:'City Bus Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:4,img:"fab fa-adversal",name:'Civil Registration System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:1,img:"far fa-calendar-check",name:'Appointment Scheduler -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-taxi",name:'Cab Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-bus",name:'City Bus Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fal fa-road",name:'Civil Registration System -By BookMyShiksha',domainName:'Marketing & Businesss'},
       ] , 
     },
     {
+      image:"/assets/images/course-images/vba.png",
         heading:'VBA Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'VBA Training',
@@ -894,18 +909,19 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Calculator using Excel VBA UserForm -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:2,img:"fas fa-chart-line",name:'Data Entry Userform -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:3,img:"fas fa-laptop",name:'List Folders Subfolders from Dictionary using VBA -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:4,img:"fab fa-adversal",name:'TOC creator in Excel Workbook using VBA -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:1,img:"fas fa-calculator",name:'Calculator using Excel VBA UserForm -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fad fa-database",name:'Data Entry Userform -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-folder",name:'List Folders Subfolders from Dictionary using VBA -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fas fa-file-excel",name:'TOC creator in Excel Workbook using VBA -By BookMyShiksha',domainName:'Marketing & Businesss'},
       ] ,
     },
     {
+      image:"/assets/images/course-images/php.png",
         heading:'PHP Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'PHP Training',
@@ -958,18 +974,19 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],  
           projects:[
-            {id:1,img:"fas fa-building",name:'Build a Clothes Recommendation System -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:2,img:"fas fa-chart-line",name:'Customer Relationship Management for ISP -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:3,img:"fas fa-laptop",name:'Predict Movie Success through Data Mining -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:4,img:"fab fa-adversal",name:'Fake Review Identification -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:1,img:"fas fa-tshirt",name:'Build a Clothes Recommendation System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-chalkboard-teacher",name:'Customer Relationship Management for ISP -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"far fa-thumbs-up",name:'Predict Movie Success through Data Mining -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fas fa-theater-masks",name:'Fake Review Identification -By BookMyShiksha',domainName:'Marketing & Businesss'},
       ] ,  
     },
     {
+      image:"/assets/images/course-images/web.png",
         heading:'HTML5-CSS3-JS Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'HTML5-CSS3-JS Training',
@@ -1022,18 +1039,19 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ], 
           projects:[
-            {id:1,img:"fas fa-building",name:'Login authentication -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:2,img:"fas fa-chart-line",name:'Product landing page -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:3,img:"fas fa-laptop",name:'Build Your Portfolio Website with HTML and CSS -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:4,img:"fab fa-adversal",name:'A Trivia/Quiz Game Using JS (and jQuery) -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:1,img:"fas fa-sign-in-alt",name:'Login authentication -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fab fa-product-hunt",name:'Product landing page -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"fas fa-laptop-code",name:'Build Your Portfolio Website with HTML and CSS -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fas fa-dice-d6",name:'A Trivia/Quiz Game Using JS (and jQuery) -By BookMyShiksha',domainName:'Marketing & Businesss'},
       ] , 
     },
     {
+      image:"/assets/images/course-images/angular.png",
         heading:'Angular Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Angular Training',
@@ -1086,18 +1104,19 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Angular Bare Bones Project -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:2,img:"fas fa-chart-line",name:'Room Banking System -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:3,img:"fas fa-laptop",name:'Notepad Application -By BookMyShiksha',domainName:'Marketing & Businesss'},
-            {id:4,img:"fab fa-adversal",name:'Simple Currency Converter -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:1,img:"fas fa-bone",name:'Angular Bare Bones Project -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:2,img:"fas fa-money-check-alt",name:'Room Banking System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:3,img:"far fa-sticky-note",name:'Notepad Application -By BookMyShiksha',domainName:'Marketing & Businesss'},
+            {id:4,img:"fal fa-rupee-sign",name:'Simple Currency Converter -By BookMyShiksha',domainName:'Marketing & Businesss'},
       ] , 
     },
     {
+      image:"/assets/images/course-images/node.png",
         heading:'Node Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Node Training',
@@ -1150,18 +1169,19 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ],
           projects:[
-            {id:1,img:"fas fa-building",name:'Web Security -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Email Sender -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Books Directory -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Portfolio App -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fas fa-globe",name:'Web Security -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-envelope",name:'Email Sender -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"far fa-address-book",name:'Books Directory -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fas fa-user-tag",name:'Portfolio App -By BookMyShiksha',domainName:'Back-End'},
       ] ,
     },
     {
+      image:"/assets/images/course-images/react.png",
         heading:'React Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'React Training',
@@ -1214,18 +1234,19 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ], 
           projects:[
-            {id:1,img:"fas fa-building",name:'Social Media App -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'e-Commerce App -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Weather App -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Messaging App -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"fab fa-instagram-square",name:'Social Media App -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-shopping-cart",name:'e-Commerce App -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-cloud",name:'Weather App -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fas fa-sms",name:'Messaging App -By BookMyShiksha',domainName:'Back-End'},
       ] ,
     },
     {
+      image:"/assets/images/course-images/pythondjango.png",
         heading:'Python Django Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Python Django Training',
@@ -1278,18 +1299,19 @@ export const courses = [
               {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
             ]},
             
           ], 
           projects:[
-            {id:1,img:"fas fa-building",name:'Django Chat App -By BookMyShiksha',domainName:'Back-End'},
-            {id:2,img:"fas fa-chart-line",name:'Django Hospital Management System -By BookMyShiksha',domainName:'Back-End'},
-            {id:3,img:"fas fa-laptop",name:'Railway Enquiry System -By BookMyShiksha',domainName:'Back-End'},
-            {id:4,img:"fab fa-adversal",name:'Clothes Online Store with Payment -By BookMyShiksha',domainName:'Back-End'},
+            {id:1,img:"far fa-comments",name:'Django Chat App -By BookMyShiksha',domainName:'Back-End'},
+            {id:2,img:"fas fa-hospital",name:'Django Hospital Management System -By BookMyShiksha',domainName:'Back-End'},
+            {id:3,img:"fas fa-train",name:'Railway Enquiry System -By BookMyShiksha',domainName:'Back-End'},
+            {id:4,img:"fas fa-store",name:'Clothes Online Store with Payment -By BookMyShiksha',domainName:'Back-End'},
       ] ,
     },
     {
+      image:"/assets/images/course-images/mongodb.png",
       heading:'MongoDB Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'MongoDB Training',
@@ -1343,18 +1365,19 @@ export const courses = [
             {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
           ]},
           {id:2,sectionName:'Special Features',about:[ 
-            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
           ]},
           
         ], 
         projects:[
-          {id:1,img:"fas fa-building",name:'Content Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
-          {id:2,img:"fas fa-chart-line",name:'Metadata Project -By BookMyShiksha',domainName:'Marketing & Businesss'},
-          {id:3,img:"fas fa-laptop",name:'Finance and Investment Applications -By BookMyShiksha',domainName:'Marketing & Businesss'},
-          {id:4,img:"fab fa-adversal",name:'Online Radio Station App -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:1,img:"fas fa-tasks",name:'Content Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:2,img:"fas fa-project-diagram",name:'Metadata Project -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:3,img:"fas fa-file-invoice",name:'Finance and Investment Applications -By BookMyShiksha',domainName:'Marketing & Businesss'},
+          {id:4,img:"fas fa-broadcast-tower",name:'Online Radio Station App -By BookMyShiksha',domainName:'Marketing & Businesss'},
     ] ,
     },
     {
+      image:"/assets/images/course-images/sql.png",
       heading:'SQL Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'SQL Training',
@@ -1408,19 +1431,20 @@ export const courses = [
             {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
           ]},
           {id:2,sectionName:'Special Features',about:[ 
-            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
           ]},
           
         ], 
         projects:[
-          {id:1,img:"fas fa-building",name:'Centralized College Database -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:2,img:"fas fa-chart-line",name:'Online Retail Application Database -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:3,img:"fas fa-laptop",name:'Inventory Control Management -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:4,img:"fab fa-adversal",name:'Payroll Management System -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:1,img:"fas fa-database",name:'Centralized College Database -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:2,img:"fas fa-shopping-bag",name:'Online Retail Application Database -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:3,img:"fas fa-dolly-flatbed",name:'Inventory Control Management -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:4,img:"fas fa-cash-register",name:'Payroll Management System -By BookMyShiksha',domainName:'Banking and Finance'},
     ] ,
     },
 
     {
+      image:"/assets/images/course-images/oracle.png",
       heading:'Oracle Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'Oracle Training',
@@ -1473,19 +1497,20 @@ export const courses = [
             {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
           ]},
           {id:2,sectionName:'Special Features',about:[ 
-            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
           ]},
           
         ], 
         projects:[
-          {id:1,img:"fas fa-building",name:'Generation System Database -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:2,img:"fas fa-chart-line",name:'Club Membership Database System -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:3,img:"fas fa-laptop",name:'Grocery Stock Management Database -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:4,img:"fab fa-adversal",name:'Tax Calculation System Database -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:1,img:"fas fa-database",name:'Generation System Database -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:2,img:"fas fa-calendar-alt",name:'Club Membership Database System -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:3,img:"fas fa-shopping-basket",name:'Grocery Stock Management Database -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:4,img:"fas fa-calculator",name:'Tax Calculation System Database -By BookMyShiksha',domainName:'Banking and Finance'},
     ] ,
 
     },
     {
+      image:"/assets/images/course-images/powerbi.png",
       heading:'PowerBi Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'PowerBi Training',
@@ -1539,18 +1564,19 @@ export const courses = [
             {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
           ]},
           {id:2,sectionName:'Special Features',about:[ 
-            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
           ]},
           
         ],
         projects:[
-          {id:1,img:"fas fa-building",name:'Customer Segmentation Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:2,img:"fas fa-chart-line",name:'Sales Scorecard Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:3,img:"fas fa-laptop",name:'Sales Analysis Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:4,img:"fab fa-adversal",name:'Email Engagement Analytics Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:1,img:"fas fa-chart-line",name:'Customer Segmentation Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:2,img:"fas fa-star-half-alt",name:'Sales Scorecard Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:3,img:"fas fa-chart-pie",name:'Sales Analysis Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:4,img:"fas fa-at",name:'Email Engagement Analytics Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
     ] , 
     },
     {
+      image:"/assets/images/course-images/tablue.png",
       heading:'Tableau Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'Tableau Training',
@@ -1604,18 +1630,19 @@ export const courses = [
             {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
           ]},
           {id:2,sectionName:'Special Features',about:[ 
-            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
           ]},
           
         ], 
         projects:[
-          {id:1,img:"fas fa-building",name:'Patient Risk Healthcare Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:2,img:"fas fa-chart-line",name:'Marketing Campaign Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:3,img:"fas fa-laptop",name:'Flight Price Analysis Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
-          {id:4,img:"fab fa-adversal",name:'Crime Analysis Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:1,img:"fas fa-briefcase-medical",name:'Patient Risk Healthcare Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:2,img:"fas fa-mail-bulk",name:'Marketing Campaign Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:3,img:"fas fa-helicopter",name:'Flight Price Analysis Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
+          {id:4,img:"fas fa-chart-bar",name:'Crime Analysis Dashboard -By BookMyShiksha',domainName:'Banking and Finance'},
     ] ,
     },
     {
+      image:"/assets/images/course-images/smo.png",
       heading:'Social Media Optimization Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'Social Media Optimization Training',
@@ -1668,13 +1695,14 @@ export const courses = [
             {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
           ]},
           {id:2,sectionName:'Special Features',about:[ 
-            {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
           ]},
           
         ], 
     },
 
   {
+    image:"/assets/images/course-images/ppc.png",
     heading:'Pay-per-click (PPC)',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Pay-per-click (PPC) Training',
@@ -1727,7 +1755,7 @@ export const courses = [
           {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
         ]},
         {id:2,sectionName:'Special Features',about:[ 
-          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
         ]},
         
       ],
@@ -1739,6 +1767,7 @@ export const courses = [
   ] ,
   },
   {
+    image:"/assets/images/course-images/googleads.png", 
     heading:'Google Ads Certification',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Google Ads Certification Training',
@@ -1791,12 +1820,13 @@ export const courses = [
           {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
         ]},
         {id:2,sectionName:'Special Features',about:[ 
-          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
         ]},
         
       ], 
   },
   {
+    image:"/assets/images/course-images/facebook.png",
     heading:'Facebook Ads Certification',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Facebook Ads Certification Training',
@@ -1849,12 +1879,13 @@ export const courses = [
           {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
         ]},
         {id:2,sectionName:'Special Features',about:[ 
-          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
         ]},
         
       ], 
   },
   {
+    image:"/assets/images/course-images/social media.png",
     heading:'Social Media Promotion',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Social Media Promotion Training',
@@ -1907,12 +1938,13 @@ export const courses = [
           {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
         ]},
         {id:2,sectionName:'Special Features',about:[ 
-          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
         ]},
         
       ], 
   },
   {
+    image:"/assets/images/course-images/email.png",
     heading:'Email Marketing',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Email Marketing Training',
@@ -1965,7 +1997,7 @@ export const courses = [
           {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
         ]},
         {id:2,sectionName:'Special Features',about:[ 
-          {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
         ]},
         
       ], 
