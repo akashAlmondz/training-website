@@ -21,6 +21,11 @@ main{
     font-size: 20px;
     color: rgb(31, 31, 31);
   }
+.about{
+  width: 90%;
+  padding: 7px 0;
+  line-height: 25px;
+}
 .img{
   display: flex;
   justify-content: center;
@@ -93,5 +98,9 @@ main #buttonHolder{
   }
   .expend{
     height: auto;
+  }
+  .about{
+    text-align: justify;
+    width: 100%;
   }
 }

@@ -1,18 +1,19 @@
 export const courses = [
     {
+        image:"/assets/images/course-images/python.png",
         heading:'Python training course in Delhi,India',
         subHeading:'Python course in delhi is the most searched language as well as used by google, microsoft, twitter and the list goes on with wide variety of frameworks for App development & Backend. BookMyShiksha consider python as the next big thing in the coming future.',
         aboutHeading:'Python Classes in Delhi',
         about: [
-            "Python is one of the most widely reputed programming languages in the world, python training institute in delhi.BookMyShiksha is the best python training campus in Delhi-NCR that allows learners to build the skills you would require to land your first Python programming job. Learn the intricacies of Machine Learning, Django, Data Science, and the other specialised areas. Be in a position to create your own Python apps efficiently by enrolling for the best python institute delhi",
-            "To be able to do so, you require a firm foundation in Python programming, and this course is specially designed to equip you with the core skills in a swift manner."], 
+            "Python is one of the most widely reputed programming languages in the world, python training institute in delhi.BookMyShiksha is the best python training campus in Delhi-NCR that allows learners to build the skills you would require to land your first Python programming job. Learn the intricacies of Machine Learning, Django, Data Science, and the other specialised areas.Understand the mathematics behind Machine Learning which is vital and not covered in most courses. Gain theoretical and practical knowledge to use Python for acing projects. Be in a position to create your own Python apps efficiently by enrolling for the best python institute delhi",
+            "To be able to do so, you require a firm foundation in Python programming, and this course is specially designed to equip you with the core skills in a swift manner. Join this course today if you want an incredible boost in your career."], 
         aboutSections : [
-            {heading:'By the end of this course, you will be able to:',about:['Create, and incorporate your own Python programs through this course at BookMyShiksha. python training in delhi, Add OOP (Python Object-Oriented Programming) skills to your CV. Well versed in both Python 2, as well as Python 3 softwares. Or be in a position where you understand how to scale up as a senior software developer.']},
+            {heading:'By the end of this course, you will be able to:',about:['Create, and incorporate your own Python programs through this course at BookMyShiksha. python training in delhi, Add OOP (Python Object-Oriented Programming) skills to your CV.Pre-process data with ease. Well versed in both Python 2, as well as Python 3 softwares.Be excellent at improving Machine Learning algorithms using underfitting, overfitting, training, testing and validation. Execute factor and cluster analysis. Perform linear and logistic regressions in Python efficiently. Create your own web applications, games or apply the knowledge in the realm of Data Science. Use flows control in programs. Create generator expressions and functions. Use containers which are a collection of data such as dictionaries and lists. Have impressive knowledge on decorators and on their creation and usage. Or be in a position where you understand how to scale up as a senior software developer.']},
             {heading:'Who is this course for?',about:[
-                "python classes in delhi, This course is for beginners with no prior knowledge about Python but are looking to equip themselves with the most popular programming job in the world.python course near me, Anybody that wants to gain prerequisite knowledge to move into Machine Learning, Data Science or Artificial Intelligence. "
+                "python classes in delhi, This course is for beginners with no prior knowledge about Python but are looking to equip themselves with the most popular programming job in the world.Students who want to start their career with a solid foundation and gradually build their skills. For corporate employees who want to scale up their careers and grasp better opportunities. For engineers and developers who have knowledge of other programming languages but not Python. python course near me, Anybody that wants to gain prerequisite knowledge to move into Machine Learning, Data Science or Artificial Intelligence. "
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Python Developer, Data Analyst, Educator, Product Manager, Financial Advisor, Data Journalist"]},
-            {heading:'Prerequisite knowledge:',about:["Enthusiasm to learn this superb programming language which is a valuable lifetime skill.python course fees in delhi, A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. python coaching in delhi, Everything else that is required to start using Python is included in the course. "]},
+            {heading:'Prerequisite knowledge:',about:["Enthusiasm to learn this superb programming language which is a valuable lifetime skill.There is no prior coding language knowledge required. We will start from the basics. However, you would require a python course fees in delhi, A computer that supports Windows, MacOS, or Linux. A stable internet connection. The setup and installation instructions are included for each operating system. python coaching in delhi, Everything else that is required to learn and start using Python is included in the course. "]},
         ],
         
         sections : [
@@ -63,6 +64,7 @@ export const courses = [
     },
     
     {
+      image:"/assets/images/course-images/DS.png",
         heading:'Data Science training',
         subHeading:'DataScience is the future for highend analytics, visualization & Preprocessing. BookMyShiksha uses tools like anaconda navigator, IDLE, VS code, Pycharm, Jupyter notebook.Not only these tools are exciting to use but there real world uses in IT industry is inevitable in the coming future. ',
         aboutHeading:'Data Science training',
@@ -127,6 +129,7 @@ export const courses = [
       ] ,
     },
     {
+        image:"/assets/images/course-images/ML.png",
         heading:'Machine Learning Training',
         subHeading:'Machine learning helps in data analytics and have its framework for prediction & analysis.Machine learning is the key tool which used by google, microsoft, youtube and so on to implement its AI which makes the processing fast. BookMyShiksha believes in the future and plans to work and implement its features in the coming future.',
         aboutHeading:'Machine Learning Training',
@@ -193,6 +196,7 @@ export const courses = [
         
     },
     {
+      image:"/assets/images/course-images/DL.png",
         heading:'Deep Learning Training',
         subHeading:'Deep learning works with neural networking and features of machine learning, Deep learning involves lot of statistic analysis and complex calculation.Deep learning is used in various sector such as medical science, robotics and so on. BookMyShiksha have well trained trainers and expertise to help students to understand and be future ready in deep learning.',
         aboutHeading:'Deep Learning Training',
@@ -257,6 +261,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/ai.png",
         heading:'Artificial Intelligence Training',
         subHeading:'Artificial inteligence is used by big brands such as youtube, augmented reality, virtual reality,robotics and so on. Artificial intelliegnce have reached a new level of achievement where they have already made a humanoid robot, which have been given citizenship also. BookMyShiksha works with the latest trends in machine learning and artificial intelligence field.',
         aboutHeading:'Artificial Intelligence Training',
@@ -321,6 +326,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/diplomaiinds.png",
         heading:'Diploma in DataScience',
         subHeading:'BookMySiksha provide data science diploma for all the students who are aspiring to have a future in Data Science.We as an institute bilieves in education , however most of the companies ask for degree, diploma or masters so BookMyShiksha introduced this diploma after taking an opinion from our students.',
         aboutHeading:'Diploma in DataScience',
@@ -386,6 +392,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/diplomainml.png",
         heading:'Diploma in Machine Learning',
         subHeading:'Machine Learning is the most searched skillset required in IT industry at the moment and will be in the coming decade. BookMyShiksha choose to provide Machine Learning as a diploma as our institiute primarily focus on AI , analytics and so on. According to news AI will generate 133 millions new jobs globally by 2023.',
         aboutHeading:'Diploma in Machine Learning',
@@ -450,6 +457,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/masterinds.png",
         heading:'Master in DataScience',
         subHeading:'BookMyShiksha build this diploma under the guidance of IT experts who have been in IT field for more than a decade. BookMyShiksha makes education a priority as students are the future of this nation and we as an intitute bilieve that its our obligation to guide them in the right path and make them industry ready. Minimum eligibility criteria to get a seat in our diploma is class 10th and 12th with mathematics.',
         aboutHeading:'Master in DataScience',
@@ -514,6 +522,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/msinml.png",
         heading:'Master in Machine Learning',
         subHeading:'BookMyShiksha as an institute knows that india is moving towards digitization with every aspect of our life being digitize need for Machine learning is increasing every second. BookMyShiksha provide machine learning Master with our experienced industrial trainers in Machine Learning.Machine learning makes prediction and implement automation.',
         aboutHeading:'Master in Machine Learning',
@@ -578,6 +587,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/seo.png",
         heading:'Search Engine Optimization (SEO)',
         subHeading:' Digital marketingdolor sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Search Engine Optimization (SEO)',
@@ -648,6 +658,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/rpa.png",
         heading:'RPA Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'RPA Training',
@@ -712,6 +723,7 @@ export const courses = [
       ] ,  
     },
     {
+      image:"/assets/images/course-images/java.png",
         heading:'Java Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Java Training',
@@ -776,6 +788,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/dotnet.png",
         heading:'.Net Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'.Net Training',
@@ -840,6 +853,7 @@ export const courses = [
       ] , 
     },
     {
+      image:"/assets/images/course-images/vba.png",
         heading:'VBA Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'VBA Training',
@@ -904,6 +918,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/php.png",
         heading:'PHP Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'PHP Training',
@@ -968,6 +983,7 @@ export const courses = [
       ] ,  
     },
     {
+      image:"/assets/images/course-images/web.png",
         heading:'HTML5-CSS3-JS Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'HTML5-CSS3-JS Training',
@@ -1032,6 +1048,7 @@ export const courses = [
       ] , 
     },
     {
+      image:"/assets/images/course-images/angular.png",
         heading:'Angular Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Angular Training',
@@ -1096,6 +1113,7 @@ export const courses = [
       ] , 
     },
     {
+      image:"/assets/images/course-images/node.png",
         heading:'Node Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Node Training',
@@ -1160,6 +1178,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/react.png",
         heading:'React Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'React Training',
@@ -1224,6 +1243,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/pythondjango.png",
         heading:'Python Django Training',
         subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
         aboutHeading:'Python Django Training',
@@ -1288,6 +1308,7 @@ export const courses = [
       ] ,
     },
     {
+      image:"/assets/images/course-images/mongodb.png",
       heading:'MongoDB Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'MongoDB Training',
@@ -1353,6 +1374,7 @@ export const courses = [
     ] ,
     },
     {
+      image:"/assets/images/course-images/sql.png",
       heading:'SQL Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'SQL Training',
@@ -1419,6 +1441,7 @@ export const courses = [
     },
 
     {
+      image:"/assets/images/course-images/oracle.png",
       heading:'Oracle Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'Oracle Training',
@@ -1484,6 +1507,7 @@ export const courses = [
 
     },
     {
+      image:"/assets/images/course-images/powerbi.png",
       heading:'PowerBi Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'PowerBi Training',
@@ -1549,6 +1573,7 @@ export const courses = [
     ] , 
     },
     {
+      image:"/assets/images/course-images/tablue.png",
       heading:'Tableau Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'Tableau Training',
@@ -1614,6 +1639,7 @@ export const courses = [
     ] ,
     },
     {
+      image:"/assets/images/course-images/smo.png",
       heading:'Social Media Optimization Training',
       subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
       aboutHeading:'Social Media Optimization Training',
@@ -1673,6 +1699,7 @@ export const courses = [
     },
 
   {
+    image:"/assets/images/course-images/ppc.png",
     heading:'Pay-per-click (PPC)',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Pay-per-click (PPC) Training',
@@ -1737,6 +1764,7 @@ export const courses = [
   ] ,
   },
   {
+    image:"/assets/images/course-images/googleads.png", 
     heading:'Google Ads Certification',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Google Ads Certification Training',
@@ -1795,6 +1823,7 @@ export const courses = [
       ], 
   },
   {
+    image:"/assets/images/course-images/facebook.png",
     heading:'Facebook Ads Certification',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Facebook Ads Certification Training',
@@ -1853,6 +1882,7 @@ export const courses = [
       ], 
   },
   {
+    image:"/assets/images/course-images/social media.png",
     heading:'Social Media Promotion',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Social Media Promotion Training',
@@ -1911,6 +1941,7 @@ export const courses = [
       ], 
   },
   {
+    image:"/assets/images/course-images/email.png",
     heading:'Email Marketing',
     subHeading:' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
     aboutHeading:'Email Marketing Training',
