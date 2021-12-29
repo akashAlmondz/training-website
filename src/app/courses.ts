@@ -72,15 +72,15 @@ export const courses = [
         subHeading:'DataScience is the future for highend analytics, visualization & Preprocessing. BookMyShiksha uses tools like anaconda navigator, IDLE, VS code, Pycharm, Jupyter notebook.Not only these tools are exciting to use but there real world uses in IT industry is inevitable in the coming future. ',
         aboutHeading:'Data Science training',
         about: [
-            "The course at BookMyShiksha offers the entire toolbox one might require to become a brilliant data scientist. Learn Python programming with matplotlib, NumPy, Seaborn, pandas, Advanced Statistical Analysis, Machine Learning with scikit-learn, Tableau, and Deep Learning with TensorFlow. Having an understanding of the mathematics behind Machine Learning through the best data science training course in Delhi. Code in Python, and use it for statistical analysis.",
+            "The course at BookMyShiksha offers the entire toolbox one might require to become a brilliant data scientist. Learn Python programming with matplotlib, NumPy, Seaborn, pandas, Advanced Statistical Analysis, Machine Learning with scikit-learn, Tableau, and Deep Learning with TensorFlow. Gain knowledge to handle advanced techniques like Dimensionality Reduction. Be able to work on specific categories like Deep Learning, NLP and Reinforcement Learning. Having an understanding of the mathematics behind Machine Learning through the best data science training course in Delhi. Code in Python, and use it for statistical analysis.",
             "Through this course at BookMyShiksha, you will be able to apply the skills you gain in real-life business scenarios."], 
         aboutSections : [
-            {heading:'By the end of this course, you will be able to:',about:['Perform linear, and logistic regressions in the Python language. Conduct cluster and factor analysis. Create Machine Learning algorithms in Python, using statsmodels, scikit-learn, and NumPy. Use the latest Deep Learning framework like the Google TensorFlow. Develop a business intuition whilst solving tasks, or coding with large data. Unfold the intricacies of deep neural networks through the best data science online course in Delhi NCR.']},
+            {heading:'By the end of this course, you will be able to:',about:['Have impeccable intuition of numerous Data Science models. Perform linear, and logistic regressions in the Python language. Conduct cluster and factor analysis. Create Machine Learning algorithms in Python, using statsmodels, scikit-learn, and NumPy.. Be great at using Pandas for the analysis of data. Use Matplotlib for plotting Python. Ace the usage of statistical plots by incorporating Seaborn. Use the latest Deep Learning framework like the Google TensorFlow. Deploy random forest and  decision trees to improve the program. Create an army of impactful Machine Learning models and combine them to solve problems in the program. Develop a business intuition whilst solving tasks, or coding with large data. Unfold the intricacies of deep neural networks through the best data science online course in Delhi NCR.']},
             {heading:'Who is this course for?',about:[
-                "This course is for learners with no prior knowledge about data science. If you are looking to  gain the most coveted set of skills of a Data Scientist, then this course is curated for you. Anybody that wants to gain prerequisite knowledge to kick start their career should join this course at Book My Shiksha."
+                "This course is for learners with no prior knowledge about data science. . For a person that finds coding difficult but wants to learn data science and use it easily for datasets. If you are somebody that has a fair understanding of Data Science but wants to improve your skills and have a firm foundation in this sector, this course is perfect for you. If you are looking to  gain the most coveted set of skills of a Data Scientist, then this course is curated for you. Anybody that wants to gain prerequisite knowledge to kick start their career should join this course at Book My Shiksha."
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Data Scientist, Data Analyst, Applications Architect, Machine Learning Engineer, Machine Learning Scientist, Enterprise Architect, Data Architect, Data Engineer, Infrastructure Architect."]},
-            {heading:'Prerequisite knowledge:',about:["No prior knowledge in programming is required. Any tool that has to be installed will be taught through a step-by-step process."]},
+            {heading:'Prerequisite knowledge:',about:["The thirst to gain knowledge and learn a resourceful data language which is a useful lifetime skill. No prior knowledge in programming is required as we begin from the fundamentals of data science. You need a computer that supports Windows, MacOS, or Linux with a stable internet connection. No prior knowledge in programming is required. Any tool that has to be installed will be taught through a step-by-step process."]},
         ],
         whyUsCards: {
           heading:'Why You Should Join BookMyShiksha For Data Science Training.',
@@ -107,20 +107,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in DataScience.Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 5 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],
@@ -142,7 +140,7 @@ export const courses = [
         aboutSections : [
             {heading:'By the end of this course, you will be able to:',about:['Make accurate predictions for businesses. Conduct powerful analysis that yields great results. Create robust Machine Learning models. Add value to your business, or for your clients.']},
             {heading:'Who is this course for?',about:[
-                "This course is for beginners with no prior knowledge about Machine Learning on Python but are looking to equip themselves with a well defined set of skills. Students who have math knowledge and want to start learning Machine Learning. Anybody that wants to gain prerequisite knowledge to move into Machine Learning by learning classical algorithms such as linear regression or logistic regression."
+                "This course is for beginners with no prior knowledge about Machine Learning on Python but are looking to equip themselves with a well defined set of skills. Students who have math knowledge and want to start learning Machine Learning. For data analysts who want to excel in the field of Machine Learning. This course is recommended for people who are not satisfied with their jobs and want to become a fantastic Data Scientist. This is for app developers, business leaders and developers, managers, and even consumers (you!). Anybody that wants to gain prerequisite knowledge to move into Machine Learning by learning classical algorithms such as linear regression or logistic regression."
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Python Developer, Software Engineer, Data Scientist, Computational Linguist, Designer in Human-Centered Machine Learning, Software Developer."]},
             {heading:'Prerequisite knowledge:',about:["Thirst to expand their horizons through BookMyShiksha. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Machine Learning is included in the course."]},
@@ -172,22 +170,19 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Introduction to Machine Learning',summary:['Overview of Machine learning','What is Machine learning','Different Sectors Using Machine learning']},
-              {name:'Supervised Learning - Classification',summary:['Regression','Multi-Regression','Linear Regression']},
-              {name:'Supervised Learning - Classification II',summary:['Random Forest','SVR','Logistic Regression']},
-              {name:'Unsupervised Learning - Clustering',summary:['K-Means','KNN','SVM','Decision Tree']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Machine Learning. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Tree Models Using Python',summary:['Introduction to decision trees','Entropy and Information gain','Introduction to bagging algorithm','Random Forests','Project on tree models']},
-              {name:'Naive Byes Algorithm',summary:['Conditional Probability','Overview of Naïve Bayes Algorithm','News Classification Project using naïve Bayes classifier']},
-              {name:'Bosting Algorithm',summary:['Concept of weak learners','Introduction to boosting algorithms','Adaptive Boosting','Extreme Gradient Boosting (XGBoost)']},
-              {name:'Principle Component Analysis',summary:['Need for dimensionality reduction','Principal Component Analysis (PCA)','PCA with Python on cancer Dataset']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 6 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 7 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
-            
           ], 
           projects:[
             {id:1,img:"fal fa-flower-daffodil",name:'Iris Flowers Classification Project -By BookMyShiksha',domainName:'Back-End'},
@@ -205,11 +200,11 @@ export const courses = [
         aboutHeading:'Deep Learning Training',
         about: [
             "Dive into our Deep Learning course to understand the different layers of Artificial Neural Networks. Once you understand the concept behind it, apply it in real life scenarios that require your expertise. Learn what Convolutional Neural Networks are and how to implement them through the best Deep Learning Training course in the national capital region. Gain knowledge on Recurrent Neural Networks, Self-Organizing Maps, Boltzmann Machines, and AutoEncoders. Furthermore, by enrolling for this course at Book My Shiksha, you will also learn how to implement all of these concepts to excel in your career.",
-            "Our course is structured in a very robust manner, helping learners broaden their horizons by navigating through two volumes that comprise two fundamental branches of Deep Learning."], 
+            "Our course is structured in a very robust manner, helping learners broaden their horizons by navigating through two volumes that comprise two fundamental branches of Deep Learning. We have an exceptional course structure that will help learners gain the most insight in this field of technology to become experts. In case you have any doubts during the course of the training process."], 
         aboutSections : [
-            {heading:'By the end of this course, you will be able to:',about:['Use Artificial Neural Networks to solve a Customer Churn problem. Make use of Convolutional Neural Networks for Image Recognition. Predict prices of stock by applying  Recurrent Neural Networks. Investigate Fraud by incorporating Self-Organizing Maps. Create a Recommender System through the means of a Boltzmann Machine.']},
+            {heading:'By the end of this course, you will be able to:',about:['Be exceptional at incorporating artificial intelligence to your projects and businesses for unprecedented growth like never before. Use Artificial Neural Networks to solve a Customer Churn problem. Work on extensive datasets to build better programs that are complex and offer better solutions. Make use of Convolutional Neural Networks for Image Recognition. Predict prices of stock by applying  Recurrent Neural Networks. Investigate Fraud by incorporating Self-Organizing Maps. Create a Recommender System through the means of a Boltzmann Machine.']},
             {heading:'Who is this course for?',about:[
-                "This course is for anybody that is interested in the best Deep Learning course in Delhi. It is for people with no prior knowledge about Deep Learning but are looking to understand its intricacies. Students who have math knowledge and want to start learning Deep Learning. Any business owner that wants to leverage Exponential Technology to boost their business."
+                "This course is for anybody that is interested in the best Deep Learning course in Delhi. It is for people with no prior knowledge about Deep Learning but are looking to understand its intricacies. People that are looking for an interesting course module that helps them gain data in the most impressive and interactive way. This course is for data analysts who want to scale up in their careers. Students who have math knowledge and want to start learning Deep Learning. Entrepreneurs who want to disrupt the industry by incorporating the most advanced Deep Learning algorithms. Any business owner that wants to leverage Exponential Technology to boost their business."
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Deep Learning Engineer, Data Scientist, Computational Linguist, Data Analyst, Software Developer."]},
             {heading:'Prerequisite knowledge:',about:["The passion to equip themselves with a coveted set of skills by learning at Book My Shiksha. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Basic knowledge of Python programming is essential."]},
@@ -269,15 +264,15 @@ export const courses = [
         subHeading:'Artificial inteligence is used by big brands such as youtube, augmented reality, virtual reality,robotics and so on. Artificial intelliegnce have reached a new level of achievement where they have already made a humanoid robot, which have been given citizenship also. BookMyShiksha works with the latest trends in machine learning and artificial intelligence field.',
         aboutHeading:'Artificial Intelligence Training',
         about: [
-            "Enroll for the best Artificial Intelligence Training online course in Delhi to gain insights on AI concepts. Understand the intuition behind the math used in AI solutions. Gain knowledge on Time series along with simple linear regression. Learn how to incorporate Multiple and Logistic regression.",
-            "At BookMyShiksha, you will learn how Artificial Intelligence is disrupting the way we work, and function."], 
+            "Enroll for the best Artificial Intelligence Training online course in Delhi to gain insights on AI concepts. Understand the intuition behind the math used in AI solutions. Build, test, train, and deploy different artificial intelligence models to classify data. Gain knowledge on Time series along with simple linear regression. Learn how to incorporate Multiple and Logistic regression. Our modules encourage learners to apply the knowledge they gain from this course in real-life businesses and scenarios to help achieve the best possible outcomes.",
+            "At BookMyShiksha, you will learn how Artificial Intelligence is disrupting the way we work, and function. During this course, you can clear the doubts you have with our tutors who are determined to help you get the best out of the training program for you to excel in your career."], 
         aboutSections : [
-            {heading:'By the end of this course, you will be able to:',about:['Have a clear understanding of the theory behind AI. Work on AI projects that involve the application of concepts you learnt in class. Create AI programs that are developed to perform specific tasks in the medical field, electronics, robotics, finance, education, and transportation.','Artificial Intelligence has drastically transformed the business landscape. Add value to the work you do by learning how AI can make your approach unique by joining Book My Shiksha today.']},
+            {heading:'By the end of this course, you will be able to:',about:['Have a clear understanding of the theory behind AI. Work on AI projects that involve the application of concepts you learnt in class. Create AI programs that are developed to perform specific tasks in the medical field, electronics, robotics, finance, education, and transportation. and so on. Understand the differences between the rate of learning, batch size, epochs, accuracy, and loss.','Artificial Intelligence has drastically transformed the business landscape. Come up with unique artificial intelligence programs by changing a few lines of code. Your potential and imagination is limitless. Add value to the work you do by learning how AI can make your approach unique by joining Book My Shiksha today.']},
             {heading:'Who is this course for?',about:[
-                "Our Artificial Intelligence Training course in Delhi is specifically for students and professionals that have a keen interest in Artificial Intelligence. It is for Data Analysts that want to scale up in their career. Anybody that wants to equip themselves with skills for a lifetime."
+                "Our Artificial Intelligence Training course in Delhi is specifically for students and professionals that have a keen interest in Artificial Intelligence. It is for Data Analysts that want to scale up in their career. Anybody that wants to equip themselves with skills for a lifetime. This course is for business owners who want to leverage the advancements in artificial intelligence to grow their businesses in multiple folds all whilst reducing costs, maximizing revenue and optimizing their businesses in the best way possible. This is for consultants who have years of experience and possess zero to little knowledge about coding and are looking to leverage artificial intelligence to help businesses grow. Technology enthusiasts who have a penchant for artificial intelligence and want to understand its intricacies through practical experiences."
             ]},
             {heading:'Job opportunities after finishing this course:',about:["Business Intelligence Developer, Machine Learning Engineer, AI Engineer, Research Scientist, Robotic Scientist."]},
-            {heading:'Prerequisite knowledge:',about:["Basic knowledge of computer programming is required. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions for softwares are included for each operating system."]},
+            {heading:'Prerequisite knowledge:',about:["The interest to become better versions of themselves by gaining some highly coveted skills in the field of information technology and deploying these skills to help enhance the lives of themselves and others. Basic knowledge of computer programming is required. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions for softwares are included for each operating system.for this course as we work with advanced programs."]},
         ],
         whyUsCards: {
           heading:'Why You Should Join BookMyShiksha For Artificial Intelligence Training.',
@@ -304,20 +299,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Deep Learning. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 6 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 7 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ], 
@@ -331,13 +324,13 @@ export const courses = [
     {
       image:"/assets/images/course-images/diplomaiinds.png",
         heading:'Diploma in DataScience',
-        subHeading:'BookMySiksha provide data science diploma for all the students who are aspiring to have a future in Data Science.We as an institute bilieves in education , however most of the companies ask for degree, diploma or masters so BookMyShiksha introduced this diploma after taking an opinion from our students.',
+        subHeading:'BookMySiksha provide data science diploma for all the students who are aspiring to have a future in Data Science. We as an institute bilieves in education , however most of the companies ask for degree, diploma or masters so BookMyShiksha introduced this diploma after taking an opinion from our students.',
         aboutHeading:'Diploma in DataScience',
         about: [
             "The Diploma course at BookMyShiksha leads learners to learn the basics of writing and running scripts and to understand complex concepts such as regular expressions, file operations and working with binary data. Enroll for the best Diploma in Data Science in Delhi to gain knowledge on the rapidly booming data science industry. The cross platform training offers learners a better use of tasks on any operating system. Ultimately, learners would be able to cater to different job roles. Join this course today to become a fantastic data scientist.",
-            "By enrolling for this diploma at BookMyShiksha, you will be able to apply the skills you acquire in real-life business decisions."], 
+            "Ask our tutors the right questions and clear your doubts then and there during the course to become exceptional at what you do. By enrolling for this diploma at BookMyShiksha, you will be able to apply the skills you acquire in real-life business decisions."], 
         aboutSections : [
-            {heading:'By the end of this course, you will be able to:',about:['Carry out different tasks in Python. Conduct linear, and logistic regressions in the Python language. Have a thorough understanding of cluster and factor analysis. Use the latest Deep Learning framework tools. Have a business intuition whilst executing tasks, or coding with mammoth data. Unfold the deep layers of neural networks by joining the best Diploma in Data Science online course in Delhi NCR']},
+            {heading:'By the end of this course, you will be able to:',about:['Have immense insight on how computer technology has transformed the world with the appreciation of scale. Carry out different tasks in Python. Conduct linear, and logistic regressions in the Python language. Have a thorough understanding of cluster and factor analysis. Use the latest Deep Learning framework tools. Have a business intuition whilst executing tasks, or coding with mammoth data. Unfold the deep layers of neural networks by joining the best Diploma in Data Science online course in Delhi NCR']},
             {heading:'Who is this course for?',about:[
                 "This diploma is curated for novices with no prior knowledge about data science. If you are looking to become the best Data Scientist with a coveted skillset, then this course is the right one for you."
             ]},
@@ -369,22 +362,19 @@ export const courses = [
             {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
             },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Diploma in DataScience. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.','We are one of the few institutes which provide diploma in data science. We stand out among other institutes as we work onreal-time projects and databases or Datasets. We have our own certification given by BookMyShiksha further more we also provide certification from various brands suchas Microsoft, Redhat based on the technology student wants to work with.Students work with a minimum of 5-10 projects so as to lay their hands-onpractical exposure, real-world project helps our students to connect with the industry as they understand how an idea can be implemented and converted into something great.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 6 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 8 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
-            
             
           ],
           projects:[
@@ -403,7 +393,7 @@ export const courses = [
             "Learn the art of Machine Learning on Python through the best Diploma in Machine Learning in Delhi. Learners have the opportunity to get an in-depth understanding of various Machine Learning models, and tools. Be in a position to handle specific components such as Reinforcement Learning, NLP, and Deep Learning. Through the best Diploma in Machine Learning, learn advanced techniques such as Dimensionality Reduction with the help of the most experienced educators at Book My Shiksha. Understand how to choose the correct Machine Learning model to address each issue.",
             "By enrolling in the best Diploma in Machine Learning in Delhi, you have the chance to transform your life by excelling in your career."], 
         aboutSections : [
-            {heading:'By the end of this course, you will be able to:',about:['Make robust Machine Learning models. Predict accurate results for businesses. Execute powerful analysis that yields fantastic results. Add value to your own business, or the businesses of your clients.']},
+            {heading:'By the end of this course, you will be able to:',about:['Make robust Machine Learning models.Be excellent at making predictions and forecasting. Make impactful analysis that boost the business. Efficiently use clustering (K-means and hierarchical clustering) in your programs. Have impeccable theoretical and practical knowledge to cater to the needs of your clients. Be proficient at Dimensionality Reduction through the means of PCA, LDA and Kernel PCA. Use model selection and boosting to deploy k-fold cross validation, parameter turning, XGBoost, and grid searching. Predict accurate results for businesses. Execute powerful analysis that yields fantastic results. Add value to your own business, or the businesses of your clients.']},
             {heading:'Who is this course for?',about:[
                 "This diploma in Delhi is for novices with no prior knowledge about Machine Learning on Python. If you want to equip yourself with a set of skills that’s in demand, this diploma is for you. Learners looking to acquire knowledge to get into Machine Learning by understanding classical algorithms."
             ]},
@@ -435,20 +425,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Diploma in Machine Learning. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.','We are one of the few institutes which provide Diploma iin Machine Learning. We stand out among other institutes as we work onreal-time projects and databases or Datasets. We have our own certification given by BookMyShiksha further more we also provide certification from various brands suchas Microsoft, Redhat based on the technology student wants to work with.Students work with a minimum of 5-10 projects so as to lay their hands-onpractical exposure, real-world project helps our students to connect with the industry as they understand how an idea can be implemented and converted into something great.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 6 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 8 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],
@@ -500,20 +488,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Master in Data Science. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.','We are one of the few institutes which provide master in data science. We stand out among other institutes as we work onreal-time projects and databases or Datasets. We have our own certification given by BookMyShiksha further more we also provide certification from various brands suchas Microsoft, Redhat based on the technology student wants to work with.Students work with a minimum of 5-10 projects so as to lay their hands-onpractical exposure, real-world project helps our students to connect with the industry as they understand how an idea can be implemented and converted into something great.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 8 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 9 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
-              {name:'Special Features',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],
@@ -565,20 +551,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Master in Machine Learning. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.','We are one of the few institutes which provide Master in Machine Learning. We stand out among other institutes as we work onreal-time projects and databases or Datasets. We have our own certification given by BookMyShiksha further more we also provide certification from various brands suchas Microsoft, Redhat based on the technology student wants to work with.Students work with a minimum of 5-10 projects so as to lay their hands-onpractical exposure, real-world project helps our students to connect with the industry as they understand how an idea can be implemented and converted into something great.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 6 months classes (8 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 8 months classes (9 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],
@@ -636,20 +620,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in SEO. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 6 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 7 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ], 
@@ -766,20 +748,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Java. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 6 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 7 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],    
@@ -831,20 +811,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Introduction to C#.NET and OOPs using C#.NET',summary:['Console Application','Arrays in detail','Understand OOPs concepts and implementation using C#.NET','Understand DataObjects in System']},
-              {name:'Windows Forms using C#.NET',summary:['Creating Windows Forms',' Working with controls like Label','TextBox, Button','RadioButton','CheckBox','PicureBox']},
-              {name:'ADO.NET -Data Access from SQL Server',summary:['Ado.NET Architecture and ADO.NET Library','Creating and Establish database connectivity','Connection vs Disconnection Model','CRUD operations using Connection Oriented Model with SqlCommand and SqlDataReader']},
-              {name:'Collections and Assemblies',summary:['Collection','Collection API','Generics','Generic Collection','Index and Key-Value paired collections']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Dot Net. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Web Server Controls',summary:['Web Server Control','Available Web Sever controls','Using regular controls like','ListControl']},
-              {name:'LinQ, 3-Tier Architecture',summary:['Introduction to Linq','Linq type queries','sql like queries','access DataSource like Array','XML and database using Linq']},
-              {name:'State Management, Ajax',summary:['Introduction to State Management Techniques','ViewState','QueryString','Session','Cookie']},
-              {name:'Security and Web Services',summary:['Introduction to Security','Security in ASP.NET','Authentication (Anonymous Authentication, Windows Authentication, Forms Authentication)','Authorization','WebService Introduction']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 5 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],  
@@ -896,20 +874,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in VBA. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],
@@ -961,20 +937,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in PhP. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],  
@@ -1026,21 +1000,19 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
         sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
-            ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
-            ]},
-            {id:2,sectionName:'Special Features',about:[ 
-              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
-            ]},
+          {id:0,sectionName:'Course Overview',about:[ 
+            'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Web development. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+          ]},
+          {id:1,sectionName:'Course Duration',about:[ 
+            '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 6 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+            '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 7 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+            '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+            '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
+          ]},
+          {id:2,sectionName:'Special Features',about:[ 
+            {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
+          ]},
             
           ], 
           projects:[
@@ -1091,20 +1063,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Angular. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],
@@ -1156,20 +1126,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Node. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ],
@@ -1221,20 +1189,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in React. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ], 
@@ -1286,20 +1252,18 @@ export const courses = [
           {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
           },
           sections : [
-            {id:0,sectionName:'Introduction to Programming  ',about:[ 
-              {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-              {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-              {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-              {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+            {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Python Django. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
             ]},
-            {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-              {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-              {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-              {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-              {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
             ]},
             {id:2,sectionName:'Special Features',about:[ 
               {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
             ]},
             
           ], 
@@ -1328,7 +1292,7 @@ export const courses = [
           {heading:'Prerequisite knowledge:',about:["To enroll in this course at Book My Shiksha, a learner does not have to possess any prior knowledge about MongoDB. A general mobile development or web-development knowledge will be a bonus, but it is not mandatory. You can use any operating system such as Windows, MacOS, or Linux."]},
       ],
       whyUsCards: {
-        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
+        heading:'Why You Should Join BookMyShiksha For MongoDB',
           points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
           {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
           {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
@@ -1336,7 +1300,7 @@ export const courses = [
           {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
       },
       trainesrsCards : {
-        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
+        heading:'BookMyShiksha Corporate Trainers Profile for MongoDB',
           points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
           {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
           {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
@@ -1346,28 +1310,25 @@ export const courses = [
           {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
       },
       placementCards : {
-        heading:'Placement Facility During Social Media Optimization Training',
+        heading:'Placement Facility During MongoDB',
         points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
         {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
         {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
         },
         sections : [
-          {id:0,sectionName:'Introduction to Programming  ',about:[ 
-            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          {id:0,sectionName:'Course Overview',about:[ 
+            'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in SMO. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
           ]},
-          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          {id:1,sectionName:'Course Duration',about:[ 
+            '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+            '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+            '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+            '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
           ]},
           {id:2,sectionName:'Special Features',about:[ 
             {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
           ]},
-          
         ], 
         projects:[
           {id:1,img:"fas fa-tasks",name:'Content Management System -By BookMyShiksha',domainName:'Marketing & Businesss'},
@@ -1394,7 +1355,7 @@ export const courses = [
           {heading:'Prerequisite knowledge:',about:["Learners do not have to possess any prior knowledge about SQL. However, a general mobile development knowledge or web-development understanding will be a bonus, but it is not mandatory. You would be able to use any operating systems such as Windows, MacOS, or Linux."]},
       ],
       whyUsCards: {
-        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
+        heading:'Why You Should Join BookMyShiksha For SQL.',
           points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
           {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
           {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
@@ -1402,7 +1363,7 @@ export const courses = [
           {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
       },
       trainesrsCards : {
-        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
+        heading:'BookMyShiksha Corporate Trainers Profile for SQL Training',
           points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
           {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
           {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
@@ -1412,28 +1373,25 @@ export const courses = [
           {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
       },
       placementCards : {
-        heading:'Placement Facility During Social Media Optimization Training',
+        heading:'Placement Facility During SQL',
         points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
         {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
         {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
         },
         sections : [
-          {id:0,sectionName:'Introduction to Programming  ',about:[ 
-            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
-          ]},
-          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
-          ]},
-          {id:2,sectionName:'Special Features',about:[ 
-            {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
-          ]},
-          
+          {id:0,sectionName:'Course Overview',about:[ 
+              'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in SQL. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+            ]},
+            {id:1,sectionName:'Course Duration',about:[ 
+              '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 2 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+              '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+              '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+              '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
+            ]},
+            {id:2,sectionName:'Special Features',about:[ 
+              {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+              '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
+            ]},
         ], 
         projects:[
           {id:1,img:"fas fa-database",name:'Centralized College Database -By BookMyShiksha',domainName:'Banking and Finance'},
@@ -1460,7 +1418,7 @@ export const courses = [
           {heading:'Prerequisite knowledge:',about:["Learners do not have to possess any prior knowledge about Oracle. However, a general programming understanding will be a bonus, but it is not mandatory. You would be able to use any operating systems such as Windows, MacOS, or Linux."]},
       ],
       whyUsCards: {
-        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
+        heading:'Why You Should Join BookMyShiksha For Oracle.',
           points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
           {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
           {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
@@ -1468,7 +1426,7 @@ export const courses = [
           {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
       },
       trainesrsCards : {
-        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
+        heading:'BookMyShiksha Corporate Trainers Profile for Oracle',
           points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
           {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
           {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
@@ -1478,26 +1436,24 @@ export const courses = [
           {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
       },
       placementCards : {
-        heading:'Placement Facility During Social Media Optimization Training',
+        heading:'Placement Facility During Oracle',
         points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
         {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
         {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
         },
         sections : [
-          {id:0,sectionName:'Introduction to Programming  ',about:[ 
-            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          {id:0,sectionName:'Course Overview',about:[ 
+            'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Oracle. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
           ]},
-          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          {id:1,sectionName:'Course Duration',about:[ 
+            '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+            '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+            '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+            '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
           ]},
           {id:2,sectionName:'Special Features',about:[ 
             {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
           ]},
           
         ], 
@@ -1527,7 +1483,7 @@ export const courses = [
           {heading:'Prerequisite knowledge:',about:["Learners do not have to possess any prior knowledge about Power BI. However, a general understanding with Power Pivot, Excel Power Query, and DAX will be a bonus, but it is not mandatory. You would be able to use Power BI only on Windows as it is currently unavailable for MacOS/Linux."]},
       ],
       whyUsCards: {
-        heading:'Why You Should Join BookMyShiksha For Social Media Optimization Training.',
+        heading:'Why You Should Join BookMyShiksha For PowerBi.',
           points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
           {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
           {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
@@ -1535,7 +1491,7 @@ export const courses = [
           {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
       },
       trainesrsCards : {
-        heading:'BookMyShiksha Corporate Trainers Profile for Socila Media Optimization Training',
+        heading:'BookMyShiksha Corporate Trainers Profile for PowerBi',
           points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
           {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
           {point:'The experts we recruit at BookMyShiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
@@ -1545,26 +1501,24 @@ export const courses = [
           {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
       },
       placementCards : {
-        heading:'Placement Facility During Social Media Optimization Training',
+        heading:'Placement Facility During PowerBi',
         points:[{point:'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
         {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
         {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
         },
         sections : [
-          {id:0,sectionName:'Introduction to Programming  ',about:[ 
-            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          {id:0,sectionName:'Course Overview',about:[ 
+            'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in PowerBi. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
           ]},
-          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          {id:1,sectionName:'Course Duration',about:[ 
+            '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+            '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+            '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+            '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
           ]},
           {id:2,sectionName:'Special Features',about:[ 
             {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
           ]},
           
         ],
@@ -1617,20 +1571,18 @@ export const courses = [
         {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
         },
         sections : [
-          {id:0,sectionName:'Introduction to Programming  ',about:[ 
-            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          {id:0,sectionName:'Course Overview',about:[ 
+            'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Tableau. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
           ]},
-          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          {id:1,sectionName:'Course Duration',about:[ 
+            '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+            '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+            '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+            '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
           ]},
           {id:2,sectionName:'Special Features',about:[ 
             {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
           ]},
           
         ], 
@@ -1682,20 +1634,18 @@ export const courses = [
         {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
         },
         sections : [
-          {id:0,sectionName:'Introduction to Programming  ',about:[ 
-            {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-            {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-            {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-            {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+          {id:0,sectionName:'Course Overview',about:[ 
+            'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in SMO. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
           ]},
-          {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-            {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-            {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-            {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-            {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+          {id:1,sectionName:'Course Duration',about:[ 
+            '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+            '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+            '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+            '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
           ]},
           {id:2,sectionName:'Special Features',about:[ 
             {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+            '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
           ]},
           
         ], 
@@ -1742,22 +1692,19 @@ export const courses = [
       {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
       },
       sections : [
-        {id:0,sectionName:'Introduction to Programming  ',about:[ 
-          {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-          {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-          {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-          {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+        {id:0,sectionName:'Course Overview',about:[ 
+          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in PPC. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
         ]},
-        {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-          {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-          {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-          {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-          {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+        {id:1,sectionName:'Course Duration',about:[ 
+          '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 3 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+          '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+          '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+          '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
         ]},
         {id:2,sectionName:'Special Features',about:[ 
           {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
         ]},
-        
       ],
       projects:[
         {id:1,img:"fas fa-building",name:'Customer Preferences on Coupon Code Based Promotional Activities -By BookMyShiksha',domainName:'Marketing & Businesss'},
@@ -1783,7 +1730,7 @@ export const courses = [
         {heading:'Prerequisite knowledge:',about:["A basic understanding of the internet, and search engines. There is no need for previous Google AdWords experience."]},
     ],
     whyUsCards: {
-      heading:'Why You Should Join BookMyShiksha For Pay-per-click (PPC) Training.',
+      heading:'Why You Should Join BookMyShiksha For Google Ads Training.',
         points:[{point:'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.'},
         {point:'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.'},
         {point:'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.'},
@@ -1791,7 +1738,7 @@ export const courses = [
         {point:'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. '},]
     },
     trainesrsCards : {
-      heading:'Book My Shiksha Corporate Trainers Profile for Pay-per-click (PPC) Training',
+      heading:'Book My Shiksha Corporate Trainers Profile for Google Ads Training',
         points:[{point:'Our trainers are certified professionals in the field of information technology with over a decade of experience.'},
         {point:'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.'},
         {point:'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
@@ -1801,26 +1748,24 @@ export const courses = [
         {point:'Our trainers are certified professionals in the field of software development with over a decade of experience.'},67]
     },
     placementCards : {
-      heading:'Placement Facility During Pay-per-click (PPC) Training',
+      heading:'Placement Facility During Google Ads Training',
       points:[{point:'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.'},
       {point:'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.'},
       {point:'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.'},]
       },
       sections : [
-        {id:0,sectionName:'Introduction to Programming  ',about:[ 
-          {name:'Intorduction to DataScience',summary:['Overview of Data science','What is Data Science','Different Sectors Using Data Science']},
-          {name:'Mathemetical computing with Python Numpy',summary:['Introduction to Numpy','Creating and Printing an array','Indexing and slicing of an array','Numpy Operations','Numpy Exercise']},
-          {name:'Data Manipulation with pandas',summary:['Introduction of Pandas','Understanding Series','Series Operations','Understanding DataFrame','View and Select Data Demo','Missing Values','Projects 1 Using Pandas (Getting insights from salary dataset)','Projects 2 As assignment (on Ecommerce Purchase Dataset)']},
-          {name:'Data Visualization- Matplotlib, Seaborn, Plotly',summary:['Introduction to Matplotlib','Matplotlib Part 1','Matplotlib Part 2','Seaborn introduction','Distribution & categorical plots using seaborn','Heatmap using Seaborn','Plotly introduction']},
+        {id:0,sectionName:'Course Overview',about:[ 
+          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Google Ads. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
         ]},
-        {id:1,sectionName:'Data Structures & Algorithms ',about:[ 
-          {name:'Plotting for exploratory data analysis (EDA)',summary:[' Iris dataset','Data-point, vector, observation Dataset','Input variables/features/dimensions/independent variable','Scatter-plot: 2D, 3D','Univariate, Bivariate and Multivariate analysis','Exercise: Perform EDA on Iris dataset']},
-          {name:'Probability and Statistics',summary:['Introduction to Probability and Stats','Why learn it?','Random variables: discrete and continuous','Outliers (or) extreme points','Examples: Heights and weights']},
-          {name:'Data Exploration for modeling',summary:['Need for structured exploratory data','EDA framework for exploring the data and identifying any','Identify missing data','Identify outliers data','Visualize the data trends and patterns','Variable Reduction Techniques – Factor & PCA Analysis']},
-          {name:'Inferential Statistics',summary:['Correlation','Co-variance','Pearson Correlation Coefficient','Known Standard-deviation: using CLT','For mean of a random variable','Computing confidence-interval given a distribution.','Unknown Standard-deviation: using t-distribution']},
+        {id:1,sectionName:'Course Duration',about:[ 
+          '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+          '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 5 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+          '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+          '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
         ]},
         {id:2,sectionName:'Special Features',about:[ 
           {name:'These are our unique way of interacting with our students:',summary:['Mock interview/Industry mentor guidance sessions-5','Workshops for building your resume and Linkedin/Github profiles','Practical Approach','Internel Interviews Session','Provide Internship']},
+          '•Mock interview/Industry mentor guidance sessions-5','•Workshops for building your resume and Linkedin/Github profiles','•Practical Approach','•Internel Interviews Session','•Provide Internship'
         ]},
         
       ], 
