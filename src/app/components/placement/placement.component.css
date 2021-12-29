@@ -94,7 +94,10 @@ main #buttonHolder{
     width: 100%;
   }
   .cards{
-    height: 37vh;
+    height:350px;
+  }
+  .card img{
+    width:180px;
   }
   .expend{
     height: auto;
