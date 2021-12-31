@@ -309,6 +309,19 @@ main .logo img{
 .popUp2 .form form button{
     background-color: #2e97ff;
 }
+
+.greetHolder{
+    transform: translateY(-200vh);
+}
+.greets{
+    transform: translateY(-200vh);transition: .7s;
+}
+.showGreet{
+    transform: translateY(1vh);
+}
+.showGreet .greets{
+    transform: translateY(0);
+}
 @media (max-width: 1030px){
    .navigation{display: none;}
    .menu{display: block;padding: 0;}
