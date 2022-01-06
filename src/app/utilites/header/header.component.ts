@@ -20,8 +20,8 @@ export class HeaderComponent implements OnInit {
       {name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course-in-delhincr'},
       {name:'RPA training', routerLink:'courses/rpa-course-in-delhincr'},
       {name:'Java training', routerLink:'courses/java-course-in-delhincr'},
-      {name:'.Net training', routerLink:'.net-course-in-delhincr'},
-      {name:'VBA training', routerLink:'vba-course-in-delhincr'},
+      {name:'.Net training', routerLink:'courses/.net-course-in-delhincr'},
+      {name:'VBA training', routerLink:'courses/vba-course-in-delhincr'},
       {name:'PHP', routerLink:'courses/php-course-in-delhincr'},
       {name:'HTML5/CSS3/JS', routerLink:'courses/html5-css3-js-course-in-delhincr'},
       {name:'Angular', routerLink:'courses/angular-course-in-delhincr'},
@@ -53,8 +53,8 @@ export class HeaderComponent implements OnInit {
       {name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course-in-delhincr'},
       {name:'RPA training', routerLink:'courses/rpa-course-in-delhincr'},
       {name:'Java training', routerLink:'courses/java-course-in-delhincr'},
-      {name:'.Net training', routerLink:'.net-course-in-delhincr'},
-      {name:'VBA training', routerLink:'vba-course-in-delhincr'},
+      {name:'.Net training', routerLink:'courses/.net-course-in-delhincr'},
+      {name:'VBA training', routerLink:'courses/vba-course-in-delhincr'},
     ]},
     {title:'Web Development', courses:[
       {name:'PHP', routerLink:'courses/php-course-in-delhincr'},
@@ -95,7 +95,7 @@ export class HeaderComponent implements OnInit {
   ]
 
   
-  popUp = 0;
+  popUp = 3;
   showDropdown = 0;
   activeSection = 0;
   activeList = this.courseList[this.activeSection].courses;
@@ -129,6 +129,7 @@ export class HeaderComponent implements OnInit {
 
   
   
+  
 
   ngOnInit(): void {
     window.addEventListener("scroll",function(){
@@ -138,10 +139,13 @@ export class HeaderComponent implements OnInit {
       }
     })
     // setTimeout(() => {
-    //   this.popUp = 2
-    // },2000);
+    //   this.popUp = 3
+    // },5000);
+
+
+  
   }
 
- 
+
   
 }
