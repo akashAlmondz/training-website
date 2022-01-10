@@ -14,7 +14,7 @@ export class OpenCourseComponent implements OnInit {
 
   ngOnInit(): void {
     let indexNo = {
-      'python-training-course-in-delhincr':0,
+      'python-training-course':0,
       'data-science-training-course-in-delhincr':1,
       'machine-learning-training-course-in-delhincr':2,
       'deep-learning-training-course-in-delhincr':3,

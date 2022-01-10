@@ -15,15 +15,7 @@ import { TrainingComponent } from './components/training/training.component';
 const routes: Routes = [
   {path:'', component:HomeComponent},
   {path: 'contact', component:ContactUsComponent},
-  {path:'courses/:id', component:OpenCourseComponent, data: {
-      seo: {
-        title: 'Home Page | Dynamic Title and Meta Tags Demo',
-        metaTags: [
-          { name: 'description', content: 'Game of Thrones Quotes : Winter is Coming, You know nothing Jon Snow, Never forget what you are. The rest of the world will not. Wear it like armour, and it can never be used to hurt you' },
-          { property: 'og:title', content: 'GOT Home Page ⚔' }
-        ]
-      }
-    } },
+  {path:'courses/:id', component:OpenCourseComponent},
   {path:'training',component:TrainingComponent},
   {path:'aboutUs',component:AboutUsComponent},
   {path:'blogs',component:BlogsComponent},

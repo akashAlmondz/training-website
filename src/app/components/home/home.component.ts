@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
   ]
 
   coursesCards = [
-    {name:'Python',img:'assets/images/python.svg',routerLink:'courses/python-training-course-in-delhincr',},
+    {name:'Python',img:'assets/images/python.svg',routerLink:'courses/python-training-course',},
     {name:'Data Science',img:'assets/images/data-science.svg',routerLink:'courses/data-science-training-course-in-delhincr'},
     {name:'Machine Learning',img:'assets/images/machine-learning.png',routerLink:'courses/machine-learning-training-course-in-delhincr'},
     {name:'Deep learning',img:'assets/images/deep-learning.png',routerLink:'courses/deep-learning-training-course-in-delhincr'},
@@ -68,10 +68,10 @@ export class HomeComponent implements OnInit {
   
 
   upcomingCourses = [
-    {date:'15',month:'January',year:'2022',name:'Python with Data Science',about:'we are planning to start our fresh batch from 15th Jan, we will primarly focus on practical approach & provide documented intership after completion of the course'},
-    {date:'30',month:'January',year:'2022',name:'Diploma in DataScience',about:'we are planning to start our fresh batch from 30th Jan, we will primarly focus on practical approach & provide documented intership after completion of the course'},
-    {date:'15',month:'Feburary',year:'2022',name:'Web Development',about:'we are planning to start our fresh batch from 15th Feb, we will primarly focus on practical approach & provide documented intership after completion of the course'},
-    {date:'20',month:'Feburary',year:'2022',name:'Diploma in Machine learning',about:'we are planning to start our fresh batch from 20th Feb, We will primarly focus on practical approach & provide documented intership after completion of the course'},
+    {date:'15',month:'January',year:'2022',name:'Python with Data Science',about:'we are planning to start our fresh batch from 15th Jan, we will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/data-science-training-course-in-delhincr'},
+    {date:'30',month:'January',year:'2022',name:'Diploma in DataScience',about:'we are planning to start our fresh batch from 30th Jan, we will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/diploma-in-data-science-course-in-delhincr'},
+    {date:'15',month:'Feburary',year:'2022',name:'Web Development',about:'we are planning to start our fresh batch from 15th Feb, we will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/html5-css3-js-course-in-delhincr'},
+    {date:'20',month:'Feburary',year:'2022',name:'Diploma in Machine learning',about:'we are planning to start our fresh batch from 20th Feb, We will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/diploma-in-machine-learning-course-in-delhincr'},
 
   ]
   blogCards = [
@@ -105,8 +105,14 @@ export class HomeComponent implements OnInit {
         block: 'start',
     });
     }
-      
   }
+  exploreCourses(){
+    this.heading1 = document.getElementById('heading1')
+    this.heading1.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+  });
+  } 
   course:any = 0
   
 

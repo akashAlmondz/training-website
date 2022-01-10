@@ -3,5 +3,5 @@
 <app-social></app-social>
 <button (click) = "scrollToTop()" ><i class="fas fa-angle-up"></i></button>
 <app-header (click)="getUrl()" ></app-header>
-<router-outlet (click)="getUrl()" ></router-outlet>
+<router-outlet (activate)="getUrl()" ></router-outlet>
 <app-footer (click)="getUrl()" ></app-footer>

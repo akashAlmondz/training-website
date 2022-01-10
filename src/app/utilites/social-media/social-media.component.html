@@ -1,5 +1,6 @@
 <main>
     <div *ngFor='let item of links' >
-        <img [src]=item.img alt="">
+        <a target="/" [href]=item.link><img  [src]=item.img alt=""></a>
+       
     </div>
 </main>

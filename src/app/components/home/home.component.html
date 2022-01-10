@@ -5,17 +5,17 @@
             <p>Get Your Education Today!</p>
             <p>BookMyShiksha is not just an institute, it's hogward for an upcoming magician in the IT industry. So what are you waiting for hurry up!! and be a part of our family. Don't forget to fill out the application form as limited seats are available We are one of those few institutes which specialize in Diploma, Masters in Data Science & Machine Learning.</p>
 
-            <p>Explore Our Programs</p>
+            <p (click)="exploreCourses()" >Explore Our Programs</p>
         </div>
         <img src="/assets/images/Education.svg" alt="">
         
     </div>
     <div class="reports">
-        <p class="button" >Download Company Brochure  <i class="fas fa-file-download"></i>  </p>
+        <a href="assets/images/BMS Company Brochure .pdf" target="/" style="text-decoration: none; color: rgb(0, 0, 0); " class="button" >Download Company Brochure  <i class="fas fa-file-download"></i>  </a>
         <div class="holder" >
             <div class="report" *ngFor='let item of report' >
                 <i [class]=item.icon></i>
-                <div class="">
+                <div id="heading1" class="">
                     <p class="value" >{{item.value}}</p>
                     <p class="name" >{{item.name}}</p>
                 </div>
@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="courses">
-        <p id="heading1" class="heading" >All Courses</p>
+        <p  class="heading" >All Courses</p>
         <div class="cards" [ngClass] = "expendCourses? 'expendCards': '' "  >
             <div [routerLink]="item.routerLink" class="card" *ngFor= 'let item of coursesCards'  >
                 <div class="courseBackground">
@@ -66,7 +66,7 @@
                 <div class="timing">
                     <p class="time" >9AM-9PM</p>
                     <p class="day" >Monday to Sunday</p>
-                    <p class="enroll" >Enroll Now</p>
+                    <p class="enroll" [routerLink]="item.routerLink" >Enroll Now</p>
                 </div>
                 
             </div>

@@ -400,10 +400,10 @@
   .reports .report div .name{
     font-size: 10px;
   }
-  
+  .courses{padding: 0 10px;}
   .courses .card{
     width: 145px;
-    margin: 10px 10px;
+    margin: 6px 10px;
   }
   .courseBackground{
     height: 80px;

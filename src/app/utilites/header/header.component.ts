@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   
   courseList = [
     {title:'All Course', courses:[
-      {name:'Python training', routerLink:'courses/python-training-course-in-delhincr'},
+      {name:'Python training', routerLink:'courses/python-training-course'},
       {name:'Data Science training', routerLink:'courses/data-science-training-course-in-delhincr'},
       {name:'Machine Learning training', routerLink:'courses/machine-learning-training-course-in-delhincr'},
       {name:'Deep Learning training', routerLink:'courses/deep-learning-training-course-in-delhincr'},
@@ -46,7 +46,7 @@ export class HeaderComponent implements OnInit {
       {name:'Masters in Machine Learning', routerLink:'courses/masters-in-machine-learning-course-in-delhincr'},
     ]},
     {title:'Popular Courses', courses:[
-      {name:'Python training', routerLink:'courses/python-training-course-in-delhincr'},
+      {name:'Python training', routerLink:'courses/python-training-course'},
       {name:'Data Science training', routerLink:'courses/data-science-training-course-in-delhincr'},
       {name:'Machine Learning training', routerLink:'courses/machine-learning-training-course-in-delhincr'},
       {name:'Deep Learning training', routerLink:'courses/deep-learning-training-course-in-delhincr'},
@@ -88,14 +88,14 @@ export class HeaderComponent implements OnInit {
     ]}
   ]
   socialMedia = [
-    {img:'assets/images/fb.svg'},
-    {img:'assets/images/lin.svg'},
-    {img:'assets/images/insta.svg'},
-    {img:'assets/images/twt.svg'},
+    {img:'assets/images/fb.svg',link:''},
+    {img:'assets/images/lin.svg',link:'https://www.linkedin.com/in/bookmy-shiksha-988610229/'},
+    {img:'assets/images/insta.svg',link:'https://www.instagram.com/bookmyshiksha/'},
+    {img:'assets/images/twt.svg',link:'https://twitter.com/bookmyshiksha'},
   ]
 
   
-  popUp = 3;
+  popUp = 0;
   showDropdown = 0;
   activeSection = 0;
   activeList = this.courseList[this.activeSection].courses;
@@ -138,9 +138,9 @@ export class HeaderComponent implements OnInit {
         header.classList.toggle("sticky", window.scrollY>10);
       }
     })
-    // setTimeout(() => {
-    //   this.popUp = 3
-    // },5000);
+    setTimeout(() => {
+      this.popUp = 2
+    },5000);
 
 
   

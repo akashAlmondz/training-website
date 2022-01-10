@@ -5,7 +5,7 @@ export const Titles:any = {
             {name:'description',content:''},
             {name:'keywords',content:''}
         ]},
-    '/courses/python-training-course-in-delhincr':{
+    '/courses/python-training-course':{
         title:'Python Course in Delhi | Python Training in Delhi',
         metaTags:[
             {name:'description',content:'Are you looking Python Training institute in Delhi & Python course in Delhi | Python classes near me for contact BookMyShiksha 8077672234'},

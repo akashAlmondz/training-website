@@ -19,26 +19,26 @@ export class AppComponent implements OnInit {
   currentMetaTags
   ngOnInit() {
     setTimeout(() => {
-      this.currentUrl = this.routeLink.url
-    this.seoData = Titles[this.currentUrl]
-    this.currentTitle = Object.values(this.seoData)[0]
-    this.currentMetaTags =Object.values(this.seoData)[1]
-    this.seoService.updateTitle(this.currentTitle)
-    this.seoService.updateMetaTags(this.currentMetaTags)
-    console.log(this.currentTitle)
-    console.log(this.currentMetaTags)
+    this.currentUrl = this.routeLink.url;
+    this.seoData = Titles[this.currentUrl];
+    this.currentTitle = Object.values(this.seoData)[0];
+    this.currentMetaTags =Object.values(this.seoData)[1];
+    this.seoService.updateTitle(this.currentTitle);
+    this.seoService.updateMetaTags(this.currentMetaTags);
+    console.log(this.currentTitle);
+    console.log(this.currentMetaTags);
     }, 0);
   }
   getUrl(){
-    this.currentUrl = this.routeLink.url
-    this.seoData = Titles[this.currentUrl]
-    this.currentTitle = Object.values(this.seoData)[0]
-    this.currentMetaTags =Object.values(this.seoData)[1]
-    this.seoService.updateTitle(this.currentTitle)
-    this.seoService.updateMetaTags(this.currentMetaTags)
-    console.log(this.currentTitle)
-    console.log(this.currentMetaTags)
-  }
+    this.currentUrl = this.routeLink.url;
+    this.seoData = Titles[this.currentUrl];
+    this.currentTitle = Object.values(this.seoData)[0];
+    this.currentMetaTags =Object.values(this.seoData)[1];
+    this.seoService.updateTitle(this.currentTitle);
+    this.seoService.updateMetaTags(this.currentMetaTags);
+    console.log(this.currentTitle);
+    console.log(this.currentMetaTags);
+  };
 
     
 }
