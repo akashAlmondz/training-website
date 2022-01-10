@@ -645,7 +645,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/seo.png",
     heading: 'Search Engine Optimization (SEO)',
-    subHeading: ' Digital marketingdolor sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'SEO – Search Engine Optimization help to generate organictraffic on the Website for your products and services. It helps us to rank higher searching results insearch engines like Google Browser, Bookmyshiksha cover SEO from beginner toadvance level and SEO on-page, Off-page help to up website ranking. BookMyShiksha teach youhow to choose and find the most popular and relevant keywordsused in search engine queries, helping search engines find those sites anddisplay them to web users.',
     aboutHeading: 'Search Engine Optimization (SEO)',
     about: [
       "Gain an in-depth knowledge of search engine algorithms and about the role they play with organic search results and websites. To further build on this knowledge, 𝐛𝐞𝐬𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐄𝐧𝐠𝐢𝐧𝐞 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐜𝐨𝐮𝐫𝐬𝐞 𝐢𝐧 𝐃𝐞𝐥𝐡𝐢 through which you will be learning the key aspects to create an efficient SEO strategy, that includes tips and tricks on the selection of keywords and to perform keyword research. Learn about consumer psychology and search behavior to target the right demographic. Learn how to analyse on-page SEO to identify new opportunities to improve the growth of a website’s search optimization.",],
@@ -722,7 +722,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/rpa.png",
     heading: 'RPA Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'We all know Robotic process automation with the name of (RPA). It’s a software-basedtechnology. RPA is very easy to learn and Robotic Process Automation (RPA)does not require any programming background. BookMyShiksha helps you to choose manyjob roles are available in RPA like RPA Developer, RPA Business Analyst, RPASolutions Senior Developer, RPA Technical Lead, RPA Engineer, and RPAAdministrator. RPA is a very fast-growing platform. With the increasing demandfor automation, RPA professionals  demand is increasing day by day.',
     aboutHeading: 'RPA Training',
     about: [
       "This is the best RPA training and certification course online, and at BookMyShiksha, we utilise the trending RPA development software that companies rely on for Robotic Process Automations. You will be able to learn how RPA works by completing in-depth worksheets, and projects. Gain access to curated syllabi by the top educators in Delhi.",
@@ -793,7 +793,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/java.png",
     heading: 'Java Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: ' Java is the mostglobally demanded language for the past many years. Java language used to create websites, Mobile App Development, IoT Applications games, Cloud-based Applications, Desktop GUI Applications, etc. After compilationJava training with BookMyShiksha you get a job as a Senior Developer, Java Android Developer, Junior Developer, Web Developer& Java EE developer. If we look at salary andcareer objective then Java is on the top list in a programming language. ',
     aboutHeading: 'Java Training',
     about: [
       "Learn to write stand-alone applications by using Java language through BookMyShiksha. Implement the right object-oriented concepts by using superb Java features such as classes, references, and interfaces. This is the best online course for Java training in Delhi. You will learn to create well structured classes that are efficient using packages. Understand how to read and write programs using input and output streams.",
@@ -864,7 +864,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/dotnet.png",
     heading: '.Net Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: '.Net was developed and created by Microsoft.It’s an open-source platform and no need to purchase any kind of license forwork on it. If we go with dot net, we will get a good opportunity in dotnet.There .net developers also get good salaries in India and out of India also. BookMyShiksha uses the most popular tools in our .net curriculum like Microsoft Web Platform Installer,  NuGet, NDepend, ReSharper, .NET Reflector,Visual Studio Gallery, and Web Essentials for Visual Studio, etc.',
     aboutHeading: '.Net Training',
     about: [
       "Learn to write stand-alone applications by using Java language through BookMyShiksha. Implement the right object-oriented concepts by using superb Java features such as classes, references, and interfaces. This is the best online course for Java training in Delhi. You will learn to create well structured classes that are efficient using packages. Understand how to read and write programs using input and output streams.",
@@ -935,7 +935,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/vba.png",
     heading: 'VBA Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'VBA was developed byMicrosoft. VBA - Visual Basic for Applications is easy to learn. We do notrequire the development background to learn VBA. Anyone can go with VBA. Thereis a large number of opportunities as a VBA developer. VBA is a programminglanguage. you want to switch careers in the IT industry and if you plan towork with MS-office excel programs and want to automate the Excel process so gowith VBA. BookMyShiksha helps you to grow and your career.',
     aboutHeading: 'VBA Training',
     about: [
       "Learn the general syntax rules, the right keywords to use, and to add comments by enrolling for the best VBA training course in Delhi. Understand how to automate tasks, and operations that are performed frequently. Learn what variables are, and how they relate to functions versus subroutines and methods. Our educators at Book My Shiksha are here to guide you every step of the way and help you master the program.",
@@ -1006,7 +1006,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/php.png",
     heading: 'PHP Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'PHP full form is HypertextPreprocessor. It is used for web development or Webapplication. PHP is also a high & most demanded programming language in theworld. If you have advanced level PHP knowledge so it is very easy to boost yoursalary. BookMyShiksha also provides the best content in PhP training, Nowadays there are so many companies including MNS’s work on PHPProgramming language. TCS, HCL, Infosys, Facebook, Wipro, and Cognizant everyoneknows these companies. These companies also work on PHP.',
     aboutHeading: 'PHP Training',
     about: [
       "The Hyperlink Preprocessor course at BookMyShiksha offers learners a comprehensive guide to learn coding in PHP. Starting with the basics, this course also dives into MySQL Databases for user driven functionality that’s dynamic. Sign up today for the best PHP training course in Delhi. Understand how to work with variable declarations, and data outputs. Play with objects, conditional statements, arrays, functions, form validations, loops, sorting and so much more.",
@@ -1077,7 +1077,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/web.png",
     heading: 'HTML5-CSS3-JS Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'HTML is easyto learn. We don’t need any programming background for HTML but it’s aprogramming language. Industries use HTML to create web pages, Sites, Webapplications. Every small and Big It companies use HTML and very easy to get a job in HTML. If you need practical knowledge in HTML so choose BookMyShiksha.Bookmyshiksha provides certification and internships in all courses.',
     aboutHeading: 'HTML5-CSS3-JS Training',
     about: [
       "Learners will be able to equip themselves with new skills to become a great Web Developer. This course will offer the basic understanding of HTML5, CSS3, and Javascript to combine these skills to build a modern, responsive website that will look fantastic on all screens. This is the best HTML5/CSS3/JS training course in Delhi NCR.",
@@ -1148,7 +1148,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/angular.png",
     heading: 'Angular Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'Angular is one of the best web development frameworks, Top global companies that use angular in current time Gmail, Microsoft Office, Samsung, PayPal, Upwork, etc. Want to go with Web development in your job career so Angular is easy to Learn if you have JavaScript knowledge. BookMyShiksha helps you to learn from scratch.',
     aboutHeading: 'Angular Training',
     about: [
       "Through this course at BookMyShiksha, you will be able to learn the complexities of Angular 13. Learn to develop modern, responsive, and scalable web applications. Get a thorough understanding of the architecture behind an Angular application, and how to apply it. Gain an in-depth understanding of the Angular fundamentals. Be able to create single-page applications with modern JavaScript frameworks by enrolling for the best Angular training course in Delhi.",
@@ -1791,7 +1791,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/smo.png",
     heading: 'Social Media Optimization Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'Social Media Marketing – SMO It is a partof the digital market and increases salespart, All types of industries want to increase sales and business which ispossible only with an online platform. With the help of social media, we canconnect a large number of people to make them aware of our services. ChooseBookMyShiksha and work on live projects of SMO.',
     aboutHeading: 'Social Media Optimization Training',
     about: [
       "If you are looking to become an SEO Expert by mastering search engine optimization tools and strategies, then this course is for you. Learn the theory of Google search along with other search engine algorithms. Build practical, real-world skills to apply in projects, or for the businesses of your clients to achieve the best ranking. Optimise the websites for local, and international audiences.",
@@ -1857,7 +1857,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/ppc.png",
     heading: 'Pay-per-click (PPC)',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'Pay-per-click (PPC) is used to drive traffic to websites. This is an advertising form in which we set abudget for our ads on a given platform like Google, Facebook,Instagram, etc. Bookmyshiksha provides industrial knowledge in every field.Bookmyshiskha best institute n Delhi-NCR. If you want to choose digitalmarketing or an online marketing platform for your career BookMyShiskha is a rightchoice for your career.',
     aboutHeading: 'Pay-per-click (PPC) Training',
     about: [
       "This course will teach you all the basics of Pay-Per-Click advertising right from its definition to the benefits it offers and the relationship it shares with Search Engine Marketing. Students will learn the  different components of PPC such as AD groups, Display Network, common paid search marketing terms, billing models, Ad Auction, Quality Score, organization structure, Keywords, text ads, expanded text ads, targeting, ad extension, a-b testing and so on.",
