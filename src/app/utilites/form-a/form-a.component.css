@@ -1,23 +1,21 @@
 main{
     padding:5%;
-    border: 12px solid #1874d2;
+    border: 12px solid #ff6b1b;
     border-radius: 5px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    position: relative;
 }
 
 img{
-    width: 15rem;
-    transform: scaleX(-1);
+    height:19rem;
 }
 form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 60%;
     padding:0 2%;
 }
 textarea{
@@ -36,14 +34,6 @@ button{
     background-color: #1874d2;
     color: white;
 }
-.fa-times-circle{
-    position:absolute;
-    top:0%;
-    right:0%;
-    font-size: 25px;
-    cursor: pointer;
-}
-
 @media (max-width: 960px){
     main{
         flex-direction: column;
@@ -52,6 +42,7 @@ button{
         width: 100%;
     }
     img{
+        height: unset;
         width: 10rem;
     }
 }

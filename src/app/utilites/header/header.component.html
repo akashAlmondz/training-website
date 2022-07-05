@@ -1,218 +1,151 @@
 <nav>
-    <marquee style="font-size: 15px; color: rgb(114, 0, 0); " behavior="" direction="">Website is under Maintenance. Still You can explore our courses and contact us on given details</marquee>
+    <marquee style="font-size: 15px; color: rgb(114, 0, 0); " behavior="" direction="">Website is under Maintenance.
+        Still You can explore our courses and contact us on given details</marquee>
     <main>
-        <div  class="menu">
+        <div class="menu">
             <i [ngClass]="toggle=='menu'? 'rotate1': '' " (click)="show('menu')" class="fas fa-bars"></i>
-           <div  class="optionHolder" [ngClass]="toggle=='menu'? 'show': '' " (click)="show('none')">
-            <div   class="options" >
-                <div class="img">
-                    <img  [routerLink]="['']" src="assets/images/logo.png" alt="">
-                </div>
-                <p [routerLink]="['certification']" > <i class="fas fa-file-certificate"></i> Certification</p>
-                <p [routerLink]="['training']" > <i class="fas fa-chalkboard"></i> Training Programs</p>
-                <p [routerLink]="['blogs']" > <i class="fas fa-blog"></i> Blogs</p>
-                <p [routerLink]="['aboutUs']" > <i class="fas fa-address-card"></i> About Us</p>
-                <p [routerLink]="['contact']" > <i class="far fa-address-book"></i> Contact Us</p>
-                <p [routerLink]="['placement']" ><i class="fas fa-road"></i> Placements</p>
-                <div class="links">
-                    <p><i class="far fa-credit-card"></i> Fee Deposit</p>
-                    <p><i class="fas fa-sign-in-alt"></i> Apply Jobs</p>
-                </div>
-                <div class="scholarship">
-                    <p (click)="togglePopup(1)" >Scholarship Registration</p>
-                </div>
-                <div  class="socialMedia">
-                    <a *ngFor="let item of socialMedia" target="/" [href]=item.link><img  [src]=item.img alt=""></a>
+            <div class="optionHolder" [ngClass]="toggle=='menu'? 'show': '' " (click)="show('none')">
+                <div class="options">
+                    <div class="img">
+                        <img [routerLink]="['']" src="assets/images/logo.png" alt="images">
+                    </div>
+                    <p [routerLink]="['certification']"> <i class="fas fa-file-certificate"></i> Certification</p>
+                    <p [routerLink]="['training']"> <i class="fas fa-chalkboard"></i> Training Programs</p>
+                    <p [routerLink]="['blogs']"> <i class="fas fa-blog"></i> Blogs</p>
+                    <p [routerLink]="['aboutUs']"> <i class="fas fa-address-card"></i> About Us</p>
+                    <p [routerLink]="['contact']"> <i class="far fa-address-book"></i> Contact Us</p>
+                    <p [routerLink]="['placement']"><i class="fas fa-road"></i> Placements</p>
+                    <div class="links">
+                        <p><i class="far fa-credit-card"></i> Fee Deposit</p>
+                        <p><i class="fas fa-sign-in-alt"></i> Apply Jobs</p>
+                    </div>
+                    <div class="scholarship">
+                        <p (click)="togglePopup()">Scholarship Registration</p>
+                    </div>
+                    <div class="socialMedia">
+                        <a *ngFor="let item of socialMedia" target="/" [href]=item.link><img [src]=item.img alt="images"></a>
+                    </div>
                 </div>
             </div>
-           </div>
         </div>
         <div class="logo">
-            <img (click)="toggleDropdown(0)"  (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png" alt="">
+            <img (click)="toggleDropdown(0)" (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png"
+                alt="images">
         </div>
         <div class="scholarship wide">
-            <p (click)="togglePopup(1)" >Scholarship Registration</p>
+            <p (click)="togglePopup()">Scholarship Registration</p>
         </div>
         <div class="navigation">
-            
-            <div  class="allCourses linkHead"  >
+
+            <div class="allCourses linkHead">
                 <div class="allCoursesButton" (click)="toggleDropdown(1)">
-                    <p   >All Courses</p><i [ngClass]="showDropdown==1? 'rotate': '' " class="fas fa-sort-down"></i>
+                    <p>All Courses</p><i [ngClass]="showDropdown==1? 'rotate': '' " class="fas fa-sort-down"></i>
                 </div>
                 <div [ngClass]="showDropdown == 1? 'showDropdown': '' " class="hidden" (click)="toggleDropdown(1)">
-                        <div class="python category">
-                            <p class="heading" >Popular Courses</p>
-                            <div class="sub">
-                                <p [routerLink]="['courses/python-training-course']" >Python training</p>
-                                <p [routerLink]="['courses/data-science-training-course-in-delhincr']" >Data Science training</p>
-                                <p [routerLink]="['courses/machine-learning-training-course-in-delhincr']" >Machine Learning training</p>
-                                <p [routerLink]="['courses/deep-learning-training-course-in-delhincr']" >Deep Learning training</p>
-                                <p [routerLink]="['courses/artificial-inteligence-training-course-in-delhincr']" >Artificial Inteligence training</p>
-                                <p [routerLink]="['courses/rpa-course-in-delhincr']" >RPA training</p>
-                                <p [routerLink]="['courses/java-course-in-delhincr']" >Java training</p>
-                                <p [routerLink]="['courses/.net-course-in-delhincr']">.Net training</p>
-                                <p [routerLink]="['courses/vba-course-in-delhincr']" >VBA training</p>
-                            </div>
+                    <div class="python category">
+                        <p class="heading">Popular Courses</p>
+                        <div class="sub">
+                            <p [routerLink]="['courses/python-training-course']">Python training</p>
+                            <p [routerLink]="['courses/data-science-training-course']">Data Science training</p>
+                            <p [routerLink]="['courses/machine-learning-training-course']">Machine Learning training</p>
+                            <p [routerLink]="['courses/deep-learning-training-course']">Deep Learning training</p>
+                            <p [routerLink]="['courses/artificial-inteligence-training-course']">Artificial Inteligence
+                                training</p>
+                            <p [routerLink]="['courses/rpa-course']">RPA training</p>
+                            <p [routerLink]="['courses/java-course']">Java training</p>
+                            <p [routerLink]="['courses/.net-course']">.Net training</p>
+                            <p [routerLink]="['courses/vba-course']">VBA training</p>
                         </div>
-                        <div class="webDev category">
-                            <p class="heading" >Web Development</p>
-                            <div class="sub">
-                                <p [routerLink]="['courses/php-course-in-delhincr']" >PHP</p>
-                                <p [routerLink]="['courses/html5-css3-js-course-in-delhincr']" >HTML5/CSS3/JS</p>
-                                <p [routerLink]="['courses/angular-course-in-delhincr']" >Angular</p>
-                                <p [routerLink]="['courses/nodejs-course-in-delhincr']" >Node</p>
-                                <p [routerLink]="['courses/react-course-in-delhincr']" >React</p>
-                                <p [routerLink]="['courses/pyhton-django-course-in-delhincr']" >Python Django/Flask</p>
-                            </div>
+                    </div>
+                    <div class="webDev category">
+                        <p class="heading">Web Development</p>
+                        <div class="sub">
+                            <p [routerLink]="['courses/php-course']">PHP</p>
+                            <p [routerLink]="['courses/html5-css3-js-course']">HTML5/CSS3/JS</p>
+                            <p [routerLink]="['courses/angular-course']">Angular</p>
+                            <p [routerLink]="['courses/nodejs-course']">Node</p>
+                            <p [routerLink]="['courses/react-course']">React</p>
+                            <p [routerLink]="['courses/pyhton-django-course']">Python Django/Flask</p>
                         </div>
-                        <div class="database category">
-                            <p class="heading" >Database & Analytics Tools</p>
-                            <div class="sub">
-                                <p [routerLink]="['courses/mongodb-course-in-delhincr']" >MongoDB</p>
-                                <p [routerLink]="['courses/sql-course-in-delhincr']" >SQL</p>
-                                <p [routerLink]="['courses/oracle-course-in-delhincr']" >Oracle</p>
-                                <p [routerLink]="['courses/powerBi-course-in-delhincr']" >Power Bi</p>
-                                <p [routerLink]="['courses/tableau-course-in-delhincr']" >Tableau</p>
-                            </div>
+                    </div>
+                    <div class="database category">
+                        <p class="heading">Database & Analytics Tools</p>
+                        <div class="sub">
+                            <p [routerLink]="['courses/mongodb-course']">MongoDB</p>
+                            <p [routerLink]="['courses/sql-course']">SQL</p>
+                            <p [routerLink]="['courses/oracle-course']">Oracle</p>
+                            <p [routerLink]="['courses/powerBi-course']">Power Bi</p>
+                            <p [routerLink]="['courses/tableau-course']">Tableau</p>
                         </div>
-                        <div class="digitelMarketing category">
-                            <p class="heading" >Digital Marketing</p>
-                            <div class="sub">
-                            <p [routerLink]="['courses/social-media-optimization-course-in-delhincr']" >SMO(Social media optimization)</p>
-                            <p [routerLink]="['courses/pay-per-click-course-in-delhincr']" >PPC(Pay-per-click)</p>
-                            <p [routerLink]="['courses/google-ads-certification-course-in-delhincr']" >Google Ads</p>
-                            <p [routerLink]="['courses/seo-course-in-delhincr']" >SEO(Search engine optimization)</p>
-                            <p [routerLink]="['courses/facebook_ads_certification-course-in-delhincr']" >Facebook Ads</p>
-                            <p [routerLink]="['courses/social-media-promotion-course-in-delhincr']" >Social Media Promotion</p>
-                            <p [routerLink]="['courses/email-marketing-course-in-delhincr']" >E-mail Marketing</p>
-                            </div>
+                    </div>
+                    <div class="digitelMarketing category">
+                        <p class="heading">Digital Marketing</p>
+                        <div class="sub">
+                            <p [routerLink]="['courses/social-media-optimization-course']">SMO(Social media
+                                optimization)</p>
+                            <p [routerLink]="['courses/pay-per-click-course']">PPC(Pay-per-click)</p>
+                            <p [routerLink]="['courses/google-ads-certification-course']">Google Ads</p>
+                            <p [routerLink]="['courses/seo-course']">SEO(Search engine optimization)</p>
+                            <p [routerLink]="['courses/facebook_ads_certification-course']">Facebook Ads</p>
+                            <p [routerLink]="['courses/social-media-promotion-course']">Social Media Promotion</p>
+                            <p [routerLink]="['courses/email-marketing-course']">E-mail Marketing</p>
                         </div>
-                        <div class="special category">
-                            <p class="heading" >Specialization Courses</p>
-                            <div class="sub">
-                            <p [routerLink]="['courses/diploma-in-data-science-course-in-delhincr']" >Diploma in Data Science</p>
-                            <p [routerLink]="['courses/diploma-in-machine-learning-course-in-delhincr']" >Diploma in Machine Learning</p>
-                            <p [routerLink]="['courses/masters-in-data-science-course-in-delhincr']" >Masters in Data Science</p>
-                            <p [routerLink]="['courses/masters-in-machine-learning-course-in-delhincr']" >Masters in Machine Learning</p>
-                            </div>
+                    </div>
+                    <div class="special category">
+                        <p class="heading">Specialization Courses</p>
+                        <div class="sub">
+                            <p [routerLink]="['courses/diploma-in-data-science-course']">Diploma in Data Science</p>
+                            <p [routerLink]="['courses/diploma-in-machine-learning-course']">Diploma in Machine Learning
+                            </p>
+                            <p [routerLink]="['courses/masters-in-data-science-course']">Masters in Data Science</p>
+                            <p [routerLink]="['courses/masters-in-machine-learning-course']">Masters in Machine Learning
+                            </p>
+                            <a href="assets/images/HR Management Course--- Bookmyshiksha.pdf" target="/"
+                                style="text-decoration: none;  ">
+                                <p>HR-Management Specialist</p>
+                            </a>
                         </div>
+                    </div>
                 </div>
             </div>
-            
-            <p (click)="toggleDropdown(0)"  [routerLink]="['certification']" class="linkHead link" >Certification</p>
-            <div (click)="toggleDropdown(2)"  class="training linkHead"  >
-                <p >Training Programs <i [ngClass]="showDropdown==2? 'rotate': '' " class="fas fa-sort-down"></i></p>
-                <div class="hidden link" [ngClass]="showDropdown == 2? 'showDropdown': '' " >
-                    <p [routerLink]="['training']" >Corporate Training</p>
-                    <p [routerLink]="['training']" >Industrial Training</p>
-                    <p [routerLink]="['training']" >Online/Classroom Training</p>
-                </div>   
+
+            <p (click)="toggleDropdown(0)" [routerLink]="['certification']" class="linkHead link">Certification</p>
+            <div (click)="toggleDropdown(2)" class="training linkHead">
+                <p>Training Programs <i [ngClass]="showDropdown==2? 'rotate': '' " class="fas fa-sort-down"></i></p>
+                <div class="hidden link" [ngClass]="showDropdown == 2? 'showDropdown': '' ">
+                    <p [routerLink]="['training']">Corporate Training</p>
+                    <p [routerLink]="['training']">Industrial Training</p>
+                    <p [routerLink]="['training']">Online/Classroom Training</p>
+                </div>
             </div>
-            <div (click)="toggleDropdown(3)"  class="company linkHead" >
+            <div (click)="toggleDropdown(3)" class="company linkHead">
                 <p>Company <i [ngClass]="showDropdown==3? 'rotate': '' " class="fas fa-sort-down"></i></p>
                 <div [ngClass]="showDropdown == 3? 'showDropdown': '' " class="hidden link">
-                    <p [routerLink]="['aboutUs']" >About Us</p>
-                    <p [routerLink]="['contact']" >Contact Us</p>
-                    <p [routerLink]="['blogs']" >Blogs</p>
+                    <p [routerLink]="['aboutUs']">About Us</p>
+                    <p [routerLink]="['contact']">Contact Us</p>
+                    <p [routerLink]="['blogs']">Blogs</p>
                 </div>
             </div>
-            <p (click)="toggleDropdown(0)" [routerLink]="['placement']" class="link linkHead" >Placements</p>
-            
+            <p (click)="toggleDropdown(0)" [routerLink]="['placement']" class="link linkHead">Placements</p>
+
         </div>
         <div class="course menu">
-            <p (click)="show('course')"  class="menuButton" >All Courses <i [ngClass]="toggle=='course'? 'rotate': '' " class="fas fa-sort-down"></i></p>
-            <div [ngClass]="toggle=='course'? 'show': '' "   class="hiddenCourse">
-               
+            <p (click)="show('course')" class="menuButton">All Courses <i [ngClass]="toggle=='course'? 'rotate': '' "
+                    class="fas fa-sort-down"></i></p>
+            <div [ngClass]="toggle=='course'? 'show': '' " class="hiddenCourse">
+
                 <div class="courseOption">
                     <div class="holder">
-                        <p *ngFor="let item of courseList; let i as index " (click)=activeOption(i) [ngClass]="activeSection==courseList.indexOf(i)? 'active': '' " id="active" >{{item.title}}</p>
+                        <p *ngFor="let item of courseList; let i as index " (click)=activeOption(i)
+                            [ngClass]="activeSection==courseList.indexOf(i)? 'active': '' " id="active">{{item.title}}
+                        </p>
                     </div>
                 </div>
                 <div class="courseList">
-                    <p (click)="show('none')"  *ngFor="let item of activeList" [routerLink]="item.routerLink" >{{item.name}}</p>
+                    <p (click)="show('none')" *ngFor="let item of activeList" [routerLink]="item.routerLink">
+                        {{item.name}}</p>
                 </div>
             </div>
         </div>
-        
     </main>
-
-    <div [ngClass]="popUp == 1? 'show': '' " class="popUp popup1">
-        <div class="holder">
-            <i (click)="togglePopup(0)" class="far fa-times-circle"></i>
-            <div class="img">
-                <img src="assets/images/popup2.png" alt="">
-            </div>
-            <div class="form">
-                <form action="">
-                    <span>
-                        <label for="">Name</label>
-                        <input type="text" placeholder="Enter your name" >
-                    </span>
-                    <span>
-                        <label for="">Email</label>
-                        <input type="text" placeholder="Enter your Email" >
-                    </span>
-                    <span>
-                        <label for="">Mobile-No</label>
-                        <input type="text" placeholder="Enter your mobileNo" >
-                    </span>
-                    <span>
-                        <label for="">College</label>
-                        <input type="text" placeholder="Enter your College Name" >
-                    </span>
-                    <span>
-                        <label for="">Courses</label>
-                        <input type="text" placeholder="Enter your Course Name" >
-                    </span>
-                    <span>
-                        <label for="">Message</label>
-                        <input type="text">
-                    </span>
-                    <button>Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div [ngClass]="popUp == 2? 'show': '' " class=" popUp2 popUp">
-        <div class="holder">
-            <i (click)="togglePopup(0)" class="far fa-times-circle"></i>
-            <div class="img">
-                <img src="assets/images/discount.svg" alt="">
-            </div>
-            <div class="form">
-                <form action="">
-                    <span>
-                        <label for="">Name</label>
-                        <input type="text" placeholder="Enter your name" >
-                    </span>
-                    <span>
-                        <label for="">Email</label>
-                        <input type="text" placeholder="Enter your Email" >
-                    </span>
-                    <span>
-                        <label for="">Mobile-No</label>
-                        <input type="text" placeholder="Enter your mobileNo" >
-                    </span>
-                    <span>
-                        <label for="">Courses</label>
-                        <input type="text" placeholder="Enter your Course Name" >
-                    </span>
-                    <span>
-                        <label for="">Message</label>
-                        <input type="text">
-                    </span>
-                    <button>Submit</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <div (click)="togglePopup('none')"  [ngClass]="popUp== 3? 'showGreet': '' "  class="greetHolder">
-        <div style=" position: relative; "  class="greets">
-            <i (click)="togglePopup(0)" style="width: 100%; text-align: end; cursor: pointer;" class="far fa-times-circle"></i>
-            <!-- <img style="z-index: -1; transform: rotate(90deg); position: absolute; right:0;top: 0;" src="/assets/images/rope.png" alt="">
-            <img style="z-index: -1; transform: rotate(90deg); position: absolute;top: 0;left:0; " src="/assets/images/rope.png" alt=""> -->
-            <img  src="/assets/images/greeting.png" alt="">
-        </div>
-    </div>
-
 </nav>

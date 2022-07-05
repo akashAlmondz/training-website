@@ -1,49 +1,71 @@
-
 <main>
     <div class="landing">
         <div class="about">
-            <p>Get Your Education Today!</p>
-            <p>BookMyShiksha isn’t just an institute, we’ve imagined it to be like Hogwart’s … but this one prepares the IT magicians of the future. If you’re the kind who dreams in codes and pixels, come be a part of BMS, we’re a gateway to unparalleled opportunities.  Being one of the few institutes that specialize in Diploma & Masters in Data Science & Machine Learning, our seating is limited. Fill out an application form today or reach out to us to get started.</p>
+            <h1>Get Your Education Today!</h1>
+            <p>BookMyShiksha isn’t just an institute, we’ve imagined it to be like Hogwart’s … but this one prepares the
+                IT magicians of the future. If you’re the kind who dreams in codes and pixels, come be a part of BMS,
+                we’re a gateway to unparalleled opportunities.  Being one of the few institutes that specialize in
+                Diploma & Masters in Data Science & Machine Learning, our seating is limited. Fill out an application
+                form today or reach out to us to get started.</p>
 
-            <p (click)="exploreCourses()" >Explore Our Programs</p>
+            <p (click)="exploreCourses()">Explore Our Programs</p>
         </div>
-        <img src="/assets/images/Education.svg" alt="">
-        
+        <img src="/assets/images/Education.svg" alt="images">
+
     </div>
     <div class="reports">
-        <a href="assets/images/BMS Company Brochure .pdf" target="/" style="text-decoration: none; color: rgb(0, 0, 0); " class="button" >Download Company Brochure  <i class="fas fa-file-download"></i>  </a>
-        <p class="button" >Download Company Brochure<i class="fas fa-file-download"></i>  </p>
-        <div class="holder" >
-            <div class="report" *ngFor='let item of report' >
+        <a href="assets/images/BMS Company Brochure .pdf" target="/"
+            style="text-decoration: none; color: rgb(0, 0, 0); " class="button">Download Company Brochure <i
+                class="fas fa-file-download"></i> </a>
+        <!-- <p class="button" >Download Company Brochure<i class="fas fa-file-download"></i>  </p> -->
+        <div class="holder">
+            <div class="report" *ngFor='let item of report'>
                 <i [class]=item.icon></i>
                 <div id="heading1" class="">
-                    <p class="value" >{{item.value}}</p>
-                    <p class="name" >{{item.name}}</p>
+                    <p class="value">{{item.value}}</p>
+                    <p class="name">{{item.name}}</p>
                 </div>
             </div>
         </div>
     </div>
+    <p class="courseHeading">Explore Our <span>Top Ranked</span> Programs</p>
     <div class="courses">
-        <p  class="heading" >All Courses</p>
-        <div class="cards" [ngClass] = "expendCourses? 'expendCards': '' "  >
-            <div [routerLink]="item.routerLink" class="card" *ngFor= 'let item of coursesCards'  >
+        <div class="sideNav">
+            <div [ngClass]="{'activeCategory':i==currentIndex}"  (click)="filterCategory(i)"  *ngFor="let item of courseList; let i  = index" class="category">
+                <p> <i class="fas fa-chalkboard-teacher"></i> {{ item.title}}</p> <b>></b>
+            </div>
+        </div>
+        <div class="cards">
+            <div [routerLink]="item.routerLink" class="card" *ngFor='let item of courseList[currentIndex].courses'>
                 <div class="courseBackground">
                     <img class="courseImg" [src]=item.img alt="">
                 </div>
-                <p class="courseName" >{{item.name}}</p>
-                
+                <p class="courseName">{{item.name}}</p>
+                <div class="details">
+                    <div>
+                        <p><i class="fas fa-calendar-alt"></i> {{item.duration}}</p>
+                    </div>
+                    <div>
+                        <p>Online & Classroom Mentorship</p>
+                    </div>
+                    <div>
+                        <p>Weekday & Weekend</p>
+                    </div>
+                </div>
+                <p class="startDate" >Batch Starting from: <b>{{item.startDate}}</b> </p>
+                <div class="footer">
+                    <img src="assets/images/logo.png" alt="">
+                    <p>View Course</p>
+                </div>
             </div>
         </div>
-        <div class="buttonHolder">
-            <p (click)=viewMoreCourses() class="button">{{buttonValue}}</p>
-        </div>
     </div>
-    
+
     <div id="heading2" class="services">
-        <p class="heading" >Our Services</p>
+        <p class="heading">Our Services</p>
         <div class="cards">
-            <div class="card" *ngFor= 'let item of servicesCards' >
-                <img [src]= "item.img" alt="">
+            <div class="card" *ngFor='let item of servicesCards'>
+                <img [src]="item.img" alt="images">
                 <h2>{{item.name}}</h2>
                 <p>{{item.about}}</p>
             </div>
@@ -53,25 +75,26 @@
     <div class="upcoming">
         <p class="heading">Upcoming Batches</p>
         <div class="cards">
-            <div class="card" *ngFor= 'let item of upcomingCourses' >
+            <div class="card" *ngFor='let item of upcomingCourses'>
                 <div class="date">
                     <i class="fas fa-calendar-alt"></i>
-                    <p class="courseDate" >{{item.date}}</p>
-                    <p class="courseMonth" >{{item.month}}</p>
-                    <p class="courseMonth" >{{item.year}}</p>
+                    <p class="courseDate">{{item.date}}</p>
+                    <p class="courseMonth">{{item.month}}</p>
+                    <p class="courseMonth">{{item.year}}</p>
                 </div>
                 <div class="about">
-                    <p class="courseName" >{{item.name}}</p>
-                    <p class="courseAbout" >{{item.about}}</p>
+                    <p class="courseName">{{item.name}}</p>
+                    <p class="courseAbout">{{item.about}}</p>
                 </div>
                 <div class="timing">
-                    <p class="time" >9AM-9PM</p>
-                    <p class="day" >Monday to Sunday</p>
-                    <p class="enroll" [routerLink]="item.routerLink" >Enroll Now</p>
+                    <p class="time">9AM-9PM</p>
+                    <p class="day">Monday to Sunday</p>
+                    <p class="enroll" [routerLink]="item.routerLink">Enroll Now</p>
                 </div>
-                
+
             </div>
         </div>
     </div>
     <app-blogs></app-blogs>
+    <app-support></app-support>
 </main>

@@ -1,9 +1,16 @@
+export function convertStringToHtml(str){
+  const parser = new DOMParser();
+  const text = parser.parseFromString(str, 'text/html');
+  console.log(text.body, 'Zan')
+  return text.body;
+}
+
 export const courses = [
   {
     image: "/assets/images/course-images/python.png",
     heading: 'Python training course in Delhi,India',
     subHeading: 'Python course in delhi is the most searched language as well as used by google, microsoft, twitter and the list goes on with wide variety of frameworks for App development & Backend. BookMyShiksha consider python as the next big thing in the coming future.',
-    aboutHeading: 'Python Classes in Delhi',
+    aboutHeading: `Python Classes in Delhi`,
     about: [
       "Python is one of the most widely reputed programming languages in the world, python training institute in delhi.BookMyShiksha is the best python training campus in Delhi-NCR that allows learners to build the skills you would require to land your first Python programming job. Learn the intricacies of Machine Learning, Django, Data Science, and the other specialised areas.Understand the mathematics behind Machine Learning which is vital and not covered in most courses. Gain theoretical and practical knowledge to use Python for acing projects. Be in a position to create your own Python apps efficiently by enrolling for the best python institute delhi",
       "To be able to do so, you require a firm foundation in Python programming, and this course is specially designed to equip you with the core skills in a swift manner. Join this course today if you want an incredible boost in your career."],
@@ -71,26 +78,31 @@ export const courses = [
       points: [{ point: 'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
       { point: 'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.' },
       { point: 'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.' },]
-    }
+    },
+    relatedCourse:[
+      {name:'Data Science training',img:'assets/images/data-science.svg', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/data-science-training-course'},
+      {name:'Machine Learning training',img:'assets/images/machine-learning.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/machine-learning-training-course'},
+      {name:'Deep Learning training',img:'assets/images/deep-learning.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/deep-learning-training-course'},
+    ]
   },
 
   {
     image: "/assets/images/course-images/DS.png",
-    heading: 'Data Science training',
-    subHeading: 'DataScience is the future for highend analytics, visualization & Preprocessing. BookMyShiksha uses tools like anaconda navigator, IDLE, VS code, Pycharm, Jupyter notebook.Not only these tools are exciting to use but there real world uses in IT industry is inevitable in the coming future. ',
-    aboutHeading: 'Data Science training',
+    heading: 'Data Science training in Delhi.',
+    subHeading: 'DataScience is the future for highend analytics, visualization & Preprocessing. Data Science course in Delhi, BookMyShiksha uses tools like anaconda navigator, IDLE, VS code, Pycharm, Jupyter notebook.Not only these tools are exciting to use but there real world uses in IT industry is inevitable in the coming future. ',
+    aboutHeading: 'Data Science training institute in Delhi',
     about: [
-      "The course at BookMyShiksha offers the entire toolbox one might require to become a brilliant data scientist. Learn Python programming with matplotlib, NumPy, Seaborn, pandas, Advanced Statistical Analysis, Machine Learning with scikit-learn, Tableau, and Deep Learning with TensorFlow. Gain knowledge to handle advanced techniques like Dimensionality Reduction. Be able to work on specific categories like Deep Learning, NLP and Reinforcement Learning. Having an understanding of the mathematics behind Machine Learning through the best data science training course in Delhi. Code in Python, and use it for statistical analysis.",
+      "The course at BookMyShiksha offers the entire toolbox one might require to become a brilliant data scientist. Best data science course in delhi, Learn Python programming with matplotlib, NumPy, Seaborn, pandas, Advanced Statistical Analysis, Machine Learning with scikit-learn, Tableau, and Deep Learning with TensorFlow. Gain knowledge to handle advanced techniques like Dimensionality Reduction. Be able to work on specific categories like Deep Learning, NLP and Reinforcement Learning. Having an understanding of the mathematics behind Machine Learning through the best data science training course in Delhi. Code in Python, and use it for statistical analysis.",
       "Through this course at BookMyShiksha, you will be able to apply the skills you gain in real-life business scenarios."],
     aboutSections: [
-      { heading: 'By the end of this course, you will be able to:', about: ['Have impeccable intuition of numerous Data Science models. Perform linear, and logistic regressions in the Python language. Conduct cluster and factor analysis. Create Machine Learning algorithms in Python, using statsmodels, scikit-learn, and NumPy.. Be great at using Pandas for the analysis of data. Use Matplotlib for plotting Python. Ace the usage of statistical plots by incorporating Seaborn. Use the latest Deep Learning framework like the Google TensorFlow. Deploy random forest and  decision trees to improve the program. Create an army of impactful Machine Learning models and combine them to solve problems in the program. Develop a business intuition whilst solving tasks, or coding with large data. Unfold the intricacies of deep neural networks through the best data science online course in Delhi NCR.'] },
+      { heading: 'By the end of this course, you will be able to:', about: ['Have impeccable intuition of numerous Data Science models. Perform linear, and logistic regressions in the Python language. Best institue for data science in delhi, Conduct cluster and factor analysis. Create Machine Learning algorithms in Python, using statsmodels, scikit-learn, and NumPy.. Be great at using Pandas for the analysis of data. Use Matplotlib for plotting Python. Ace the usage of statistical plots by incorporating Seaborn. Use the latest Deep Learning framework like the Google TensorFlow. Deploy random forest and  decision trees to improve the program. Create an army of impactful Machine Learning models and combine them to solve problems in the program. Develop a business intuition whilst solving tasks, or coding with large data. Unfold the intricacies of deep neural networks through the best data science online course in Delhi NCR.'] },
       {
         heading: 'Who is this course for?', about: [
-          "This course is for learners with no prior knowledge about data science. . For a person that finds coding difficult but wants to learn data science and use it easily for datasets. If you are somebody that has a fair understanding of Data Science but wants to improve your skills and have a firm foundation in this sector, this course is perfect for you. If you are looking to  gain the most coveted set of skills of a Data Scientist, then this course is curated for you. Anybody that wants to gain prerequisite knowledge to kick start their career should join this course at Book My Shiksha."
+          "This course is for learners with no prior knowledge about data science. Best data science institute in delhi, For a person that finds coding difficult but wants to learn data science and use it easily for datasets. If you are somebody that has a fair understanding of Data Science but wants to improve your skills and have a firm foundation in this sector, this course is perfect for you. If you are looking to  gain the most coveted set of skills of a Data Scientist, then this course is curated for you. Anybody that wants to gain prerequisite knowledge to kick start their career should join this course at Book My Shiksha."
         ]
       },
-      { heading: 'Job opportunities after finishing this course:', about: ["Data Scientist, Data Analyst, Applications Architect, Machine Learning Engineer, Machine Learning Scientist, Enterprise Architect, Data Architect, Data Engineer, Infrastructure Architect."] },
-      { heading: 'Prerequisite knowledge:', about: ["The thirst to gain knowledge and learn a resourceful data language which is a useful lifetime skill. No prior knowledge in programming is required as we begin from the fundamentals of data science. You need a computer that supports Windows, MacOS, or Linux with a stable internet connection. No prior knowledge in programming is required. Any tool that has to be installed will be taught through a step-by-step process."] },
+      { heading: 'Job opportunities after finishing this course:', about: ["Data Scientist, Data Analyst, Applications Architect, Machine Learning Engineer, Machine Learning Scientist, Data Science course fees in Delhi, Enterprise Architect, Data Architect, Data Engineer, Infrastructure Architect."] },
+      { heading: 'Prerequisite knowledge:', about: ["The thirst to gain knowledge and learn a resourceful data language which is a useful lifetime skill. Best data science institue in delhi, No prior knowledge in programming is required as we begin from the fundamentals of data science. You need a computer that supports Windows, MacOS, or Linux with a stable internet connection. No prior knowledge in programming is required. Any tool that has to be installed will be taught through a step-by-step process."] },
     ],
     whyUsCards: {
       heading: 'Why You Should Join BookMyShiksha For Data Science Training.',
@@ -113,13 +125,13 @@ export const courses = [
     placementCards: {
       heading: 'Placement Facility During Data Science Training',
       points: [{ point: 'BookMyShiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
-      { point: 'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.' },
-      { point: 'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.' },]
+      { point: 'Our experts from the HR team strive to groom learners to become the best versions of themselves. Data science training in delhi, This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.' },
+      { point: 'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.Data Science course fees in delhi.' },]
     },
     sections: [
       {
         id: 0, sectionName: 'Course Overview', about: [
-          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in DataScience.Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in DataScience. Data science course in delhi india, Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
         ]
       },
       {
@@ -147,21 +159,21 @@ export const courses = [
   },
   {
     image: "/assets/images/course-images/ML.png",
-    heading: 'Machine Learning Training',
-    subHeading: 'Machine learning helps in data analytics and have its framework for prediction & analysis.Machine learning is the key tool which used by google, microsoft, youtube and so on to implement its AI which makes the processing fast. BookMyShiksha believes in the future and plans to work and implement its features in the coming future.',
-    aboutHeading: 'Machine Learning Training',
+    heading: 'Machine Learning Training in Delhi',
+    subHeading: 'Machine learning course in Delhi, helps in data analytics and have its framework for prediction & analysis.Machine learning is the key tool which used by google, microsoft, youtube and so on to implement its AI which makes the processing fast. BookMyShiksha believes in the future and plans to work and implement its features in the coming future.',
+    aboutHeading: 'Machine Learning Training in Delhi,India',
     about: [
-      "Master the art of Machine Learning on Python at BookMyShiksha. Learn to use the many Machine Learning models, and tools. Understand how to handle specific topics like Reinforcement Learning, Deep Learning, and NLP. Master advanced techniques like Dimensionality Reduction with the help of the educators at the best Machine Learning Training course in Delhi. Be in a position to choose the right Machine Learning model to address each type of problem.",
+      "Master the art of Machine Learning institue in Delhi, on Python at BookMyShiksha. Learn to use the many Machine Learning models, and tools. Understand how to handle specific topics like Reinforcement Learning, Deep Learning, and NLP. Master advanced techniques like Dimensionality Reduction with the help of the educators at the best Machine Learning Training course in Delhi. Be in a position to choose the right Machine Learning model to address each type of problem.",
       "By enrolling in this course at BookMyShiksha, you will be able to apply the knowledge you gain to scale up in your career."],
     aboutSections: [
-      { heading: 'By the end of this course, you will be able to:', about: ['Make accurate predictions for businesses. Conduct powerful analysis that yields great results. Create robust Machine Learning models. Add value to your business, or for your clients.'] },
+      { heading: 'By the end of this course, you will be able to:', about: ['Make accurate predictions for businesses. Machine learning courses in Delhi, Conduct powerful analysis that yields great results. Create robust Machine Learning models. Add value to your business, or for your clients.'] },
       {
         heading: 'Who is this course for?', about: [
-          "This course is for beginners with no prior knowledge about Machine Learning on Python but are looking to equip themselves with a well defined set of skills. Students who have math knowledge and want to start learning Machine Learning. For data analysts who want to excel in the field of Machine Learning. This course is recommended for people who are not satisfied with their jobs and want to become a fantastic Data Scientist. This is for app developers, business leaders and developers, managers, and even consumers (you!). Anybody that wants to gain prerequisite knowledge to move into Machine Learning by learning classical algorithms such as linear regression or logistic regression."
+          "This course is for beginners with no prior knowledge about Machine Learning course near me, on Python but are looking to equip themselves with a well defined set of skills. Students who have math knowledge and want to start learning Machine Learning. For data analysts who want to excel in the field of Machine Learning. This course is recommended for people who are not satisfied with their jobs and want to become a fantastic Data Scientist. This is for app developers, business leaders and developers, managers, and even consumers (you!). Anybody that wants to gain prerequisite knowledge to move into Machine Learning by learning classical algorithms such as linear regression or logistic regression."
         ]
       },
       { heading: 'Job opportunities after finishing this course:', about: ["Python Developer, Software Engineer, Data Scientist, Computational Linguist, Designer in Human-Centered Machine Learning, Software Developer."] },
-      { heading: 'Prerequisite knowledge:', about: ["Thirst to expand their horizons through BookMyShiksha. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Machine Learning is included in the course."] },
+      { heading: 'Prerequisite knowledge:', about: ["Thirst to expand their horizons through BookMyShiksha. Machine learning training in Delhi, A computer that supports Windows, MacOS, or Linux. The setup and installation instructions are included for each operating system. Everything else that is required to start using Machine Learning is included in the course."] },
     ],
     whyUsCards: {
       heading: 'Why You Should Join BookMyShiksha For Machine learning Training.',
@@ -190,7 +202,7 @@ export const courses = [
     sections: [
       {
         id: 0, sectionName: 'Course Overview', about: [
-          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Machine Learning. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Machine Learning. Machine learning institue in Delhi, Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
         ]
       },
       {
@@ -219,17 +231,17 @@ export const courses = [
   },
   {
     image: "/assets/images/course-images/DL.png",
-    heading: 'Deep Learning Training',
-    subHeading: 'Deep learning works with neural networking and features of machine learning, Deep learning involves lot of statistic analysis and complex calculation.Deep learning is used in various sector such as medical science, robotics and so on. BookMyShiksha have well trained trainers and expertise to help students to understand and be future ready in deep learning.',
-    aboutHeading: 'Deep Learning Training',
+    heading: 'Deep Learning Training in Delhi',
+    subHeading: 'Deep learning courses in Delhi, works with neural networking and features of machine learning, Deep learning involves lot of statistic analysis and complex calculation.Deep learning is used in various sector such as medical science, robotics and so on. BookMyShiksha have well trained trainers and expertise to help students to understand and be future ready in deep learning.',
+    aboutHeading: 'Deep Learning Training in Delhi, India',
     about: [
-      "Dive into our Deep Learning course to understand the different layers of Artificial Neural Networks. Once you understand the concept behind it, apply it in real life scenarios that require your expertise. Learn what Convolutional Neural Networks are and how to implement them through the best Deep Learning Training course in the national capital region. Gain knowledge on Recurrent Neural Networks, Self-Organizing Maps, Boltzmann Machines, and AutoEncoders. Furthermore, by enrolling for this course at Book My Shiksha, you will also learn how to implement all of these concepts to excel in your career.",
-      "Our course is structured in a very robust manner, helping learners broaden their horizons by navigating through two volumes that comprise two fundamental branches of Deep Learning. We have an exceptional course structure that will help learners gain the most insight in this field of technology to become experts. In case you have any doubts during the course of the training process."],
+      "Dive into our Deep Learning course in Delhi, to understand the different layers of Artificial Neural Networks. Once you understand the concept behind it, apply it in real life scenarios that require your expertise. Learn what Convolutional Neural Networks are and how to implement them through the best Deep Learning Training course in the national capital region. Gain knowledge on Recurrent Neural Networks, Self-Organizing Maps, Boltzmann Machines, and AutoEncoders. Furthermore, by enrolling for this course at Book My Shiksha, you will also learn how to implement all of these concepts to excel in your career.",
+      "Our course is structured in a very robust manner, Deep learning corse in Delhi, helping learners broaden their horizons by navigating through two volumes that comprise two fundamental branches of Deep Learning. We have an exceptional course structure that will help learners gain the most insight in this field of technology to become experts. In case you have any doubts during the course of the training process."],
     aboutSections: [
-      { heading: 'By the end of this course, you will be able to:', about: ['Be exceptional at incorporating artificial intelligence to your projects and businesses for unprecedented growth like never before. Use Artificial Neural Networks to solve a Customer Churn problem. Work on extensive datasets to build better programs that are complex and offer better solutions. Make use of Convolutional Neural Networks for Image Recognition. Predict prices of stock by applying  Recurrent Neural Networks. Investigate Fraud by incorporating Self-Organizing Maps. Create a Recommender System through the means of a Boltzmann Machine.'] },
+      { heading: 'By the end of this course, you will be able to:', about: ['Deep learning training in Delhi, Be exceptional at incorporating artificial intelligence to your projects and businesses for unprecedented growth like never before. Use Artificial Neural Networks to solve a Customer Churn problem. Work on extensive datasets to build better programs that are complex and offer better solutions. Make use of Convolutional Neural Networks for Image Recognition. Predict prices of stock by applying  Recurrent Neural Networks. Investigate Fraud by incorporating Self-Organizing Maps. Create a Recommender System through the means of a Boltzmann Machine.'] },
       {
         heading: 'Who is this course for?', about: [
-          "This course is for anybody that is interested in the best Deep Learning course in Delhi. It is for people with no prior knowledge about Deep Learning but are looking to understand its intricacies. People that are looking for an interesting course module that helps them gain data in the most impressive and interactive way. This course is for data analysts who want to scale up in their careers. Students who have math knowledge and want to start learning Deep Learning. Entrepreneurs who want to disrupt the industry by incorporating the most advanced Deep Learning algorithms. Any business owner that wants to leverage Exponential Technology to boost their business."
+          "This course is for anybody that is interested in the best Deep Learning course in Delhi. It is for people with no prior knowledge about Deep Learning but are looking to understand its intricacies. Deep learning training course in Delhi, People that are looking for an interesting course module that helps them gain data in the most impressive and interactive way. This course is for data analysts who want to scale up in their careers. Students who have math knowledge and want to start learning Deep Learning. Entrepreneurs who want to disrupt the industry by incorporating the most advanced Deep Learning algorithms. Any business owner that wants to leverage Exponential Technology to boost their business."
         ]
       },
       { heading: 'Job opportunities after finishing this course:', about: ["Deep Learning Engineer, Data Scientist, Computational Linguist, Data Analyst, Software Developer."] },
@@ -262,7 +274,7 @@ export const courses = [
     sections: [
       {
         id: 0, sectionName: 'Course Overview', about: [
-          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Deep Learning. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+          'Deep learning courses in Delhi, BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Deep Learning. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
         ]
       },
       {
@@ -289,26 +301,26 @@ export const courses = [
   },
   {
     image: "/assets/images/course-images/ai.png",
-    heading: 'Artificial Intelligence Training',
-    subHeading: 'Artificial inteligence is used by big brands such as youtube, augmented reality, virtual reality,robotics and so on. Artificial intelliegnce have reached a new level of achievement where they have already made a humanoid robot, which have been given citizenship also. BookMyShiksha works with the latest trends in machine learning and artificial intelligence field.',
-    aboutHeading: 'Artificial Intelligence Training',
+    heading: 'Artificial Intelligence Training in Delhi',
+    subHeading: 'Artificial inteligence is used by big brands such as youtube, Artificial intellgence courses in Delhi, augmented reality, virtual reality,robotics and so on. Artificial intelliegnce have reached a new level of achievement where they have already made a humanoid robot, which have been given citizenship also. BookMyShiksha works with the latest trends in machine learning and artificial intelligence field.',
+    aboutHeading: 'Artificial Intelligence Training in Delhi, India',
     about: [
-      "Enroll for the best Artificial Intelligence Training online course in Delhi to gain insights on AI concepts. Understand the intuition behind the math used in AI solutions. Build, test, train, and deploy different artificial intelligence models to classify data. Gain knowledge on Time series along with simple linear regression. Learn how to incorporate Multiple and Logistic regression. Our modules encourage learners to apply the knowledge they gain from this course in real-life businesses and scenarios to help achieve the best possible outcomes.",
+      "Enroll for the best Artificial Intelligence Training online course in Delhi to gain insights on AI concepts. Artificial intelligence institue in Delhi, Understand the intuition behind the math used in AI solutions. Build, test, train, and deploy different artificial intelligence models to classify data. Gain knowledge on Time series along with simple linear regression. Learn how to incorporate Multiple and Logistic regression. Our modules encourage learners to apply the knowledge they gain from this course in real-life businesses and scenarios to help achieve the best possible outcomes.",
       "At BookMyShiksha, you will learn how Artificial Intelligence is disrupting the way we work, and function. During this course, you can clear the doubts you have with our tutors who are determined to help you get the best out of the training program for you to excel in your career."],
     aboutSections: [
       { heading: 'By the end of this course, you will be able to:', about: ['Have a clear understanding of the theory behind AI. Work on AI projects that involve the application of concepts you learnt in class. Create AI programs that are developed to perform specific tasks in the medical field, electronics, robotics, finance, education, and transportation. and so on. Understand the differences between the rate of learning, batch size, epochs, accuracy, and loss.', 'Artificial Intelligence has drastically transformed the business landscape. Come up with unique artificial intelligence programs by changing a few lines of code. Your potential and imagination is limitless. Add value to the work you do by learning how AI can make your approach unique by joining Book My Shiksha today.'] },
       {
         heading: 'Who is this course for?', about: [
-          "Our Artificial Intelligence Training course in Delhi is specifically for students and professionals that have a keen interest in Artificial Intelligence. It is for Data Analysts that want to scale up in their career. Anybody that wants to equip themselves with skills for a lifetime. This course is for business owners who want to leverage the advancements in artificial intelligence to grow their businesses in multiple folds all whilst reducing costs, maximizing revenue and optimizing their businesses in the best way possible. This is for consultants who have years of experience and possess zero to little knowledge about coding and are looking to leverage artificial intelligence to help businesses grow. Technology enthusiasts who have a penchant for artificial intelligence and want to understand its intricacies through practical experiences."
+          "Our Artificial Intelligence Training course in Delhi is specifically for students and professionals that have a keen interest in Artificial Intelligence. Ai training in Delhi, It is for Data Analysts that want to scale up in their career. Anybody that wants to equip themselves with skills for a lifetime. This course is for business owners who want to leverage the advancements in artificial intelligence to grow their businesses in multiple folds all whilst reducing costs, maximizing revenue and optimizing their businesses in the best way possible. This is for consultants who have years of experience and possess zero to little knowledge about coding and are looking to leverage artificial intelligence to help businesses grow. Technology enthusiasts who have a penchant for artificial intelligence and want to understand its intricacies through practical experiences."
         ]
       },
       { heading: 'Job opportunities after finishing this course:', about: ["Business Intelligence Developer, Machine Learning Engineer, AI Engineer, Research Scientist, Robotic Scientist."] },
-      { heading: 'Prerequisite knowledge:', about: ["The interest to become better versions of themselves by gaining some highly coveted skills in the field of information technology and deploying these skills to help enhance the lives of themselves and others. Basic knowledge of computer programming is required. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions for softwares are included for each operating system.for this course as we work with advanced programs."] },
+      { heading: 'Prerequisite knowledge:', about: ["The interest to become better versions of themselves by gaining some highly coveted skills in the field of information technology and deploying these skills to help enhance the lives of themselves and others. Artificial intelligence course near me, Basic knowledge of computer programming is required. A computer that supports Windows, MacOS, or Linux. The setup and installation instructions for softwares are included for each operating system.for this course as we work with advanced programs."] },
     ],
     whyUsCards: {
       heading: 'Why You Should Join BookMyShiksha For Artificial Intelligence Training.',
       points: [{ point: 'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.' },
-      { point: 'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.' },
+      { point: 'We provide recordings of our online sessions to the learners. So, if a student misses a class,Institute for artificial intelligence in Delhi, they can utilize these recorded sessions.' },
       { point: 'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.' },
       { point: 'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.' },
       { point: 'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. ' },]
@@ -332,7 +344,7 @@ export const courses = [
     sections: [
       {
         id: 0, sectionName: 'Course Overview', about: [
-          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Artificial Intelligence. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Artificial Intelligence. Artificial Intelligence course in Delhi, Our program required consistent hard work at the same time smart work as time managenment is the key. Ai course in Delhi, We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
         ]
       },
       {
@@ -361,7 +373,7 @@ export const courses = [
   {
     image: "/assets/images/course-images/diplomaiinds.png",
     heading: 'Diploma in DataScience',
-    subHeading: 'BookMySiksha provide data science diploma for all the students who are aspiring to have a future in Data Science. We as an institute bilieves in education , however most of the companies ask for degree, diploma or masters so BookMyShiksha introduced this diploma after taking an opinion from our students.',
+    subHeading: 'BookMyShiksha provide data science diploma for all the students who are aspiring to have a future in Data Science. We as an institute bilieves in education , however most of the companies ask for degree, diploma or masters so BookMyShiksha introduced this diploma after taking an opinion from our students.',
     aboutHeading: 'Diploma in DataScience',
     about: [
       "The Diploma course at BookMyShiksha leads learners to learn the basics of writing and running scripts and to understand complex concepts such as regular expressions, file operations and working with binary data. Enroll for the best Diploma in Data Science in Delhi to gain knowledge on the rapidly booming data science industry. The cross platform training offers learners a better use of tasks on any operating system. Ultimately, learners would be able to cater to different job roles. Join this course today to become a fantastic data scientist.",

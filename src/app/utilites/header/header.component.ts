@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Titles } from 'src/app/titles&meta';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
+import { Router } from '@angular/router';
+import { QformComponent } from 'src/app/components/qform/qform.component';
+import { FormAComponent } from '../form-a/form-a.component';
+// import { SMTPClient } from 'emailjs';
+
 
 @Component({
   selector: 'app-header',
@@ -7,84 +13,87 @@ import { Titles } from 'src/app/titles&meta';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor() { }
-
+  constructor(  private dilog: MatDialog,private router:Router ) {}
+   submitForm(value){
+    
+     console.log(value)
+   
+   }
   
   courseList = [
     {title:'All Course', courses:[
       {name:'Python training', routerLink:'courses/python-training-course'},
-      {name:'Data Science training', routerLink:'courses/data-science-training-course-in-delhincr'},
-      {name:'Machine Learning training', routerLink:'courses/machine-learning-training-course-in-delhincr'},
-      {name:'Deep Learning training', routerLink:'courses/deep-learning-training-course-in-delhincr'},
-      {name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course-in-delhincr'},
-      {name:'RPA training', routerLink:'courses/rpa-course-in-delhincr'},
-      {name:'Java training', routerLink:'courses/java-course-in-delhincr'},
-      {name:'.Net training', routerLink:'courses/.net-course-in-delhincr'},
-      {name:'VBA training', routerLink:'courses/vba-course-in-delhincr'},
-      {name:'PHP', routerLink:'courses/php-course-in-delhincr'},
-      {name:'HTML5/CSS3/JS', routerLink:'courses/html5-css3-js-course-in-delhincr'},
-      {name:'Angular', routerLink:'courses/angular-course-in-delhincr'},
-      {name:'Node', routerLink:'courses/nodejs-course-in-delhincr'},
-      {name:'React', routerLink:'courses/react-course-in-delhincr'},
-      {name:'Python Django/Flask', routerLink:'courses/pyhton-django-course-in-delhincr'},
-      {name:'MongoDB', routerLink:'courses/mongodb-course-in-delhincr'},
-      {name:'SQL', routerLink:'courses/sql-course-in-delhincr'},
-      {name:'Oracle', routerLink:'courses/oracle-course-in-delhincr'},
-      {name:'Power Bi', routerLink:'courses/powerBi-course-in-delhincr'},
-      {name:'Tablue', routerLink:'courses/courses/tableau-course-in-delhincr'},
-      {name:'SMO(Social media optimization)', routerLink:'courses/social-media-optimization-course-in-delhincr'},
-      {name:'PPC(Pay-per-click)', routerLink:'courses/pay-per-click-course-in-delhincr'},
-      {name:'SEO(Search engine optimization)', routerLink:'courses/seo-course-in-delhincr'},
-      {name:'Google Ads', routerLink:'courses/google-ads-certification-course-in-delhincr'},
-      {name:'Facebook Ads', routerLink:'courses/facebook_ads_certification-course-in-delhincr'},
-      {name:'Social Media Promotion', routerLink:'courses/social-media-promotion-course-in-delhincr'},
-      {name:'E-mail Marketing', routerLink:'courses/email-marketing-course-in-delhincr'},
-      {name:'Diploma in Data Science', routerLink:'courses/diploma-in-data-science-course-in-delhincr'},
-      {name:'Diploma in Machine Learning', routerLink:'courses/diploma-in-machine-learning-course-in-delhincr'},
-      {name:'Masters in Data Science', routerLink:'courses/masters-in-data-science-course-in-delhincr'},
-      {name:'Masters in Machine Learning', routerLink:'courses/masters-in-machine-learning-course-in-delhincr'},
+      {name:'Data Science training', routerLink:'courses/data-science-training-course'},
+      {name:'Machine Learning training', routerLink:'courses/machine-learning-training-course'},
+      {name:'Deep Learning training', routerLink:'courses/deep-learning-training-course'},
+      {name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course'},
+      {name:'RPA training', routerLink:'courses/rpa-course'},
+      {name:'Java training', routerLink:'courses/java-course'},
+      {name:'.Net training', routerLink:'courses/.net-course'},
+      {name:'VBA training', routerLink:'courses/vba-course'},
+      {name:'PHP', routerLink:'courses/php-course'},
+      {name:'HTML5/CSS3/JS', routerLink:'courses/html5-css3-js-course'},
+      {name:'Angular', routerLink:'courses/angular-course'},
+      {name:'Node', routerLink:'courses/nodejs-course'},
+      {name:'React', routerLink:'courses/react-course'},
+      {name:'Python Django/Flask', routerLink:'courses/pyhton-django-course'},
+      {name:'MongoDB', routerLink:'courses/mongodb-course'},
+      {name:'SQL', routerLink:'courses/sql-course'},
+      {name:'Oracle', routerLink:'courses/oracle-course'},
+      {name:'Power Bi', routerLink:'courses/powerBi-course'},
+      {name:'Tablue', routerLink:'courses/courses/tableau-course'},
+      {name:'SMO(Social media optimization)', routerLink:'courses/social-media-optimization-course'},
+      {name:'PPC(Pay-per-click)', routerLink:'courses/pay-per-click-course'},
+      {name:'SEO(Search engine optimization)', routerLink:'courses/seo-course'},
+      {name:'Google Ads', routerLink:'courses/google-ads-certification-course'},
+      {name:'Facebook Ads', routerLink:'courses/facebook_ads_certification-course'},
+      {name:'Social Media Promotion', routerLink:'courses/social-media-promotion-course'},
+      {name:'E-mail Marketing', routerLink:'courses/email-marketing-course'},
+      {name:'Diploma in Data Science', routerLink:'courses/diploma-in-data-science-course'},
+      {name:'Diploma in Machine Learning', routerLink:'courses/diploma-in-machine-learning-course'},
+      {name:'Masters in Data Science', routerLink:'courses/masters-in-data-science-course'},
+      {name:'Masters in Machine Learning', routerLink:'courses/masters-in-machine-learning-course'},
     ]},
     {title:'Popular Courses', courses:[
       {name:'Python training', routerLink:'courses/python-training-course'},
-      {name:'Data Science training', routerLink:'courses/data-science-training-course-in-delhincr'},
-      {name:'Machine Learning training', routerLink:'courses/machine-learning-training-course-in-delhincr'},
-      {name:'Deep Learning training', routerLink:'courses/deep-learning-training-course-in-delhincr'},
-      {name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course-in-delhincr'},
-      {name:'RPA training', routerLink:'courses/rpa-course-in-delhincr'},
-      {name:'Java training', routerLink:'courses/java-course-in-delhincr'},
-      {name:'.Net training', routerLink:'courses/.net-course-in-delhincr'},
-      {name:'VBA training', routerLink:'courses/vba-course-in-delhincr'},
+      {name:'Data Science training', routerLink:'courses/data-science-training-course'},
+      {name:'Machine Learning training', routerLink:'courses/machine-learning-training-course'},
+      {name:'Deep Learning training', routerLink:'courses/deep-learning-training-course'},
+      {name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course'},
+      {name:'RPA training', routerLink:'courses/rpa-course'},
+      {name:'Java training', routerLink:'courses/java-course'},
+      {name:'.Net training', routerLink:'courses/.net-course'},
+      {name:'VBA training', routerLink:'courses/vba-course'},
     ]},
     {title:'Web Development', courses:[
-      {name:'PHP', routerLink:'courses/php-course-in-delhincr'},
-      {name:'HTML5/CSS3/JS', routerLink:'courses/html5-css3-js-course-in-delhincr'},
-      {name:'Angular', routerLink:'courses/angular-course-in-delhincr'},
-      {name:'Node', routerLink:'courses/nodejs-course-in-delhincr'},
-      {name:'React', routerLink:'courses/react-course-in-delhincr'},
-      {name:'Python Django/Flask', routerLink:'courses/pyhton-django-course-in-delhincr'},
+      {name:'PHP', routerLink:'courses/php-course'},
+      {name:'HTML5/CSS3/JS', routerLink:'courses/html5-css3-js-course'},
+      {name:'Angular', routerLink:'courses/angular-course'},
+      {name:'Node', routerLink:'courses/nodejs-course'},
+      {name:'React', routerLink:'courses/react-course'},
+      {name:'Python Django/Flask', routerLink:'courses/pyhton-django-course'},
     ]},
     {title:'Database & Analytics Tools', courses:[
-      {name:'MongoDB', routerLink:'courses/mongodb-course-in-delhincr'},
-      {name:'SQL', routerLink:'courses/sql-course-in-delhincr'},
-      {name:'Oracle', routerLink:'courses/oracle-course-in-delhincr'},
-      {name:'Power Bi', routerLink:'courses/powerBi-course-in-delhincr'},
-      {name:'Tablue', routerLink:'courses/courses/tableau-course-in-delhincr'},
+      {name:'MongoDB', routerLink:'courses/mongodb-course'},
+      {name:'SQL', routerLink:'courses/sql-course'},
+      {name:'Oracle', routerLink:'courses/oracle-course'},
+      {name:'Power Bi', routerLink:'courses/powerBi-course'},
+      {name:'Tablue', routerLink:'courses/courses/tableau-course'},
     ]},
     {title:'Digital Marketing', courses:[
-      {name:'SMO(Social media optimization)', routerLink:'courses/social-media-optimization-course-in-delhincr'},
-      {name:'PPC(Pay-per-click)', routerLink:'courses/pay-per-click-course-in-delhincr'},
-      {name:'SEO(Search engine optimization)', routerLink:'courses/seo-course-in-delhincr'},
-      {name:'Google Ads', routerLink:'courses/google-ads-certification-course-in-delhincr'},
-      {name:'Facebook Ads', routerLink:'courses/facebook_ads_certification-course-in-delhincr'},
-      {name:'Social Media Promotion', routerLink:'courses/social-media-promotion-course-in-delhincr'},
-      {name:'E-mail Marketing', routerLink:'courses/email-marketing-course-in-delhincr'},
+      {name:'SMO(Social media optimization)', routerLink:'courses/social-media-optimization-course'},
+      {name:'PPC(Pay-per-click)', routerLink:'courses/pay-per-click-course'},
+      {name:'SEO(Search engine optimization)', routerLink:'courses/seo-course'},
+      {name:'Google Ads', routerLink:'courses/google-ads-certification-course'},
+      {name:'Facebook Ads', routerLink:'courses/facebook_ads_certification-course'},
+      {name:'Social Media Promotion', routerLink:'courses/social-media-promotion-course'},
+      {name:'E-mail Marketing', routerLink:'courses/email-marketing-course'},
     ]},
     {title:'Specialization Courses', courses:[
-      {name:'Diploma in Data Science', routerLink:'courses/diploma-in-data-science-course-in-delhincr'},
-      {name:'Diploma in Machine Learning', routerLink:'courses/diploma-in-machine-learning-course-in-delhincr'},
-      {name:'Masters in Data Science', routerLink:'courses/masters-in-data-science-course-in-delhincr'},
-      {name:'Masters in Machine Learning', routerLink:'courses/masters-in-machine-learning-course-in-delhincr'},
+      {name:'Diploma in Data Science', routerLink:'courses/diploma-in-data-science-course'},
+      {name:'Diploma in Machine Learning', routerLink:'courses/diploma-in-machine-learning-course'},
+      {name:'Masters in Data Science', routerLink:'courses/masters-in-data-science-course'},
+      {name:'Masters in Machine Learning', routerLink:'courses/masters-in-machine-learning-course'},
     ]}
   ]
   socialMedia = [
@@ -121,8 +130,8 @@ export class HeaderComponent implements OnInit {
       this.showDropdown = value
     }
   }
-  togglePopup(value:any){
-    this.popUp = value
+  togglePopup(){
+    this.dilog.open(FormAComponent)
   }
 
   
@@ -139,8 +148,10 @@ export class HeaderComponent implements OnInit {
       }
     })
     setTimeout(() => {
-      this.popUp = 2
-    },5000);
+      if(this.router.url=='/' && localStorage.getItem('formSubmit') != 'true' ){
+        this.dilog.open(QformComponent)
+      }
+    },500);
 
 
   

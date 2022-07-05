@@ -16,35 +16,35 @@
             </div>
         </div>
         <div class="form">
-            <form action="">
+            <form action="" [formGroup]="formGroup"  (submit)="sendEmail($event)" >
                 <span>
                     <span>
-                        <label for="">Name:</label><input type="text"  placeholder="Enter Your Name" >
+                        <label for="">Name:</label><input formControlName="name" name="name" type="text"  placeholder="Enter Your Name" >
                     </span>
                     <span>
-                        <label for="">Email:</label><input type="text" placeholder="Enter Your Email" >
+                        <label for="">Email:</label><input formControlName="email" name="email" type="text" placeholder="Enter Your Email" >
                     </span>
                 </span>
                 <span>
                     <span>
                         <label for="">Mobile Number</label>
-                        <input type="text" placeholder="Enter Your Mobile Number" >
+                        <input formControlName="phone_no" name="phone_no" type="text" placeholder="Enter Your Mobile Number" >
                     </span>
                     <span>
                         <label for="">Inquiry Type</label>
-                        <select name="type">
+                        <select formControlName="inquiry_type" name="inquiry_type">
                             <option value="">--Select--</option>
-                            <option value="">Courses Demo</option>
-                            <option value="">Courses Training</option>
-                            <option value="">Course Certification</option>
-                            <option value="">Internship</option>
-                            <option value="">Internship Certification</option>
-                            <option value="">Jobs</option>
+                            <option value="Courses Demo">Courses Demo</option>
+                            <option value="Courses Training">Courses Training</option>
+                            <option value="Course Certification">Course Certification</option>
+                            <option value="Internship">Internship</option>
+                            <option value="Internship Certification">Internship Certification</option>
+                            <option value="Jobs">Jobs</option>
                         </select>
                     </span>
                 </span>
                 <label for="">Your Message</label>
-                <input type="text" placeholder="Enter Your Message" >
+                <input name="message" formControlName="message" type="text" placeholder="Enter Your Message" >
                 
                 <input type="submit">
             </form>

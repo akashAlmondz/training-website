@@ -27,7 +27,7 @@
   height: 55%;
   
 }
-.landing .about p:nth-child(1){
+.landing .about h1:nth-child(1){
   font-size: 45px;
   font-weight: 800;
   color: #05528a;
@@ -112,14 +112,14 @@
 .reports .report div .value {
   font-size: 20px;
 }
-.courses {
-  width: 100%;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 5% 5% 2% 5%;
+
+.courseHeading{
+  text-align: center;
+  font-size: 30px;
+  margin: 40px 0;
+}
+.courseHeading span{
+  color: #1874d2;
 }
 .heading {
   margin-bottom: 0px;
@@ -137,62 +137,58 @@
   height: 1px;
   width: 80%;
 }
-.courses .cards {
-  z-index: 1;
-  height: 500px;
-  overflow: hidden;
+
+.courses{
   display: flex;
-  width: 100%;
-  align-items: flex-start;
-  justify-content:space-between;
+  flex-direction: row;
+  padding:3% 5%;
+}
+.sideNav{
+  width: 20%;
+}
+.sideNav .category{
+  width:100%;
+  margin-bottom: 10px;
+  padding: 5% 3%;
+  box-shadow: 2px 1px 5px rgba(156, 156, 156, 0.541);
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  transition: .4s;
+  border-radius: 5px;
+}
+.sideNav .activeCategory{
+  background-color:#05528a;
+  color: white;
+}
+.sideNav .category:hover{
+  background-color: #1874d2;
+  color: white;
+  cursor: pointer;
+}
+.courses .cards{
+  width: 80%;
+  display: flex;
+  padding: 0 3%;
   flex-wrap: wrap;
+  /* justify-content: space-between; */
 }
-.courses .expendCards {
-  height: auto;
-}
-.buttonHolder{
-  margin: 40px;
-}
-.courses .button{
-  z-index: 1;
-  
-  text-align: center;
-  transition: 0.4s;
-  background-color: #b0d8ff;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-.courses .button:hover{
-  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.37);
-  cursor: pointer;
-}
-
-.courses .viewLessCourses {
-  margin-top: 20px;
-  z-index: 1;
-  text-align: center;
-  transition: 0.4s;
-  background-color: #b0d8ff;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.courses .viewLessCourses:hover{
-  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.37);
-}
-
 .courses .card {
-  width: 200px;
-  margin: 60px 20px 0 0px;
+  width:25%;
+  margin:0 4% 4% 4%;
   cursor: pointer;
   background-color: rgba(143, 143, 143, 0);
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.404);
+  transition: .4s;
+}
+.courses .card .courseBackground:hover .courseImg {
+  transform: scale(140%);
 }
 
-.courses .card:hover .courseImg {
-  transform: scale(140%);
+.courses .card:hover{
+  box-shadow: 2px 3px 10px rgba(128, 128, 128, 0.404);
 }
 .courseBackground {
   overflow: hidden;
@@ -211,14 +207,45 @@
 }
 
 .courses .cards .card .courseName {
-  font-size: 15px;
+  font-size: 17px;
+  padding-left: 2%;
   font-weight: 500;
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
   margin: 10px 0 10px 0;
   color: #000;
 }
-
+.courses .cards .card .details{
+  display: flex;
+  font-size: 12px;
+  text-align: center;
+  color: grey;
+  padding: 5% 0;
+}
+.courses .cards .card .details div{
+  position: relative;
+  padding:0 2%;
+  border-left:1px solid black 
+}
+.courses .cards .card .details div:nth-child(1){
+  border: none;
+}
+.courses .startDate{
+  padding: 2%;
+  font-size: 13px;
+  color: #747474;
+}
+.courses .cards .card .footer{
+  display: flex;
+  justify-content: space-between;
+  padding:5% 2%;
+}
+.courses .cards .card .footer img{
+  width: 50px;
+}
+.courses .cards .card .footer p{
+  font-size: 10px;
+}
 
 .services {
   width: 100%;
@@ -232,7 +259,6 @@
 .services .cards {
   width: 100%;
   display: flex;
-  /* align-items: center; */
   justify-content:space-between;
   flex-wrap: wrap;
   padding:0 5%;
@@ -258,7 +284,6 @@
 
 .services .cards .card img {
   width: 20%;
-  filter: sepia(100%) hue-rotate(193deg) saturate(1000%);
   padding: 0 0 5px 0;
 }
 .services .cards .card h2 {
@@ -354,7 +379,7 @@
   .landing{
     flex-direction: column;
     justify-content:center;
-    padding:10vh 5% 5vh 5%;
+    padding:15vh 5% 5vh 5%;
     height:auto;
   }
   .landing img{

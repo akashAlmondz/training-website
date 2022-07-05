@@ -4,7 +4,7 @@
         <p class="subHeading">Informative blogs:</p>
         <div class="cards">
             <div  class="card" *ngFor= "let item of blogs[0]; let i as index " >
-                <img [src] = item.img alt="">
+                <img [src] = item.img alt="images">
                 <span>
                     <p>{{item.heading}}</p>
                     <p [routerLink]="['/openBlogs']" (click)= "openBlog(0,i)" >Learn More ></p>
@@ -16,7 +16,7 @@
         <p class="subHeading">Social Media Awareness:</p>
         <div class="cards">
             <div class="card" *ngFor= "let item of blogs[1]; let i as index " >
-                <img [src] = item.img alt="">
+                <img [src] = item.img alt="images">
                 <span>
                     <p>{{item.heading}}</p>
                     <p [routerLink]="['/openBlogs']"  (click)= "openBlog(1,i)" >Learn More ></p>
@@ -28,7 +28,7 @@
         <p *ngIf = "link == '/blogs' " class="subHeading">Latest Update IT Services:</p>
         <div class="cards">
             <div class="card" *ngFor= "let item of blogs[2]; let i as index" >
-                <img [src] = item.img alt="">
+                <img [src] = item.img alt="images">
                 <span>
                     <p>{{item.heading}}</p>
                     <p [routerLink]="['/openBlogs']" (click)= "openBlog(2,i)" >Learn More ></p>

@@ -1,6 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
+import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
+import Swal from 'sweetalert2';
 import { ActivatedRoute } from '@angular/router';
 import { courses } from 'src/app/courses';
+import { QformComponent } from '../qform/qform.component';
 
 @Component({
   selector: 'app-open-course',
@@ -8,43 +13,53 @@ import { courses } from 'src/app/courses';
   styleUrls: ['./open-course.component.css']
 })
 export class OpenCourseComponent implements OnInit {
+  formGroup:  FormGroup
+  constructor(private formbuilder: FormBuilder, private router:ActivatedRoute, private dilog:MatDialog) {
+    this.formGroup = this.formbuilder.group({
+      name:['' , Validators.required ],
+      email:['' , Validators.email ],
+      phone_no:['' , Validators.required , ],
+      course:['' , Validators.required ],
+      training_mode:['' ],
+      message:[''],
+    })
 
-  constructor(private router:ActivatedRoute) { }
+   }
   course
 
   ngOnInit(): void {
     let indexNo = {
       'python-training-course':0,
-      'data-science-training-course-in-delhincr':1,
-      'machine-learning-training-course-in-delhincr':2,
-      'deep-learning-training-course-in-delhincr':3,
-      'artificial-inteligence-training-course-in-delhincr':4,
-      'diploma-in-data-science-course-in-delhincr':5,
-      'diploma-in-machine-learning-course-in-delhincr':6,
-      'masters-in-data-science-course-in-delhincr':7,
-      'masters-in-machine-learning-course-in-delhincr':8,
-      'seo-course-in-delhincr':9,
-      'rpa-course-in-delhincr':10,
-      'java-course-in-delhincr':11,
-      '.net-course-in-delhincr':12,
-      'vba-course-in-delhincr':13,
-      'php-course-in-delhincr':14,
-      'html5-css3-js-course-in-delhincr':15,
-      'angular-course-in-delhincr':16,
-      'nodejs-course-in-delhincr':17,
-      'react-course-in-delhincr':18,
-      'pyhton-django-course-in-delhincr':19,
-      'mongodb-course-in-delhincr':20,
-      'sql-course-in-delhincr':21,
-      'oracle-course-in-delhincr':22,
-      'powerBi-course-in-delhincr':23,
-      'tableau-course-in-delhincr':24,
-      'social-media-optimization-course-in-delhincr':25,
-      'pay-per-click-course-in-delhincr':26,
-      'google-ads-certification-course-in-delhincr':27,
-      'facebook_ads_certification-course-in-delhincr':28,
-      'social-media-promotion-course-in-delhincr':29,
-      'email-marketing-course-in-delhincr':30,
+      'data-science-training-course':1,
+      'machine-learning-training-course':2,
+      'deep-learning-training-course':3,
+      'artificial-inteligence-training-course':4,
+      'diploma-in-data-science-course':5,
+      'diploma-in-machine-learning-course':6,
+      'masters-in-data-science-course':7,
+      'masters-in-machine-learning-course':8,
+      'seo-course':9,
+      'rpa-course':10,
+      'java-course':11,
+      '.net-course':12,
+      'vba-course':13,
+      'php-course':14,
+      'html5-css3-js-course':15,
+      'angular-course':16,
+      'nodejs-course':17,
+      'react-course':18,
+      'pyhton-django-course':19,
+      'mongodb-course':20,
+      'sql-course':21,
+      'oracle-course':22,
+      'powerBi-course':23,
+      'tableau-course':24,
+      'social-media-optimization-course':25,
+      'pay-per-click-course':26,
+      'google-ads-certification-course':27,
+      'facebook_ads_certification-course':28,
+      'social-media-promotion-course':29,
+      'email-marketing-course':30,
     }
     this.router.paramMap.subscribe((x:any) => {
       let index = indexNo[x.params.id]
@@ -88,8 +103,30 @@ showCertificate(value:number){
   this.openedCertificate = value
 }
 
-showPopup = false
-enrollNow(value){
-  this.showPopup = value
+
+enrollNow(){
+  this.dilog.open(QformComponent)
+}
+
+
+public sendEmail(e: Event) {
+  if(this.formGroup.valid){
+    e.preventDefault();
+    emailjs.sendForm('service_aipwx2p', 'template_1zzd3fa', e.target as HTMLFormElement,'iIs0bOL0lq6QkvGvG'  )
+      .then((result: EmailJSResponseStatus) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+      Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Your form has been submitted',
+        showConfirmButton: false,
+        timer: 1500
+      })
+      this.dilog.closeAll()
+      this.formGroup.reset()
+  }
 }
 }

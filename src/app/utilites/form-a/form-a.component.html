@@ -1,0 +1,37 @@
+<main>
+    <img src="assets/images/popup2.svg" alt="images">
+    <form action="" [formGroup]="formGroup"  (submit)="sendEmail($event)" >
+        <section>
+            <mat-form-field id="inp">
+                <mat-label>Name</mat-label>
+                <input formControlName="name" name="name" matInput placeholder="enter your name" value="">
+            </mat-form-field>
+            <mat-form-field id="inp">
+                <mat-label>Email</mat-label>
+                <input formControlName="email" name="email" matInput placeholder="enter your email" value="">
+            </mat-form-field>
+        </section>
+        <section>
+            <mat-form-field id="inp">
+                <mat-label>Mobile Number</mat-label>
+                <input formControlName="phone_no" name="phone_no" matInput placeholder="enter your mobile number" value="">
+            </mat-form-field>
+            <mat-form-field id="inp">
+                <mat-label>Course</mat-label>
+                <input formControlName="course" name="course" matInput placeholder="enter about course" value="">
+            </mat-form-field>
+        </section>
+        <section>
+            <mat-form-field id="inp">
+                <mat-label>College</mat-label>
+                <input formControlName="college" name="college" matInput placeholder="enter your college name" value="">
+            </mat-form-field>
+            <mat-form-field id="inp">
+                <mat-label>Branch</mat-label>
+                <input formControlName="branch" name="branch" matInput placeholder="enter your branch name" value="">
+            </mat-form-field>
+        </section>
+        <textarea name="message" id="" cols="30" rows="5"></textarea>
+        <button mat-raised-button >Submit</button>
+    </form>
+</main>

@@ -1,225 +1,238 @@
 <div class="holder">
 
 
-<img class="backGround" src="assets/images/SL-051919-20420-21.jpg" alt="">
-<div class="landing">
-    <div class="about">
-        <p class="courseName" >{{course.heading}}</p>
-        <p class="aboutCourse" >{{course.subHeading}}</p>
-        <p class="enrolNow" (click)="enrollNow(true)" >Enrol Now</p>
-        <div class="report">
-            <div>
-                <b>50+</b>
-                <p>stundents enrolled</p>
-            </div>
-            <div>
-                <b>10+</b>
-                <p>problems</p>
-            </div>
-            <div>
-                <b>3</b>
-                <p>months</p>
-            </div>
-            <div>
-                <b>10+</b>
-                <p>hours of video lectures</p>
+    <img class="backGround" src="assets/images/SL-051919-20420-21.jpg" alt="images">
+    <div class="landing">
+        <div class="about">
+            <h1 class="courseName">{{course.heading}}</h1>
+            <p class="aboutCourse">{{course.subHeading}}</p>
+            <p class="enrolNow" (click)="enrollNow()">Enrol Now</p>
+            <div class="report">
+                <div>
+                    <b>50+</b>
+                    <p>stundents enrolled</p>
+                </div>
+                <div>
+                    <b>10+</b>
+                    <p>problems</p>
+                </div>
+                <div>
+                    <b>3</b>
+                    <p>months</p>
+                </div>
+                <div>
+                    <b>10+</b>
+                    <p>hours of video lectures</p>
+                </div>
             </div>
         </div>
+        <div class="courseImg">
+            <img [src]="course.image" alt="images">
+        </div>
     </div>
-    <div class="courseImg">
-        <img [src]="course.image" alt="">
-    </div>
-</div>
-<main>
-    <p class="heading">Application Process</p>
-    <div class="process">
-        <div class="cards">
-            <div class="card" *ngFor="let item of processCard">
-                <p class="id" >{{item.id}}</p>
-                <span>
+    <main>
+        <p class="heading">Application Process</p>
+        <div class="process">
+            <div class="cards">
+                <div class="card" *ngFor="let item of processCard">
+                    <p class="id">{{item.id}}</p>
+                    <span>
+                        <p>{{item.name}}</p>
+                        <p>{{item.about}}</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutCourse">
+            <div class="left">
+                <p class="heading">{{course.aboutHeading}}</p>
+                <p *ngFor="let item of course.about" class="about">{{item}}</p>
+                <div class="aboutSection" *ngFor="let section of course.aboutSections">
+                    <p>{{section.heading}}</p>
+                    <p *ngFor="let abouts of section.about">{{abouts}}</p><br>
+                </div>
+            </div>
+            <div class="right">
+                <div id="query" class="query">
+                    <h2>Drop a Query</h2>
+                    <form name="contact-form" action="" [formGroup]="formGroup" (submit)="sendEmail($event)">
+                        <div>
+                            <label for=""><i class="fas fa-user"></i></label>
+                            <input formControlName="name" name="name" type="text" placeholder="Enter your name">
+                        </div>
+                        <div>
+                            <label for=""><i class="fas fa-envelope"></i></label>
+                            <input formControlName="email" name="email" type="text" placeholder="Enter email">
+                        </div>
+                        <div>
+                            <label for=""><i class="fas fa-phone"></i></label>
+                            <input formControlName="phone_no" name="phone_no" type="text"
+                                placeholder="Enter mobile no.">
+                        </div>
+                        <div>
+                            <label for=""><i class="fas fa-book"></i></label>
+                            <input formControlName="course" name="course" type="text" placeholder="Enter course">
+                        </div>
+                        <div>
+                            <label for=""><i class="fas fa-hand-point-up"></i></label>
+                            <select name="training_mode" formControlName="training_mode" id="">
+                                <option value="">Select training mode</option>
+                                <option value="Classroom training">Classroom training</option>
+                                <option value="Online training">Online training</option>
+                            </select>
+                        </div>
+                        <textarea formControlName="message" name="message" id="" cols="27" rows="5"></textarea>
+                        <button>Submit</button>
+                    </form>
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <p class="heading">Upcoming Batches</p>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Days</th>
+                    <th>Start on</th>
+                    <th>Timing </th>
+                    <th>Enroll Now</th>
+                </tr>
+                <tr>
+                    <td>Mon-Sun</td>
+                    <td>15<sup>th</sup> jan. 2022</td>
+                    <td>9AM-6PM</td>
+                    <td><button (click)="enrollNow()">Enroll Now</button></td>
+                </tr>
+                <tr>
+                    <td>Mon-Sun</td>
+                    <td>20<sup>th</sup> jan. 2022</td>
+                    <td>9AM-6PM</td>
+                    <td><button (click)="enrollNow()">Enroll Now</button></td>
+                </tr>
+                <tr>
+                    <td>Mon-Sun</td>
+                    <td>15<sup>th</sup> jan. 2022</td>
+                    <td>9AM-6PM</td>
+                    <td><button (click)="enrollNow()">Enroll Now</button></td>
+                </tr>
+                <tr>
+                    <td>Mon-Sun</td>
+                    <td>20<sup>th</sup> jan. 2022</td>
+                    <td>9AM-6PM</td>
+                    <td><button (click)="enrollNow()">Enroll Now</button></td>
+                </tr>
+                <tr>
+                    <td>Mon-Sun</td>
+                    <td>28<sup>th</sup> Nov. 2021</td>
+                    <td>9AM-6PM</td>
+                    <td><button (click)="enrollNow()">Enroll Now</button></td>
+                </tr>
+            </table>
+            <div class="courseFeatures">
+                <h2>Course Features</h2>
+                <div class="feature" *ngFor="let item of courseFeatures">
+                    <i [class]=item.img></i>
                     <p>{{item.name}}</p>
-                <p>{{item.about}}</p>
+                </div>
+            </div>
+        </div>
+        <p class="heading">Course Curriculum</p>
+        <div class="curriculum">
+            <p class="note">Note:<span>{{note}}</span></p>
+            <div class="sectionHolder">
+                <div class="section" *ngFor='let item of course.sections'
+                    [ngClass]="activeSection==item.id? 'active': '' " (click)=active(item.id)>
+                    <p>{{item.sectionName}}</p>
+                </div>
+            </div>
+            <div class="aboutSection" *ngFor='let item of course.sections'>
+                <span *ngIf="item.id==activeSection">
+                    <p *ngFor="let section of item.about">{{section}}</p>
                 </span>
+
+            </div>
+            <div class="downloadCurriculum">
+                <p>Download Curriculum <i class="fas fa-file-pdf"></i></p>
             </div>
         </div>
-    </div>
-   
-    <div class="aboutCourse">
-        <div class="left">
-            <p class="heading">{{course.aboutHeading}}</p>
-        <p *ngFor="let item of course.about" class="about">{{item}}</p>
-        <div class="aboutSection" *ngFor="let section of course.aboutSections" >
-            <p>{{section.heading}}</p>
-            <p *ngFor="let abouts of section.about" >{{abouts}}</p><br>
-        </div>
-        </div>
-        <div class="right">
-            <div id="query" class="query">
-                <h2>Drop a Query</h2>
-                <form action="">
-                    <div>
-                        <label for=""><i class="fas fa-user"></i></label>
-                        <input type="text" placeholder="Enter your name">
+        <p class="heading">Hands-on Projects</p>
+        <div class="projects">
+            <div class="cards">
+                <div [ngClass]="openedCard==item.id? 'learnMore': '' " class="card"
+                    *ngFor="let item of course.projects">
+                    <i (click)="openCard(0)" class="far fa-times-circle"></i>
+                    <div class="img">
+                        <i [class]="item.img"></i>
                     </div>
-                    <div>
-                        <label for=""><i class="fas fa-envelope"></i></label>
-                        <input type="text" placeholder="Enter email">
+                    <div class="about">
+                        <p>{{item.domainName}}</p>
+                        <p>{{item.name}}</p>
+                        <!-- <p>{{item.about}}</p> -->
+                        <!-- <p (click)="openCard(0)" >Learn More</p> -->
                     </div>
-                    <div>
-                        <label for=""><i class="fas fa-phone"></i></label>
-                        <input type="text" placeholder="Enter mobile no.">
-                    </div>
-                    <div>
-                        <label for=""><i class="fas fa-book"></i></label>
-                        <input type="text" placeholder="Enter course">
-                    </div>
-                    <div>
-                        <label for=""><i class="fas fa-hand-point-up"></i></label>
-                        <select name="Select training mode" id="">
-                            <option value="">Select training mode</option>
-                            <option value="">Classroom training</option>
-                            <option value="">Online training</option>
-                        </select>
-                    </div>
-                    <textarea name="Enter a Message" id="" cols="27" rows="5"></textarea>
-                    <button>Submit</button>
-                </form>
-                
-                
+                </div>
             </div>
         </div>
-        
-       
-    </div>   
-    <p class="heading">Upcoming Batches</p>
-    <div class="table">
-        <table>
-            <tr>
-                <th>Days</th>
-                <th>Start on</th>
-                <th>Timing </th>
-                <th>Enroll Now</th>
-            </tr>
-            <tr>
-                <td>Mon-Sun</td>
-                <td>15<sup>th</sup> jan. 2022</td>
-                <td>9AM-6PM</td>
-                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
-            </tr>
-            <tr>
-                <td>Mon-Sun</td>
-                <td>20<sup>th</sup> jan. 2022</td>
-                <td>9AM-6PM</td>
-                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
-            </tr>
-            <tr>
-                <td>Mon-Sun</td>
-                <td>15<sup>th</sup> jan. 2022</td>
-                <td>9AM-6PM</td>
-                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
-            </tr>
-            <tr>
-                <td>Mon-Sun</td>
-                <td>20<sup>th</sup> jan. 2022</td>
-                <td>9AM-6PM</td>
-                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
-            </tr>
-            <tr>
-                <td>Mon-Sun</td>
-                <td>28<sup>th</sup> Nov. 2021</td>
-                <td>9AM-6PM</td>
-                <td><button (click)="enrollNow(true)" >Enroll Now</button></td>
-            </tr>
-        </table> 
-        <div class="courseFeatures">
-            <h2>Course Features</h2>
-            <div class="feature" *ngFor="let item of courseFeatures">
-                <i [class]= item.img ></i>
-                <p>{{item.name}}</p>
-        </div>
-    </div> 
-    </div>
-    <p class="heading" >Course Curriculum</p>
-    <div class="curriculum">
-        <p class="note" >Note:<span>{{note}}</span></p>
-    <div class="sectionHolder">
-            <div class="section" *ngFor ='let item of course.sections' [ngClass]="activeSection==item.id? 'active': '' " (click)=active(item.id) >
-                <p>{{item.sectionName}}</p>
+
+        <div class="sections">
+            <p class="heading">{{course.whyUsCards.heading}}</p>
+            <p class="subHeading">Reasons why we stand out:</p>
+            <div *ngFor="let item of course.whyUsCards.points" class="points">
+                <b>></b>
+                <p class="point"> {{item.point}}</p>
             </div>
         </div>
-        <div  class="aboutSection" *ngFor ='let item of course.sections' >
-          <span *ngIf="item.id==activeSection" >
-                <p *ngFor="let section of item.about" >{{section}}</p>
-          </span>
-            
+        <div class="sections">
+            <p class="heading">{{course.trainesrsCards.heading}}</p>
+            <p class="subHeading">BookMyShiksha trainers are:</p>
+            <div *ngFor="let item of course.trainesrsCards.points" class="points">
+                <b>></b>
+                <p class="point"> {{item.point}}</p>
+            </div>
+
         </div>
-        <div class="downloadCurriculum">
-            <p>Download Curriculum <i class="fas fa-file-pdf"></i></p>
+        <div class="sections">
+            <p class="heading">{{course.placementCards.heading}}</p>
+            <p class="subHeading">BookMyShiksha Placement Process:</p>
+            <div *ngFor="let item of course.placementCards.points" class="points">
+                <b>></b>
+                <p class="point"> {{item.point}}</p>
+            </div>
         </div>
-    </div>
-    <p class="heading">Hands-on Projects</p>
-    <div class="projects">
+
+    </main>
+
+    <app-blogs></app-blogs>
+    <div class="relatedCourses">
+        <p class="heading">Related Courses</p>
         <div class="cards">
-            <div [ngClass]="openedCard==item.id? 'learnMore': '' " class="card" *ngFor="let item of course.projects" >
-                <i (click)="openCard(0)" class="far fa-times-circle"></i>
-                <div class="img">
-                    <i  [class]="item.img"></i>
+
+            <div [routerLink]="item.routerLink" class="card" *ngFor='let item of course.relatedCourse'>
+                <div class="courseBackground">
+                    <img class="courseImg" [src]=item.img alt="">
                 </div>
-                <div class="about">
-                    <p>{{item.domainName}}</p>
-                    <p>{{item.name}}</p>
-                    <!-- <p>{{item.about}}</p> -->
-                    <!-- <p (click)="openCard(0)" >Learn More</p> -->
+                <p class="courseName">{{item.name}}</p>
+                <div class="details">
+                    <div>
+                        <p><i class="fas fa-calendar-alt"></i> {{item.duration}}</p>
+                    </div>
+                    <div>
+                        <p>Online & Classroom Mentorship</p>
+                    </div>
+                    <div>
+                        <p>Weekday & Weekend</p>
+                    </div>
+                </div>
+                <p class="startDate">Batch Starting from: <b>{{item.startDate}}</b> </p>
+                <div class="footer">
+                    <img src="assets/images/logo.png" alt="">
+                    <p>View Course</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="sections">
-        <p class="heading" >{{course.whyUsCards.heading}}</p>
-        <p class="subHeading">Reasons why we stand out:</p>
-        <div *ngFor="let item of course.whyUsCards.points" class="points">
-            <b>></b>
-            <p class="point"> {{item.point}}</p>
-        </div>
-    </div>
-    <div class="sections">
-        <p class="heading">{{course.trainesrsCards.heading}}</p>
-        <p class="subHeading">BookMyShiksha trainers are:</p>
-        <div *ngFor="let item of course.trainesrsCards.points" class="points">
-            <b>></b>
-            <p class="point"> {{item.point}}</p>
-        </div>
-        
-    </div>
-    <div class="sections">
-        <p class="heading">{{course.placementCards.heading}}</p>
-        <p class="subHeading">BookMyShiksha Placement Process:</p>
-        <div *ngFor="let item of course.placementCards.points" class="points">
-            <b>></b>
-            <p class="point"> {{item.point}}</p>
-        </div>        
-    </div>
-    
-</main>
-
-<app-blogs></app-blogs>
-<div [ngClass]="showPopup==true? 'showForm': '' " class="enrollNow">
-    <div   class="form">
-        <i (click)="enrollNow(false)" class="far fa-times-circle"></i>
-        <img src="assets/images/enrollNow.svg" alt="">
-        <form action="">
-            <input type="text" placeholder="Name" >
-            <input type="email" placeholder="Email">
-            <input type="tel" placeholder="Phone">
-            <input type="text" placeholder="Course">
-            <label for="">When Would You Like    To Join</label>
-            <input type="date">
-            <span>
-                
-            </span>
-            <textarea name="" id="" cols="24" rows="5" placeholder="Enter Your Message" ></textarea>
-        </form>
-    </div>
-</div>
 </div>

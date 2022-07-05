@@ -4,7 +4,7 @@
         <div id="card"></div>
         <i (click)="readMore(0)" (click)=viewMore(false) class="far fa-times-circle"></i>
         <div   class="card" *ngFor= 'let item of reviewCards; let i as index' >
-            <img [src]="item.img" alt="">
+            <img [src]="item.img" alt="images">
             <div class="ratings">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>

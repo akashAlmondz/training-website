@@ -1,23 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
 @Component({
-  selector: 'app-contact-us',
-  templateUrl: './contact-us.component.html',
-  styleUrls: ['./contact-us.component.css']
+  selector: 'app-form-a',
+  templateUrl: './form-a.component.html',
+  styleUrls: ['./form-a.component.css']
 })
-export class ContactUsComponent implements OnInit {
+export class FormAComponent implements OnInit {
+
   formGroup:  FormGroup
   constructor( private formbuilder: FormBuilder, private dilog:MatDialog ) { 
     this.formGroup = this.formbuilder.group({
       name:['' , Validators.required ],
-      email:['' , Validators.required ],
+      email:['' , Validators.email ],
       phone_no:['' , Validators.required , ],
-      inquiry_type:[''],
-      message:['']
+      course:['' , Validators.required ],
+      college:['',Validators.required],
+      branch:['',Validators.required],
       
     })
    }
@@ -41,7 +43,8 @@ export class ContactUsComponent implements OnInit {
           showConfirmButton: false,
           timer: 1500
         })
-        this.formGroup.reset()
+        this.dilog.closeAll()
     }
   }
+
 }

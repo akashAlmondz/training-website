@@ -1,1 +1,28 @@
-<p>qform works!</p>
+<main>
+    <i (click)="close()" class="fas fa-times-circle" ></i>
+    <img src="assets/images/hello.svg" alt="images">
+    <form action="" [formGroup]="formGroup" (submit)="sendEmail($event)" >
+        <section>
+            <mat-form-field id="inp">
+                <mat-label>Name</mat-label>
+                <input formControlName="name" matInput placeholder="enter your name" name="name" type="text" value="" required >
+            </mat-form-field>
+            <mat-form-field id="inp">
+                <mat-label>Email</mat-label>
+                <input formControlName="email" matInput  placeholder="enter your email" name="email" type="email" value="" required>
+            </mat-form-field>
+        </section>
+        <section>
+            <mat-form-field id="inp">
+                <mat-label>Mobile Number</mat-label>
+                <input formControlName="phone_no" matInput placeholder="enter your mobile number" name="phone_no" type="tel" value="" required>
+            </mat-form-field>
+            <mat-form-field id="inp">
+                <mat-label>Course</mat-label>
+                <input formControlName="course" matInput placeholder="enter about course" name="course" type="text" value="" required>
+            </mat-form-field>
+        </section>
+        <textarea  name="" id="" cols="30" rows="5" name="message" required></textarea>
+        <button mat-raised-button >Submit</button>
+    </form>
+</main>
