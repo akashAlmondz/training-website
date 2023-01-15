@@ -1,13 +1,13 @@
 
   main{
       position: relative;
-      padding: 10vh 5%;
+      padding: 30px 5%;
   }
 
   .landing{
       width: 100%;
       display: flex;
-      height: 60vh;
+      /* height: 60vh; */
       padding-top: 10vh;
       
   }
@@ -17,71 +17,35 @@
       height: 100%;
   }
   form{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 100%;
-      justify-content: space-between;
-  }
-  form span{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-  }
-  form span span{
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: space-between;
-      height: 70px;
-      width: 270px;
-      margin: 0 5px;
-  }
-  form label{
-      color: rgb(0, 0, 0);
-  }
-  form label:nth-child(3){
-      width: 100%;
-      text-align: start;
-  }
-  form input, form select {
-      width: 100%;
-      height: 40px;
-      border-radius: 5px;
-      border: none;
-      border-left:2px solid rgb(90, 90, 90) ;
-      border-top:2px solid rgb(90, 90, 90) ;
-      /* padding:0 20px; */
-      box-shadow: 1px 1px 2px gray;
-  }
-  form input:focus , select:focus{
-      outline: none;
-  }
-  form input:nth-child(4){
-      width: 100%;
-      height: 70px;
-      border: 1px solid gray;
-      box-shadow: none;
-  }
-  form input:nth-child(5){
-      height: 40px;
-      width: 30%;
-      cursor: pointer;
-      background-color:#4692E2;
-      border: none;
-      box-shadow: none;
-      font-size: 20px;
-      color: rgb(61, 61, 61);
-      transition: .4s;
-  }
-  form input:nth-child(5):hover{
-      box-shadow: 3px 3px 6px rgba(128, 128, 128, 0.404);
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding:0 2%;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#inp{
+    width: 45%;
+}
+button{
+    background-color: #1874d2;
+    color: white;
+    margin-bottom: 10px;
+}
   .landing .about{
       width: 50%; 
       height: 45%;
-      color: rgb(0, 0, 0);
+      color: rgb(72, 72, 72);
       justify-content: space-between;
   }
 
@@ -91,13 +55,13 @@
       padding-bottom: 20px;
   }
   .landing .about p:nth-child(2){
-      width: 70%;
-      font-size: 20px;
+      width: 90%;
+      font-size: 18px;
       line-height: 30px;
       font-weight: 200;
   }
   .landing .about .contactinfo{
-      padding: 50px 0;
+      padding: 20px 0;
   }
   .landing .about .contactinfo span{
     display: flex;
@@ -105,31 +69,56 @@
     padding: 5px 0;
   }
   .landing .about .contactinfo span i{
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 500;
+      word-break: keep-all;
   }
   .landing .about .contactinfo span p{
       font-size: 18px;
       color: rgb(56, 139, 216);
       padding: 0 0 0 19px;cursor: pointer;
+      width: unset;
   }
   .address{
-      margin-top: 10vh;
+      /* margin-top:10px; */
   }
   .address span{
       display: flex;
       align-items: flex-end;
-      padding-bottom: 30px;
+      padding: 15px 0 5px 0;
   }
   .address span i{
       font-size: 30px;
-      width: 40px;
+      /* width: 40px; */
   }
   .address span p{
       font-size: 20px;
+      font-weight: 600;
   }
   .address p{
       color: rgb(82, 82, 82);
+  }
+  .branches{
+    display: flex;
+    flex-wrap: wrap ;
+  }
+  .branches p{
+    background-color: #1874d2;
+    color: white;
+    margin: 5px;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  .branches p:nth-child(even){
+    background-color: blueviolet;
+  }
+  .delhi{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: .1;
+    z-index: -1;
+    left: 0;
   }
 
   @media (max-width: 960px){

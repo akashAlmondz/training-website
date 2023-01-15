@@ -1,6 +1,6 @@
 export const Titles:any = {
     '/':{
-        title:'BookMyshiksha: Best IT training institute in DelhiNCR | Noida | Gurgaon',
+        title:'BookMyShiksha: Best IT training institute in DelhiNCR | Noida | Gurgaon',
         metaTags:[
             {name:'description',content:''},
             {name:'keywords',content:''}

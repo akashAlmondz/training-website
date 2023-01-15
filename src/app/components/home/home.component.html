@@ -21,22 +21,33 @@
         <div class="holder">
             <div class="report" *ngFor='let item of report'>
                 <i [class]=item.icon></i>
-                <div id="heading1" class="">
+                <div class="">
                     <p class="value">{{item.value}}</p>
                     <p class="name">{{item.name}}</p>
                 </div>
             </div>
         </div>
     </div>
-    <p class="courseHeading">Explore Our <span>Top Ranked</span> Programs</p>
-    <div class="courses">
+    <div class="refer">
+        <a href="//api.whatsapp.com/send?phone=+918077672234&text=Hi! I want to join Batches on BookMyShiksha" target=" ">
+
+            <img src="assets/images/Refer friend img- bookmyshiksha.png" alt="">
+        </a>
+    </div>
+    <span id="heading1" ></span>
+    <p   class="courseHeading">Explore Our <span>Top Ranked</span> Programs</p>
+    <div  class="courses">
         <div class="sideNav">
-            <div [ngClass]="{'activeCategory':i==currentIndex}"  (click)="filterCategory(i)"  *ngFor="let item of courseList; let i  = index" class="category">
-                <p> <i class="fas fa-chalkboard-teacher"></i> {{ item.title}}</p> <b>></b>
+            <div [ngClass]="{'activeCategory':i==currentIndex}" (click)="filterCategory(i)"
+                *ngFor="let item of courseList; let i  = index" class="category">
+                <p >   {{ item.title}}</p>
             </div>
         </div>
-        <div class="cards">
+        <div  class="cards">
             <div [routerLink]="item.routerLink" class="card" *ngFor='let item of courseList[currentIndex].courses'>
+                <div class="bedge">
+                    <p> <sup>*</sup> Scholorship Available 20%</p>
+                </div>
                 <div class="courseBackground">
                     <img class="courseImg" [src]=item.img alt="">
                 </div>
@@ -52,10 +63,10 @@
                         <p>Weekday & Weekend</p>
                     </div>
                 </div>
-                <p class="startDate" >Batch Starting from: <b>{{item.startDate}}</b> </p>
+                <p class="startDate">1-1 Mentorship & 100% Job Assistance </p>
                 <div class="footer">
                     <img src="assets/images/logo.png" alt="">
-                    <p>View Course</p>
+                    <p class="viewCoursesButton" >View Course</p>
                 </div>
             </div>
         </div>
@@ -71,6 +82,49 @@
             </div>
         </div>
     </div>
+
+    <div class="edge">
+        <p class="heading">New Edge With Bookmyshiksha</p>
+        <div class="edge_cards">
+            <div *ngFor="let item of edge_cards" class="edge_card">
+                <img [src]="item.img" alt="img" />
+                <p class="name">{{item.name}}</p>
+                <p class="about">{{item.about}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="learning_partners">
+        <p class="heading">Our Learning Partners</p>
+        <div class="images">
+            <img *ngFor="let items of learning_partners" [src]="items" alt="img" />
+        </div>
+    </div>
+
+
+    <div class="selfTest">
+        <p class="heading">Self Analysis Test</p>
+        <p class="subHeading">We at Bookmyshiksha,simplified your learning process by providing an unlimited pool of
+            practice questions on various technologies powered by unmatched analytical reports at your fingertips.</p>
+        <div class="test_info">
+            <div class="about_test">
+                <div class="test_cards">
+                    <div *ngFor="let item of self_test"  class="test_card">
+                        <img [src]="item.img" alt="">
+                        <p>{{item.name}}</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <button>Take Free Practice Test </button>
+                </div>
+            </div>
+            <div class="img">
+                <img src="assets/images/Self analysis Test-Bookmyshiksha/selfTest.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
     <app-testimonials></app-testimonials>
     <div class="upcoming">
         <p class="heading">Upcoming Batches</p>
@@ -78,9 +132,7 @@
             <div class="card" *ngFor='let item of upcomingCourses'>
                 <div class="date">
                     <i class="fas fa-calendar-alt"></i>
-                    <p class="courseDate">{{item.date}}</p>
-                    <p class="courseMonth">{{item.month}}</p>
-                    <p class="courseMonth">{{item.year}}</p>
+                    <p class="courseDate">{{date(item.date)}}</p>
                 </div>
                 <div class="about">
                     <p class="courseName">{{item.name}}</p>

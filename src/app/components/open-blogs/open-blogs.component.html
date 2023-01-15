@@ -2,7 +2,7 @@
 
     <img [src]="blog.img" alt="images">
     <p>{{blog.heading}}</p>
-    <p *ngFor="let item of blog.content" >{{item}}</p>
+    <div *ngFor="let item of blog.content" [innerHtml]="item"  ></div>
 
 </main>
 

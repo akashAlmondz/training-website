@@ -16,7 +16,7 @@ main p:nth-child(2){
     text-align: start;
     line-height: normal;
 }
-main p{
+main div{
   width: 80%;
   padding: 10px 0;
   line-height: 30px;

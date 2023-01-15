@@ -112,7 +112,16 @@
 .reports .report div .value {
   font-size: 20px;
 }
-
+.refer{
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(28,97,198); */
+  padding: 2% 5%;
+  margin-top: 3%;
+}
+.refer img{
+  width: 100%;
+}
 .courseHeading{
   text-align: center;
   font-size: 30px;
@@ -177,15 +186,44 @@
   width:25%;
   margin:0 4% 4% 4%;
   cursor: pointer;
-  background-color: rgba(143, 143, 143, 0);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
-  overflow: hidden;
-  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.404);
-  transition: .4s;
+  /* overflow: hidden; */
+  box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.229);
+  transition: .2s;
+  position: relative;
 }
-.courses .card .courseBackground:hover .courseImg {
-  transform: scale(140%);
+.bedge{
+  position: absolute;
+  background: linear-gradient(270deg, rgb(255, 139, 77) 34%, #ff8340 100%);
+  height: 7%;
+  width:200px;
+  border-radius: 5px 5px 5px 1px ;
+  left:-20px;
+  top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 4px rgba(128, 128, 128, 0.525);
 }
+.bedge::after{
+  border-radius: 3px;
+  position: absolute;
+  background-color: #e5570b;
+  content: '';
+  height: 130%;
+  aspect-ratio: 1/1;
+  top: 33%;
+  left:6px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.bedge p{
+  font-size: 15px ;
+  color:rgb(255, 255, 255);
+}
+
+
 
 .courses .card:hover{
   box-shadow: 2px 3px 10px rgba(128, 128, 128, 0.404);
@@ -194,18 +232,22 @@
   overflow: hidden;
   background: linear-gradient(27deg, rgba(5,82,138,0.2979166666666667) 25%, rgba(52,193,239,0.200717787114846) 75%);
   width: 100%;
-  height:150px;
+  height:190px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-bottom: 3px solid #05528a;
+  padding-top:10% ;
 }
 .courseImg {
   width: 50%;
   transition: 0.2s;
   padding: 10% 0;
 }
-
+.viewCoursesButton:hover {
+  color: #1874d2;
+  cursor: pointer;
+}
 .courses .cards .card .courseName {
   font-size: 17px;
   padding-left: 2%;
@@ -233,7 +275,8 @@
 .courses .startDate{
   padding: 2%;
   font-size: 13px;
-  color: #747474;
+  color: #5c5c5c;
+  
 }
 .courses .cards .card .footer{
   display: flex;
@@ -295,6 +338,102 @@
   text-align: justify;
 }
 
+.edge , .learning_partners, .selfTest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+.edge_cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  flex-wrap: wrap;
+}
+.edge_card{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.edge_card img{
+  width: 20%;
+}
+.edge_card .name{
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.edge_card .about{
+  font-size: 13px;
+  text-align: center;
+}
+.learning_partners .images{
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.images img{
+  width: 7%;
+}
+.selfTest .subHeading{
+  width: 70%;
+  margin-top: 1%;
+  color: #555555;
+  text-align: center;
+}
+.test_info{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.about_test{
+  width: 50%;
+}
+.test_cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.test_card{
+  width: 27%;
+  margin: 3% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.test_card img{
+  width: 30%;
+}
+.test_info .button{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.test_info .button button{
+  padding:2%;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff6b1b;
+  color: white;
+  transition: .4s;
+}
+.test_info .button button:hover{
+  cursor: pointer;
+  box-shadow: 2px 3px 5px rgb(203, 203, 203);
+}
+.test_info .img{
+  width: 40%;
+}
+.test_info .img img{
+  width: 100%;
+}
+
+
+
 
 .upcoming {
   display: flex;
@@ -336,6 +475,7 @@
 }
 .courseDate {
   font-size: 20px;
+  text-align: center;
 }
 .upcoming .cards .card .about {
   padding:0;
@@ -425,19 +565,34 @@
   .reports .report div .name{
     font-size: 10px;
   }
-  .courses{padding: 0 10px;}
+  .courses{flex-direction: column;align-items: center;}
+  .sideNav{
+    width: 100%;
+  }
   .courses .card{
-    width: 145px;
-    margin: 6px 10px;
+    width: 90%;
+    margin: 0;
+    margin: 10px 0px;
+  }
+  .bedge::after{
+    left: 7px;
   }
   .courseBackground{
-    height: 80px;
+    width: 100%;
+    aspect-ratio: 1/1;
   }
   .courses .cards{
-    justify-content: center;
+    padding: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
   }
   .courses .cards .card .courseName{
-    font-size: 11px;
+    font-size:1.3rem;
+  }
+  .courseImg{
+    width: 40%;
   }
   .services .cards .card{
     width: 100%;
@@ -458,6 +613,28 @@
   }
   .upcoming .cards .card .about{
     padding: 0;color: #6c2e6e7e;
+  }
+
+
+  .images img{
+    width: 10%;
+  }
+  .edge_card{
+    margin: 30px 0;
+    width: 45%;
+  }
+  .about_test{
+    width: 100%;
+  }
+  .about_test p{
+    font-size: .7rem;
+  }
+  .test_info .img {
+    display: none;
+  }
+  .selfTest .subHeading{
+    width: 100%;
+    font-size: .9rem;
   }
  
 

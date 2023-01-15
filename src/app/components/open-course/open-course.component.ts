@@ -3,9 +3,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import Swal from 'sweetalert2';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { courses } from 'src/app/courses';
 import { QformComponent } from '../qform/qform.component';
+import { setDate } from 'src/app/functions/dateFunction';
 
 @Component({
   selector: 'app-open-course',
@@ -13,15 +14,24 @@ import { QformComponent } from '../qform/qform.component';
   styleUrls: ['./open-course.component.css']
 })
 export class OpenCourseComponent implements OnInit {
+  date = setDate
   formGroup:  FormGroup
-  constructor(private formbuilder: FormBuilder, private router:ActivatedRoute, private dilog:MatDialog) {
+  batchRequestFormGroup: FormGroup
+  constructor(private formbuilder: FormBuilder, private router:ActivatedRoute, private dilog:MatDialog, private routerB:Router) {
     this.formGroup = this.formbuilder.group({
       name:['' , Validators.required ],
-      email:['' , Validators.email ],
-      phone_no:['' , Validators.required , ],
-      course:['' , Validators.required ],
-      training_mode:['' ],
+      email:['' ,[Validators.required, Validators.email ]],
+      phone_no:['' ,[Validators.required,Validators.pattern('[6-9]\\d{9}')] ],
+      course:['' ,Validators.required],
+      training_mode:['',Validators.required ],
       message:[''],
+    })
+
+    this.batchRequestFormGroup = this.formbuilder.group({
+      date:['',Validators.required],
+      email:['',[Validators.required, Validators.email ]],
+      mobile:['',[Validators.required,Validators.pattern('[6-9]\\d{9}')]],
+      message:['This is a Batch Request']
     })
 
    }
@@ -60,6 +70,10 @@ export class OpenCourseComponent implements OnInit {
       'facebook_ads_certification-course':28,
       'social-media-promotion-course':29,
       'email-marketing-course':30,
+      'ev-charging-course':31,
+      'azure-training':32,
+      'aws-training':33,
+      'gcp-training':34,
     }
     this.router.paramMap.subscribe((x:any) => {
       let index = indexNo[x.params.id]
@@ -70,10 +84,10 @@ export class OpenCourseComponent implements OnInit {
   note = 'Details mentioned below is just a cover or as we say in layman language important points ,  to know the detailed curriculam you have to visit our company or download the curriculam. All the content mentioned in the website is up to date with the present technologies.' 
 courseFeatures = [
   {img:'fas fa-laptop-code',name:'Hands-On exposer to code'},
-  {img:'fas fa-file-certificate',name:'Certification Program'},
-  {img:'fas fa-user-headset',name:'Connect with our Experts'},
-  {img:'fas fa-atlas',name:'orientation program'},
-  {img:'fas fa-sign-in-alt',name:'Lifetime Access'},
+  {img:'fas fa-file-certificate',name:'Certification program'},
+  {img:'fas fa-user-headset',name:'Connect with our experts'},
+  {img:'fas fa-atlas',name:'Orientation program'},
+  {img:'fas fa-sign-in-alt',name:'Lifetime access'},
   {img:'fas fa-hands-helping',name:'Carrer guiedlines'},
 ]
 
@@ -108,25 +122,36 @@ enrollNow(){
   this.dilog.open(QformComponent)
 }
 
-
-public sendEmail(e: Event) {
-  if(this.formGroup.valid){
-    e.preventDefault();
-    emailjs.sendForm('service_aipwx2p', 'template_1zzd3fa', e.target as HTMLFormElement,'iIs0bOL0lq6QkvGvG'  )
+public sendEmail(e: Event,form) {
+  if(form == 'formA'){
+    if(this.formGroup.valid){
+      e.preventDefault();
+      emailjs.sendForm('service_aipwx2p', 'template_1zzd3fa', e.target as HTMLFormElement,'iIs0bOL0lq6QkvGvG'  )
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
       });
-      Swal.fire({
-        position: 'top-end',
-        icon: 'success',
-        title: 'Your form has been submitted',
-        showConfirmButton: false,
-        timer: 1500
-      })
-      this.dilog.closeAll()
+
       this.formGroup.reset()
+      this.routerB.navigate(['/thankyou'])
+    }
   }
+    if(form=='formB'){
+    if(this.batchRequestFormGroup.valid){
+      e.preventDefault();
+      emailjs.sendForm('service_aipwx2p', 'template_1zzd3fa', e.target as HTMLFormElement,'iIs0bOL0lq6QkvGvG'  )
+      .then((result: EmailJSResponseStatus) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
+
+        this.batchRequestFormGroup.reset()
+        this.formGroup.markAsUntouched()
+        this.routerB.navigate(['/thankyou'])
+    }
+  }
+  
 }
 }

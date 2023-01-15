@@ -16,14 +16,10 @@ export class BlogsComponent implements OnInit {
   link = this.route.url
   
   blogs = blogs
-  cat:any = ''
-  index:any = 0
 
   openBlog(cat:any,index:any){
-    this.cat = cat;
-    this.index = this.blogs[cat].indexOf(index)
-    localStorage.setItem('blogIndex',this.index)
-    localStorage.setItem('blogCat',this.cat)
+    this.route.navigate(['/openBlogs',{cat:cat,index:index}])
+    console.log(index)
   }
   
 }

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
+import { Router } from '@angular/router';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
@@ -11,13 +12,12 @@ import Swal from 'sweetalert2';
 })
 export class ContactUsComponent implements OnInit {
   formGroup:  FormGroup
-  constructor( private formbuilder: FormBuilder, private dilog:MatDialog ) { 
+  constructor( private formbuilder: FormBuilder, private dilog:MatDialog , private router:Router) { 
     this.formGroup = this.formbuilder.group({
       name:['' , Validators.required ],
-      email:['' , Validators.required ],
-      phone_no:['' , Validators.required , ],
-      inquiry_type:[''],
-      message:['']
+      email:['' ,[Validators.required, Validators.email ]],
+      phone_no:['' ,[Validators.required,Validators.pattern('[6-9]\\d{9}')] ],
+      inquiry_type:['',Validators.required],
       
     })
    }
@@ -28,20 +28,15 @@ export class ContactUsComponent implements OnInit {
   public sendEmail(e: Event) {
     if(this.formGroup.valid){
       e.preventDefault();
-      emailjs.sendForm('service_aipwx2p', 'template_1zzd3fa', e.target as HTMLFormElement,'iIs0bOL0lq6QkvGvG'  )
+      emailjs.sendForm('service_aipwx2p', 'template_hsp7wvp', e.target as HTMLFormElement,'iIs0bOL0lq6QkvGvG'  )
         .then((result: EmailJSResponseStatus) => {
           console.log(result.text);
         }, (error) => {
           console.log(error.text);
         });
-        Swal.fire({
-          position: 'top-end',
-          icon: 'success',
-          title: 'Your form has been submitted',
-          showConfirmButton: false,
-          timer: 1500
-        })
-        this.formGroup.reset()
+      localStorage.setItem('formSubmit', 'true')
+
+      this.router.navigate(['/thankyou'])
     }
   }
 }

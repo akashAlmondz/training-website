@@ -1,37 +1,46 @@
 <main>
+    <i (click)="close()" class="fal fa-times-circle" ></i>
     <img src="assets/images/popup2.svg" alt="images">
     <form action="" [formGroup]="formGroup"  (submit)="sendEmail($event)" >
         <section>
             <mat-form-field id="inp">
                 <mat-label>Name</mat-label>
                 <input formControlName="name" name="name" matInput placeholder="enter your name" value="">
+                <mat-error>enter your name</mat-error>
             </mat-form-field>
             <mat-form-field id="inp">
                 <mat-label>Email</mat-label>
                 <input formControlName="email" name="email" matInput placeholder="enter your email" value="">
+                <mat-error>enter valid email</mat-error>
             </mat-form-field>
         </section>
         <section>
             <mat-form-field id="inp">
                 <mat-label>Mobile Number</mat-label>
-                <input formControlName="phone_no" name="phone_no" matInput placeholder="enter your mobile number" value="">
+                <input formControlName="phone_no" name="phone_no" matInput placeholder="enter your mobile no." value="">
+                <mat-error>enter valid mobile no.</mat-error>
             </mat-form-field>
             <mat-form-field id="inp">
                 <mat-label>Course</mat-label>
                 <input formControlName="course" name="course" matInput placeholder="enter about course" value="">
+                <mat-error>enter course name</mat-error>
             </mat-form-field>
         </section>
         <section>
             <mat-form-field id="inp">
                 <mat-label>College</mat-label>
                 <input formControlName="college" name="college" matInput placeholder="enter your college name" value="">
+                <mat-error>enter college name</mat-error>
             </mat-form-field>
             <mat-form-field id="inp">
                 <mat-label>Branch</mat-label>
                 <input formControlName="branch" name="branch" matInput placeholder="enter your branch name" value="">
+                <mat-error>enter branch name</mat-error>
             </mat-form-field>
         </section>
         <textarea name="message" id="" cols="30" rows="5"></textarea>
         <button mat-raised-button >Submit</button>
+        <p class="forms_tc" >By registering here, I agree to Bookmyshiksha <span [routerLink]="['/company/disclaimer']" >Terms & Conditions</span> and <span [routerLink]="['/company/privacy_policy']" >Privacy Policy</span></p>
+
     </form>
 </main>

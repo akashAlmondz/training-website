@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
+import { Router } from '@angular/router';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
@@ -12,16 +13,20 @@ import Swal from 'sweetalert2';
 export class FormAComponent implements OnInit {
 
   formGroup:  FormGroup
-  constructor( private formbuilder: FormBuilder, private dilog:MatDialog ) { 
+  constructor( private formbuilder: FormBuilder, private dilog:MatDialog, private router:Router ) { 
     this.formGroup = this.formbuilder.group({
       name:['' , Validators.required ],
-      email:['' , Validators.email ],
-      phone_no:['' , Validators.required , ],
+      email:['' , [Validators.required, Validators.email] ],
+      phone_no:['' , [Validators.required ,Validators.pattern('[6-9]\\d{9}')] ],
       course:['' , Validators.required ],
       college:['',Validators.required],
       branch:['',Validators.required],
       
     })
+   }
+   close(){
+    this.dilog.closeAll()
+
    }
 
   ngOnInit(): void {
@@ -36,14 +41,9 @@ export class FormAComponent implements OnInit {
         }, (error) => {
           console.log(error.text);
         });
-        Swal.fire({
-          position: 'top-end',
-          icon: 'success',
-          title: 'Your form has been submitted',
-          showConfirmButton: false,
-          timer: 1500
-        })
+
         this.dilog.closeAll()
+        this.router.navigate(['/thankyou'])
     }
   }
 

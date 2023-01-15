@@ -1,6 +1,6 @@
 <nav>
-    <marquee style="font-size: 15px; color: rgb(114, 0, 0); " behavior="" direction="">Website is under Maintenance.
-        Still You can explore our courses and contact us on given details</marquee>
+    <!-- <marquee style="font-size: 15px; color: rgb(114, 0, 0); " behavior="" direction="">Website is under Maintenance.
+        Still You can explore our courses and contact us on given details</marquee> -->
     <main>
         <div class="menu">
             <i [ngClass]="toggle=='menu'? 'rotate1': '' " (click)="show('menu')" class="fas fa-bars"></i>
@@ -29,28 +29,27 @@
             </div>
         </div>
         <div class="logo">
-            <img (click)="toggleDropdown(0)" (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png"
+            <img (mouseenter)="toggleDropdown(0)" (click)="toggleDropdown(0)" (click)="show('none')" [routerLink]="['']" src="assets/images/logo.png"
                 alt="images">
         </div>
         <div class="scholarship wide">
-            <p (click)="togglePopup()">Scholarship Registration</p>
+            <p (mouseenter)="toggleDropdown(0)" (click)="togglePopup()">Scholarship</p>
         </div>
         <div class="navigation">
-
+            
             <div class="allCourses linkHead">
-                <div class="allCoursesButton" (click)="toggleDropdown(1)">
+                <div class="allCoursesButton" (mouseenter)="toggleDropdown(1)" (click)="toggleDropdown(0)"   >
                     <p>All Courses</p><i [ngClass]="showDropdown==1? 'rotate': '' " class="fas fa-sort-down"></i>
                 </div>
-                <div [ngClass]="showDropdown == 1? 'showDropdown': '' " class="hidden" (click)="toggleDropdown(1)">
+                <div [ngClass]="showDropdown == 1? 'showDropdown': '' " class="hidden" (mouseleave)="toggleDropdown(0)" (click)="toggleDropdown(0)">
                     <div class="python category">
                         <p class="heading">Popular Courses</p>
                         <div class="sub">
-                            <p [routerLink]="['courses/python-training-course']">Python training</p>
-                            <p [routerLink]="['courses/data-science-training-course']">Data Science training</p>
-                            <p [routerLink]="['courses/machine-learning-training-course']">Machine Learning training</p>
-                            <p [routerLink]="['courses/deep-learning-training-course']">Deep Learning training</p>
-                            <p [routerLink]="['courses/artificial-inteligence-training-course']">Artificial Inteligence
-                                training</p>
+                            <p [routerLink]="['courses/python-training-course']">BMS Degree in Python training</p>
+                            <p [routerLink]="['courses/data-science-training-course']">BMS Degree in Data Science training</p>
+                            <p [routerLink]="['courses/machine-learning-training-course']">BMS Degree in Machine Learning training</p>
+                            <p [routerLink]="['courses/deep-learning-training-course']">BMS Degree in Deep Learning training</p>
+                            <p [routerLink]="['courses/artificial-inteligence-training-course']">BMS Degree in Artificial Inteligence training</p>
                             <p [routerLink]="['courses/rpa-course']">RPA training</p>
                             <p [routerLink]="['courses/java-course']">Java training</p>
                             <p [routerLink]="['courses/.net-course']">.Net training</p>
@@ -91,6 +90,14 @@
                             <p [routerLink]="['courses/email-marketing-course']">E-mail Marketing</p>
                         </div>
                     </div>
+                    <div class="category" >
+                        <p class="heading" >Cloud & DevOps</p>
+                        <div class="sub">
+                            <p [routerLink]="['courses/azure-training']" >Azure training</p>
+                            <p [routerLink]="['courses/aws-training']" >AWS training</p>
+                            <p [routerLink]="['courses/gcp-training']" >GCP training</p>
+                        </div>
+                    </div>
                     <div class="special category">
                         <p class="heading">Specialization Courses</p>
                         <div class="sub">
@@ -98,8 +105,9 @@
                             <p [routerLink]="['courses/diploma-in-machine-learning-course']">Diploma in Machine Learning
                             </p>
                             <p [routerLink]="['courses/masters-in-data-science-course']">Masters in Data Science</p>
-                            <p [routerLink]="['courses/masters-in-machine-learning-course']">Masters in Machine Learning
-                            </p>
+                            <p [routerLink]="['courses/masters-in-machine-learning-course']">Masters in Machine Learning</p>
+                            <p [routerLink]="['courses/ev-charging-course']">EV Charging Training </p>
+
                             <a href="assets/images/HR Management Course--- Bookmyshiksha.pdf" target="/"
                                 style="text-decoration: none;  ">
                                 <p>HR-Management Specialist</p>
@@ -109,25 +117,32 @@
                 </div>
             </div>
 
-            <p (click)="toggleDropdown(0)" [routerLink]="['certification']" class="linkHead link">Certification</p>
-            <div (click)="toggleDropdown(2)" class="training linkHead">
+            <p (click)="toggleDropdown(0)" (mouseenter)="toggleDropdown(0)" [routerLink]="['certification']" class="linkHead link">Certification</p>
+            <div (click)="toggleDropdown(0)" (mouseenter)="toggleDropdown(2)" class="training linkHead">
                 <p>Training Programs <i [ngClass]="showDropdown==2? 'rotate': '' " class="fas fa-sort-down"></i></p>
-                <div class="hidden link" [ngClass]="showDropdown == 2? 'showDropdown': '' ">
+                <div (mouseleave)="toggleDropdown(0)" class="hidden link" [ngClass]="showDropdown == 2? 'showDropdown': '' ">
                     <p [routerLink]="['training']">Corporate Training</p>
                     <p [routerLink]="['training']">Industrial Training</p>
                     <p [routerLink]="['training']">Online/Classroom Training</p>
                 </div>
             </div>
-            <div (click)="toggleDropdown(3)" class="company linkHead">
+            <div (click)="toggleDropdown(0)" (mouseenter)="toggleDropdown(3)" class="company linkHead">
                 <p>Company <i [ngClass]="showDropdown==3? 'rotate': '' " class="fas fa-sort-down"></i></p>
-                <div [ngClass]="showDropdown == 3? 'showDropdown': '' " class="hidden link">
+                <div (mouseleave)="toggleDropdown(0)" [ngClass]="showDropdown == 3? 'showDropdown': '' " class="hidden link">
                     <p [routerLink]="['aboutUs']">About Us</p>
                     <p [routerLink]="['contact']">Contact Us</p>
                     <p [routerLink]="['blogs']">Blogs</p>
                 </div>
             </div>
-            <p (click)="toggleDropdown(0)" [routerLink]="['placement']" class="link linkHead">Placements</p>
+            <p (mouseenter)="toggleDropdown(0)" (click)="toggleDropdown(0)" [routerLink]="['placement']" class="link linkHead">Placements</p>
 
+        </div>
+        <div (mouseenter)="toggleDropdown(0)"  class="offers">
+            <p (click)="showOffers(true)" class="link" >Offers %</p>
+            <div class="hidden" [ngClass]="showOffer?'showOffers': '' " >
+                <i (click)="showOffers(false)" class="fas fa-times" ></i>
+                <app-offers></app-offers>
+            </div>
         </div>
         <div class="course menu">
             <p (click)="show('course')" class="menuButton">All Courses <i [ngClass]="toggle=='course'? 'rotate': '' "

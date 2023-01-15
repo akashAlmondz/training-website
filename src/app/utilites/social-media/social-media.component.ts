@@ -9,9 +9,9 @@ export class SocialMediaComponent implements OnInit {
 
   constructor() { }
   links = [
-    {img:'assets/images/fb.svg',link:''},
-    {img:'assets/images/lin.svg',link:'https://www.linkedin.com/in/bookmy-shiksha-988610229/'},
-    {img:'assets/images/insta.svg',link:'https://www.instagram.com/bookmyshiksha/'},
+    {img:'assets/images/fb.svg',link:'https://www.facebook.com/Bookmyshiksha01-101489145876529'},
+    {img:'assets/images/lin.svg',link:'https://www.linkedin.com/company/80258695/admin/'},
+    {img:'assets/images/insta.svg',link:'https://instagram.com/bookmyshiksha?igshid=YmMyMTA2M2Y='},
     {img:'assets/images/twt.svg',link:'https://twitter.com/bookmyshiksha'},
   ]
   ngOnInit(): void {

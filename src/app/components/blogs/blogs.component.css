@@ -49,6 +49,7 @@ main{
     border-radius: 10px;
     transition: .4s;
     position: relative;
+    align-items: center;
   }
   .card:hover{
     box-shadow: 3px 4px 8px rgba(128, 128, 128, 0.377);
@@ -65,7 +66,7 @@ main{
     clip-path: polygon(40% 0, 40% 5%, 5% 5%, 5% 50%, 0 50%, 0 0);
   }
   .blogs .cards .card img{
-    width: 50%;
+    width: 40%;
     border-radius: 10px;
   }
   
@@ -76,6 +77,9 @@ main{
     justify-content: space-between;
   }
   
+  .blogs .cards .card span p:nth-child(1){
+    font-size: .9rem;
+  }
   .blogs .cards .card span p:nth-child(2){
     width: 100%;
     text-align: end;

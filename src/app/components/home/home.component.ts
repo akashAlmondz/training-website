@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { courses } from 'src/app/courses';
+import { setDate } from 'src/app/functions/dateFunction';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ import { courses } from 'src/app/courses';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  date = setDate
   constructor() { }
   
   landingCards = [
@@ -25,47 +26,53 @@ export class HomeComponent implements OnInit {
 
  
   courseList = [
+    {title:'Specialization Courses', courses:[
+      {name:'Diploma in Data Science',img:'assets/images/diplomaDS.png', duration: '4 Months', startDate:this.date(5), routerLink:'courses/diploma-in-data-science-course'},
+      {name:'Diploma in Machine Learning',img:'assets/images/diplomaML.png', duration: '5 Months', startDate:this.date(5), routerLink:'courses/diploma-in-machine-learning-course'},
+      {name:'Masters in Data Science',img:'assets/images/mastersDS.png', duration: '6 Months', startDate:this.date(5), routerLink:'courses/masters-in-data-science-course'},
+      {name:'Masters in Machine Learning',img:'assets/images/mastersML.png', duration: '8 Months', startDate:this.date(5), routerLink:'courses/masters-in-machine-learning-course'},
+    ]},
     {title:'Popular Courses', courses:[
-      {name:'Python training',img:'assets/images/python.svg',  duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/python-training-course'},
-      {name:'Data Science training',img:'assets/images/data-science.svg', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/data-science-training-course'},
-      {name:'Machine Learning training',img:'assets/images/machine-learning.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/machine-learning-training-course'},
-      {name:'Deep Learning training',img:'assets/images/deep-learning.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/deep-learning-training-course'},
-      {name:'Artificial Inteligence training',img:'assets/images/artificial-intelligence.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/artificial-inteligence-training-course'},
-      {name:'RPA training',img:'assets/images/robotics.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/rpa-course'},
-      {name:'Java training',img:'assets/images/java.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/java-course'},
-      {name:'.Net training',img:'assets/images/website.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/.net-course'},
-      {name:'VBA training',img:'assets/images/vba.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/vba-course'},
+      {name:'BMS Degree in Python training',img:'assets/images/python.svg',  duration: '2 Months', startDate:this.date(5), routerLink:'courses/python-training-course'},
+      {name:'BMS Degree in Data Science training',img:'assets/images/data-science.svg', duration: '4 Months', startDate:this.date(5), routerLink:'courses/data-science-training-course'},
+      {name:'BMS Degree in Machine Learning training',img:'assets/images/machine-learning.png', duration: '6 Months', startDate:this.date(5), routerLink:'courses/machine-learning-training-course'},
+      {name:'BMS Degree in Deep Learning training',img:'assets/images/deep-learning.png', duration: '7 Months', startDate:this.date(5), routerLink:'courses/deep-learning-training-course'},
+      {name:'BMS Degree in Artificial Inteligence training',img:'assets/images/artificial-intelligence.png', duration: '8 Months', startDate:this.date(5), routerLink:'courses/artificial-inteligence-training-course'},
+      {name:'RPA training',img:'assets/images/robotics.png', duration: '3 Months', startDate:this.date(5), routerLink:'courses/rpa-course'},
+      {name:'Java training',img:'assets/images/java.png', duration: '3 Months', startDate:this.date(5), routerLink:'courses/java-course'},
+      {name:'.Net training',img:'assets/images/website.png', duration: '4 Months', startDate:this.date(5), routerLink:'courses/.net-course'},
+      {name:'VBA training',img:'assets/images/vba.png', duration: '2 Months', startDate:this.date(5), routerLink:'courses/vba-course'},
     ]},
     {title:'Web Development', courses:[
-      {name:'PHP',img:'assets/images/php.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/php-course'},
-      {name:'HTML5/CSS3/JS',img:'assets/images/html.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/html5-css3-js-course'},
-      {name:'Angular',img:'assets/images/angular.svg', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/angular-course'},
-      {name:'Node',img:'assets/images/nodejs.svg', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/nodejs-course'},
-      {name:'React',img:'assets/images/react.svg', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/react-course'},
-      {name:'Python Django/Flask',img:'assets/images/django.svg', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/pyhton-django-course'},
+      {name:'PHP',img:'assets/images/php.png', duration: '3 Months', startDate:this.date(5), routerLink:'courses/php-course'},
+      {name:'HTML5/CSS3/JS',img:'assets/images/html.png', duration: '3 Months', startDate:this.date(5), routerLink:'courses/html5-css3-js-course'},
+      {name:'Angular',img:'assets/images/angular.svg', duration: '3 Months', startDate:this.date(5), routerLink:'courses/angular-course'},
+      {name:'Node',img:'assets/images/nodejs.svg', duration: '3 Months', startDate:this.date(5), routerLink:'courses/nodejs-course'},
+      {name:'React',img:'assets/images/react.svg', duration: '3 Months', startDate:this.date(5), routerLink:'courses/react-course'},
+      {name:'Python Django/Flask',img:'assets/images/django.svg', duration: '3 Months', startDate:this.date(5), routerLink:'courses/pyhton-django-course'},
     ]},
     {title:'Database & Analytics Tools', courses:[
-      {name:'MongoDB',img:'assets/images/mongodb.svg', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/mongodb-course'},
-      {name:'SQL',img:'assets/images/sql-server.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/sql-course'},
-      {name:'Oracle',img:'assets/images/oracle.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/oracle-course'},
-      {name:'Power Bi',img:'assets/images/powerbi-logo.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/powerBi-course'},
-      {name:'Tablue',img:'assets/images/tableau-logo.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/courses/tableau-course'},
+      {name:'MongoDB',img:'assets/images/mongodb.svg', duration: '2 Months', startDate:this.date(5), routerLink:'courses/mongodb-course'},
+      {name:'SQL',img:'assets/images/sql-server.png', duration: '2 Months', startDate:this.date(5), routerLink:'courses/sql-course'},
+      {name:'Oracle',img:'assets/images/oracle.png', duration: '3 Months', startDate:this.date(5), routerLink:'courses/oracle-course'},
+      {name:'Power Bi',img:'assets/images/powerbi-logo.png', duration: '2 Months', startDate:this.date(5), routerLink:'courses/powerBi-course'},
+      {name:'Tablue',img:'assets/images/tableau-logo.png', duration: '2 Months', startDate:this.date(5), routerLink:'courses/courses/tableau-course'},
     ]},
+    {
+      title:'EV charging Program', courses:[
+        {name:'EV charging Program',img:'assets/images/evCharge.png',duration: '4 months', startDate:this.date(5),routerLink:'courses/ev-charging-course'}
+      ]
+    },
     {title:'Digital Marketing', courses:[
-      {name:'SMO(Social media optimization)', img:'assets/images/dm.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/social-media-optimization-course'},
-      {name:'PPC(Pay-per-click)', img:'assets/images/dm.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/pay-per-click-course'},
-      {name:'SEO(Search engine optimization)', img:'assets/images/dm.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/seo-course'},
-      {name:'Google Ads', img:'assets/images/dm.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/google-ads-certification-course'},
-      {name:'Facebook Ads', img:'assets/images/dm.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/facebook_ads_certification-course'},
-      {name:'Social Media Promotion', img:'assets/images/dm.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/social-media-promotion-course'},
-      {name:'E-mail Marketing', img:'assets/images/dm.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/email-marketing-course'},
+      {name:'SMO(Social media optimization)', img:'assets/images/SMO.png', duration: '1.5 Months', startDate:this.date(5), routerLink:'courses/social-media-optimization-course'},
+      {name:'PPC(Pay-per-click)', img:'assets/images/PPC.png', duration: '1 Months', startDate:this.date(5), routerLink:'courses/pay-per-click-course'},
+      {name:'SEO(Search engine optimization)', img:'assets/images/SEO.png', duration: '2 Months', startDate:this.date(5), routerLink:'courses/seo-course'},
+      {name:'Google Ads', img:'assets/images/Google ads.png', duration: '1 Months', startDate:this.date(5), routerLink:'courses/google-ads-certification-course'},
+      {name:'Facebook Ads', img:'assets/images/facebook ads.png', duration: '1 Months', startDate:this.date(5), routerLink:'courses/facebook_ads_certification-course'},
+      {name:'Social Media Promotion', img:'assets/images/Social media promotion.png', duration: '4 Months', startDate:this.date(5), routerLink:'courses/social-media-promotion-course'},
+      {name:'E-mail Marketing', img:'assets/images/Email marketing.png', duration: '1 Months', startDate:this.date(5), routerLink:'courses/email-marketing-course'},
     ]},
-    {title:'Specialization Courses', courses:[
-      {name:'Diploma in Data Science',img:'assets/images/diplomaDS.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/diploma-in-data-science-course'},
-      {name:'Diploma in Machine Learning',img:'assets/images/diplomaML.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/diploma-in-machine-learning-course'},
-      {name:'Masters in Data Science',img:'assets/images/mastersDS.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/masters-in-data-science-course'},
-      {name:'Masters in Machine Learning',img:'assets/images/mastersML.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/masters-in-machine-learning-course'},
-    ]}
+    
   ]
 
 
@@ -83,10 +90,10 @@ export class HomeComponent implements OnInit {
   
   
   upcomingCourses = [
-    {date:'15',month:'January',year:'2022',name:'Python with Data Science',about:'we are planning to start our fresh batch from 15th Jan, we will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/data-science-training-course-in-delhincr'},
-    {date:'30',month:'January',year:'2022',name:'Diploma in DataScience',about:'we are planning to start our fresh batch from 30th Jan, we will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/diploma-in-data-science-course-in-delhincr'},
-    {date:'15',month:'Feburary',year:'2022',name:'Web Development',about:'we are planning to start our fresh batch from 15th Feb, we will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/html5-css3-js-course-in-delhincr'},
-    {date:'20',month:'Feburary',year:'2022',name:'Diploma in Machine learning',about:'we are planning to start our fresh batch from 20th Feb, We will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/diploma-in-machine-learning-course-in-delhincr'},
+    {date:10,month:'January',year:'2022',name:'Python with Data Science',about:'we are planning to start our fresh batch from 15th Jan, we will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/data-science-training-course-in-delhincr'},
+    {date:20,month:'January',year:'2022',name:'Diploma in DataScience',about:'we are planning to start our fresh batch from 30th Jan, we will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/diploma-in-data-science-course-in-delhincr'},
+    {date:25,month:'Feburary',year:'2022',name:'Web Development',about:'we are planning to start our fresh batch from 15th Feb, we will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/html5-css3-js-course-in-delhincr'},
+    {date:30,month:'Feburary',year:'2022',name:'Diploma in Machine learning',about:'we are planning to start our fresh batch from 20th Feb, We will primarly focus on practical approach & provide documented intership after completion of the course',routerLink:'courses/diploma-in-machine-learning-course-in-delhincr'},
 
   ]
   blogCards = [
@@ -135,7 +142,69 @@ export class HomeComponent implements OnInit {
   } 
   course:any = 0
   
+edge_cards = [
+  {
+    name:'Real Time Resolution',
+    about:'with Live Instructors',
+    img:'assets/images/edge/realtime resolution.png'
+  },
+  {
+    name:'Unlimited Access',
+    about:'to Online Learning Repository',
+    img:'assets/images/edge/unlimited access.png'
+  },
+  {
+    name:'Learning Assistants',
+    about:'to Guide When You Are Stuck',
+    img:'assets/images/edge/learning assistants.png'
+  },
+  {
+    name:'Track Your Growth',
+    about:'Career Growth',
+    img:'assets/images/edge/track your growth.png'
+  },
+  {
+    name:'Self Assessment',
+    about:'Preparation for Test',
+    img:'assets/images/edge/self assesment.png'
+  },
+]
 
+learning_partners = [
+  'assets/images/learningPartners/amazon-web-services-logo-png-transparent.png',
+  'assets/images/learningPartners/C_ITIL_4_Foundation88a23c79-2267-ec11-8f8f-000d3a271115.png',
+  'assets/images/learningPartners/cisco-logo-transparent.png',
+  'assets/images/learningPartners/google-partner-logo-2BA563BAC5-seeklogo.com.png',
+  'assets/images/learningPartners/Microsoft_Azure-Logo.wine.png',
+  'assets/images/learningPartners/red-hat-logo-png-transparent.png',
+]
+
+self_test = [
+  {
+    img:'assets/images/Self analysis Test-Bookmyshiksha/Questions.png',
+    name:'1000+ questions'
+  },
+  {
+    img:'assets/images/Self analysis Test-Bookmyshiksha/Mock-Up Test.png',
+    name:'Mockup Tests'
+  },
+  {
+    img:'assets/images/Self analysis Test-Bookmyshiksha/Time analysis.png',
+    name:'Time Analysis'
+  },
+  {
+    img:'assets/images/Self analysis Test-Bookmyshiksha/Score Analysis.png',
+    name:'Score Analysis'
+  },
+  {
+    img:'assets/images/Self analysis Test-Bookmyshiksha/QA explanation.png',
+    name:'QA Explanation'
+  },
+  {
+    img:'assets/images/Self analysis Test-Bookmyshiksha/detail explanation.png',
+    name:'Detail Explanation'
+  },
+]
 
   
 

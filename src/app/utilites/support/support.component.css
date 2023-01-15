@@ -1,8 +1,36 @@
 main{
-    background-color:#ff6b1b;
+    background: linear-gradient(270deg, rgba(255, 89, 0, 0.592) 0%, rgba(255,107,27,0.6898109585631127) 100%);
     padding:5% 10%;
     display: flex;
     align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.icon{
+    position: absolute;
+    font-size: 30px;
+    color: aliceblue;
+}
+.fa-graduation-cap{
+    left: 5%;
+    transform: rotate(-30deg);
+    top: 18%;
+    font-size: 5rem;
+    z-index:0;
+    opacity: .3;
+}
+.fa-code{
+    right: 40%;
+    transform: rotate(30deg);
+    font-size: 8rem;
+    opacity: .3;
+    top: 60%;
+}
+.fa-chalkboard-teacher{
+    top: 10%;
+    opacity: .3;
+    right: 10%;
+    /* transform: rotate(30deg); */
 }
 .right{
     width: 30%;
@@ -14,6 +42,7 @@ main{
 
 }
 .left{
+    z-index: 1;
     width: 70%;
 }
 
@@ -34,18 +63,32 @@ section{
     background-color: white;
     margin: 5% 0;
 }
-.right div{
+.right a{
     display: flex;
+    text-decoration: none;
     background-color: white;
     justify-content:center;
     align-items:flex-end;
+    cursor: pointer;
     margin-top: 2%;
     border-radius: 5px;
     color: blue;
     padding: 2%;
     width: 100%;
 }
-.right div i{
+.right a i{
     margin-right: 10px;
+}
+
+@media (max-width: 960px){
+    main{
+        flex-direction: column;
+    }
+    .right , .left {
+        width: 100%;
+    }
+    .icon{
+        font-size:20px;
+    }
 }
 

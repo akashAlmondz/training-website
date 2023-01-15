@@ -11,9 +11,60 @@ body, h1, h2, h3, h4 ,h5, h6, p{
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-
+.forms_tc{
+    font-size: 13px;
+    color: grey;
+    text-align: center;
+}
+.forms_tc span{
+    color: #4692E2;
+    cursor: pointer;
+}
 html, body { height: 100vh; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.custom-dialog-container .mat-dialog-container {
+    padding: 0 !important;
+    width: 100%;
+}
+
+#loader{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1002;
+    background-color: #ffffff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10%;
+}
+
+
+#loader img{
+    width: 20%;
+}
+
+#loader p{
+    color: #4692E2;
+    font-size: 2rem;
+    font-weight: 600;
+}
+@media (max-width:800px) {
+    #loader{
+        justify-content:center;
+        padding-bottom: 30%;
+    }
+    #loader img{
+        width: 40%;
+    }
+    
+    #loader p{
+        color: #4692E2;
+        font-size: 1rem;
+        font-weight: 600;
+    } 
+}

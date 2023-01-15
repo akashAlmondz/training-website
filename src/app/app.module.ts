@@ -23,12 +23,19 @@ import { CertificationComponent } from './components/certification/certification
 import { OpenBlogsComponent } from './components/open-blogs/open-blogs.component';
 import { PolicyComponent } from './components/policy/policy.component';
 import {MatDialogModule} from '@angular/material/dialog';
-
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import {MatSelectModule} from '@angular/material/select';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+
 
 import { FormAComponent } from './utilites/form-a/form-a.component';
 import { SupportComponent } from './utilites/support/support.component';
+import { MatNativeDateModule } from '@angular/material/core';
+import { OffersComponent } from './components/offers/offers.component';
+import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ThankyoupageComponent } from './components/thankyoupage/thankyoupage.component';
 
 
 
@@ -53,7 +60,12 @@ import { SupportComponent } from './utilites/support/support.component';
     OpenBlogsComponent,
     PolicyComponent,
     FormAComponent,
-    SupportComponent
+    SupportComponent,
+    OffersComponent,
+    NotFoundComponent,
+    ThankyoupageComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
@@ -63,6 +75,10 @@ import { SupportComponent } from './utilites/support/support.component';
     MatInputModule,
     MatButtonModule,
     MatDialogModule,
+    MatSelectModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatCarouselModule.forRoot()
   ],
   providers: [Title],
   bootstrap: [AppComponent]

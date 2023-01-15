@@ -49,7 +49,7 @@ footer{
 .about{
     display: flex;
     flex-direction: column;
-    /* width: 30%; */
+    width: 30%;
 }
 .about #logo{
    width: 200px;
@@ -67,6 +67,7 @@ footer{
 }
 .about p{
     color: white;
+    word-break: keep-all;
 }
 
 .links{
@@ -173,6 +174,24 @@ iframe{
     .middle{
         justify-content:space-between;
     }
+    .links{
+        order: 0;
+        width: 100%;
+        align-items: unset;
+    }
+    .links h4{
+        background-color: #9eceff;
+        padding: 5px 10px;font-size: 20px;
+        color:black;
+        font-weight: 400;
+        
+    }
+    .about{
+        order: 1;
+    }
+    .map{
+        order: 2;
+    }
     .lower{
         flex-direction: column;
         padding-top: 20px;
@@ -187,5 +206,9 @@ iframe{
     }
     .lower .policy p{
         margin:0 20px 0 0;
+    }
+    .about{
+        width: 100%;
+        
     }
 }

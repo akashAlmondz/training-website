@@ -6,58 +6,88 @@
             <p>I hope you have explored BookMyShiksha & we hope, we have intrigued you towards chosing a career in IT field, So what are you waiting for hurry!! and fill the contact form so we can provide you with regular updates.</p>
             <div class="contactinfo">
                 <span>
-                    <i class="fas fa-envelope"> Our Email:</i>
+                    <i class="fas fa-phone-alt"> Admission Enquiry</i>
+                    <p>+91-8077672234 , 7042689840 </p>
+                </span>
+                <span>
+                    <i class="fas fa-envelope"> Get Quote:</i>
                     <p>info@bookmyshiksha.com</p>
                 </span>
                 <span>
-                    <i class="fas fa-phone-volume"> Admission Enquiry</i>
-                    <p>+91-8077672234</p>
+                    <i class="fas fa-envelope"> For IT:</i>
+                    <p>IT@bookmyshiksha.com</p>
+                </span>
+                <span>
+                    <i class="fas fa-envelope"> Contact HR:</i>
+                    <p>hr@bookmyshiksha.com</p>
+                </span>
+                <span>
+                    <i class="fas fa-envelope"> For Admission:</i>
+                    <p>admission@bookmyshiksha.com</p>
                 </span>
             </div>
         </div>
         <div class="form">
-            <form action="" [formGroup]="formGroup"  (submit)="sendEmail($event)" >
-                <span>
-                    <span>
-                        <label for="">Name:</label><input formControlName="name" name="name" type="text"  placeholder="Enter Your Name" >
-                    </span>
-                    <span>
-                        <label for="">Email:</label><input formControlName="email" name="email" type="text" placeholder="Enter Your Email" >
-                    </span>
-                </span>
-                <span>
-                    <span>
-                        <label for="">Mobile Number</label>
-                        <input formControlName="phone_no" name="phone_no" type="text" placeholder="Enter Your Mobile Number" >
-                    </span>
-                    <span>
-                        <label for="">Inquiry Type</label>
-                        <select formControlName="inquiry_type" name="inquiry_type">
-                            <option value="">--Select--</option>
-                            <option value="Courses Demo">Courses Demo</option>
-                            <option value="Courses Training">Courses Training</option>
-                            <option value="Course Certification">Course Certification</option>
-                            <option value="Internship">Internship</option>
-                            <option value="Internship Certification">Internship Certification</option>
-                            <option value="Jobs">Jobs</option>
-                        </select>
-                    </span>
-                </span>
-                <label for="">Your Message</label>
-                <input name="message" formControlName="message" type="text" placeholder="Enter Your Message" >
-                
-                <input type="submit">
+            <form action="" [formGroup]="formGroup" (submit)="sendEmail($event)" >
+                <section>
+                    <mat-form-field id="inp" appearance="outline"   >
+                        <mat-label>Name</mat-label>
+                        <input formControlName="name" matInput placeholder="enter your name" name="name" type="text" value="" required >
+                        <mat-error>enter your name</mat-error>
+                    </mat-form-field>
+                    <mat-form-field id="inp" appearance="outline" >
+                        <mat-label>Email</mat-label>
+                        <input formControlName="email" matInput  placeholder="enter your email" name="email" type="email" value="" required>
+                        <mat-error>enter valid email</mat-error>
+                    </mat-form-field>
+                </section>
+                <section>
+                    <mat-form-field id="inp" appearance="outline" >
+                        <mat-label>Mobile Number</mat-label>
+                        <input formControlName="phone_no" matInput placeholder="enter your mobile number" name="phone_no" type="tel" value="" required>
+                        <mat-error>enter valid mobile no.</mat-error>
+                    </mat-form-field>
+                    <mat-form-field id="inp" appearance="outline" >
+                        <mat-label>Enquiry Type</mat-label>
+                        <mat-select formControlName="inquiry_type" >
+                            <mat-option value="Courses Demo">Course Demo</mat-option>
+                            <mat-option value="Courses Training">Course Training</mat-option>
+                            <mat-option value="Course Certification">Course Certification</mat-option>
+                            <mat-option value="Internship">Internship</mat-option>
+                            <mat-option value="Internship Certification">Internship Certification</mat-option>
+                            <mat-option value="Jobs">Jobs</mat-option>
+                        </mat-select>
+                        <mat-error>select enquiry type</mat-error>
+                        <!-- <input formControlName="course" matInput placeholder="enter about course" name="course" type="text" value="" required> -->
+                    </mat-form-field>
+                </section>
+                <textarea  name="" id="" cols="30" rows="10" name="message" required></textarea>
+                <button mat-raised-button >Submit</button>
+                <p class="forms_tc" >By registering here, I agree to Bookmyshiksha <span [routerLink]="['/company/disclaimer']" >Terms & Conditions</span> and <span [routerLink]="['/company/privacy_policy']" >Privacy Policy</span></p>
             </form>
+            <!-- <p class="forms_tc" >By registering here, I agree to Bookmyshiksha <span [routerLink]="['/company/disclaimer']" >Terms & Conditions</span> and <span [routerLink]="['/company/privacy_policy']" >Privacy Policy</span></p> -->
         </div>
+
     </div>
+
     <div class="address">
         <span>
-            <i class="fas fa-map-marker-alt"></i>
-            <p>Our office located at:</p>
+            <p>Corporate Office Address:</p>
         </span>
-        <p>2nd Floor, Orchid Centre, Sector 53, <br> Golf Course Road, Gurgaon <br>
-            Haryana - 122002</p>
+        <p>44, Regal Building, 2nd floor above CCD <br>Connaught Place, <br> New Delhi 110001</p>
+        <span>
+            <p>BookMyShiksha office Branches</p>
+        </span>
+        <div class="branches">
+            <p>Delhi</p>
+            <p>Gurugram</p>
+            <p>Noida</p>
+            <p>Mumbai </p>
+            <p>Faridabad</p>
+            <p>Aligarh </p>
 
-
+        </div>
+        
     </div>
+    <img class="delhi" src="assets/images/delhi.png" alt="">
 </main>

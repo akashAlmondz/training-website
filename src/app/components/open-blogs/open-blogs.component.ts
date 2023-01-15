@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { blogs } from 'src/app/blogs';
 
 @Component({
@@ -8,14 +9,19 @@ import { blogs } from 'src/app/blogs';
 })
 export class OpenBlogsComponent implements OnInit {
 
-  constructor() { }
-  cat = localStorage.getItem('blogCat');
-  index = localStorage.getItem('blogIndex')
-  blog = blogs[Number(this.cat)][Number(this.index)]
+  constructor(
+    private router:ActivatedRoute
+  ) { }
+  cat = 0
+  index = 0
+  blog:any
   
 
   ngOnInit(): void {
-
+    this.router.params.subscribe(x=>{
+    this.blog = blogs[Number(x['cat'])][Number(x['index'])]
+      console.log(x['cat'])
+    })
   }
   
 

@@ -1,24 +1,83 @@
-export function convertStringToHtml(str){
-  const parser = new DOMParser();
-  const text = parser.parseFromString(str, 'text/html');
-  console.log(text.body, 'Zan')
-  return text.body;
+function setDate(day:number){
+  const monthNames = ["January", "February", "March", "April", "May", "June",
+"July", "August", "September", "October", "November", "December"
+];
+  let days = day
+  let date = new Date()
+  let requiredDate = new Date(date.getTime() + (days * 24 * 60 * 60 * 1000 ))
+  let value = `${requiredDate.getDate()} ${monthNames[requiredDate.getMonth()]} ${requiredDate.getFullYear()}` 
+  return  value
 }
+export const date = ''
 
 export const courses = [
   {
+    brochure:'assets/pdf/Python Course--- Bookmyshiksha.pdf',
+    duration:2,
     image: "/assets/images/course-images/python.png",
     heading: 'Python training course in Delhi,India',
     subHeading: 'Python course in delhi is the most searched language as well as used by google, microsoft, twitter and the list goes on with wide variety of frameworks for App development & Backend. BookMyShiksha consider python as the next big thing in the coming future.',
     aboutHeading: `Python Classes in Delhi`,
     about: [
+      "Greet! You are a complete beginner in programming, right? If this is not the case, we will assume you are interested in learning why Python is useful and how to begin using it. Python is a language that can be quickly learned by programmers with experience in any other language (whatever that language may be). So let’s just jump into the deep meaning of python.",
       "Python is one of the most widely reputed programming languages in the world, python training institute in delhi.BookMyShiksha is the best python training campus in Delhi-NCR that allows learners to build the skills you would require to land your first Python programming job. Learn the intricacies of Machine Learning, Django, Data Science, and the other specialised areas.Understand the mathematics behind Machine Learning which is vital and not covered in most courses. Gain theoretical and practical knowledge to use Python for acing projects. Be in a position to create your own Python apps efficiently by enrolling for the best python institute delhi",
       "To be able to do so, you require a firm foundation in Python programming, and this course is specially designed to equip you with the core skills in a swift manner. Join this course today if you want an incredible boost in your career."],
     aboutSections: [
+      {heading:'What is Python?', about: ['Python in simple terms is a computer general-purpose programming language that is used to create websites &amp; software, automate tasks and conduct analysis of the data. A melange of use cases of python has turned it into the most popular programming language. Even in some surveys, expert analysts found that python is the second most famous programming language.','The word python originated from Monty python. Guido van Rossum created python and during this time he was reading scripts from BBC&#39;s Monty pythons flying circus. Thus, he named this language python as  it is pretty mysterious and small. This is how the name python came.']},
       { heading: 'By the end of this course, you will be able to:', about: ['Create, and incorporate your own Python programs through this course at BookMyShiksha. python training in delhi, Add OOP (Python Object-Oriented Programming) skills to your CV.Pre-process data with ease. Well versed in both Python 2, as well as Python 3 softwares.Be excellent at improving our Machine Learning algorithms using some methods like: graph overfitting, graph underfitting, graph visualization, Dataset testing, dataset trainin and dataset spliting. Execute factor and cluster analysis. Perform linear and logistic regressions in Python efficiently. Create your own web applications, games or apply the knowledge in the realm of Data Science. Use flows control in programs. Create generator expressions and functions. Use containers which are a collection of data such as dictionaries and lists. Have impressive knowledge on decorators and on their creation and usage. Or be in a position where you understand how to scale up as a senior software developer.'] },
       {
         heading: 'Who is this course for?', about: [
           "python classes in delhi, This course is for beginners with no prior knowledge about Python but are looking to equip themselves with the most popular programming job in the world.Our students who want to start their career with a solid foundation, Solid techniques, Practical approach and gradually build their skills. For corporate employees who want to scale up their careers and graps better opportunities in career. For engineers and developers who have knowledge of other programming languages but not Python because doesnt have technical background for learning python language. python course near me, Anybody that wants to gain prerequisite knowledge to move into Machine Learning, Data Science or Artificial Intelligence. "
+        ]
+      },
+      {
+        heading:'Use cases for Python?',
+        about:[
+          "Python is a flexible, simple, and stable programming language that can be demanded in job skills; so it has a melange of use cases. Firstly, the versatility of python makes it a commonly used language for developing multiple websites, analyzing data; hence, visualizing it, and so forth. This programming language can be adopted by anyone as it is relatively easy to learn than any other language. Many scientists and accountants use python for carrying out everyday odd jobs such as organizing finance or making an excel sheet.",
+          "In the future, too, python will remain the first choice language of many scientists and nonprogrammers to get jobs. Thus, you can check out different python courses from bookmyShiksha.Before are you still not convinced about choosing python as your favorite programming language? Here  are its use cases in detail."
+        ]
+      },
+      {
+        heading:'Web development',
+        about:[
+          "For developing the back end of an application or a website you need to have a strong grasp of python. The backend part is not visible to the users as they can only see the front-end designs. However, developers need to work harder for designing the back-end algorithms. Python helps in sending data to and from servers, communicating with databases, ensuring security, and much more.",
+          "In the future, too, python will remain the first choice language of many scientists and nonprogrammers to get jobs. Thus, you can check out different python courses from bookmyShiksha.Before are you still not convinced about choosing python as your favorite programming language? Here  are its use cases in detail.",
+          "Web developers, who have better knowledge of python can use it in multiple frameworks of a website.There are multiple jobs for web development where you must be a pro at python."
+        ]
+      },
+      {
+        heading:'Software testing',
+        about:[
+          "Tracking bugs, building control, and carrying out testing or easy when you know python. Web developers can use algorithms to set up automatic testing for new features or products. Even python tools are helpful in software testing."
+        ]
+      },
+      {
+        heading:'Data analysis and machine learning',
+        about:[
+          "AI &amp; Machine learning is the necessity for our lives. Data analysts can easily conduct complex  calculations within a few seconds with the help of python. Furthermore, one can create data          visualization, manipulate and analyze data, build different machine learning algorithms and conduct  data-related tasks with the aid of python."
+        ]
+      },
+      {
+        heading:'Normal tasks',
+        about:[
+          "The only language which is not solely for data scientists and programmers is python. If you learn python today then it might be your expert skill to get heavy professions like social media marketer or a small business owner. For ages, python has simplified our lives by:",
+          "• Keeping track of the stock market",
+          "• Converting text files to spreadsheets",
+          "• Filling out online forms",
+          "• Updating the shopping list",
+          "• Randomly assigning household work",
+          "So these are the use cases of python. The versatility of python will make it the most popular programming language in the world and it will be a mandatory skill for all. Thus, you should learn it today!"
+        ]
+      },
+      {
+        heading:'Why Learn Python?',
+        about:[
+          "In the world of technology, the python language is growing constantly. Today it's among one the most famous programming language.",
+          "• The language of python is readable and easy to learn.",
+          "• For writing programs in small lines of codes, you need the assistance of python as it can write better than other programming languages.",
+          "• The use case of python is in a variety of fields including web development, desktop application,machine learning, and so forth.",
+          "• Python can come in handy for multiple applications including data science, web applications, and so forth.",
+          "Our modern world is constantly changing and rapidly evolving. Thus, one needs to pace up and comprehend programming languages like python."
         ]
       },
       { heading: 'Job opportunities after finishing this course:', about: ["Python Developer, Data Analyst, Educator, Product Manager, Financial Advisor, Data Journalist"] },
@@ -80,21 +139,52 @@ export const courses = [
       { point: 'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.' },]
     },
     relatedCourse:[
-      {name:'Data Science training',img:'assets/images/data-science.svg', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/data-science-training-course'},
-      {name:'Machine Learning training',img:'assets/images/machine-learning.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/machine-learning-training-course'},
-      {name:'Deep Learning training',img:'assets/images/deep-learning.png', duration: '6 Months', startDate:'15 July 2022', routerLink:'courses/deep-learning-training-course'},
-    ]
+      {name:'BMS Degree in Data Science training',img:'assets/images/data-science.svg', duration: '4 Months', startDate:setDate(5), routerLink:'courses/data-science-training-course'},
+      {name:'BMS Degree in Machine Learning training',img:'assets/images/machine-learning.png', duration: '6 Months', startDate:setDate(5), routerLink:'courses/machine-learning-training-course'},
+      {name:'BMS Degree in Deep Learning training',img:'assets/images/deep-learning.png', duration: '7 Months', startDate:setDate(5), routerLink:'courses/deep-learning-training-course'},
+    ],
+    relatedLink:{
+      name:' Data science',link:'/courses/data-science-training-course'
+    }
   },
 
   {
+    brochure:'/assets/pdf/Data_Scientist_Master_Program_Bookmyshiksha.pdf',
+    duration:4,
     image: "/assets/images/course-images/DS.png",
     heading: 'Data Science training in Delhi.',
     subHeading: 'DataScience is the future for highend analytics, visualization & Preprocessing. Data Science course in Delhi, BookMyShiksha uses tools like anaconda navigator, IDLE, VS code, Pycharm, Jupyter notebook.Not only these tools are exciting to use but there real world uses in IT industry is inevitable in the coming future. ',
     aboutHeading: 'Data Science training institute in Delhi',
     about: [
+      "In our emerging digital world, data has built fuzz in every domain. At every nook and corner, there is a huge and constant flow of information in the form of unstructured data. There is a humungous need to convert this data into actionable insights to make it prominent. The insights created by data science assist industries in identifying better opportunities, improving marketing, increasing operational efficiency and so forth. But before that what does data science actually is?",
       "The course at BookMyShiksha offers the entire toolbox one might require to become a brilliant data scientist. Best data science course in delhi, Learn Python programming with matplotlib, NumPy, Seaborn, pandas, Advanced Statistical Analysis, Machine Learning with scikit-learn, Tableau, and Deep Learning with TensorFlow. Gain knowledge to handle advanced techniques like Dimensionality Reduction. Be able to work on specific categories like Deep Learning, NLP and Reinforcement Learning. Having an understanding of the mathematics behind Machine Learning through the best data science training course in Delhi. Code in Python, and use it for statistical analysis.",
       "Through this course at BookMyShiksha, you will be able to apply the skills you gain in real-life business scenarios."],
     aboutSections: [
+      {
+        heading:'WHAT IS DATA SCIENCE?',
+        about:[
+          'Finding valuable information with the assistance of advanced analytical techniques as well as scientific principles is data science. This analysed data is highly crucial for business decision-making, better sales, strategizing future goals and many other uses. Gathering actionable insights from raw data is a herculean task as it involves a variety of concepts including data analysis, data modelling, statistical analysis, machine learning algorithms, processing of data and so forth. Overall, data science is the field where data is gathered and analysed with the assistance of the business.',
+          'Data has become a valuable asset in every economy today as it helps in understanding consumer behaviours and hands organisations can take business-related decisions. Turning raw data into meaningful and easy-to-understand insights is the primary goal of a data scientist. Exceptional data scientists can big out meaning full information from raw data.',
+          'Data science has different disciplines such as data engineering, predictive analytics, data visualisation, data preparation, statistics, data mining, software programming and much more. Thus, you must include data science training in your list as it will leave an impact full impression on your career.'
+        ]
+      },
+      {
+        heading:'USE CASES OF DATA SCIENCE',
+        about:['Data scientists are tech experts that are engaged in pattern recognition, categorisation, predictive modelling, sentiment analysis, anomaly detection and the development of technology to help businesses grow and expand. The biggest benefit of being a data scientist is to facilitate better decision-making in organisations as data-driven decisions lead to stronger business performance. The different use cases are as follows:',
+        'Spotify uses data science to understand the listeners&#39; behaviour and hands offer them personalized music recommendations. In addition, Spotify made predictions about an award by finding the music users listen to. This all was done with the assistance of data science.',
+        'Uber has also taken help from Data science to build a better audience and provide premium services to its users. There is a huge database of drivers and hence it was difficult for uber to suggest the most suitable drivers. However, after data analysis, Uber can easily suggest the best drivers and the time it takes to get to the destination',
+        'Amazon shows product recommendations specifically to every customer according to their needs. These personalized recommendations are analysed with the data available in users&#39; purchase history and hence they recommend similar products.',
+        'There is a melange of organisations that used data size to make better decisions. The demand for data scientists, too, has been growing rapidly over a few years. Thus, selecting data science will be a great choice.'
+      ]
+      },
+      {
+        heading:'',
+        about:''
+      },
+      {
+        heading:'',
+        about:''
+      },
       { heading: 'By the end of this course, you will be able to:', about: ['Have impeccable intuition of numerous Data Science models. Perform linear, and logistic regressions in the Python language. Best institue for data science in delhi, Conduct cluster and factor analysis. Create Machine Learning algorithms in Python, using statsmodels, scikit-learn, and NumPy.. Be great at using Pandas for the analysis of data. Use Matplotlib for plotting Python. Ace the usage of statistical plots by incorporating Seaborn. Use the latest Deep Learning framework like the Google TensorFlow. Deploy random forest and  decision trees to improve the program. Create an army of impactful Machine Learning models and combine them to solve problems in the program. Develop a business intuition whilst solving tasks, or coding with large data. Unfold the intricacies of deep neural networks through the best data science online course in Delhi NCR.'] },
       {
         heading: 'Who is this course for?', about: [
@@ -156,16 +246,60 @@ export const courses = [
       { id: 3, img: "fas fa-chart-line", name: 'Project on Sentimental Analysis -By BookMyShiksha', domainName: 'Banking and Finance' },
       { id: 4, img: "fas fa-language", name: 'Project on  Speech Recognition through the Emotions -By BookMyShiksha', domainName: 'Social Media' },
     ],
+    relatedLink:{
+      name:'Python',link:'/courses/python-training-course'
+    }
   },
   {
+    brochure:'/assets/pdf/Data_Scientist_Master_Program_Bookmyshiksha.pdf',
+    duration:6,
     image: "/assets/images/course-images/ML.png",
     heading: 'Machine Learning Training in Delhi',
     subHeading: 'Machine learning course in Delhi, helps in data analytics and have its framework for prediction & analysis.Machine learning is the key tool which used by google, microsoft, youtube and so on to implement its AI which makes the processing fast. BookMyShiksha believes in the future and plans to work and implement its features in the coming future.',
     aboutHeading: 'Machine Learning Training in Delhi,India',
     about: [
       "Master the art of Machine Learning institue in Delhi, on Python at BookMyShiksha. Learn to use the many Machine Learning models, and tools. Understand how to handle specific topics like Reinforcement Learning, Deep Learning, and NLP. Master advanced techniques like Dimensionality Reduction with the help of the educators at the best Machine Learning Training course in Delhi. Be in a position to choose the right Machine Learning model to address each type of problem.",
-      "By enrolling in this course at BookMyShiksha, you will be able to apply the knowledge you gain to scale up in your career."],
+      "By enrolling in this course at BookMyShiksha, you will be able to apply the knowledge you gain to scale up in your career.",
+      "Machine learning is the most innovative and frequently growing part of our lives. You must be using machine learning forward devices without even notice. The future lies in machine learning algorithms as we are surrounded by technology and technical devices. From pricing in uber to video surveillance we are surrounded by the products of machine learning. And this is why we can claim that the demand for machine learning will grow rapidly in the future. So if you are planning to pursue a bachelor&#39;s in machine learning then it can give you huge success."
+    ],
     aboutSections: [
+      {
+        heading:'ROLES PURSUING BACHELORS&#39; IN MACHINE LEARNING',
+        about:[
+          'After pursuing a bachelor&#39;s in machine learning you will be surrounded by technical products. Here are some of the roles after the completion of your graduation in machine learning:',
+          '• Designing tech system',
+          '• Creating machine learning algorithms and libraries',
+          '• Data modeling',
+          '• Understanding behavioral changes',
+          '• Regular data analysis and much more',
+          'After completion of your bachelor&#39;s in MI, you will have the above roles. Although there are many other roles that you need to perform these are some most important ones. Machine learning makes you a hot resource for every business. If you are still not convinced about doing bachelors in MI then have a grasp of the perks of machine learning.'
+        ],
+      },
+      {
+        heading:'ADVANTAGES OF BACHELORS IN MACHINE LEARNING',
+        about:[
+          'We live in a world of technology where we are surrounded by machine learning products. And industries too ard looking for machine learning professionals that can help their businesses to grow. There are multiple benefits of pursuing a bachelor&#39;s in machine learning. The Sum of them is as follows:'
+        ]
+      },
+      {
+        heading:'Better career growth',
+        about:[
+          'Once you finish your bachelors in machine learning you automatically get growth and success. Machine learning covers significant verticals including cyber security, image recognition, voice recognition video surveillance, and much more and all these fields open many doors for your career. Thus, you ultimately have a better career and growth after choosing a bachelor&#39;s in machine learning.'
+        ]
+      },
+      {
+        heading:'Handsome earnings',
+        about:[
+          'Machine learning engineers are highly paid by organizations. If you have the right knowledge and skills, many top organizations will reach out to you and will offer you a six-figure salary on any day. Machine learning work professionals work on real-time problems and hence they get highly paid.'
+        ]
+      },
+      {
+        heading:'Link with data science',
+        about:[
+          'Machine learning is similar to the shadow of data science and once you are into the field of data then your career will be on cloud 9 with no doubts. Machine learning and data science are interrelated which is a positive point for people who are pursuing their career in machine learning as they can expand their careers as data scientists too.',
+          'Thus, are some of the benefits of pursuing a bachelor&#39;s in machine learning. Not only do you learn about high-end technical solutions but you have an opportunity to make innovations that can take the world to a new step. So choose the right place to pursue your bachelor&#39;s in data science and lead towards a successful career.'
+        ]
+      },
       { heading: 'By the end of this course, you will be able to:', about: ['Make accurate predictions for businesses. Machine learning courses in Delhi, Conduct powerful analysis that yields great results. Create robust Machine Learning models. Add value to your business, or for your clients.'] },
       {
         heading: 'Who is this course for?', about: [
@@ -226,10 +360,15 @@ export const courses = [
       { id: 3, img: "fas fa-digital-tachograph", name: 'MNIST Digit Classification -By BookMyShiksha', domainName: 'Back-End' },
       { id: 4, img: "fab fa-stack-exchange", name: 'Stock Price Prediction -By BookMyShiksha', domainName: 'Back-End' },
     ],
+    relatedLink:{
+      name:' Artificial intelligence',link:'/courses/artificial-inteligence-training-course'
+    }
 
 
   },
   {
+    brochure:'/assets/pdf/Data_Scientist_Master_Program_Bookmyshiksha.pdf',
+    duration:7,
     image: "/assets/images/course-images/DL.png",
     heading: 'Deep Learning Training in Delhi',
     subHeading: 'Deep learning courses in Delhi, works with neural networking and features of machine learning, Deep learning involves lot of statistic analysis and complex calculation.Deep learning is used in various sector such as medical science, robotics and so on. BookMyShiksha have well trained trainers and expertise to help students to understand and be future ready in deep learning.',
@@ -298,16 +437,61 @@ export const courses = [
       { id: 3, img: "fas fa-dog", name: 'Dog’s Breed Identification -By BookMyShiksha', domainName: 'Back-End' },
       { id: 4, img: "fas fa-traffic-light", name: 'Traffic Sign Classification -By BookMyShiksha', domainName: 'Back-End' },
     ],
+    relatedLink:{
+      name:'Python',link:'/courses/python-training-course'
+    }
   },
   {
+    brochure:'/assets/pdf/Data_Scientist_Master_Program_Bookmyshiksha.pdf',
+    duration:8,
     image: "/assets/images/course-images/ai.png",
     heading: 'Artificial Intelligence Training in Delhi',
     subHeading: 'Artificial inteligence is used by big brands such as youtube, Artificial intellgence courses in Delhi, augmented reality, virtual reality,robotics and so on. Artificial intelliegnce have reached a new level of achievement where they have already made a humanoid robot, which have been given citizenship also. BookMyShiksha works with the latest trends in machine learning and artificial intelligence field.',
     aboutHeading: 'Artificial Intelligence Training in Delhi, India',
     about: [
+      "Artificial intelligence has aced the world of technology. The capacity of machines to operate under any challenge is the study of artificial intelligence. Today machines can recognize and attain precise goals solely with the assistance of artificial intelligence.A large quantity of unstructured information can be analyzed and structured with the assistants of artificial intelligence.",
       "Enroll for the best Artificial Intelligence Training online course in Delhi to gain insights on AI concepts. Artificial intelligence institue in Delhi, Understand the intuition behind the math used in AI solutions. Build, test, train, and deploy different artificial intelligence models to classify data. Gain knowledge on Time series along with simple linear regression. Learn how to incorporate Multiple and Logistic regression. Our modules encourage learners to apply the knowledge they gain from this course in real-life businesses and scenarios to help achieve the best possible outcomes.",
       "At BookMyShiksha, you will learn how Artificial Intelligence is disrupting the way we work, and function. During this course, you can clear the doubts you have with our tutors who are determined to help you get the best out of the training program for you to excel in your career."],
     aboutSections: [
+      {
+        heading:'WHAT IS ARTIFICIAL INTELLIGENCE?',
+        about:[
+          'Artificial intelligence has allowed machines to imitate the capabilities of the human mind. AI is growing every day. Today from the development of smart assistants Alexa and Siri to the creation of self-driving cars, AI has come very far. Every tech company in any sector is investing in artificial intelligence due to its smart and beneficial outcomes. In simple terms, artificial intelligence is a range of computer science that has built smart technology and machines that can perform any task that requires human intelligence.',
+          'Creating machines that are smarter and more intelligent is what AI is. Artificial intelligence has built its advancements in machine learning and deep learning which are helping many industries now. There are four categories of AI based on their complexity as well as type. The different kinds of artificial intelligence are reactive machines, theory of mind, limited memory &amp; self-awareness.',
+          'Artificial intelligence is the future of our digital world tomorrow so why not learn it today? Get artificial intelligence training and take a step towards a better future tomorrow. If you are still not convinced about the importance of artificial intelligence then have a look at its use cases.'
+        ]
+      },
+      {
+        heading:'CASES OF ARTIFICIAL INTELLIGENCE',
+        about:[
+          'Artificial intelligence has many different uses in our digital world today. To be using AI products without even realizing that they are AI-powered. Here are some use cases of AI:'
+        ]
+      },
+      {
+        heading:'Web search',
+        about:[
+          'The huge data available at search engines can co-ordinate with your specific question; have you ever thought about how? Yes, with the help of artificial intelligence search engines can provide you with relevant search results and the answer to your question.'
+        ]
+      },
+      {
+        heading:'Smart homes and infrastructure',
+        about:[
+          'Smart homes are the future of tomorrow and many people have adopted them today. Developers have started creating smart cities with better connectivity and reductions in traffic jams. All this is with the assistance of artificial intelligence.'
+        ]
+      },
+      {
+        heading:'Self-driving vehicles',
+        about:[
+          'Although self-driving vehicles are not in standards right now science has launched many AI-powered safety functions in every car. With the assistance of AI, one can detect dangerous situations and accidents. Google Maps and other navigations are also AI-powered.'
+        ]
+      },
+      {
+        heading:'Machine translations',
+        about:[
+          'AI has built language translation software based on written and spoken texts to improve translations.',
+          'There are infinite uses of AI and they are increasing every day. AI has different use cases in every sector today including health, transport, food and farming, and many more. Further, artificial intelligence will be applicable in every firm tomorrow. So start learning it today. Get the best artificial intelligence training.'
+        ]
+      },
       { heading: 'By the end of this course, you will be able to:', about: ['Have a clear understanding of the theory behind AI. Work on AI projects that involve the application of concepts you learnt in class. Create AI programs that are developed to perform specific tasks in the medical field, electronics, robotics, finance, education, and transportation. and so on. Understand the differences between the rate of learning, batch size, epochs, accuracy, and loss.', 'Artificial Intelligence has drastically transformed the business landscape. Come up with unique artificial intelligence programs by changing a few lines of code. Your potential and imagination is limitless. Add value to the work you do by learning how AI can make your approach unique by joining Book My Shiksha today.'] },
       {
         heading: 'Who is this course for?', about: [
@@ -369,8 +553,13 @@ export const courses = [
       { id: 3, img: "far fa-grin-stars", name: 'Facial Emotion Recognition and Detection -By BookMyShiksha', domainName: 'Banking & Finance' },
       { id: 4, img: "fas fa-heartbeat", name: 'Heart Disease Prediction Project -By BookMyShiksha', domainName: 'Banking & Finance' },
     ],
+    relatedLink:{
+      name:'Machine learning',link:'/courses/machine-learning-training-course'
+    }
   },
   {
+    brochure:'/assets/pdf/Data_Scientist_Master_Program_Bookmyshiksha.pdf',
+    duration:4,
     image: "/assets/images/course-images/diplomaiinds.png",
     heading: 'Diploma in DataScience',
     subHeading: 'BookMyShiksha provide data science diploma for all the students who are aspiring to have a future in Data Science. We as an institute bilieves in education , however most of the companies ask for degree, diploma or masters so BookMyShiksha introduced this diploma after taking an opinion from our students.',
@@ -442,6 +631,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/Data_Scientist_Master_Program_Bookmyshiksha.pdf',
+    duration:5,
     image: "/assets/images/course-images/diplomainml.png",
     heading: 'Diploma in Machine Learning',
     subHeading: 'Machine Learning is the most searched skillset required in IT industry at the moment and will be in the coming decade. BookMyShiksha choose to provide Machine Learning as a diploma as our institiute primarily focus on AI , analytics and so on. According to news AI will generate 133 millions new jobs globally by 2023.',
@@ -513,15 +704,60 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/Data_Scientist_Master_Program_Bookmyshiksha.pdf',
+    duration:6,
     image: "/assets/images/course-images/masterinds.png",
     heading: 'Master in DataScience',
     subHeading: 'BookMyShiksha build this diploma under the guidance of IT experts who have been in IT field for more than a decade. BookMyShiksha makes education a priority as students are the future of this nation and we as an intitute bilieve that its our obligation to guide them in the right path and make them industry ready. Minimum eligibility criteria to get a seat in our diploma is class 10th and 12th with mathematics.',
     aboutHeading: 'Master in DataScience',
     about: [
+      "From laptops to smartphones every device creates hefty and massive data. With the advancement of technology, the need to interpret and analyze data is also growing and hence it is creating a gap that can be filled by masters of data science. Data scientist have emerged humongous over the past few decades as every business want to make data-driven decisions. Thus, pursuing a master&#39;s in data science can lead you to a successful journey ahead. Let us dive into Deep and understand how choosing a master&#39;s in data science can be a perfect choice for your career.",
       "The Master in Data Science program at BookMyShiksha is delivered online. It is conducted by the best data science professionals in the field. This is the best Masters in Data Science as it offers a multidisciplinary curriculum that is managed by experienced faculty from top companies, the flexibility of online learning, and a versatile group of peers. Our educators are determined to clear the doubts and queries of our learners then and there during the course to enhance the overall learning of each student.",
       "This multidisciplinary program draws its structure from computer science, statistics, management, social sciences, and law. Students who join the masters program at Book My Shiksha will use the newest tools and methods of analysis to derive insights from unstructured data that’s complex and address real-world issues."],
     aboutSections: [
-      { heading: 'By the end of this course, you will be able to:', about: ['Be proficient at research design. Have a thorough understanding of Data Cleansing, Data Engineering, Mining and Exploring. Furthermore, learners would be able to be experts at Data Visualization. Incorporate the statistics you learn from analysis to improve your own business, or the sales of your clients. Be proficient at Machine Learning and the other intricacies it entails.'] },
+      {
+        heading:'ROLES AFTER MASTER’S IN DATA SCIENCE',
+        about:[
+          'A Master&#39;s in data science can be a wonderful choice for people who want to build a great future. But before that, have a grasp of the roles of being a data scientist. Here are some everyday roles after pursuing a master&#39;s in data science:',
+          '• Gather the data from various sources',
+          '• Organizing the gathered data',
+          '• Using different data analysis algorithms to build insights',
+          '• Finding different patterns and trends',
+          '• Communicating the result to business',
+          '• Helping businesses in making data-driven decision',
+          '• Providing regular reports about different algorithms',
+          'So the above are the roles after completion of a master&#39;s in data science. All in all a master Data scientist caterers to all the needs related to data of a business. Businesses look for skilled data scientists who can provide them with accurate information and for this they provide them handsome amount. Pursuing a master&#39;s in data science will not just give you a great amount but it has multiple benefits too.'
+        ]
+      },
+      {
+        heading:'BENEFITS OF MASTERS IN DATA SCIENCE',
+        about:[
+          'There is a melange of benefits to pursuing a master&#39;s in data science. Here are a few perks of pursuing a master&#39;s in data science:'
+        ]
+      },
+      {
+        heading:'More opportunities',
+        about:[
+          'After completing 5 years in data science you get more career opportunities in the data science profession. Firstly, job opportunities are higher as there is very less competition. Science becomes a field of opportunities and career opportunities keep on growing with the advancement of degrees.'
+        ]
+      },
+      {
+        heading:'High-end Knowledge',
+        about:[
+          'You have high-end technical knowledge after finishing your master&#39;s in data science. This knowledge makes you more hireable in this competitive environment. Data scientists have great knowledge about technology and hence they can survive in any field. According to reports, data scientists are the top-notch growing jobs in the world.'
+        ]
+      },
+      {
+        heading:'Evolving nature',
+        about:[
+          'Technology is always evolving and hence the job of data scientists keeps on evolving. After rolling in a master&#39;s degree in data science, you can learn different skills that can be highly helpful for businesses. The trends of data keep on evolving so the opportunities keep on growing.'
+        ]
+      },
+      { heading: 'By the end of this course, you will be able to:',
+        about: [
+          'Be proficient at research design. Have a thorough understanding of Data Cleansing, Data Engineering, Mining and Exploring. Furthermore, learners would be able to be experts at Data Visualization. Incorporate the statistics you learn from analysis to improve your own business, or the sales of your clients. Be proficient at Machine Learning and the other intricacies it entails.',
+          'Thus, one can say pursuing a master&#39;s in data science will be a great choice if you want to build a strong career. So if you want to build a strong career by acquiring data-related knowledge then pursue a master&#39;s in data science and get ready to be hireable.'
+        ] },
       {
         heading: 'Who is this course for?', about: [
           "This program is for undergraduates who are looking for a fantastic Masters program in Data Science. This program is suitable for Freshers, Engineers, Domain Experts, Software & IT Professionals, Marketing & Sales Professionals, Data Professionals. Whether you are new to the field of computer programming or possess some knowledge in the field, this course can be a great starting point for you to grow your skillset or career exponentially. Businessmen who are looking for opportunities to take their businesses to the next level can leverage the advancements in the Data Science industry to boost their revenues."
@@ -584,14 +820,52 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/Data_Scientist_Master_Program_Bookmyshiksha.pdf',
+    duration:8,
     image: "/assets/images/course-images/msinml.png",
     heading: 'Master in Machine Learning',
     subHeading: 'BookMyShiksha as an institute knows that india is moving towards digitization with every aspect of our life being digitize need for Machine learning is increasing every second. BookMyShiksha provide machine learning Master with our experienced industrial trainers in Machine Learning.Machine learning makes prediction and implement automation.',
     aboutHeading: 'Master in Machine Learning',
     about: [
+      "If you want your career to reach the zenith of success and help you secure a lucrative six-figure salary then get a master&#39;s in machine learning. A master&#39;s degree in machine learning can make you the choice of many different premium organizations if you required skills. So let&#39;s dive into the benefits of pursuing a master&#39;s degree in machine learning.",
       "Develop an in-depth understanding of the layers of machine learning methods by signing up for the best Masters in Machine Learning in Delhi NCR. Learners would be able to tackle real-world problems by acquiring invaluable practical skills. This curriculum is curated to improve your engineering or data science career by understanding what’s right for you at Book My Shiksha.",
       "Learners will work on projects to apply the skills they have acquired to gain practical knowledge by enrolling for the best Masters in Machine Learning in Delhi. Our educators are some of the most excellent tutors in this field and are always here to help students achieve a great learning experience by clearing all their doubts and queries during the period of course."],
     aboutSections: [
+      {
+        heading:'JOBS AFTER MASTERS IN MACHINE LEARNING',
+        about:['Machine learning is a great career journey if you have a huge interest in automation, data, and algorithms. Here are the different types of jobs that are well paid after pursuing a master&#39;s in machine learning:',
+        '• Machine learning engineer',
+        '• Data scientist',
+        '• Human-centered machine learning designer',
+        '• Software Developer',
+        'These are some of the well-paid jobs that you easily get after pursuing an integrated course in machine learning. These jobs are only made for high-end knowledgeable students who have a strong hold on technology and machine learning. Machine learning is a fast-growing area and it has grown hastily over the previous few years; thus, it’s use cases have also increased. Let&#39;s learn some of the advantages of pursuing a master&#39;s in machine learning.'
+      ]
+      },
+      {
+        heading:'PERKS OF PURSUING A MASTER IN MI',
+        about:[
+          'Machine learning and its great knowledge can help you in getting a great income if you have relevant skills and a love for technical insights. There are a few of the benefits of pursuing a master&#39;s in machine learning:'
+        ]
+      },
+      {
+        heading:'Gain Skills &amp; Knowledge',
+        about:[
+          'During your course for the master&#39;s in machine learning, you learn about technology and artificial intelligence. Thus, you tend to grow exponentially in the field of machine learning. Also, you will have a secure career in technology as you have great knowledge. Also, this knowledge keeps on increasing with time as the environment keeps on changing with trends.'
+        ]
+      },
+      {
+        heading:'Growth',
+        about:[
+          'Growth is the demand in every sector of a job. Machine learning is at a boom stage and hands you can grow at an excellent speed in the marketplace. Employers are ready to pay handsome figures if you have relevant knowledge. You can witness regular growth after pursuing a master&#39;s in machine learning.'
+        ]
+      },
+      {
+        heading:'Great career graph',
+        about:[
+          'Machine learning is at a great stage and once you complete your master&#39;s you can get an upward career graph that will help you in getting better jobs. Also, top companies will reach out to you if you have massive expertise. You can expand your career in data science too after reaching a certain stage.',
+          'So these are some exciting benefits of pursuing a master&#39;s in machine learning. Also, you can step into the field of data science, once you reach a certain stage. If you want to be the choice of employers tomorrow and build a strong career then a master&#39;s in machine learning will be a great choice. Choose the best place to pursue a master&#39;s in machine learning like ours.'
+        ]
+      },
       { heading: 'By the end of this course, you will be able to:', about: ['Unlock your true potential in the field of Machine Learning. Have a complete understanding of your new skills including deep learning, probabilistic modeling, anomaly detection and unstructured data processing. Propel your career in the path you choose to cater to a larger clientele. Take up bigger projects and be more efficient at what you do by enrolling for the masters program at Book My Shiksha.'] },
       {
         heading: 'Who is this course for?', about: [
@@ -655,6 +929,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:2,
     image: "/assets/images/course-images/seo.png",
     heading: 'Search Engine Optimization (SEO)',
     subHeading: 'SEO – Search Engine Optimization help to generate organictraffic on the Website for your products and services. It helps us to rank higher searching results insearch engines like Google Browser, Bookmyshiksha cover SEO from beginner toadvance level and SEO on-page, Off-page help to up website ranking. BookMyShiksha teach youhow to choose and find the most popular and relevant keywordsused in search engine queries, helping search engines find those sites anddisplay them to web users.',
@@ -732,6 +1008,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:3,
     image: "/assets/images/course-images/rpa.png",
     heading: 'RPA Training',
     subHeading: 'We all know Robotic process automation with the name of (RPA). It’s a software-basedtechnology. RPA is very easy to learn and Robotic Process Automation (RPA)does not require any programming background. BookMyShiksha helps you to choose manyjob roles are available in RPA like RPA Developer, RPA Business Analyst, RPASolutions Senior Developer, RPA Technical Lead, RPA Engineer, and RPAAdministrator. RPA is a very fast-growing platform. With the increasing demandfor automation, RPA professionals  demand is increasing day by day.',
@@ -803,6 +1081,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:3,
     image: "/assets/images/course-images/java.png",
     heading: 'Java Training',
     subHeading: ' Java is the mostglobally demanded language for the past many years. Java language used to create websites, Mobile App Development, IoT Applications games, Cloud-based Applications, Desktop GUI Applications, etc. After compilationJava training with BookMyShiksha you get a job as a Senior Developer, Java Android Developer, Junior Developer, Web Developer& Java EE developer. If we look at salary andcareer objective then Java is on the top list in a programming language. ',
@@ -874,6 +1154,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:4,
     image: "/assets/images/course-images/dotnet.png",
     heading: '.Net Training',
     subHeading: '.Net was developed and created by Microsoft.It’s an open-source platform and no need to purchase any kind of license forwork on it. If we go with dot net, we will get a good opportunity in dotnet.There .net developers also get good salaries in India and out of India also. BookMyShiksha uses the most popular tools in our .net curriculum like Microsoft Web Platform Installer,  NuGet, NDepend, ReSharper, .NET Reflector,Visual Studio Gallery, and Web Essentials for Visual Studio, etc.',
@@ -945,6 +1227,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:2,
     image: "/assets/images/course-images/vba.png",
     heading: 'VBA Training',
     subHeading: 'VBA was developed byMicrosoft. VBA - Visual Basic for Applications is easy to learn. We do notrequire the development background to learn VBA. Anyone can go with VBA. Thereis a large number of opportunities as a VBA developer. VBA is a programminglanguage. you want to switch careers in the IT industry and if you plan towork with MS-office excel programs and want to automate the Excel process so gowith VBA. BookMyShiksha helps you to grow and your career.',
@@ -1016,6 +1300,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:3,
     image: "/assets/images/course-images/php.png",
     heading: 'PHP Training',
     subHeading: 'PHP full form is HypertextPreprocessor. It is used for web development or Webapplication. PHP is also a high & most demanded programming language in theworld. If you have advanced level PHP knowledge so it is very easy to boost yoursalary. BookMyShiksha also provides the best content in PhP training, Nowadays there are so many companies including MNS’s work on PHPProgramming language. TCS, HCL, Infosys, Facebook, Wipro, and Cognizant everyoneknows these companies. These companies also work on PHP.',
@@ -1087,6 +1373,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:3,
     image: "/assets/images/course-images/web.png",
     heading: 'HTML5-CSS3-JS Training',
     subHeading: 'HTML is easyto learn. We don’t need any programming background for HTML but it’s aprogramming language. Industries use HTML to create web pages, Sites, Webapplications. Every small and Big It companies use HTML and very easy to get a job in HTML. If you need practical knowledge in HTML so choose BookMyShiksha.Bookmyshiksha provides certification and internships in all courses.',
@@ -1158,6 +1446,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:3,
     image: "/assets/images/course-images/angular.png",
     heading: 'Angular Training',
     subHeading: 'Angular is one of the best web development frameworks, Top global companies that use angular in current time Gmail, Microsoft Office, Samsung, PayPal, Upwork, etc. Want to go with Web development in your job career so Angular is easy to Learn if you have JavaScript knowledge. BookMyShiksha helps you to learn from scratch.',
@@ -1229,9 +1519,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:3,
     image: "/assets/images/course-images/node.png",
     heading: 'Node Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: '  Learn how to build a superb, real-world application that is complete from start to finish with API and server rendered website. ',
     aboutHeading: 'Node Training',
     about: [
       "With this course at BookMyShiksha, you will learn to master the modern back-end stack entirely. Learn how to build a superb, real-world application that is complete from start to finish with API and server rendered website. Build a RESTful API that is fast, scalable and resourceful. It will include filters, pagination, and sorts. Understand the concept of Node by enrolling for the best Node training course in Delhi.",
@@ -1300,9 +1592,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:3,
     image: "/assets/images/course-images/react.png",
     heading: 'React Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'At BookMyShiksha, you will learn the core basics along with the components, props and dynamic data binding. Understand how to work with user events and state to create interactive applications. ',
     aboutHeading: 'React Training',
     about: [
       "Learners can get an introduction to React.js. At BookMyShiksha, you will learn the core basics along with the components, props and dynamic data binding. Understand how to work with user events and state to create interactive applications. Gain knowledge on working with lists, and conditional content. Work with in-built and custom hooks by enrolling for the best React training course in Delhi.",
@@ -1371,9 +1665,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/Python Course--- Bookmyshiksha.pdf',
+    duration:3,
     image: "/assets/images/course-images/pythondjango.png",
     heading: 'Python Django Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'Write code in Python and Django efficiently. Test your skills to create products. Have a thorough understanding of the framework that’s required for these programs. Solve questions easily whilst working on a number of projects.',
     aboutHeading: 'Python Django Training',
     about: [
       "Learn the concepts of Python and Django from the best educators in Delhi NCR by enrolling at Book My Shiksha. Students will learn the various theoretical concepts and also apply them in real-time projects. Working on these projects will help you to gain hands-on experience and get you started on your career.",
@@ -1442,9 +1738,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:2,
     image: "/assets/images/course-images/mongodb.png",
     heading: 'MongoDB Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'Students will master the fundamentals of MongoDB, including MongoDB’s Document data model, working with CRUD API, importing data into clusters, and Aggregation Framework.',
     aboutHeading: 'MongoDB Training',
     about: [
       "This course will help you understand MongoDB quickly. It will teach you how to leverage the power of this tool for data analytics. Students will master the fundamentals of MongoDB, including MongoDB’s Document data model, working with CRUD API, importing data into clusters, and Aggregation Framework.",
@@ -1513,9 +1811,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:2,
     image: "/assets/images/course-images/sql.png",
     heading: 'SQL Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'This course covers the basics of SQL to help learners read and write queries for a database. Work with the world’s best recognised tools to excel in this career path.',
     aboutHeading: 'SQL Training',
     about: [
       "This course covers the basics of SQL to help learners read and write queries for a database. Work with the world’s best recognised tools to excel in this career path. Use the most advanced languages out there to understand the SQL syntax. Learners would be able to analyse, understand the different layers of the SQL database.",
@@ -1585,9 +1885,11 @@ export const courses = [
   },
 
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:3,
     image: "/assets/images/course-images/oracle.png",
     heading: 'Oracle Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: ' The course is intended to become a proficient writer of Oracle SQL codes to create, modify, and edit the databases. ',
     aboutHeading: 'Oracle Training',
     about: [
       "Become a master of Oracle SQL Databases. Master the creation and editing of databases with Oracle SQL. The course is intended to become a proficient writer of Oracle SQL codes to create, modify, and edit the databases. Explore the Oracle database foundations, discover the platform, and try your hand at applying the basics to become a great Oracle master.",
@@ -1657,9 +1959,11 @@ export const courses = [
 
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:2,
     image: "/assets/images/course-images/powerbi.png",
     heading: 'PowerBi Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: ' This course is for learners who are looking to venture into the world of the Power BI Desktop software. It is a free Business Intelligence app from Microsoft that allows you to load, visualize, and transform data.',
     aboutHeading: 'PowerBi Training',
     about: [
       "This course is for learners who are looking to venture into the world of the Power BI Desktop software. It is a free Business Intelligence app from Microsoft that allows you to load, visualize, and transform data. Learn to create reports and dashboards efficiently, and swiftly. Be able to deliver impressive business solutions to transform businesses.",
@@ -1729,9 +2033,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/Tableau Course--- Bookmyshiksha.pdf',
+    duration:2,
     image: "/assets/images/course-images/tablue.png",
     heading: 'Tableau Training',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'Learn how to visualize business data with Tableau. Understand how to create impactful business intelligence reports. This course on Tableau is for newcomers who are looking to dive into the world of data visualisation.',
     aboutHeading: 'Tableau Training',
     about: [
       "Learn how to visualize business data with Tableau. Understand how to create impactful business intelligence reports. This course on Tableau is for newcomers who are looking to dive into the world of data visualisation. You will use the tool’s library of resources to offer best practices for data visualisation, and storytelling. Generate powerful reports and dashboards to improve businesses and increase revenue.",
@@ -1801,6 +2107,8 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:1.5,
     image: "/assets/images/course-images/smo.png",
     heading: 'Social Media Optimization Training',
     subHeading: 'Social Media Marketing – SMO It is a partof the digital market and increases salespart, All types of industries want to increase sales and business which ispossible only with an online platform. With the help of social media, we canconnect a large number of people to make them aware of our services. ChooseBookMyShiksha and work on live projects of SMO.',
@@ -1867,6 +2175,8 @@ export const courses = [
   },
 
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:1,
     image: "/assets/images/course-images/ppc.png",
     heading: 'Pay-per-click (PPC)',
     subHeading: 'Pay-per-click (PPC) is used to drive traffic to websites. This is an advertising form in which we set abudget for our ads on a given platform like Google, Facebook,Instagram, etc. Bookmyshiksha provides industrial knowledge in every field.Bookmyshiskha best institute n Delhi-NCR. If you want to choose digitalmarketing or an online marketing platform for your career BookMyShiskha is a rightchoice for your career.',
@@ -1937,9 +2247,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:1,
     image: "/assets/images/course-images/googleads.png",
     heading: 'Google Ads Certification',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'Students will work on Google Ads, Google\'s online advertising platform. Learn to drive qualified traffic, or relevant customers to drive sales whilst they are searching for products and services like the ones you or your clients offer on Google.',
     aboutHeading: 'Google Ads Certification Training',
     about: [
       "With this course, students will learn to use Google Search Ads and create brilliant campaigns to target new customers and increase your revenue. Students will work on Google Ads, Google's online advertising platform. Learn to drive qualified traffic, or relevant customers to drive sales whilst they are searching for products and services like the ones you or your clients offer on Google.",
@@ -2002,9 +2314,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:1,
     image: "/assets/images/course-images/facebook.png",
     heading: 'Facebook Ads Certification',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: ' Whether you are new to it, launching a new brand or want to improve the social media strategy on a lean budget, you will be able to create impressive Facebook ads. ',
     aboutHeading: 'Facebook Ads Certification Training',
     about: [
       "Students will be able to get a deep understanding of the Facebook Ads Manager. Whether you are new to it, launching a new brand or want to improve the social media strategy on a lean budget, you will be able to create impressive Facebook ads. The goal is to come up with simple yet creative campaigns that work to make a difference in businesses.",
@@ -2068,9 +2382,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:2,
     image: "/assets/images/course-images/social media.png",
     heading: 'Social Media Promotion',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'This social media promotion course is to learn to create campaigns, and run ads on social media platforms. Learn the best tips and tricks for the rapidly growing social media market.',
     aboutHeading: 'Social Media Promotion Training',
     about: [
       "This social media promotion course is to learn to create campaigns, and run ads on social media platforms. Learn the best tips and tricks for the rapidly growing social media market. Besides learning the basics, students will also learn how to analyse and improve their social media marketing strategies through this course. Join this course to add a coveted set of skills to your repertoire.",
@@ -2133,9 +2449,11 @@ export const courses = [
     ],
   },
   {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:1,
     image: "/assets/images/course-images/email.png",
     heading: 'Email Marketing',
-    subHeading: ' Python training sit amet consectetur, adipisicia vel libero quod sequi, ea ipsam? Hic, architecto dolores quo et vitae optio sit sint.',
+    subHeading: 'Learn to write effective sales pitches and use our proven templates to grow your network, or business instantly. Email marketing forms the core foundation to generate revenue for various businesses.',
     aboutHeading: 'Email Marketing Training',
     about: [
       "Learn to write effective sales pitches and use our proven templates to grow your network, or business instantly. Email marketing forms the core foundation to generate revenue for various businesses. Studies from numerous online sources have proven that email marketing is one of the best marketing channels that generates the most profit, steeply beating social media and paid advertising, each year.",
@@ -2178,6 +2496,314 @@ export const courses = [
       {
         id: 0, sectionName: 'Course Overview', about: [
           'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Email marketing. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+        ]
+      },
+      {
+        id: 1, sectionName: 'Course Duration', about: [
+          '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+          '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 5 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+          '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+          '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
+        ]
+      },
+      {
+        id: 2, sectionName: 'Special Features', about: [
+          '𝐓𝐡𝐞𝐬𝐞 𝐚𝐫𝐞 𝐨𝐮𝐫 𝐮𝐧𝐢𝐪𝐮𝐞 𝐰𝐚𝐲 𝐨𝐟 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐧𝐠 𝐰𝐢𝐭𝐡 𝐨𝐮𝐫  𝐬𝐭𝐮𝐝𝐞𝐧𝐭𝐬:',
+          '•Mock interview/Industry mentor guidance sessions-5', '•Workshops for building your resume and Linkedin/Github profiles', '•Practical Approach', '•Internel Interviews Session', '•Provide Internship'
+        ]
+      },
+
+
+    ],
+  },
+  {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:4,
+    image: "/assets/images/course-images/ev.png",
+    heading: 'EV charging',
+    subHeading: 'EV technology is the next big thing and it is very hard to find an institute to learn EV among those few institutes. We are one of them. Bookmyshiksha provides practical training in EV.',
+    aboutHeading: 'EV Charging Training',
+    about: [
+      "EV technology is a new born baby in the tech world. Even Though it was just introduced in the market, its growth and applications are growing exponentially every Nano second, if talk about the general advantage of EV charging technology, we already know fossil fuels are non-renewable source of energy so in one way EV technology will help us for sustainable management by manufacturing product that runs with electricity. If you are really interested to learn the art of making EV charging technology our gates are open and the gates are the door to EV technologies and its application.",
+      "We have trained experts from EV charging technology who have worked in this industry and now they want to share that knowledge with you. While training we will be working on live projects so students can get a hands on how EV charging technology works. Not only that every week assessment is being done to check whether students understand or have any query regarding the previous session that have been conducted by industry experts."],
+    aboutSections: [
+      { heading: 'By the end of this course, you will be able to:', about: ['You will be able to work on EV charging programming related work and with our coaching you will be ready to apply for jobs and get placed in various companies using EV technologies.'] },
+      {
+        heading: 'Who is this course for?', about: [
+          "This course is for those who want to learn EV charging technology and have a background in engineering people from backgrounds like: Electrical, mechanical, automobile and electrical vehicle enthusiasts."
+        ]
+      },
+      { heading: 'Job opportunities after finishing this course:', about: ["Automobile Engineer, EV charging Engineer, charging Station engineer, EV charging developer."] },
+      { heading: 'Prerequisite knowledge:', about: ["Enthusiasm to learn this superb programming language which is a valuable lifetime skill. There is no prior coding language knowledge required. We will start from the basics. However, you would require a computer that supports Windows, MacOS, or Linux. A stable internet connection. The setup and installation instructions are included for each operating system; everything else that is required to learn and start using EV charging technology is included in the course."] },
+    ],
+    whyUsCards: {
+      heading: 'Why You Should Join BookMyShiksha For EV charging Training.',
+      points: [{ point: 'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.' },
+      { point: 'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.' },
+      { point: 'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.' },
+      { point: 'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.' },
+      { point: 'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. ' },]
+    },
+    trainesrsCards: {
+      heading: 'Book My Shiksha Corporate Trainers Profile for EV charging Training',
+      points: [{ point: 'Our trainers are certified professionals in the field of information technology with over a decade of experience.' },
+      { point: 'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.' },
+      { point: 'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
+      { point: 'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.' },
+      { point: 'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.' },
+      { point: 'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.' },
+      { point: 'Our trainers are certified professionals in the field of software development with over a decade of experience.' }, 67]
+    },
+    placementCards: {
+      heading: 'Placement Facility During EV charging Training',
+      points: [{ point: 'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
+      { point: 'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.' },
+      { point: 'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.' },]
+    },
+    sections: [
+      {
+        id: 0, sectionName: 'Course Overview', about: [
+          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in EV charging. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+        ]
+      },
+      {
+        id: 1, sectionName: 'Course Duration', about: [
+          '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+          '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 5 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+          '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+          '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
+        ]
+      },
+      {
+        id: 2, sectionName: 'Special Features', about: [
+          '𝐓𝐡𝐞𝐬𝐞 𝐚𝐫𝐞 𝐨𝐮𝐫 𝐮𝐧𝐢𝐪𝐮𝐞 𝐰𝐚𝐲 𝐨𝐟 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐧𝐠 𝐰𝐢𝐭𝐡 𝐨𝐮𝐫  𝐬𝐭𝐮𝐝𝐞𝐧𝐭𝐬:',
+          '•Mock interview/Industry mentor guidance sessions-5', '•Workshops for building your resume and Linkedin/Github profiles', '•Practical Approach', '•Internel Interviews Session', '•Provide Internship'
+        ]
+      },
+
+
+    ],
+  },
+  {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:4,
+    image: "/assets/images/course-images/Azure.png",
+    heading: 'Azure',
+    subHeading: 'Microsoft Azure additionally recognized as Azure is a cloud computing platform that has helped companies to control cloud services. With more than a hundred services, Azure can help you solve different challenges with its agility and development operations also called DevOps. It supports a variety of clouds and happy beta to bring smart solutions. It runs on both PC as well as Mac. But, what\'s the actual meaning of Azure? Let\'s understand its actual meaning and how its training can help you in the future.',
+    aboutHeading: 'Azure Training',
+    about: [
+      ""
+    ],
+    aboutSections: [
+      { heading: 'WHAT IS AZURE? ', about: ['Azure is an agile cloud computing space to control cloud services. It is an online platform that helps organizations to manage resources. These resources and services include data storing and transforming. What you need is an Internet connection and the ability to connect to the platform in order to get the services, Azure.','Some other details about Azure are: ',
+      '• It was launched in 2010 on February 1',
+      '• The main competitor of Microsoft Azure is AWS',
+      '• It supports different programming languages including Java, JS, Node, and C#',
+      '• Azure has the most number of data centers in the world ',
+      'Cloud computing will be the future business of tomorrow and Microsoft Azure will be the face of it. It has extra than 200 applications that provide greater than one thousand technical capabilities. It has more than a dozen of perks including speed of service, better flexibility, more security, from disasters, and integrated deliveries. Asure has made services more affordable and hence it is dominating the cloud computing market',
+      'But why should you get Azure training for your future? Here are the advantages of choosing Azure training:'
+    ] },
+      {
+        heading: 'ADVANTAGES OF ASURE TRAINING ', about: [
+          "Choosing Asure Traning can be a great choice for your future not only because of the better salary but for many other reasons. Here are some of them:"
+        ]
+      },
+      { heading: 'Structured learning', about: ["Azure training is quick as its platform makes the education structure. The Microsoft Azure library is available around the clock and they are easily accessible. Also, it's easy and concise."] },
+      { heading: 'Important Asset', about: ["Azure is an important asset for companies as it helps businesses to grow rapidly with a structured cloud network. Microsoft keeps on improving and innovating new tools that bring down the cost and improve the services. Also, it cuts down IT costs and saves time. Thus, Azure training will be a demand of every organization tomorrow. Thus, you should start learning it today from the best place. "] },
+      {
+        heading:'Better career',
+        about:[
+          'If you are looking for a career as a cloud professional then Microsoft Azure training can open millions of doors for you. You can choose different roles such as developer, data engineer, AI engineer, cloud administrator, and much more with the certification in Azure.',
+          'Get high-quality education in cloud computing and open the doors for your career. Choose Azure and become a choice of top-notch organizations tomorrow.'
+        ]
+      }
+    ],
+    whyUsCards: {
+      heading: 'Why You Should Join BookMyShiksha For Azure Training.',
+      points: [{ point: 'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.' },
+      { point: 'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.' },
+      { point: 'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.' },
+      { point: 'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.' },
+      { point: 'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. ' },]
+    },
+    trainesrsCards: {
+      heading: 'Book My Shiksha Corporate Trainers Profile for Azure Training',
+      points: [{ point: 'Our trainers are certified professionals in the field of information technology with over a decade of experience.' },
+      { point: 'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.' },
+      { point: 'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
+      { point: 'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.' },
+      { point: 'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.' },
+      { point: 'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.' },
+      { point: 'Our trainers are certified professionals in the field of software development with over a decade of experience.' }, 67]
+    },
+    placementCards: {
+      heading: 'Placement Facility During Azure Training',
+      points: [{ point: 'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
+      { point: 'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.' },
+      { point: 'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.' },]
+    },
+    sections: [
+      {
+        id: 0, sectionName: 'Course Overview', about: [
+          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in Azure. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+        ]
+      },
+      {
+        id: 1, sectionName: 'Course Duration', about: [
+          '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+          '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 5 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+          '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+          '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
+        ]
+      },
+      {
+        id: 2, sectionName: 'Special Features', about: [
+          '𝐓𝐡𝐞𝐬𝐞 𝐚𝐫𝐞 𝐨𝐮𝐫 𝐮𝐧𝐢𝐪𝐮𝐞 𝐰𝐚𝐲 𝐨𝐟 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐧𝐠 𝐰𝐢𝐭𝐡 𝐨𝐮𝐫  𝐬𝐭𝐮𝐝𝐞𝐧𝐭𝐬:',
+          '•Mock interview/Industry mentor guidance sessions-5', '•Workshops for building your resume and Linkedin/Github profiles', '•Practical Approach', '•Internel Interviews Session', '•Provide Internship'
+        ]
+      },
+
+
+    ],
+  },
+  {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:4,
+    image: "/assets/images/course-images/AWS.png",
+    heading: 'AWS Training',
+    subHeading: 'In the modern world today where we walk beside technology, organizations need premium cloud skills to transform their businesses. AWS training and certificate give more than 200% return on investment. Thus, many businesses have switched to AWS. AWS provides a large variety of data basis that are built for the purpose of different types of applications. All in all, AWS can help businesses to blow in the dynamic environment. But what is AWS and how AWS training is beneficial? Let us drive into the Deep of an AWS.',
+    aboutHeading: 'AWS Training',
+    about: [
+      ""
+    ],
+    aboutSections: [
+      { heading: 'WHAT IS AWS? ', about: ['AWS or Amazon Web Services is the most comprehensive and largely adopted cloud platform in the world where you can get more than 200 fully features services from Data centers globally. Every organization from small to big, from startups to large enterprise are using AWS to survive in the ultra-competitive world. AWS has more features and services than other cloud providers. It offers infrastructure technology, IoT, data analysis, and much more to businesses. Also, it is the fastest, easiest, and most cost-effective application found yet. Thus, all businesses have included AWS cloud computing in their businesses.',
+      'Being the most flexible and secure cloud computing environment, AWS has helped many businesses in their core fields. One can leverage the Ultra-modern technology most innovatively with the assistance of AWS. For the last sixteen years, AWS has been handing over top-rate cloud services to a melange of customers. Thus, nowadays AWS has reached an international level. If you wish to end up a future-ready cloud expert then you must have a sturdy hold on AWS.',
+      'If you are not satisfied with getting AWS training; then, let us take a look at the advantages of AWS.',
+      '• It was launched in 2010 on February 1',
+      '• The main competitor of Microsoft Azure is AWS',
+      '• It supports different programming languages including Java, JS, Node, and C#',
+      '• Azure has the most number of data centers in the world ',
+      'Cloud computing will be the future business of tomorrow and Microsoft Azure will be the face of it. It has extra than 200 applications that provide greater than one thousand technical capabilities. It has more than a dozen of perks including speed of service, better flexibility, more security, from disasters, and integrated deliveries. Asure has made services more affordable and hence it is dominating the cloud computing market',
+      'But why should you get Azure training for your future? Here are the advantages of choosing Azure training:'
+    ] },
+      {
+        heading: 'BENEFITS OF AWS', about: [
+          "AWS has helped many startups to grow their business and enjoy well-documented services. Here are the benefits of AWS:"
+        ]
+      },
+      { heading: 'Building largest community', about: ["Over the past 16 years, AWS has built the most dynamic community with millions of customers globally. There are more than ten thousand partners that are running every use case on AWS. AWS partner network has thousands of systems integrated with specialized services. Thus, we can say that AWS is building the largest community."] },
+      { heading: 'Fastest innovations', about: ["Leverage the benefits of the latest technology with AWS cloud computing. Every day AWS accelerates the pace of innovation to invent completely new technology that can help businesses to grow and expand. Regular innovations keep AWS cloud computing on the top."] },
+      {
+        heading:'Functionality',
+        about:[
+          'AWS has greater features and services than any different cloud provider. From emerging technologies to infrastructure technologies, AWS has huge functionality for every service. You can pick the proper tools to get first-class performance as AWS has a broad range of databases. This makes AWS supreme.',
+          'There are many other benefits and use cases of AS cloud computing as it is the most refined and cost-effective and secure form of cloud computing. Thus, every business is adopting AWS for reaching the top. And hence, we can say that AWS cloud computing will be the face of cloud computing tomorrow. If you want to become the best cloud computing professional then you must get AWS training from a premium place like ours.'
+        ]
+      }
+    ],
+    whyUsCards: {
+      heading: 'Why You Should Join BookMyShiksha For AWS Training.',
+      points: [{ point: 'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.' },
+      { point: 'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.' },
+      { point: 'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.' },
+      { point: 'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.' },
+      { point: 'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. ' },]
+    },
+    trainesrsCards: {
+      heading: 'Book My Shiksha Corporate Trainers Profile for AWS Training',
+      points: [{ point: 'Our trainers are certified professionals in the field of information technology with over a decade of experience.' },
+      { point: 'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.' },
+      { point: 'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
+      { point: 'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.' },
+      { point: 'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.' },
+      { point: 'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.' },
+      { point: 'Our trainers are certified professionals in the field of software development with over a decade of experience.' }, 67]
+    },
+    placementCards: {
+      heading: 'Placement Facility During AWS Training',
+      points: [{ point: 'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
+      { point: 'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.' },
+      { point: 'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.' },]
+    },
+    sections: [
+      {
+        id: 0, sectionName: 'Course Overview', about: [
+          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in AWS. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
+        ]
+      },
+      {
+        id: 1, sectionName: 'Course Duration', about: [
+          '•𝐖𝐞𝐞𝐤𝐝𝐚𝐲𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 4 months classes (3 days a week, 2 hours per day + 1 Hour practical Approach) ',
+          '•𝐖𝐞𝐞𝐤𝐞𝐧𝐝𝐬 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: 5 months classes (2 days a week, 2 hours per day +1 Hour practical Approach) ',
+          '•𝐈𝐧𝐭𝐞𝐫𝐧𝐬𝐡𝐢𝐩 𝐖𝐞𝐞𝐤𝐞𝐧𝐝 𝐁𝐚𝐭𝐜𝐡𝐞𝐬: Available (Sat & Sun/ Only Sundays + 2 Hours practical Approach) ',
+          '•𝐂𝐨𝐮𝐫𝐬𝐞 𝐌𝐨𝐝𝐞: Offline & Online classroom training '
+        ]
+      },
+      {
+        id: 2, sectionName: 'Special Features', about: [
+          '𝐓𝐡𝐞𝐬𝐞 𝐚𝐫𝐞 𝐨𝐮𝐫 𝐮𝐧𝐢𝐪𝐮𝐞 𝐰𝐚𝐲 𝐨𝐟 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐧𝐠 𝐰𝐢𝐭𝐡 𝐨𝐮𝐫  𝐬𝐭𝐮𝐝𝐞𝐧𝐭𝐬:',
+          '•Mock interview/Industry mentor guidance sessions-5', '•Workshops for building your resume and Linkedin/Github profiles', '•Practical Approach', '•Internel Interviews Session', '•Provide Internship'
+        ]
+      },
+
+
+    ],
+  },
+  {
+    brochure:'/assets/pdf/FileNotFound.pdf',
+    duration:4,
+    image: "/assets/images/course-images/GCP.png",
+    heading: 'GCP Training',
+    subHeading: 'Technology has become a crucial part of our everyday life and cloud computing is crucial to evolving the technology. Google cloud platform or GCP is a cloud computing platform that is not only easy asseccible but also a high-tech platform. In addition, it is the most widely adopted cloud computing platform due to a handful of factors including big data, networking and so forth. But what Google cloud platform (GCP) is and why GCP training is beneficial? Let\'s dive into Deep and understand GCP.',
+    aboutHeading: 'GCP Training',
+    about: [
+      ""
+    ],
+    aboutSections: [
+      { heading: 'WHAT IS GCP? ', about: ['Google cloud platform or GCP is a platform identical to other cloud vendors like AWS, Azure and so forth. However, with GCP customers can easily assess computer resources in Google data centers on a pay-per-use basis. GCP provides management to many organization.',
+      'One can use GCP when they want to run an application with the assistance of hyper-scale data centers. It helps businesses in reaching users across the globe. Also, it provides sophisticated analytics and massive data storage with cost efficiencies.',
+      'Google cloud platform or GCP has become the choice of many organizations due to its competitive pricing. It offers a monthly pricing plan and also has committed discounts. The speed of GCP is so high as the customer network speeds up to 10 TBs. It keeps on innovating different tools that give real-time data processing to organizations. Now Google has also launched new machine learning and artificial intelligence tools. The networking services enable organizations to balance traffic across different resources. With regular innovations and high-end products, GCP has become the choice of many organizations globally.',
+      'GCP offers a wide range of services including machine learning, networking, big data, computing & hosting, storage & database, and much more. With its premium services, GCP has become a global backbone network. It has advanced software define networking that delivers scalable, consistent, and fast performance. Thus, GCP has become the choice of many organizations today. So if you are looking for a cloud computing professional career then you must take GCP training. Are you still not convinced about GCP training? Here are the use cases that might help.'
+    ] },
+      {
+        heading: 'GCP USE CASES', about: [
+          "There are many ideal use cases of the Google cloud platform. Some of them are as follows: ",
+          'For large organizations that require many permissions while working on different projects, GCP\'s wonderful organization hierarchy allows you to set policy at the top level. This feature helps organizations to complete projects without any organizational constraints.',
+          'GCP has helped organizations with many benefits with machine learning, big data solutions, and analysis. Businesses can quickly get access to data without spending time integrating huge data. Thus, GCP has many use cases for different organization. ',
+          'This is how Google cloud computing or GCP is helping industries to grow with a structured approach; thus, we can say it has a variety of use cases. Being the choice of many organizations, GCP keeps on improving its resources to compete with AWS & Azure. Google cloud computing will be the demand of many organizations. So get GCP training from a top place like ours and start your cloud professional career.'
+        ]
+      },
+     
+    ],
+    whyUsCards: {
+      heading: 'Why You Should Join BookMyShiksha For GCP Training.',
+      points: [{ point: 'The syllabus of our training programs are based on the current industry projects in information technology which are recognised by our placement partners.' },
+      { point: 'We provide recordings of our online sessions to the learners. So, if a student misses a class, they can utilize these recorded sessions.' },
+      { point: 'Be mentored by the best professors and tutors in the field of data analytics who will offer extended support and are available to address all your queries.' },
+      { point: 'We offer our students with online videos, e-books, certification handbooks, interview questions, and project source material.' },
+      { point: 'Flexible payment options such as cheques, cash, credit card, debit card, net banking, and EMI. ' },]
+    },
+    trainesrsCards: {
+      heading: 'Book My Shiksha Corporate Trainers Profile for GCP Training',
+      points: [{ point: 'Our trainers are certified professionals in the field of information technology with over a decade of experience.' },
+      { point: 'Our trainers are also working professionals in the data analytics sector so they would be able to offer you hands-on experience by involving you in these live projects.' },
+      { point: 'The experts we recruit at Book My Shiksha work with top organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
+      { point: 'Learners will get ample guidance from our trainers to obtain placements by Internal Hiring Process or Employee Referrals.' },
+      { point: 'Our trainers are certified professionals in the field of interactive data visualization with over a decade of experience.' },
+      { point: 'Our trainers are certified professionals in the field of digital and direct advertising with over a decade of experience.' },
+      { point: 'Our trainers are certified professionals in the field of software development with over a decade of experience.' }, 67]
+    },
+    placementCards: {
+      heading: 'Placement Facility During GCP Training',
+      points: [{ point: 'Book My Shiksha is associated with world-class organisations such as Web Clues, Uniq Data Solutions, Almondz, Seaborn Technologies, eInfochips, and Concrete Software Solutions.' },
+      { point: 'Our experts from the HR team strive to groom learners to become the best versions of themselves. This will help learners to perform better in their interviews by helping them to focus on their personality, how they can present themselves better, speak confidently in English, and how they can converse with the interviewer and answer their questions in a polished manner.' },
+      { point: 'Post 70% completion of the course, our team will set up interview calls and students will be invited for face to face interactions to prepare them for the interviews.' },]
+    },
+    sections: [
+      {
+        id: 0, sectionName: 'Course Overview', about: [
+          'BookMyShiksha provide well designed and trending topics that are bieng used in IT industry in GCP. Our program required consistent hard work at the same time smart work as time managenment is the key. We provide and give various assignments activities so our students need to be alert and hyper active in order to manage the syllabus. We take two hours class a day and we are available on weekends & weekdays,There is a reason we teach only two hours a day so as to give students time to revise and practice what they have studied.'
         ]
       },
       {

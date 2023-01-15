@@ -1,37 +1,37 @@
 <main [ngClass]="link!= '/blogs'? 'small': '' " >
     <p  class="heading">Our Blogs:</p>
-    <div *ngIf = "link == '/blogs' " class="blogs">
+    <div *ngIf = "link == '/blogs' "   class="blogs">
         <p class="subHeading">Informative blogs:</p>
-        <div class="cards">
-            <div  class="card" *ngFor= "let item of blogs[0]; let i as index " >
+        <div  class="cards">
+            <div  class="card" *ngFor= "let item of blogs[0]; let i = index " >
                 <img [src] = item.img alt="images">
                 <span>
                     <p>{{item.heading}}</p>
-                    <p [routerLink]="['/openBlogs']" (click)= "openBlog(0,i)" >Learn More ></p>
-                </span>
-            </div>
-        </div>
-    </div>
-    <div *ngIf = "link == '/blogs' " class="blogs">
-        <p class="subHeading">Social Media Awareness:</p>
-        <div class="cards">
-            <div class="card" *ngFor= "let item of blogs[1]; let i as index " >
-                <img [src] = item.img alt="images">
-                <span>
-                    <p>{{item.heading}}</p>
-                    <p [routerLink]="['/openBlogs']"  (click)= "openBlog(1,i)" >Learn More ></p>
+                    <p  (click)= "openBlog(0,i)" >Read More ></p>
                 </span>
             </div>
         </div>
     </div>
     <div class="blogs">
-        <p *ngIf = "link == '/blogs' " class="subHeading">Latest Update IT Services:</p>
+        <p class="subHeading">Career & Jobs in Data Science and IT Field</p>
         <div class="cards">
-            <div class="card" *ngFor= "let item of blogs[2]; let i as index" >
+            <div class="card" *ngFor= "let item of blogs[1]; let i = index " >
                 <img [src] = item.img alt="images">
                 <span>
                     <p>{{item.heading}}</p>
-                    <p [routerLink]="['/openBlogs']" (click)= "openBlog(2,i)" >Learn More ></p>
+                    <p   (click)= "openBlog(1,i)" >Read More ></p>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div *ngIf = "link != '/blogs' " class="blogs">
+        <p  class="subHeading">Latest Informative Blogs</p>
+        <div class="cards">
+            <div class="card" *ngFor= "let item of blogs[2]; let i = index" >
+                <img [src] = item.img alt="images">
+                <span>
+                    <p>{{item.heading}}</p>
+                    <p  (click)= "openBlog(2,i)" >Read More ></p>
                 </span>
             </div>
         </div>

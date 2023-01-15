@@ -3,11 +3,11 @@
   position: relative;
 }
 .landing {
-  min-height:100vh;
+  /* min-height:100vh; */
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  padding: 10vh 5% 0vh 5%;
+  padding: 100px 5% 0vh 5%;
 }
 .backGround {
   width: 100%;
@@ -79,7 +79,7 @@
 .courseImg {
   display: flex;
   justify-content:flex-end;
-  align-items: center;
+  /* align-items:; */
   position: relative;
 }
 .courseImg img {
@@ -90,17 +90,18 @@
   font-size: 25px;
   margin: 20px 0;
   position: relative;
-  width: fit-content;
+  margin-top: 5%;
+  width: 100%;
   padding:5px 0;
 }
 .heading::after {
   content: "";
   background-color: #4692E2;
   height: 1px;
-  width: 70%;
+  width: 10%;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left:0;
 }
 
 main {
@@ -152,14 +153,108 @@ main {
   color: rgb(82, 82, 82);
 }
 
+.batch_request form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.batch_request form div{
+  display: flex;
+  align-items:center;
+  /* border: 1px solid #05528a; */
+  width: fit-content;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin: 2% 20px;
+}
+.batch_request form div i{
+  text-align: end;
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  margin:0;
+  right: 0;
+  position: absolute;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.batch_request form  button{
+  width: max-content;
+  padding:0.7% 1%;
+  cursor: pointer;
+}
+
+.assessment{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5%;
+  background: rgb(255,255,255);
+  background: linear-gradient(270deg, rgba(255, 107, 27, 0.341) 0%, rgba(255,107,27,0.6898109585631127) 100%);
+  align-items: center;
+  margin: 4% 0;
+}
+.assessment .left p:nth-child(1){
+  font-size: 2rem;
+  font-weight: 800;
+  color: #262534;
+}
+.assessment .left p:nth-child(2){
+  color: #262534;
+  font-size: 1.4rem;
+  margin: 1% 0;
+}
+.assessment .left button{
+  background-color: #0095ff;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 2% 3%;
+  margin-top: 2%;
+  border-radius: 5px;
+}
+.assessment img {
+  width: 30%;
+}
+.mock{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.mock .points{
+  width: 50%;
+}
+.mock .points p{
+  color: #262534;
+  margin: 1% 0;
+}
+.mock .points p i{
+  color: #FF6B1B;
+  margin-right: 10px;
+}
+.mock img{
+  width: 45%;
+}
 
 
 
 
 
-
+.relatedLink span{
+  color: #0095ff;
+  cursor: pointer;
+}
 main .aboutCourse {
   /* padding:5%; */
+  align-items: flex-start;
   display: flex;
   width:100%;
   justify-content: space-between;
@@ -191,6 +286,11 @@ main .aboutCourse .about {
   padding: 5px 0;
 }
 
+.right{
+  display: flex;
+  flex-direction: column;
+}
+
 .query {
   box-shadow: 0 15px 30px rgba(134, 134, 134, 0.16);
   border-radius: 20px;
@@ -199,9 +299,9 @@ main .aboutCourse .about {
   display:flex  ;
   flex-direction: column;
   align-items: center;
-  height: 500px;
+  /* height: 500px; */
   border-radius: 5px;
-  padding: 10px 0 5px 0;
+  padding: 10px 0 10px 0;
   /* position: absolute; */
   right: 70px;
   top: 40vh;
@@ -224,7 +324,7 @@ form {
 form div {
   display: flex;
   width: 100%;
-  align-items: flex-end;
+  align-items:center;
   justify-content:center;
 }
 form i {
@@ -232,13 +332,13 @@ form i {
   color: #4692E2;
   margin-right: 20px;
 }
-form div input,
+/* form div input,
 select {
   border: none;
   width: 190px;
   height: 30px;
   border-bottom: 1px solid #4692E2;
-}
+} */
 form div input,
 select:focus {
   outline: none;
@@ -258,9 +358,52 @@ form button {
   border-radius: 5px;
   padding: 6px;
   width: 90px;
+  margin: 10px 0;
   background-color: #4692E2;
   color: white;
+  cursor: pointer;
 }
+
+.contact_details{
+  box-shadow: 0 15px 30px rgba(134, 134, 134, 0.16);
+  border-radius: 20px;
+  background-color: rgba(236, 236, 236, 0.315);
+  width:90%;
+  display:flex  ;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 10px 1% 5px 1%;
+}
+.contact_details .section{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_details .section img{
+  width:25px;
+  margin-left: 10px
+}
+.contact_details .info{
+  color: #646464;
+  border-right: 1px solid black;
+  padding-right: 20px;
+  margin: 10px 0;
+} 
+.contact_details .info p{
+  font-size: 10px;
+}
+.contact_details .info a{
+  text-decoration: none;
+  color: #34364b;
+  margin-top: 10px;
+}
+.contact_details .icons{
+  padding: 10px 0;
+}
+
 
 
 
@@ -332,6 +475,9 @@ form button {
   border-radius: 5px;
   padding: 15px 10px;
   transition: .4S;
+}
+.curriculum a{
+  text-decoration: none;
 }
 .curriculum .downloadCurriculum p i{
   font-size: 20px;
@@ -621,7 +767,7 @@ table button {
 .relatedCourses .cards{
   width: 100%;
   display: flex;
-  padding:4%;
+  /* padding:4%; */
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -648,11 +794,10 @@ table button {
 .courseImg {
   width: 50%;
   transition: 0.2s;
-  padding: 10% 0;
 }
 .courseName {
-  font-size: 17px;
-  padding-left: 2%;
+  font-size:.8rem;
+  padding: 2%;
   font-weight: 500;
   width: 100%;
   /* text-align: center; */
@@ -661,7 +806,7 @@ table button {
 }
 .relatedCourses  .card .details{
   display: flex;
-  font-size: 12px;
+  font-size: .7rem;
   text-align: center;
   color: grey;
   padding: 5% 0;
@@ -800,5 +945,55 @@ table button {
   .enrollNow .form form input{
     width: 100%;
   }
-  /* .curriculum .sectionHolder */
+  .mock{
+    flex-direction: column;
+  }
+  .mock .points{
+    width: 100%;
+    order: 2;
+  }
+  .mock img{
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .assessment{
+    flex-direction: column;
+  }
+  .assessment .left{
+    order: 2;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .assessment .left p:nth-child(1){
+    font-size: 1rem;
+    text-align: center;
+  }
+  .assessment .left p:nth-child(2){
+    font-size: .7rem;
+    text-align: center;
+  }
+  .assessment .left button{
+    font-size: .5rem;
+  }
+  .relatedCourses .card{
+    width:100%;
+    margin: 2% 0;
+  }
+  .contact_details .section{
+    width: 100%;
+  }
+  .contact_details .section .info{
+    width: 70%;
+  }
+  .batch_request form{
+    flex-direction: column;
+  }
+  .batch_request div{
+  width: 80% !important;
+  }
+  #matInput{
+    width: 100%;
+  }
 }

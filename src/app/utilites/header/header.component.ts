@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
+import { OffersComponent } from 'src/app/components/offers/offers.component';
 import { QformComponent } from 'src/app/components/qform/qform.component';
 import { FormAComponent } from '../form-a/form-a.component';
 // import { SMTPClient } from 'emailjs';
@@ -22,11 +23,11 @@ export class HeaderComponent implements OnInit {
   
   courseList = [
     {title:'All Course', courses:[
-      {name:'Python training', routerLink:'courses/python-training-course'},
-      {name:'Data Science training', routerLink:'courses/data-science-training-course'},
-      {name:'Machine Learning training', routerLink:'courses/machine-learning-training-course'},
-      {name:'Deep Learning training', routerLink:'courses/deep-learning-training-course'},
-      {name:'Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course'},
+      {name:'BMS Degree in Python training', routerLink:'courses/python-training-course'},
+      {name:'BMS Degree in Data Science training', routerLink:'courses/data-science-training-course'},
+      {name:'BMS Degree in Machine Learning training', routerLink:'courses/machine-learning-training-course'},
+      {name:'BMS Degree in Deep Learning training', routerLink:'courses/deep-learning-training-course'},
+      {name:'BMS Degree in Artificial Inteligence training', routerLink:'courses/artificial-inteligence-training-course'},
       {name:'RPA training', routerLink:'courses/rpa-course'},
       {name:'Java training', routerLink:'courses/java-course'},
       {name:'.Net training', routerLink:'courses/.net-course'},
@@ -89,6 +90,11 @@ export class HeaderComponent implements OnInit {
       {name:'Social Media Promotion', routerLink:'courses/social-media-promotion-course'},
       {name:'E-mail Marketing', routerLink:'courses/email-marketing-course'},
     ]},
+    {title:'Cloud & DevOps', courses:[
+      {name:'Azure training',routerLink:'courses/azure-training'},
+      {name:'AWS training',routerLink:'courses/aws-training'},
+      {name:'GCP training',routerLink:'courses/gcp-training'},
+    ]},
     {title:'Specialization Courses', courses:[
       {name:'Diploma in Data Science', routerLink:'courses/diploma-in-data-science-course'},
       {name:'Diploma in Machine Learning', routerLink:'courses/diploma-in-machine-learning-course'},
@@ -123,15 +129,14 @@ export class HeaderComponent implements OnInit {
     this.activeList = this.courseList[this.activeSection].courses
   }
   toggleDropdown(value:any){
-    if (value == this.showDropdown){
-      this.showDropdown = 0
-    }
-    else{
-      this.showDropdown = value
-    }
+   this.showDropdown = value
   }
   togglePopup(){
     this.dilog.open(FormAComponent)
+  }
+  showOffer = false
+  showOffers(action:boolean){
+    this.showOffer = action
   }
 
   
@@ -152,6 +157,10 @@ export class HeaderComponent implements OnInit {
         this.dilog.open(QformComponent)
       }
     },500);
+
+    // setTimeout(()=>{
+    //   this.showOffers(true)
+    // },20000)
 
 
   

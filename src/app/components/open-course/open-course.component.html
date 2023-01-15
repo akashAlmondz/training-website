@@ -17,7 +17,7 @@
                     <p>problems</p>
                 </div>
                 <div>
-                    <b>3</b>
+                    <b>{{course.duration}}</b>
                     <p>months</p>
                 </div>
                 <div>
@@ -52,46 +52,82 @@
                     <p>{{section.heading}}</p>
                     <p *ngFor="let abouts of section.about">{{abouts}}</p><br>
                 </div>
+                <div *ngIf="course.relatedLink" class="relatedLink">
+                    <p>Whether you are trying to accelerate your career or want to learn something new in Computer science & Information Technology Related Courses, BookMyShiksha has the courses for you. <span [routerLink]="[course.relatedLink.link]">Click here to browse {{course.relatedLink.name}} Course.</span></p>
+                </div>
             </div>
             <div class="right">
                 <div id="query" class="query">
                     <h2>Drop a Query</h2>
-                    <form name="contact-form" action="" [formGroup]="formGroup" (submit)="sendEmail($event)">
+                    <form name="contact-form" action="" [formGroup]="formGroup" (submit)="sendEmail($event, 'formA')">
                         <div>
                             <label for=""><i class="fas fa-user"></i></label>
-                            <input formControlName="name" name="name" type="text" placeholder="Enter your name">
+                            <mat-form-field>
+                                <input matInput formControlName="name" name="name" type="text" placeholder="Enter Your Name">
+                                <mat-error>enter your name</mat-error>
+                            </mat-form-field>
                         </div>
                         <div>
                             <label for=""><i class="fas fa-envelope"></i></label>
-                            <input formControlName="email" name="email" type="text" placeholder="Enter email">
+                            <mat-form-field>
+                                <input matInput formControlName="email" name="email" type="text" placeholder="Enter Email">
+                                <mat-error>enter valid email</mat-error>
+                            </mat-form-field>
                         </div>
                         <div>
                             <label for=""><i class="fas fa-phone"></i></label>
-                            <input formControlName="phone_no" name="phone_no" type="text"
-                                placeholder="Enter mobile no.">
+                            <mat-form-field>
+                                <input matInput formControlName="phone_no" name="phone_no" type="text"
+                                    placeholder="Enter Mobile No.">
+                                    <mat-error>enter valid mobile no.</mat-error>
+                            </mat-form-field>
                         </div>
                         <div>
                             <label for=""><i class="fas fa-book"></i></label>
-                            <input formControlName="course" name="course" type="text" placeholder="Enter course">
+                            <mat-form-field>
+                                <input matInput formControlName="course" name="course" type="text" placeholder="Enter Course">
+                                <mat-error>enter course name</mat-error>
+                            </mat-form-field>
                         </div>
                         <div>
                             <label for=""><i class="fas fa-hand-point-up"></i></label>
-                            <select name="training_mode" formControlName="training_mode" id="">
-                                <option value="">Select training mode</option>
-                                <option value="Classroom training">Classroom training</option>
-                                <option value="Online training">Online training</option>
-                            </select>
+                            <mat-form-field>
+                                <mat-label>Select Training Mode</mat-label>
+                                <mat-select name="training_mode" formControlName="training_mode" >
+                                    <mat-option value="classroom training" >Classroom Training</mat-option>
+                                    <mat-option value="online training" >Online Training</mat-option>
+                                </mat-select>
+                                <mat-error>select training type</mat-error>
+                            </mat-form-field>
                         </div>
                         <textarea formControlName="message" name="message" id="" cols="27" rows="5"></textarea>
                         <button>Submit</button>
+                        <p  class="forms_tc">By registering here, I agree to Bookmyshiksha <span
+                                [routerLink]="['/company/disclaimer']">Terms & Conditions</span> and <span
+                                [routerLink]="['/company/privacy_policy']">Privacy Policy</span></p>
                     </form>
-
-
+                </div>
+                <div class="contact_details">
+                    <div class="section" >
+                        <div class="info">
+                            <p class="">Phone (For Call & Chat):</p>
+                            <a href="tel:+918077672234">+91-8077672234</a>
+                        </div>
+                        <img src="assets/images/telephone.png" alt="">
+                    </div>
+                    <div class="section" >
+                        <div class="info">
+                            <p class="">Phone (For Call & Chat):</p>
+                            <a href="//api.whatsapp.com/send?phone=+918077672234&text=Hi! I want to join Batches on BookMyShiksha">+91-8077672234</a>
+                        </div>
+                        <img src="assets/images/whatsapp.png" alt="">
+                    </div>
                 </div>
             </div>
 
 
         </div>
+       
         <p class="heading">Upcoming Batches</p>
         <div class="table">
             <table>
@@ -103,31 +139,31 @@
                 </tr>
                 <tr>
                     <td>Mon-Sun</td>
-                    <td>15<sup>th</sup> jan. 2022</td>
+                    <td>{{date(5)}}</td>
                     <td>9AM-6PM</td>
                     <td><button (click)="enrollNow()">Enroll Now</button></td>
                 </tr>
                 <tr>
                     <td>Mon-Sun</td>
-                    <td>20<sup>th</sup> jan. 2022</td>
+                    <td>{{date(10)}}</td>
                     <td>9AM-6PM</td>
                     <td><button (click)="enrollNow()">Enroll Now</button></td>
                 </tr>
                 <tr>
                     <td>Mon-Sun</td>
-                    <td>15<sup>th</sup> jan. 2022</td>
+                    <td>{{date(15)}}</td>
                     <td>9AM-6PM</td>
                     <td><button (click)="enrollNow()">Enroll Now</button></td>
                 </tr>
                 <tr>
                     <td>Mon-Sun</td>
-                    <td>20<sup>th</sup> jan. 2022</td>
+                    <td>{{date(25)}}</td>
                     <td>9AM-6PM</td>
                     <td><button (click)="enrollNow()">Enroll Now</button></td>
                 </tr>
                 <tr>
                     <td>Mon-Sun</td>
-                    <td>28<sup>th</sup> Nov. 2021</td>
+                    <td>{{date(35)}}</td>
                     <td>9AM-6PM</td>
                     <td><button (click)="enrollNow()">Enroll Now</button></td>
                 </tr>
@@ -139,6 +175,15 @@
                     <p>{{item.name}}</p>
                 </div>
             </div>
+        </div>
+        <div class="mock">
+            <p class="heading">Mock Interviews</p>
+            <div class="points">
+                <p><i class="fas fa-check"></i>Prepare yourself to face the real world and enhance your confidence by giving mock interviews with our industry-experienced experts.</p>
+                <p><i class="fas fa-check"></i>Lack of confidence? Our team will help and guide you to gain that confidence and train you to face the pressurizing interview with a smile.</p>
+                <p><i class="fas fa-check"></i>Our mock interviews are conducted by our industry experts with years of experience in their respective fields. These activities will not only help you to crack the interviews but will also make you confident in terms of the programming language which you are working with.</p>
+            </div>
+            <img src="assets/images/mockInterview.png" alt="">
         </div>
         <p class="heading">Course Curriculum</p>
         <div class="curriculum">
@@ -156,7 +201,7 @@
 
             </div>
             <div class="downloadCurriculum">
-                <p>Download Curriculum <i class="fas fa-file-pdf"></i></p>
+                <a [href]="course.brochure" target="/" ><p>Download Curriculum <i class="fas fa-file-pdf"></i></p></a>
             </div>
         </div>
         <p class="heading">Hands-on Projects</p>
@@ -204,10 +249,51 @@
             </div>
         </div>
 
-    </main>
+        <div class="batch_request">
+            <p class="heading">Batch Request</p>
+            <form  [formGroup]="batchRequestFormGroup" action="" (submit)="sendEmail($event, 'formB')" >
+                <div>
+                    <mat-form-field id="matInput" appearance="fill">
+                        <mat-label>Choose a date</mat-label>
+                        <input matInput formControlName="date" name="date" [matDatepicker]="picker">
+                        <mat-hint>MM/DD/YYYY</mat-hint>
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                      </mat-form-field>
+                    <!-- <mat-form-field>
+                        <input matInput formControlName="date" name="date" type="date">
 
+                    </mat-form-field>    -->
+                </div>
+                <div><mat-form-field id="matInput" appearance="fill" >
+
+                    <mat-label>Email</mat-label>
+                    <input matInput name="email" formControlName="email" placeholder="" type="email">
+                    <i  class="fas fa-envelope"></i>
+                </mat-form-field>
+                </div>
+                <div>
+                    <mat-form-field id="matInput" appearance="fill" >
+                        <mat-label>Mobile</mat-label>
+                        <input matInput name="phone_no" placeholder="" formControlName="mobile" type="number">
+                        <i class="fas fa-phone"></i>
+                    </mat-form-field>
+                </div>
+                <button type="submit" >Request Now</button>
+            </form>
+        </div>
+
+    </main>
+    <div class="assessment">
+        <div class="left">
+            <p>SELF ASSESSMENT</p>
+            <p>Learn, Grow & Test your skill with Online Assessment Exam to achieve your Certification Goals</p>
+            <button>TAKE FREE PRACTICE TEST </button>
+        </div>
+        <img src="assets/images/assessment.png" alt="">
+    </div>
     <app-blogs></app-blogs>
-    <div class="relatedCourses">
+    <div  class="relatedCourses">
         <p class="heading">Related Courses</p>
         <div class="cards">
 
@@ -236,3 +322,4 @@
         </div>
     </div>
 </div>
+<app-support></app-support>

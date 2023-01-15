@@ -1,7 +1,7 @@
 app-contact {
     position: fixed;
     bottom: 0;
-    z-index: 20;
+    z-index: 2;
   }
   app-links {
     position: fixed;
@@ -26,7 +26,7 @@ app-contact {
     font-size: 30px;
     color: white;
     cursor: pointer;
-    z-index: 3;
+    z-index: 2;
   }
 
   @media (max-width: 960px){

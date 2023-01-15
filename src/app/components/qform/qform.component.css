@@ -1,12 +1,14 @@
 main{
     padding:5%;
-    border: 12px solid #1874d2;
+    /* border: 12px solid #1874d2; */
     border-radius: 5px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content:space-between;
     position: relative;
+    overflow: visible;
+
 }
 
 img{
@@ -23,6 +25,7 @@ form{
 textarea{
     width: 100%;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 section{
     width: 100%;
@@ -35,11 +38,14 @@ section{
 button{
     background-color: #1874d2;
     color: white;
+    margin-bottom: 10px;
 }
 .fa-times-circle{
     position:absolute;
     top:0%;
     right:0%;
+    transform: translateX(30px);
+    transform: translateY(-10px);
     font-size: 25px;
     cursor: pointer;
 }
@@ -53,6 +59,7 @@ button{
     }
     img{
         width: 10rem;
+        margin-bottom: 20px;
     }
 }
 
